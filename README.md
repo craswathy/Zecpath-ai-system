@@ -32,21 +32,13 @@ AI-powered job portal \& automated hiring assistant — ATS, screening, intervie
 
 \## Setup
 
+
+
+```bash
+
 conda create -n zecpath-ai python=3.11 -y
 
 conda activate zecpath-ai
 
 pip install -r requirements.txt
-
-
-
-\## Run Tests
-
-pytest tests/
-
-
-
-\## Logging
-
-All AI activity logs write to ai\_activity.log via utils/logger.py.
 
