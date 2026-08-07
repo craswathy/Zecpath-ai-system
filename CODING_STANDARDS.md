@@ -1,48 +1,32 @@
-\# Coding Standards - Zecpath AI System
+# Coding Standards - Zecpath AI System
 
+## Style
 
+- Follow PEP 8 (Python standard style guide)
+- Use `snake_case` for variables and function names
+- Use `PascalCase` for class names
+- Maximum line length: 100 characters
 
-\## Style
+## Documentation
 
-\- Follow PEP8 (Python standard style guide)
+- Every function and class must include a docstring explaining its purpose, inputs, and outputs.
+- Use inline comments only for complex or non-obvious logic.
 
-\- Use snake\_case for variables and function names
+## Structure
 
-\- Use PascalCase for class names
+- One module should have one responsibility (e.g., `ats_engine/` handles only resume scoring logic).
+- Place shared or reusable code in `utils/`.
+- Store all test files in `tests/` and name them `test_*.py`.
 
-\- Max line length: 100 characters
+## Logging
 
+- Use the shared logger from `utils/logger.py` instead of `print()` statements.
+- Log level guide:
+  - `INFO` – Normal application flow
+  - `WARNING` – Recoverable issues
+  - `ERROR` – Failures or exceptions
 
+## Git Commits
 
-\## Documentation
-
-\- Every function/class must have a docstring explaining purpose, inputs, and outputs
-
-\- Use inline comments for complex logic only (not obvious lines)
-
-
-
-\## Structure
-
-\- One module = one responsibility (e.g. ats\_engine handles only resume scoring logic)
-
-\- Shared/reusable code goes in utils/
-
-\- All tests go in tests/, named test\_<module>.py
-
-
-
-\## Logging
-
-\- Use the shared logger from utils/logger.py instead of print() statements
-
-\- Log level guide: INFO for normal flow, WARNING for recoverable issues, ERROR for failures
-
-
-
-\## Git Commits
-
-\- Write clear, short commit messages describing what changed
-
-\- Commit small, logical chunks rather than one giant commit
-
+- Write clear, concise commit messages describing what changed.
+- Commit small, logical changes instead of one large commit.
