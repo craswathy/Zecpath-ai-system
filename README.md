@@ -1,4 +1,3 @@
-```markdown
 # Zecpath AI System
 
 AI-powered job portal & automated hiring assistant — ATS, screening, interview intelligence, and decision engine microservices.
@@ -11,7 +10,7 @@ AI-powered job portal & automated hiring assistant — ATS, screening, interview
 - **screening_ai/** — voice call screening logic, call scoring
 - **interview_ai/** — interview intelligence: adaptive Q&A, communication/aptitude scoring
 - **scoring/** — decision & scoring engine, combines all scores into final recommendation
-- **utils/** — shared helpers (e.g. logger.py)
+- **utils/** — shared helpers (e.g. `logger.py`)
 - **tests/** — pytest test files
 - **notebooks/** — Jupyter notebooks for experimentation/prototyping
 
@@ -32,4 +31,3 @@ pytest tests/
 ## Logging
 
 All AI activity logs write to `ai_activity.log` via `utils/logger.py`.
-```
