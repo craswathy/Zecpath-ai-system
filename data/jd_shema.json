@@ -1,0 +1,25 @@
+{
+  "job_id": "string",
+  "title": "string",
+  "company": "string",
+  "domain_category": "string",
+  "required_skills": [
+    {
+      "name": "string",
+      "mandatory": "true | false"
+    }
+  ],
+  "min_experience_years": "number",
+  "max_experience_years": "number (optional)",
+  "education_requirement": {
+    "degree": "string",
+    "field_of_study": "string (optional)"
+  },
+  "responsibilities": ["string"],
+  "location": "string",
+  "employment_type": "full-time | part-time | contract | internship",
+  "salary_range": {
+    "min": "number (optional)",
+    "max": "number (optional)"
+  }
+}
