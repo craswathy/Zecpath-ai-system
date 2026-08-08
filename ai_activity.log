@@ -1,0 +1,31 @@
+2026-08-08 23:38:50,359 - INFO - Found 10 resume files to process
+2026-08-08 23:38:50,491 - INFO - Successfully extracted PDF: data\ba_resume_1.pdf
+2026-08-08 23:38:50,493 - INFO - Text cleaning complete
+2026-08-08 23:38:50,493 - INFO - Saved cleaned text: data/extracted\ba_resume_1_extracted.txt
+2026-08-08 23:38:50,625 - INFO - Successfully extracted PDF: data\ba_resume_2.pdf
+2026-08-08 23:38:50,625 - INFO - Text cleaning complete
+2026-08-08 23:38:50,625 - INFO - Saved cleaned text: data/extracted\ba_resume_2_extracted.txt
+2026-08-08 23:38:50,703 - INFO - Successfully extracted PDF: data\civil_resume_1.pdf
+2026-08-08 23:38:50,703 - INFO - Text cleaning complete
+2026-08-08 23:38:50,719 - INFO - Saved cleaned text: data/extracted\civil_resume_1_extracted.txt
+2026-08-08 23:38:50,909 - INFO - Successfully extracted PDF: data\da_resume_1.pdf
+2026-08-08 23:38:50,925 - INFO - Text cleaning complete
+2026-08-08 23:38:50,926 - INFO - Saved cleaned text: data/extracted\da_resume_1_extracted.txt
+2026-08-08 23:38:51,059 - INFO - Successfully extracted PDF: data\da_resume_2.pdf
+2026-08-08 23:38:51,059 - INFO - Text cleaning complete
+2026-08-08 23:38:51,059 - INFO - Saved cleaned text: data/extracted\da_resume_2_extracted.txt
+2026-08-08 23:38:51,143 - INFO - Successfully extracted PDF: data\da_resume_3.pdf
+2026-08-08 23:38:51,143 - INFO - Text cleaning complete
+2026-08-08 23:38:51,143 - INFO - Saved cleaned text: data/extracted\da_resume_3_extracted.txt
+2026-08-08 23:38:51,269 - INFO - Successfully extracted PDF: data\hr_resume_1.pdf
+2026-08-08 23:38:51,269 - INFO - Text cleaning complete
+2026-08-08 23:38:51,271 - INFO - Saved cleaned text: data/extracted\hr_resume_1_extracted.txt
+2026-08-08 23:38:51,358 - INFO - Successfully extracted PDF: data\hr_resume_2.pdf
+2026-08-08 23:38:51,358 - INFO - Text cleaning complete
+2026-08-08 23:38:51,359 - INFO - Saved cleaned text: data/extracted\hr_resume_2_extracted.txt
+2026-08-08 23:38:51,476 - INFO - Successfully extracted PDF: data\java_resume_1.pdf
+2026-08-08 23:38:51,476 - INFO - Text cleaning complete
+2026-08-08 23:38:51,476 - INFO - Saved cleaned text: data/extracted\java_resume_1_extracted.txt
+2026-08-08 23:38:51,572 - INFO - Successfully extracted PDF: data\soft_resume_1.pdf
+2026-08-08 23:38:51,572 - INFO - Text cleaning complete
+2026-08-08 23:38:51,574 - INFO - Saved cleaned text: data/extracted\soft_resume_1_extracted.txt

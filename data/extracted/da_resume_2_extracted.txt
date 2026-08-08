@@ -1,0 +1,64 @@
+Lorem ipsum dolor sit amet, consectetur
+Paul Desmond
+adipiscing elit. Quid de Pythagora
+Scaevolam M. Sed haec inpueris Audeo
+Microsoft certified principal data scientist with 10 years of experience creating models that
+dicere, inquit. Hunc vos beatum
+predict stock prices and investment returns. Achieved 23% higher improvement and
+Lowell, Massachusetts
+accuracy. Seeking to expand in a growing field.
+pa.desmond038@gmail.com 796-294-
+2948
+WORK EXPERIENCE
+Principal Data Scientist, Danaher Cortland, MA - April 2017  March 2021
+Developed a vision, framework, approached and planned for each of your projects SKILLS
+Set milestones as project goals, provided direction, gave team the ability to understand what is expected of
+them to move the projects forward
+R Studio, Python, Cloudera, Data
+Set and communicated the desired outcome of the projects is a critical part of your role
+Visualization,
+Built and maintained broad process and technology development and implementation skills
+Modeling, Machine Learning, Statistics,
+Led & supported the development, optimiza tion and migra tion of new or existing technologies
+Problem Solving, Critical & Creative
+Brought the technology challenges into R&D through translating problems to implementa tion
+Thinking,
+Developed technology concepts and guided equipment selection
+Communication, Organization, Time
+Assisted in implementa tion of technology from R&D to launch
+Management
+Supported intellectual property, marketing and sales departments with relevant expertise
+Defined projects and led small project teams to develop innovations
+CERTIFICATIONS
+Data Scientist, Abiomed
+Microsoft Professional Program Certificate,
+Danvers, MA - September 2014  February 2017
+Certifica tion of professional Data Engineer
+Designed new statistical and physiological features for time series data
+EDUCATION
+Evaluated algorithm performance in offline (in silico) and live (in vitro, in vivo) environments
+Collaborated with software team s to implement algorithm s on embedded hardware
+Maintained concise descriptions of algorithm design specifications and perform ance evaluations
+Bay path University
+Performed variability analyses for model optimization
+Longmeadow, MA - 2008 2010
+Quantitatively and qualitatively evaluated new ML/AI techniques and integrate into algorithm design
+Masters in Data Science
+Communicated algorithm designs and performance results to cross -functional stakeholders
+GPA: 3.8/4.0
+Becker College
+Technical Data Scientist, DELL Worcester, MA - 2004  2008
+Bachelor of Science in Computer Science
+Hopkinton, MA - January 2013  August 2014
+GPA: 3.6/4.0
+- Provided thought leadership to deliver transformative AIOps solutions on our SaaS platform
+- Provided strategic direction to the planning, design and architecture of high quality, complex software
+systems
+- Worked with customers and product experts to blaze a trail in autonomous data center management
+- Solved customers complex IT problems using innovative analytical processes and techniques
+CONFERENCE
+2019
+The Machine Learning Conference
+2017
+Open Data Science Conference
+Title, Activity Name, etc. City, State - January 2019  Present
