@@ -1,0 +1,46 @@
+{
+  "candidate_id": "string",
+  "personal_info": {
+    "name": "string",
+    "email": "string (optional - may be redacted in public datasets)",
+    "phone": "string (optional)",
+    "location": "string (optional)"
+  },
+  "summary": "string",
+  "skills": [
+    {
+      "name": "string",
+      "category": "technical | soft | tool | language",
+      "proficiency": "beginner | intermediate | advanced | expert (optional)"
+    }
+  ],
+  "experience": [
+    {
+      "designation": "string",
+      "company": "string",
+      "start_date": "YYYY-MM",
+      "end_date": "YYYY-MM | present",
+      "duration_years": "number",
+      "description": "string",
+      "domain": "string"
+    }
+  ],
+  "education": [
+    {
+      "degree": "string",
+      "field_of_study": "string",
+      "institution": "string",
+      "year_completed": "string",
+      "score": "string (optional)"
+    }
+  ],
+  "certifications": [
+    {
+      "name": "string",
+      "issuer": "string",
+      "year": "string (optional)"
+    }
+  ],
+  "total_experience_years": "number",
+  "domain_category": "string"
+}
