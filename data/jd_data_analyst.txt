@@ -1,0 +1,54 @@
+PayJoy
+Data Analyst 
+Quito, Pichincha, Ecuador · 2 weeks ago · 
+About the job
+About PayJoy
+
+PayJoy, a Public Benefit Corporation, is a mission-first credit provider dedicated to helping under-served customers in emerging markets to achieve financial stability and success. Our patented technology for secured credit provides an on-ramp for new customers to enter the credit system. Through PayJoy’s point-of-sale financing and card offerings, customers gain access to a modern quality of life. PayJoy’s credit also allows our customers to seize opportunities as micro-entrepreneurs, and acts as insurance for tough times. Through our cutting-edge machine learning, data science, and anti-fraud AI, we have served over 18 million customers as of 2025 while achieving solid profitability for sustainable growth.
+
+This role
+
+We're looking for a Data Analyst who combines data analysis, CRM administration, and process automation skills. The ideal candidate enjoys turning scattered data into actionable insights and automating manual workflows using low-code. This person will work closely with the commercial, operations and fraud teams as well as cross-functional stakeholders.
+
+Key Responsibilities
+
+•	Partner with the commercial team to understand reporting needs and translate them into dashboards, KPIs, and actionable insights ( SQL, Python). 
+•	Act as a key point of contact for cross-functional stakeholders (sales, operations, finance) requesting data analysis or process automation support. 
+•	Manage and optimize the CRM (Zoho CRM): modules, custom fields, workflows, assignment rules, and data quality. 
+•	Clean, validate, and normalize data (names, phone numbers, emails, geolocation) to ensure data quality across merchant/customer databases. 
+•	Present findings and recommendations to commercial leadership and other stakeholders in a clear, actionable format. 
+•	Perform other duties and responsibilities as assigned by the department, based on evolving business needs. 
+
+Requirements
+
+
+•	Bachelor's degree in Business Administration, Industrial Engineering, Data Science, Economics, or a related field. 
+•	2+ years of experience in data analysis, business operations, or CRM-related roles. 
+•	Intermediate-to-advanced SQL skills (Snowflake, BigQuery, or similar preferred). 
+•	Experience administering a CRM (Zoho CRM, HubSpot, Salesforce, or other). 
+•	Advanced Google Sheets/Excel skills (formulas, pivot tables, data validation). 
+•	Strong analytical and problem-solving skills, with the ability to work with ambiguous or incomplete data. 
+•	Excellent communication skills, with the ability to translate technical concepts for non-technical, commercial-facing stakeholders. 
+•	Ability to manage multiple priorities and collaborate effectively across departments. 
+•	Nice to have: basic Python, BI tools (Hex, Looker, Power BI) or exposure to fintech/retail environments with field sales operations. 
+
+Benefits
+
+
+•	100% Company-funded health insurance for employees and immediate family members
+•	Life insurance
+•	Dental plan
+•	Phone finance, Headphone, home office equipment and wellness perks.
+•	Individual retirement plan 3%
+•	20 days of vacations
+•	$2,000 USD annual Co-working Travel perk
+•	$2,000 USD annual Professional Development perk
+•	Catered lunches 
+
+PayJoy is proud to be an Equal Employment Opportunity employer and we welcome and encourage people of all backgrounds. We do not discriminate based upon race, religion, color, national origin, gender (including pregnancy, childbirth, or related medical conditions), sexual orientation, gender identity, gender expression, age, status as a protected veteran, status as an individual with a disability, or other applicable legally protected characteristics.
+
+PayJoy Principles
+
+Finance for the next billion * Ownership * Break Through Walls * Live Communication * Transparency & Directness * Focus on Scale * Work-Life Balance * Embrace Diversity * Speed * Active Listening
+
+We may use artificial intelligence (AI) tools to support parts of the hiring process, such as reviewing applications, analyzing resumes, or assessing responses and identifying potential inconsistencies or verification signals in application materials based on available information. These tools assist our recruitment team but do not replace human judgment. Final hiring decisions are ultimately made by humans. If you would like more information about how your data is processed, please contact us.

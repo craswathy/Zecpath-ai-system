@@ -1,0 +1,28 @@
+Harris Computer
+Software Engineer 
+Puerto Rico · Reposted 2 weeks ago · 
+About the job
+Responsibilities & Duties
+
+•	Write code and contribute to the development of software applications, modules, or components.
+•	Participate in higher-level aspects of the development process, such as requirements analysis, design, architecture, system integration, testing, and project management.
+•	Partake in testing code to identify and fix bugs and ensure the quality and reliability of the software.
+•	Collaborate with other team members, including software architects, designers, and product managers, to ensure alignment with project goals and timelines.
+•	Proficiency in Java: Deep understanding of Core Java (Java 11/17+), JVM internals, memory management, tuning, and concurrency/multithreading.
+•	Enterprise Frameworks: Experience with Spring in particular Spring Boot.
+•	RESTful API Design: Experience designing, building, and securing robust, scalable REST APIs for third-party integrations and internal UI consumption.
+•	Database Expertise: Proficiency with relational and non-relational databases (e.g., PostgreSQL, MySQL, MongoDB).
+•	Search Engine Technology: Experience with search and indexing technologies such as Elasticsearch.
+•	Experience in React, Next.js and Material UI.
+•	Worked on AI assisted development (e.g. GitHub Copilot, Claude, Cursor or ChatGPT)
+•	Familiarity with AI directed prompt engineering for developing applications.
+
+Requirements
+
+
+•	Bachelor's degree or Diploma in Computer Science, Engineering, related field, or equivalent work experience.
+•	3+ years of experience in software development, with proficiency in one or more programming languages.
+•	Understanding of software engineering principles, design patterns, algorithms, and system architecture.
+•	Familiarity with modern software development tools, frameworks, and methodologies.
+
+Salary range: $80,000 - $90,000 USD per year.
