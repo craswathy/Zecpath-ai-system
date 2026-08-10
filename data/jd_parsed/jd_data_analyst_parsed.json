@@ -1,0 +1,44 @@
+{
+  "job_id": "jd_data_analyst",
+  "title": "PayJoy",
+  "required_skills": [
+    {
+      "name": "communication",
+      "mandatory": true
+    },
+    {
+      "name": "crm",
+      "mandatory": true
+    },
+    {
+      "name": "excel",
+      "mandatory": true
+    },
+    {
+      "name": "leadership",
+      "mandatory": true
+    },
+    {
+      "name": "machine learning",
+      "mandatory": true
+    },
+    {
+      "name": "power bi",
+      "mandatory": true
+    },
+    {
+      "name": "python",
+      "mandatory": true
+    },
+    {
+      "name": "sql",
+      "mandatory": true
+    }
+  ],
+  "min_experience_years": 2,
+  "max_experience_years": 2,
+  "education_requirement": {
+    "degree": "Bachelor's",
+    "field_of_study": null
+  }
+}

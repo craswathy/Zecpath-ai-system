@@ -1,0 +1,36 @@
+{
+  "job_id": "jd_business_analyst",
+  "title": "Concentrix",
+  "required_skills": [
+    {
+      "name": "communication",
+      "mandatory": true
+    },
+    {
+      "name": "crm",
+      "mandatory": true
+    },
+    {
+      "name": "excel",
+      "mandatory": true
+    },
+    {
+      "name": "leadership",
+      "mandatory": true
+    },
+    {
+      "name": "sql",
+      "mandatory": true
+    },
+    {
+      "name": "statistics",
+      "mandatory": true
+    }
+  ],
+  "min_experience_years": 2,
+  "max_experience_years": 4,
+  "education_requirement": {
+    "degree": "Bachelor's",
+    "field_of_study": null
+  }
+}

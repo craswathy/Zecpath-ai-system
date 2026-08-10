@@ -1,0 +1,24 @@
+{
+  "job_id": "jd_hr_officer",
+  "title": "PX.com",
+  "required_skills": [
+    {
+      "name": "communication",
+      "mandatory": true
+    },
+    {
+      "name": "excel",
+      "mandatory": true
+    },
+    {
+      "name": "leadership",
+      "mandatory": true
+    }
+  ],
+  "min_experience_years": 1,
+  "max_experience_years": 1,
+  "education_requirement": {
+    "degree": "Not specified",
+    "field_of_study": null
+  }
+}

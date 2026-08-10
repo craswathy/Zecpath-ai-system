@@ -29,3 +29,47 @@
 2026-08-08 23:38:51,572 - INFO - Successfully extracted PDF: data\soft_resume_1.pdf
 2026-08-08 23:38:51,572 - INFO - Text cleaning complete
 2026-08-08 23:38:51,574 - INFO - Saved cleaned text: data/extracted\soft_resume_1_extracted.txt
+2026-08-08 23:54:25,451 - INFO - Found 10 resume files to process
+2026-08-08 23:54:25,548 - INFO - Successfully extracted PDF: data\ba_resume_1.pdf
+2026-08-08 23:54:25,548 - INFO - Text cleaning complete
+2026-08-08 23:54:25,564 - INFO - Saved cleaned text: data/extracted\ba_resume_1_extracted.txt
+2026-08-08 23:54:25,676 - INFO - Successfully extracted PDF: data\ba_resume_2.pdf
+2026-08-08 23:54:25,676 - INFO - Text cleaning complete
+2026-08-08 23:54:25,692 - INFO - Saved cleaned text: data/extracted\ba_resume_2_extracted.txt
+2026-08-08 23:54:25,756 - INFO - Successfully extracted PDF: data\civil_resume_1.pdf
+2026-08-08 23:54:25,756 - INFO - Text cleaning complete
+2026-08-08 23:54:25,756 - INFO - Saved cleaned text: data/extracted\civil_resume_1_extracted.txt
+2026-08-08 23:54:25,931 - INFO - Successfully extracted PDF: data\da_resume_1.pdf
+2026-08-08 23:54:25,931 - INFO - Text cleaning complete
+2026-08-08 23:54:25,931 - INFO - Saved cleaned text: data/extracted\da_resume_1_extracted.txt
+2026-08-08 23:54:26,058 - INFO - Successfully extracted PDF: data\da_resume_2.pdf
+2026-08-08 23:54:26,058 - INFO - Text cleaning complete
+2026-08-08 23:54:26,058 - INFO - Saved cleaned text: data/extracted\da_resume_2_extracted.txt
+2026-08-08 23:54:26,121 - INFO - Successfully extracted PDF: data\da_resume_3.pdf
+2026-08-08 23:54:26,121 - INFO - Text cleaning complete
+2026-08-08 23:54:26,137 - INFO - Saved cleaned text: data/extracted\da_resume_3_extracted.txt
+2026-08-08 23:54:26,232 - INFO - Successfully extracted PDF: data\hr_resume_1.pdf
+2026-08-08 23:54:26,232 - INFO - Text cleaning complete
+2026-08-08 23:54:26,232 - INFO - Saved cleaned text: data/extracted\hr_resume_1_extracted.txt
+2026-08-08 23:54:26,311 - INFO - Successfully extracted PDF: data\hr_resume_2.pdf
+2026-08-08 23:54:26,311 - INFO - Text cleaning complete
+2026-08-08 23:54:26,311 - INFO - Saved cleaned text: data/extracted\hr_resume_2_extracted.txt
+2026-08-08 23:54:26,406 - INFO - Successfully extracted PDF: data\java_resume_1.pdf
+2026-08-08 23:54:26,406 - INFO - Text cleaning complete
+2026-08-08 23:54:26,422 - INFO - Saved cleaned text: data/extracted\java_resume_1_extracted.txt
+2026-08-08 23:54:26,485 - INFO - Successfully extracted PDF: data\soft_resume_1.pdf
+2026-08-08 23:54:26,485 - INFO - Text cleaning complete
+2026-08-08 23:54:26,485 - INFO - Saved cleaned text: data/extracted\soft_resume_1_extracted.txt
+2026-08-10 13:49:35,230 - INFO - Found 6 JD files to process
+2026-08-10 13:49:35,230 - INFO - Parsed JD 'jd_business_analyst': 6 skills found, title='Concentrix'
+2026-08-10 13:49:35,230 - INFO - Saved parsed JD: data/jd_parsed\jd_business_analyst_parsed.json
+2026-08-10 13:49:35,238 - INFO - Parsed JD 'jd_civil_engineer': 4 skills found, title='Vestal Corporation'
+2026-08-10 13:49:35,238 - INFO - Saved parsed JD: data/jd_parsed\jd_civil_engineer_parsed.json
+2026-08-10 13:49:35,238 - INFO - Parsed JD 'jd_data_analyst': 8 skills found, title='PayJoy'
+2026-08-10 13:49:35,246 - INFO - Saved parsed JD: data/jd_parsed\jd_data_analyst_parsed.json
+2026-08-10 13:49:35,247 - INFO - Parsed JD 'jd_data_scientist': 4 skills found, title='QuantumBlack, AI by McKinsey'
+2026-08-10 13:49:35,250 - INFO - Saved parsed JD: data/jd_parsed\jd_data_scientist_parsed.json
+2026-08-10 13:49:35,250 - INFO - Parsed JD 'jd_hr_officer': 3 skills found, title='PX.com'
+2026-08-10 13:49:35,250 - INFO - Saved parsed JD: data/jd_parsed\jd_hr_officer_parsed.json
+2026-08-10 13:49:35,250 - INFO - Parsed JD 'jd_software_engineer': 5 skills found, title='Harris Computer'
+2026-08-10 13:49:35,250 - INFO - Saved parsed JD: data/jd_parsed\jd_software_engineer_parsed.json

@@ -1,0 +1,32 @@
+{
+  "job_id": "jd_software_engineer",
+  "title": "Harris Computer",
+  "required_skills": [
+    {
+      "name": "java",
+      "mandatory": true
+    },
+    {
+      "name": "javascript",
+      "mandatory": true
+    },
+    {
+      "name": "react",
+      "mandatory": true
+    },
+    {
+      "name": "spring boot",
+      "mandatory": true
+    },
+    {
+      "name": "sql",
+      "mandatory": true
+    }
+  ],
+  "min_experience_years": 3,
+  "max_experience_years": 3,
+  "education_requirement": {
+    "degree": "Bachelor's",
+    "field_of_study": null
+  }
+}

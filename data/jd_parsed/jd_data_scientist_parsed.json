@@ -1,0 +1,28 @@
+{
+  "job_id": "jd_data_scientist",
+  "title": "QuantumBlack, AI by McKinsey",
+  "required_skills": [
+    {
+      "name": "machine learning",
+      "mandatory": true
+    },
+    {
+      "name": "python",
+      "mandatory": true
+    },
+    {
+      "name": "sql",
+      "mandatory": true
+    },
+    {
+      "name": "statistics",
+      "mandatory": true
+    }
+  ],
+  "min_experience_years": null,
+  "max_experience_years": null,
+  "education_requirement": {
+    "degree": "Bachelor's",
+    "field_of_study": null
+  }
+}
