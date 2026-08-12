@@ -73,3 +73,24 @@
 2026-08-10 13:49:35,250 - INFO - Saved parsed JD: data/jd_parsed\jd_hr_officer_parsed.json
 2026-08-10 13:49:35,250 - INFO - Parsed JD 'jd_software_engineer': 5 skills found, title='Harris Computer'
 2026-08-10 13:49:35,250 - INFO - Saved parsed JD: data/jd_parsed\jd_software_engineer_parsed.json
+2026-08-12 10:02:30,727 - INFO - Found 10 cleaned resumes to classify
+2026-08-12 10:02:30,727 - INFO - Classified into sections: ['HEADER', 'SUMMARY', 'EDUCATION', 'SKILLS', 'EXPERIENCE']
+2026-08-12 10:02:30,727 - INFO - Saved labeled sections: data/labeled_sections\ba_resume_1_labeled.json
+2026-08-12 10:02:30,727 - INFO - Classified into sections: ['HEADER', 'EDUCATION', 'EXPERIENCE']
+2026-08-12 10:02:30,727 - INFO - Saved labeled sections: data/labeled_sections\ba_resume_2_labeled.json
+2026-08-12 10:02:30,727 - INFO - Classified into sections: ['HEADER', 'EXPERIENCE', 'EDUCATION', 'CERTIFICATIONS']
+2026-08-12 10:02:30,727 - INFO - Saved labeled sections: data/labeled_sections\civil_resume_1_labeled.json
+2026-08-12 10:02:30,742 - INFO - Classified into sections: ['HEADER', 'EDUCATION']
+2026-08-12 10:02:30,742 - INFO - Saved labeled sections: data/labeled_sections\da_resume_1_labeled.json
+2026-08-12 10:02:30,742 - INFO - Classified into sections: ['HEADER', 'EXPERIENCE', 'CERTIFICATIONS', 'EDUCATION']
+2026-08-12 10:02:30,742 - INFO - Saved labeled sections: data/labeled_sections\da_resume_2_labeled.json
+2026-08-12 10:02:30,742 - INFO - Classified into sections: ['HEADER', 'EXPERIENCE', 'EDUCATION']
+2026-08-12 10:02:30,742 - INFO - Saved labeled sections: data/labeled_sections\da_resume_3_labeled.json
+2026-08-12 10:02:30,742 - INFO - Classified into sections: ['HEADER', 'EXPERIENCE', 'CERTIFICATIONS']
+2026-08-12 10:02:30,742 - INFO - Saved labeled sections: data/labeled_sections\hr_resume_1_labeled.json
+2026-08-12 10:02:30,742 - INFO - Classified into sections: ['HEADER', 'EXPERIENCE']
+2026-08-12 10:02:30,742 - INFO - Saved labeled sections: data/labeled_sections\hr_resume_2_labeled.json
+2026-08-12 10:02:30,742 - INFO - Classified into sections: ['HEADER', 'EXPERIENCE', 'EDUCATION', 'SKILLS']
+2026-08-12 10:02:30,742 - INFO - Saved labeled sections: data/labeled_sections\java_resume_1_labeled.json
+2026-08-12 10:02:30,742 - INFO - Classified into sections: ['HEADER', 'EXPERIENCE', 'EDUCATION', 'SKILLS']
+2026-08-12 10:02:30,742 - INFO - Saved labeled sections: data/labeled_sections\soft_resume_1_labeled.json
