@@ -1,4 +1,4 @@
-\# Section Detection Accuracy Report -- Zecpath
+\# Section Detection Accuracy Report — Zecpath
 
 
 
@@ -18,25 +18,25 @@ Since no pre-labeled ground truth dataset exists, accuracy was measured by manua
 
 |---|---|---|---|---|---|
 
-| ba\_resume\_1 | Correct | Correct | Correct | N/A | -- |
+| ba\_resume\_1 | Correct | Correct | Correct | N/A | — |
 
-| ba\_resume\_2 | Correct | Correct | Correct | N/A | -- |
+| ba\_resume\_2 | Correct | Correct | Correct | N/A | — |
 
-| hr\_resume\_1 | Correct | Correct | Correct | N/A | -- |
+| hr\_resume\_1 | Correct | Correct | Correct | N/A | — |
 
-| hr\_resume\_2 | Correct | Correct | Correct | N/A | -- |
+| hr\_resume\_2 | Correct | Correct | Correct | N/A | — |
 
-| da\_resume\_1 | Correct | Correct | Correct | Correct | -- |
+| da\_resume\_1 | Correct | Correct | Correct | Correct | — |
 
-| da\_resume\_2 | Correct | Correct | Correct | N/A | -- |
+| da\_resume\_2 | Correct | Correct | Correct | N/A | — |
 
 | da\_resume\_3 | Partial | Correct | Correct | N/A | Skills list had no heading, caught by fallback rule |
 
-| civil\_resume\_1 | Correct | Correct | Correct | N/A | -- |
+| civil\_resume\_1 | Correct | Correct | Correct | N/A | — |
 
-| java\_resume\_1 | Correct | Correct | Correct | Correct | -- |
+| java\_resume\_1 | Correct | Correct | Correct | Correct | — |
 
-| soft\_resume\_1 | Correct | Correct | Correct | N/A | -- |
+| soft\_resume\_1 | Correct | Correct | Correct | N/A | — |
 
 
 
@@ -56,7 +56,7 @@ Since no pre-labeled ground truth dataset exists, accuracy was measured by manua
 
 
 
-\- Rule-based fallback is keyword/pattern driven, not true NLP -- resumes with unconventional structure (e.g. skills embedded inline within experience bullets) may still be misclassified.
+\- Rule-based fallback is keyword/pattern driven, not true NLP — resumes with unconventional structure (e.g. skills embedded inline within experience bullets) may still be misclassified.
 
 \- No dedicated "Projects" or "Certifications" detection tested where those sections were absent from the source resume.
 
