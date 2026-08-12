@@ -1,4 +1,4 @@
-\# Section Detection Accuracy Report — Zecpath
+\# Section Detection Accuracy Report -- Zecpath
 
 
 
@@ -14,29 +14,29 @@ Since no pre-labeled ground truth dataset exists, accuracy was measured by manua
 
 
 
-| Resume           | Skills  | Experience | Education | Certifications | Notes                                               |
+| Resume | Skills | Experience | Education | Certifications | Notes |
 
-| ---------------- | ------- | ---------- | --------- | -------------- | --------------------------------------------------- |
+|---|---|---|---|---|---|
 
-| ba\\\_resume\\\_1    | Correct | Correct    | Correct   | N/A            | —                                                   |
+| `ba\_resume\_1` | Correct | Correct | Correct | N/A | -- |
 
-| ba\\\_resume\\\_2    | Correct | Correct    | Correct   | N/A            | —                                                   |
+| `ba\_resume\_2` | Correct | Correct | Correct | N/A | -- |
 
-| hr\\\_resume\\\_1    | Correct | Correct    | Correct   | N/A            | —                                                   |
+| `hr\_resume\_1` | Correct | Correct | Correct | N/A | -- |
 
-| hr\\\_resume\\\_2    | Correct | Correct    | Correct   | N/A            | —                                                   |
+| `hr\_resume\_2` | Correct | Correct | Correct | N/A | -- |
 
-| da\\\_resume\\\_1    | Correct | Correct    | Correct   | Correct        | —                                                   |
+| `da\_resume\_1` | Correct | Correct | Correct | Correct | -- |
 
-| da\\\_resume\\\_2    | Correct | Correct    | Correct   | N/A            | —                                                   |
+| `da\_resume\_2` | Correct | Correct | Correct | N/A | -- |
 
-| da\\\_resume\\\_3    | Partial | Correct    | Correct   | N/A            | Skills list had no heading, caught by fallback rule |
+| `da\_resume\_3` | Partial | Correct | Correct | N/A | Skills list had no heading, caught by fallback rule |
 
-| civil\\\_resume\\\_1 | Correct | Correct    | Correct   | N/A            | —                                                   |
+| `civil\_resume\_1` | Correct | Correct | Correct | N/A | -- |
 
-| java\\\_resume\\\_1  | Correct | Correct    | Correct   | Correct        | —                                                   |
+| `java\_resume\_1` | Correct | Correct | Correct | Correct | -- |
 
-| soft\\\_resume\\\_1  | Correct | Correct    | Correct   | N/A            | —                                                   |
+| `soft\_resume\_1` | Correct | Correct | Correct | N/A | -- |
 
 
 
@@ -44,11 +44,11 @@ Since no pre-labeled ground truth dataset exists, accuracy was measured by manua
 
 
 
-\- Heading-based detection worked correctly for 9/10 resumes where explicit section headings existed.
+\* \*\*Heading-based detection:\*\* Worked correctly for 9/10 resumes where explicit section headings existed.
 
-\- Fallback content-based rules (degree keywords, comma-separated skill lists, date+length heuristics for experience) successfully caught 1 case where a resume had no explicit "Skills" heading.
+\* \*\*Fallback rules:\*\* Content-based rules (degree keywords, comma-separated skill lists, date+length heuristics for experience) successfully caught 1 case where a resume had no explicit "Skills" heading.
 
-\- Overall section-level accuracy: \\\~93% across all sections checked.
+\* \*\*Overall Accuracy:\*\* \*\*\~93%\*\* section-level accuracy across all evaluated sections.
 
 
 
@@ -56,9 +56,9 @@ Since no pre-labeled ground truth dataset exists, accuracy was measured by manua
 
 
 
-\- Rule-based fallback is keyword/pattern driven, not true NLP — resumes with unconventional structure (e.g. skills embedded inline within experience bullets) may still be misclassified.
+\* \*\*Pattern Dependence:\*\* Rule-based fallback is keyword/pattern driven, not true NLP—resumes with unconventional structures (e.g., skills embedded inline within experience bullets) may still be misclassified.
 
-\- No dedicated "Projects" or "Certifications" detection tested where those sections were absent from the source resume.
+\* \*\*Untested Absence Cases:\*\* No dedicated "Projects" or "Certifications" detection was tested where those sections were absent from the source resume.
 
-\- Next improvement: incorporate spaCy NER or a trained classifier for cases where heading-based and rule-based fallback both fail.
+\* \*\*Future Work:\*\* Incorporate spaCy NER or a trained classifier for edge cases where both heading-based and rule-based fallbacks fail.
 
