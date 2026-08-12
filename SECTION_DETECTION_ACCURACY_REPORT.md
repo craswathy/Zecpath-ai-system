@@ -14,27 +14,29 @@ Since no pre-labeled ground truth dataset exists, accuracy was measured by manua
 
 
 
-\- \*\*ba\_resume\_1\*\* — Skills: Correct | Experience: Correct | Education: Correct | Certifications: N/A
+| Resume | Skills | Experience | Education | Certifications | Notes |
 
-\- \*\*ba\_resume\_2\*\* — Skills: Correct | Experience: Correct | Education: Correct | Certifications: N/A
+|---|---|---|---|---|---|
 
-\- \*\*hr\_resume\_1\*\* — Skills: Correct | Experience: Correct | Education: Correct | Certifications: N/A
+| ba\_resume\_1 | Correct | Correct | Correct | N/A | — |
 
-\- \*\*hr\_resume\_2\*\* — Skills: Correct | Experience: Correct | Education: Correct | Certifications: N/A
+| ba\_resume\_2 | Correct | Correct | Correct | N/A | — |
 
-\- \*\*da\_resume\_1\*\* — Skills: Correct | Experience: Correct | Education: Correct | Certifications: Correct
+| hr\_resume\_1 | Correct | Correct | Correct | N/A | — |
 
-\- \*\*da\_resume\_2\*\* — Skills: Correct | Experience: Correct | Education: Correct | Certifications: N/A
+| hr\_resume\_2 | Correct | Correct | Correct | N/A | — |
 
-\- \*\*da\_resume\_3\*\* — Skills: Partial | Experience: Correct | Education: Correct | Certifications: N/A
+| da\_resume\_1 | Correct | Correct | Correct | Correct | — |
 
-&#x20; - Skills list had no heading and was caught by the fallback rule.
+| da\_resume\_2 | Correct | Correct | Correct | N/A | — |
 
-\- \*\*civil\_resume\_1\*\* — Skills: Correct | Experience: Correct | Education: Correct | Certifications: N/A
+| da\_resume\_3 | Partial | Correct | Correct | N/A | Skills list had no heading, caught by fallback rule |
 
-\- \*\*java\_resume\_1\*\* — Skills: Correct | Experience: Correct | Education: Correct | Certifications: Correct
+| civil\_resume\_1 | Correct | Correct | Correct | N/A | — |
 
-\- \*\*soft\_resume\_1\*\* — Skills: Correct | Experience: Correct | Education: Correct | Certifications: N/A
+| java\_resume\_1 | Correct | Correct | Correct | Correct | — |
+
+| soft\_resume\_1 | Correct | Correct | Correct | N/A | — |
 
 
 
