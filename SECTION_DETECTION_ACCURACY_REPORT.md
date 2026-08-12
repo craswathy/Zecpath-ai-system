@@ -14,29 +14,29 @@ Since no pre-labeled ground truth dataset exists, accuracy was measured by manua
 
 
 
-| Resume | Skills | Experience | Education | Certifications | Notes |
+| Resume           | Skills  | Experience | Education | Certifications | Notes                                               |
 
-|---|---|---|---|---|---|
+| ---------------- | ------- | ---------- | --------- | -------------- | --------------------------------------------------- |
 
-| ba\_resume\_1 | Correct | Correct | Correct | N/A | — |
+| ba\\\_resume\\\_1    | Correct | Correct    | Correct   | N/A            | —                                                   |
 
-| ba\_resume\_2 | Correct | Correct | Correct | N/A | — |
+| ba\\\_resume\\\_2    | Correct | Correct    | Correct   | N/A            | —                                                   |
 
-| hr\_resume\_1 | Correct | Correct | Correct | N/A | — |
+| hr\\\_resume\\\_1    | Correct | Correct    | Correct   | N/A            | —                                                   |
 
-| hr\_resume\_2 | Correct | Correct | Correct | N/A | — |
+| hr\\\_resume\\\_2    | Correct | Correct    | Correct   | N/A            | —                                                   |
 
-| da\_resume\_1 | Correct | Correct | Correct | Correct | — |
+| da\\\_resume\\\_1    | Correct | Correct    | Correct   | Correct        | —                                                   |
 
-| da\_resume\_2 | Correct | Correct | Correct | N/A | — |
+| da\\\_resume\\\_2    | Correct | Correct    | Correct   | N/A            | —                                                   |
 
-| da\_resume\_3 | Partial | Correct | Correct | N/A | Skills list had no heading, caught by fallback rule |
+| da\\\_resume\\\_3    | Partial | Correct    | Correct   | N/A            | Skills list had no heading, caught by fallback rule |
 
-| civil\_resume\_1 | Correct | Correct | Correct | N/A | — |
+| civil\\\_resume\\\_1 | Correct | Correct    | Correct   | N/A            | —                                                   |
 
-| java\_resume\_1 | Correct | Correct | Correct | Correct | — |
+| java\\\_resume\\\_1  | Correct | Correct    | Correct   | Correct        | —                                                   |
 
-| soft\_resume\_1 | Correct | Correct | Correct | N/A | — |
+| soft\\\_resume\\\_1  | Correct | Correct    | Correct   | N/A            | —                                                   |
 
 
 
@@ -48,7 +48,7 @@ Since no pre-labeled ground truth dataset exists, accuracy was measured by manua
 
 \- Fallback content-based rules (degree keywords, comma-separated skill lists, date+length heuristics for experience) successfully caught 1 case where a resume had no explicit "Skills" heading.
 
-\- Overall section-level accuracy: \~93% across all sections checked.
+\- Overall section-level accuracy: \\\~93% across all sections checked.
 
 
 
