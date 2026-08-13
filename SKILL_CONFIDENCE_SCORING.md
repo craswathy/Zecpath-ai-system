@@ -1,8 +1,8 @@
-\# Skill Confidence Scoring Logic -- Zecpath
+# Skill Confidence Scoring Logic -- Zecpath
 
 
 
-\## Match Types and Confidence Levels
+## Match Types and Confidence Levels
 
 
 
@@ -20,7 +20,7 @@
 
 
 
-\## Deduplication Rule
+## Deduplication Rule
 
 
 
@@ -28,7 +28,7 @@ If the same skill is matched by more than one method (e.g. both exact and fuzzy)
 
 
 
-\## Why this matters
+## Why this matters
 
 
 
