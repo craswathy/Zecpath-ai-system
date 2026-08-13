@@ -1,0 +1,29 @@
+{
+  "candidate_file": "ba_resume_2_extracted.txt",
+  "experience_entries": [
+    {
+      "company": null,
+      "designation": null,
+      "start_date_raw": "01/2010",
+      "end_date_raw": "01/2016",
+      "relevance_score": 0.0
+    },
+    {
+      "company": null,
+      "designation": null,
+      "start_date_raw": "02/2004",
+      "end_date_raw": "12/2009",
+      "relevance_score": 0.0
+    }
+  ],
+  "total_experience_years": 11.83,
+  "gaps": [
+    {
+      "gap_from": "2009-12",
+      "gap_to": "2010-01",
+      "gap_days": 31
+    }
+  ],
+  "overlaps": [],
+  "scored_against_job_title": "Data Analyst"
+}

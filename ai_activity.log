@@ -136,3 +136,65 @@
 2026-08-13 13:16:09,779 - INFO - Saved skills: data/skills_extracted\java_resume_1_skills.json
 2026-08-13 13:16:09,785 - INFO - Extracted 8 unique skills
 2026-08-13 13:16:09,785 - INFO - Saved skills: data/skills_extracted\soft_resume_1_skills.json
+2026-08-13 19:33:44,544 - INFO - Found 10 resumes for experience parsing
+2026-08-13 19:33:44,549 - INFO - Extracted 3 experience entries
+2026-08-13 19:33:44,549 - INFO - Scored 3 experience entries against job title 'Data Analyst'
+2026-08-13 19:33:44,549 - INFO - Saved experience object: data/experience_parsed\ba_resume_1_experience.json
+2026-08-13 19:33:44,549 - INFO - Extracted 2 experience entries
+2026-08-13 19:33:44,549 - INFO - Scored 2 experience entries against job title 'Data Analyst'
+2026-08-13 19:33:44,549 - INFO - Saved experience object: data/experience_parsed\ba_resume_2_experience.json
+2026-08-13 19:33:44,549 - INFO - Extracted 1 experience entries
+2026-08-13 19:33:44,549 - INFO - Scored 1 experience entries against job title 'Data Analyst'
+2026-08-13 19:33:44,549 - INFO - Saved experience object: data/experience_parsed\civil_resume_1_experience.json
+2026-08-13 19:33:44,549 - INFO - Extracted 4 experience entries
+2026-08-13 19:33:44,549 - INFO - Scored 4 experience entries against job title 'Data Analyst'
+2026-08-13 19:33:44,549 - INFO - Saved experience object: data/experience_parsed\da_resume_1_experience.json
+2026-08-13 19:33:44,549 - INFO - Extracted 0 experience entries
+2026-08-13 19:33:44,549 - INFO - Scored 0 experience entries against job title 'Data Analyst'
+2026-08-13 19:33:44,549 - INFO - Saved experience object: data/experience_parsed\da_resume_2_experience.json
+2026-08-13 19:33:44,549 - INFO - Extracted 2 experience entries
+2026-08-13 19:33:44,549 - INFO - Scored 2 experience entries against job title 'Data Analyst'
+2026-08-13 19:33:44,560 - INFO - Saved experience object: data/experience_parsed\da_resume_3_experience.json
+2026-08-13 19:33:44,561 - INFO - Extracted 3 experience entries
+2026-08-13 19:33:44,561 - INFO - Scored 3 experience entries against job title 'Data Analyst'
+2026-08-13 19:33:44,561 - INFO - Saved experience object: data/experience_parsed\hr_resume_1_experience.json
+2026-08-13 19:33:44,561 - INFO - Extracted 1 experience entries
+2026-08-13 19:33:44,561 - INFO - Scored 1 experience entries against job title 'Data Analyst'
+2026-08-13 19:33:44,561 - INFO - Saved experience object: data/experience_parsed\hr_resume_2_experience.json
+2026-08-13 19:33:44,561 - INFO - Extracted 3 experience entries
+2026-08-13 19:33:44,561 - INFO - Scored 3 experience entries against job title 'Data Analyst'
+2026-08-13 19:33:44,561 - INFO - Saved experience object: data/experience_parsed\java_resume_1_experience.json
+2026-08-13 19:33:44,566 - INFO - Extracted 0 experience entries
+2026-08-13 19:33:44,566 - INFO - Scored 0 experience entries against job title 'Data Analyst'
+2026-08-13 19:33:44,566 - INFO - Saved experience object: data/experience_parsed\soft_resume_1_experience.json
+2026-08-13 19:38:12,895 - INFO - Found 10 resumes for experience parsing
+2026-08-13 19:38:12,897 - INFO - Extracted 3 experience entries
+2026-08-13 19:38:12,897 - INFO - Scored 3 experience entries against job title 'Data Analyst'
+2026-08-13 19:38:12,899 - INFO - Saved experience object: data/experience_parsed\ba_resume_1_experience.json
+2026-08-13 19:38:12,899 - INFO - Extracted 2 experience entries
+2026-08-13 19:38:12,899 - INFO - Scored 2 experience entries against job title 'Data Analyst'
+2026-08-13 19:38:12,899 - INFO - Saved experience object: data/experience_parsed\ba_resume_2_experience.json
+2026-08-13 19:38:12,899 - INFO - Extracted 1 experience entries
+2026-08-13 19:38:12,899 - INFO - Scored 1 experience entries against job title 'Data Analyst'
+2026-08-13 19:38:12,899 - INFO - Saved experience object: data/experience_parsed\civil_resume_1_experience.json
+2026-08-13 19:38:12,899 - INFO - Extracted 4 experience entries
+2026-08-13 19:38:12,899 - INFO - Scored 4 experience entries against job title 'Data Analyst'
+2026-08-13 19:38:12,904 - INFO - Saved experience object: data/experience_parsed\da_resume_1_experience.json
+2026-08-13 19:38:12,904 - INFO - Extracted 0 experience entries
+2026-08-13 19:38:12,904 - INFO - Scored 0 experience entries against job title 'Data Analyst'
+2026-08-13 19:38:12,904 - INFO - Saved experience object: data/experience_parsed\da_resume_2_experience.json
+2026-08-13 19:38:12,906 - INFO - Extracted 2 experience entries
+2026-08-13 19:38:12,906 - INFO - Scored 2 experience entries against job title 'Data Analyst'
+2026-08-13 19:38:12,906 - INFO - Saved experience object: data/experience_parsed\da_resume_3_experience.json
+2026-08-13 19:38:12,906 - INFO - Extracted 3 experience entries
+2026-08-13 19:38:12,906 - INFO - Scored 3 experience entries against job title 'Data Analyst'
+2026-08-13 19:38:12,906 - INFO - Saved experience object: data/experience_parsed\hr_resume_1_experience.json
+2026-08-13 19:38:12,906 - INFO - Extracted 1 experience entries
+2026-08-13 19:38:12,906 - INFO - Scored 1 experience entries against job title 'Data Analyst'
+2026-08-13 19:38:12,906 - INFO - Saved experience object: data/experience_parsed\hr_resume_2_experience.json
+2026-08-13 19:38:12,906 - INFO - Extracted 3 experience entries
+2026-08-13 19:38:12,906 - INFO - Scored 3 experience entries against job title 'Data Analyst'
+2026-08-13 19:38:12,911 - INFO - Saved experience object: data/experience_parsed\java_resume_1_experience.json
+2026-08-13 19:38:12,911 - INFO - Extracted 0 experience entries
+2026-08-13 19:38:12,911 - INFO - Scored 0 experience entries against job title 'Data Analyst'
+2026-08-13 19:38:12,911 - INFO - Saved experience object: data/experience_parsed\soft_resume_1_experience.json

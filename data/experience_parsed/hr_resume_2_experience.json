@@ -1,0 +1,16 @@
+{
+  "candidate_file": "hr_resume_2_extracted.txt",
+  "experience_entries": [
+    {
+      "company": "MURPHY, YUNDT AND HANE",
+      "designation": null,
+      "start_date_raw": "09/2017",
+      "end_date_raw": "12/2019",
+      "relevance_score": 0.0
+    }
+  ],
+  "total_experience_years": 2.25,
+  "gaps": [],
+  "overlaps": [],
+  "scored_against_job_title": "Data Analyst"
+}
