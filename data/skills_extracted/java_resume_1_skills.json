@@ -1,0 +1,38 @@
+[
+  {
+    "skill": "excel",
+    "category": "technical",
+    "confidence": 1.0,
+    "match_type": "exact"
+  },
+  {
+    "skill": "java",
+    "category": "technical",
+    "confidence": 1.0,
+    "match_type": "exact"
+  },
+  {
+    "skill": "leadership",
+    "category": "business",
+    "confidence": 1.0,
+    "match_type": "exact"
+  },
+  {
+    "skill": "communication",
+    "category": "business",
+    "confidence": 0.95,
+    "match_type": "exact"
+  },
+  {
+    "skill": "business analysis",
+    "category": "business",
+    "confidence": 0.95,
+    "match_type": "exact"
+  },
+  {
+    "skill": "project management",
+    "category": "business",
+    "confidence": 0.95,
+    "match_type": "exact"
+  }
+]

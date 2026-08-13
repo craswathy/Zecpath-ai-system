@@ -1,0 +1,32 @@
+[
+  {
+    "skill": "excel",
+    "category": "technical",
+    "confidence": 1.0,
+    "match_type": "exact"
+  },
+  {
+    "skill": "machine learning",
+    "category": "technical",
+    "confidence": 1.0,
+    "match_type": "exact"
+  },
+  {
+    "skill": "statistics",
+    "category": "technical",
+    "confidence": 1.0,
+    "match_type": "exact"
+  },
+  {
+    "skill": "business analysis",
+    "category": "business",
+    "confidence": 0.95,
+    "match_type": "exact"
+  },
+  {
+    "skill": "crm",
+    "category": "business",
+    "confidence": 0.86,
+    "match_type": "fuzzy"
+  }
+]

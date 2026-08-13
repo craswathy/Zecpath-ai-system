@@ -94,3 +94,45 @@
 2026-08-12 10:02:30,742 - INFO - Saved labeled sections: data/labeled_sections\java_resume_1_labeled.json
 2026-08-12 10:02:30,742 - INFO - Classified into sections: ['HEADER', 'EXPERIENCE', 'EDUCATION', 'SKILLS']
 2026-08-12 10:02:30,742 - INFO - Saved labeled sections: data/labeled_sections\soft_resume_1_labeled.json
+2026-08-12 22:10:19,433 - INFO - Found 10 cleaned resumes to classify
+2026-08-12 22:10:19,433 - INFO - Classified into sections: ['HEADER', 'SUMMARY', 'EDUCATION', 'SKILLS', 'EXPERIENCE']
+2026-08-12 22:10:19,433 - INFO - Saved labeled sections: data/labeled_sections\ba_resume_1_labeled.json
+2026-08-12 22:10:19,433 - INFO - Classified into sections: ['HEADER', 'EDUCATION', 'EXPERIENCE']
+2026-08-12 22:10:19,433 - INFO - Saved labeled sections: data/labeled_sections\ba_resume_2_labeled.json
+2026-08-12 22:10:19,433 - INFO - Classified into sections: ['HEADER', 'EXPERIENCE', 'EDUCATION', 'CERTIFICATIONS']
+2026-08-12 22:10:19,433 - INFO - Saved labeled sections: data/labeled_sections\civil_resume_1_labeled.json
+2026-08-12 22:10:19,433 - INFO - Classified into sections: ['HEADER', 'EDUCATION']
+2026-08-12 22:10:19,433 - INFO - Saved labeled sections: data/labeled_sections\da_resume_1_labeled.json
+2026-08-12 22:10:19,443 - INFO - Classified into sections: ['HEADER', 'EXPERIENCE', 'CERTIFICATIONS', 'EDUCATION']
+2026-08-12 22:10:19,443 - INFO - Saved labeled sections: data/labeled_sections\da_resume_2_labeled.json
+2026-08-12 22:10:19,443 - INFO - Classified into sections: ['HEADER', 'EXPERIENCE', 'EDUCATION']
+2026-08-12 22:10:19,443 - INFO - Saved labeled sections: data/labeled_sections\da_resume_3_labeled.json
+2026-08-12 22:10:19,443 - INFO - Classified into sections: ['HEADER', 'EXPERIENCE', 'CERTIFICATIONS']
+2026-08-12 22:10:19,443 - INFO - Saved labeled sections: data/labeled_sections\hr_resume_1_labeled.json
+2026-08-12 22:10:19,443 - INFO - Classified into sections: ['HEADER', 'EXPERIENCE']
+2026-08-12 22:10:19,443 - INFO - Saved labeled sections: data/labeled_sections\hr_resume_2_labeled.json
+2026-08-12 22:10:19,443 - INFO - Classified into sections: ['HEADER', 'EXPERIENCE', 'EDUCATION', 'SKILLS']
+2026-08-12 22:10:19,443 - INFO - Saved labeled sections: data/labeled_sections\java_resume_1_labeled.json
+2026-08-12 22:10:19,443 - INFO - Classified into sections: ['HEADER', 'EXPERIENCE', 'EDUCATION', 'SKILLS']
+2026-08-12 22:10:19,443 - INFO - Saved labeled sections: data/labeled_sections\soft_resume_1_labeled.json
+2026-08-13 13:16:09,674 - INFO - Found 10 resumes for skill extraction
+2026-08-13 13:16:09,686 - INFO - Extracted 7 unique skills
+2026-08-13 13:16:09,688 - INFO - Saved skills: data/skills_extracted\ba_resume_1_skills.json
+2026-08-13 13:16:09,688 - INFO - Extracted 8 unique skills
+2026-08-13 13:16:09,701 - INFO - Saved skills: data/skills_extracted\ba_resume_2_skills.json
+2026-08-13 13:16:09,703 - INFO - Extracted 4 unique skills
+2026-08-13 13:16:09,703 - INFO - Saved skills: data/skills_extracted\civil_resume_1_skills.json
+2026-08-13 13:16:09,719 - INFO - Extracted 9 unique skills
+2026-08-13 13:16:09,719 - INFO - Saved skills: data/skills_extracted\da_resume_1_skills.json
+2026-08-13 13:16:09,735 - INFO - Extracted 7 unique skills
+2026-08-13 13:16:09,735 - INFO - Saved skills: data/skills_extracted\da_resume_2_skills.json
+2026-08-13 13:16:09,743 - INFO - Extracted 5 unique skills
+2026-08-13 13:16:09,743 - INFO - Saved skills: data/skills_extracted\da_resume_3_skills.json
+2026-08-13 13:16:09,753 - INFO - Extracted 5 unique skills
+2026-08-13 13:16:09,754 - INFO - Saved skills: data/skills_extracted\hr_resume_1_skills.json
+2026-08-13 13:16:09,762 - INFO - Extracted 5 unique skills
+2026-08-13 13:16:09,763 - INFO - Saved skills: data/skills_extracted\hr_resume_2_skills.json
+2026-08-13 13:16:09,776 - INFO - Extracted 6 unique skills
+2026-08-13 13:16:09,779 - INFO - Saved skills: data/skills_extracted\java_resume_1_skills.json
+2026-08-13 13:16:09,785 - INFO - Extracted 8 unique skills
+2026-08-13 13:16:09,785 - INFO - Saved skills: data/skills_extracted\soft_resume_1_skills.json
