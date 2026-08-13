@@ -22,11 +22,15 @@
 
 \## Deduplication Rule
 
-If the same skill is matched by more than one method (e.g. both exact and fuzzy), the \*\*highest confidence score wins\*\* -- the skill is only listed once in the final output, tagged with whichever match type produced the highest confidence.
+
+
+If the same skill is matched by more than one method (e.g. both exact and fuzzy), the highest confidence score wins -- the skill is only listed once in the final output, tagged with whichever match type produced the highest confidence.
 
 
 
 \## Why this matters
+
+
 
 Downstream ATS scoring can filter or weight skills by confidence -- a skill detected via exact match should count more heavily than one inferred from a fuzzy spelling match, reducing false positives while still catching real variations.
 
