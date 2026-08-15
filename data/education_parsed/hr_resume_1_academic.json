@@ -1,0 +1,55 @@
+{
+  "candidate_file": "hr_resume_1_labeled.json",
+  "education": [],
+  "certifications": [
+    {
+      "name": "Society for Human Resource",
+      "category": "general",
+      "year": null
+    },
+    {
+      "name": "Management Certified",
+      "category": "general",
+      "year": null
+    },
+    {
+      "name": "Professional",
+      "category": "general",
+      "year": null
+    },
+    {
+      "name": "(SHRM-CP)",
+      "category": "general",
+      "year": null
+    },
+    {
+      "name": "Jun 2022",
+      "category": "general",
+      "year": 2022
+    },
+    {
+      "name": "HR Certification Institutes",
+      "category": "general",
+      "year": null
+    },
+    {
+      "name": "Senior Professional in Human",
+      "category": "general",
+      "year": null
+    },
+    {
+      "name": "Resources (SPHR)",
+      "category": "general",
+      "year": null
+    },
+    {
+      "name": "Feb 2021",
+      "category": "general",
+      "year": 2021
+    }
+  ],
+  "education_relevance": {
+    "relevance_score": 0.0,
+    "best_match": null
+  }
+}

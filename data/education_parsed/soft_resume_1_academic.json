@@ -1,0 +1,22 @@
+{
+  "candidate_file": "soft_resume_1_labeled.json",
+  "education": [
+    {
+      "degree": "Master's",
+      "field_of_study": "business administration",
+      "institution": "Indian Institute of Technology  Mumbai",
+      "graduation_year": null
+    }
+  ],
+  "certifications": [],
+  "education_relevance": {
+    "relevance_score": 0.79,
+    "best_match": {
+      "degree": "Master's",
+      "field_of_study": "business administration",
+      "institution": "Indian Institute of Technology  Mumbai",
+      "graduation_year": null,
+      "relevance_score": 0.79
+    }
+  }
+}

@@ -1,0 +1,126 @@
+{
+  "candidate_file": "da_resume_2_labeled.json",
+  "education": [
+    {
+      "degree": "Master's",
+      "field_of_study": null,
+      "institution": "Evaluated algorithm performance in offline (in silico) and live (in vitro, in vivo) environments",
+      "graduation_year": null
+    },
+    {
+      "degree": "Bachelor's",
+      "field_of_study": null,
+      "institution": "Collaborated with software team s to implement algorithm s on embedded hardware",
+      "graduation_year": null
+    },
+    {
+      "degree": "Master's",
+      "field_of_study": null,
+      "institution": "Maintained concise descriptions of algorithm design specifications and perform ance evaluations",
+      "graduation_year": null
+    },
+    {
+      "degree": "Bachelor's",
+      "field_of_study": null,
+      "institution": "Bay path University",
+      "graduation_year": null
+    },
+    {
+      "degree": "Master's",
+      "field_of_study": null,
+      "institution": "Longmeadow, MA",
+      "graduation_year": 2010
+    },
+    {
+      "degree": "Master's",
+      "field_of_study": "data science",
+      "institution": "Masters in Data Science",
+      "graduation_year": null
+    },
+    {
+      "degree": "Master's",
+      "field_of_study": null,
+      "institution": "Communicated algorithm designs and performance results to cross -functional stakeholders",
+      "graduation_year": null
+    },
+    {
+      "degree": "Bachelor's",
+      "field_of_study": null,
+      "institution": "Becker College",
+      "graduation_year": null
+    },
+    {
+      "degree": "Master's",
+      "field_of_study": null,
+      "institution": "Technical Data Scientist, DELL Worcester, MA",
+      "graduation_year": 2008
+    },
+    {
+      "degree": "Bachelor's",
+      "field_of_study": "computer science",
+      "institution": "Bachelor of Science in Computer Science",
+      "graduation_year": null
+    },
+    {
+      "degree": "Master's",
+      "field_of_study": null,
+      "institution": "Hopkinton, MA - January   August",
+      "graduation_year": 2014
+    },
+    {
+      "degree": "Master's",
+      "field_of_study": null,
+      "institution": "Provided thought leadership to deliver transformative AIOps solutions on our SaaS platform",
+      "graduation_year": null
+    },
+    {
+      "degree": "Master's",
+      "field_of_study": "business administration",
+      "institution": "Worked with customers and product experts to blaze a trail in autonomous data center management",
+      "graduation_year": null
+    },
+    {
+      "degree": "Master's",
+      "field_of_study": null,
+      "institution": "The Machine Learning Conference",
+      "graduation_year": null
+    }
+  ],
+  "certifications": [
+    {
+      "name": "Data Scientist, Abiomed",
+      "category": "general",
+      "year": null
+    },
+    {
+      "name": "Microsoft Professional Program Certificate,",
+      "category": "general",
+      "year": null
+    },
+    {
+      "name": "Danvers, MA - September 2014  February 2017",
+      "category": "general",
+      "year": 2017
+    },
+    {
+      "name": "Certifica tion of professional Data Engineer",
+      "category": "general",
+      "year": null
+    },
+    {
+      "name": "Designed new statistical and physiological features for time series data",
+      "category": "general",
+      "year": null
+    }
+  ],
+  "education_relevance": {
+    "relevance_score": 0.79,
+    "best_match": {
+      "degree": "Master's",
+      "field_of_study": "business administration",
+      "institution": "Worked with customers and product experts to blaze a trail in autonomous data center management",
+      "graduation_year": null,
+      "relevance_score": 0.79
+    }
+  }
+}

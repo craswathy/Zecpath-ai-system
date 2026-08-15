@@ -1,0 +1,153 @@
+{
+  "candidate_file": "civil_resume_1_labeled.json",
+  "education": [
+    {
+      "degree": "Master's",
+      "field_of_study": null,
+      "institution": "Scored top of the class in Structural Performance",
+      "graduation_year": null
+    }
+  ],
+  "certifications": [
+    {
+      "name": "Conferences",
+      "category": "general",
+      "year": null
+    },
+    {
+      "name": "2017 ASCE Week, Spoke on panel about green design",
+      "category": "general",
+      "year": 2017
+    },
+    {
+      "name": "2016 ASCE Forum",
+      "category": "general",
+      "year": 2016
+    },
+    {
+      "name": "Publications",
+      "category": "general",
+      "year": null
+    },
+    {
+      "name": "2017 Article on AutoCAD appeared in ASCE Magazine",
+      "category": "general",
+      "year": 2017
+    },
+    {
+      "name": "2015 Article on project management linked to by Business Insider License",
+      "category": "general",
+      "year": 2015
+    },
+    {
+      "name": "PE, NSPE, state of Utah",
+      "category": "general",
+      "year": null
+    },
+    {
+      "name": "Soft Skills",
+      "category": "general",
+      "year": null
+    },
+    {
+      "name": "Problem Solving",
+      "category": "general",
+      "year": null
+    },
+    {
+      "name": "Exper",
+      "category": "general",
+      "year": null
+    },
+    {
+      "name": "t",
+      "category": "general",
+      "year": null
+    },
+    {
+      "name": "Interpersonal Skills",
+      "category": "general",
+      "year": null
+    },
+    {
+      "name": "Exper",
+      "category": "general",
+      "year": null
+    },
+    {
+      "name": "t",
+      "category": "general",
+      "year": null
+    },
+    {
+      "name": "Detail Oriented",
+      "category": "general",
+      "year": null
+    },
+    {
+      "name": "Exper",
+      "category": "general",
+      "year": null
+    },
+    {
+      "name": "t",
+      "category": "general",
+      "year": null
+    },
+    {
+      "name": "Hard Skills",
+      "category": "general",
+      "year": null
+    },
+    {
+      "name": "AutoCAD",
+      "category": "general",
+      "year": null
+    },
+    {
+      "name": "Exper",
+      "category": "general",
+      "year": null
+    },
+    {
+      "name": "t",
+      "category": "general",
+      "year": null
+    },
+    {
+      "name": "Structural Design",
+      "category": "general",
+      "year": null
+    },
+    {
+      "name": "Exper",
+      "category": "general",
+      "year": null
+    },
+    {
+      "name": "t",
+      "category": "general",
+      "year": null
+    },
+    {
+      "name": "STADD Pro",
+      "category": "general",
+      "year": null
+    },
+    {
+      "name": "Advanced",
+      "category": "general",
+      "year": null
+    }
+  ],
+  "education_relevance": {
+    "relevance_score": 0.6,
+    "best_match": {
+      "degree": "Master's",
+      "field_of_study": null,
+      "institution": "Scored top of the class in Structural Performance",
+      "graduation_year": null,
+      "relevance_score": 0.6
+    }
+  }
+}

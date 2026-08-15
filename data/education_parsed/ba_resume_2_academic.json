@@ -1,0 +1,22 @@
+{
+  "candidate_file": "ba_resume_2_labeled.json",
+  "education": [
+    {
+      "degree": "Bachelor's",
+      "field_of_study": "computer science",
+      "institution": "Bachelors Degree in Analytics",
+      "graduation_year": null
+    }
+  ],
+  "certifications": [],
+  "education_relevance": {
+    "relevance_score": 0.42,
+    "best_match": {
+      "degree": "Bachelor's",
+      "field_of_study": "computer science",
+      "institution": "Bachelors Degree in Analytics",
+      "graduation_year": null,
+      "relevance_score": 0.42
+    }
+  }
+}

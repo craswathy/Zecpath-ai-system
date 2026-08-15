@@ -198,3 +198,35 @@
 2026-08-13 19:38:12,911 - INFO - Extracted 0 experience entries
 2026-08-13 19:38:12,911 - INFO - Scored 0 experience entries against job title 'Data Analyst'
 2026-08-13 19:38:12,911 - INFO - Saved experience object: data/experience_parsed\soft_resume_1_experience.json
+2026-08-15 13:02:30,895 - INFO - Found 10 labeled resumes for education parsing
+2026-08-15 13:02:30,895 - INFO - Extracted 2 education entries
+2026-08-15 13:02:30,895 - INFO - Best education match scored 0.7
+2026-08-15 13:02:30,895 - INFO - Saved academic profile: data/education_parsed\ba_resume_1_academic.json
+2026-08-15 13:02:30,895 - INFO - Extracted 1 education entries
+2026-08-15 13:02:30,902 - INFO - Best education match scored 0.42
+2026-08-15 13:02:30,902 - INFO - Saved academic profile: data/education_parsed\ba_resume_2_academic.json
+2026-08-15 13:02:30,902 - INFO - Extracted 1 education entries
+2026-08-15 13:02:30,902 - INFO - Extracted 26 certifications
+2026-08-15 13:02:30,902 - INFO - Best education match scored 0.6
+2026-08-15 13:02:30,902 - INFO - Saved academic profile: data/education_parsed\civil_resume_1_academic.json
+2026-08-15 13:02:30,906 - INFO - Extracted 36 education entries
+2026-08-15 13:02:30,906 - INFO - Best education match scored 1.0
+2026-08-15 13:02:30,906 - INFO - Saved academic profile: data/education_parsed\da_resume_1_academic.json
+2026-08-15 13:02:30,906 - INFO - Extracted 14 education entries
+2026-08-15 13:02:30,906 - INFO - Extracted 5 certifications
+2026-08-15 13:02:30,906 - INFO - Best education match scored 0.79
+2026-08-15 13:02:30,906 - INFO - Saved academic profile: data/education_parsed\da_resume_2_academic.json
+2026-08-15 13:02:30,906 - INFO - Extracted 3 education entries
+2026-08-15 13:02:30,906 - INFO - Best education match scored 0.78
+2026-08-15 13:02:30,906 - INFO - Saved academic profile: data/education_parsed\da_resume_3_academic.json
+2026-08-15 13:02:30,906 - INFO - Extracted 0 education entries
+2026-08-15 13:02:30,906 - INFO - Extracted 9 certifications
+2026-08-15 13:02:30,906 - INFO - Saved academic profile: data/education_parsed\hr_resume_1_academic.json
+2026-08-15 13:02:30,906 - INFO - Extracted 0 education entries
+2026-08-15 13:02:30,906 - INFO - Saved academic profile: data/education_parsed\hr_resume_2_academic.json
+2026-08-15 13:02:30,906 - INFO - Extracted 4 education entries
+2026-08-15 13:02:30,906 - INFO - Best education match scored 0.6
+2026-08-15 13:02:30,906 - INFO - Saved academic profile: data/education_parsed\java_resume_1_academic.json
+2026-08-15 13:02:30,906 - INFO - Extracted 1 education entries
+2026-08-15 13:02:30,906 - INFO - Best education match scored 0.79
+2026-08-15 13:02:30,906 - INFO - Saved academic profile: data/education_parsed\soft_resume_1_academic.json
