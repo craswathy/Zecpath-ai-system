@@ -1,0 +1,19 @@
+{
+  "final_score": 25.6,
+  "component_scores": {
+    "skill_match": 0.492,
+    "experience_relevance": 0.0,
+    "education_alignment": null,
+    "semantic_similarity": 0.037
+  },
+  "weights_used": {
+    "skill_match": 0.5,
+    "experience_relevance": 0.222,
+    "semantic_similarity": 0.278
+  },
+  "missing_components": [
+    "education_alignment"
+  ],
+  "explanation": "Skill Match: 0.49 (weight 0.50) | Experience Relevance: 0.00 (weight 0.22) | Semantic Similarity: 0.04 (weight 0.28) | Missing data for: education alignment -- weight redistributed.",
+  "candidate": "java_resume_1"
+}

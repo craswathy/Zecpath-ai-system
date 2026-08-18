@@ -383,3 +383,14 @@
 2026-08-17 14:56:21,437 - INFO - Semantic match vs 'QuantumBlack, AI by McKinsey': overall=0.177
 2026-08-17 14:56:21,510 - INFO - Semantic match vs 'PX.com': overall=0.282
 2026-08-17 14:56:21,581 - INFO - Semantic match vs 'Harris Computer': overall=0.165
+2026-08-18 09:50:49,816 - INFO - Scoring 10 candidates
+2026-08-18 09:50:49,816 - INFO - ATS score computed: 29.5/100
+2026-08-18 09:50:49,816 - INFO - ATS score computed: 32.5/100
+2026-08-18 09:50:49,824 - INFO - ATS score computed: 4.0/100
+2026-08-18 09:50:49,824 - INFO - ATS score computed: 33.4/100
+2026-08-18 09:50:49,824 - INFO - ATS score computed: 34.2/100
+2026-08-18 09:50:49,824 - INFO - ATS score computed: 30.9/100
+2026-08-18 09:50:49,824 - INFO - ATS score computed: 13.0/100
+2026-08-18 09:50:49,824 - INFO - ATS score computed: 24.6/100
+2026-08-18 09:50:49,838 - INFO - ATS score computed: 25.6/100
+2026-08-18 09:50:49,841 - INFO - ATS score computed: 52.2/100

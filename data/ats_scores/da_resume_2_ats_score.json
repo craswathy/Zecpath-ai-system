@@ -1,0 +1,19 @@
+{
+  "final_score": 34.2,
+  "component_scores": {
+    "skill_match": 0.5,
+    "experience_relevance": null,
+    "education_alignment": null,
+    "semantic_similarity": 0.057
+  },
+  "weights_used": {
+    "skill_match": 0.643,
+    "semantic_similarity": 0.357
+  },
+  "missing_components": [
+    "experience_relevance",
+    "education_alignment"
+  ],
+  "explanation": "Skill Match: 0.50 (weight 0.64) | Semantic Similarity: 0.06 (weight 0.36) | Missing data for: experience relevance, education alignment -- weight redistributed.",
+  "candidate": "da_resume_2"
+}

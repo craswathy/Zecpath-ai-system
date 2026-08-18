@@ -1,0 +1,19 @@
+{
+  "final_score": 4.0,
+  "component_scores": {
+    "skill_match": 0.0,
+    "experience_relevance": 0.18,
+    "education_alignment": null,
+    "semantic_similarity": 0.0
+  },
+  "weights_used": {
+    "skill_match": 0.5,
+    "experience_relevance": 0.222,
+    "semantic_similarity": 0.278
+  },
+  "missing_components": [
+    "education_alignment"
+  ],
+  "explanation": "Skill Match: 0.00 (weight 0.50) | Experience Relevance: 0.18 (weight 0.22) | Semantic Similarity: 0.00 (weight 0.28) | Missing data for: education alignment -- weight redistributed.",
+  "candidate": "civil_resume_1"
+}

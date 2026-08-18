@@ -1,0 +1,19 @@
+{
+  "final_score": 29.5,
+  "component_scores": {
+    "skill_match": 0.333,
+    "experience_relevance": 0.23,
+    "education_alignment": null,
+    "semantic_similarity": 0.277
+  },
+  "weights_used": {
+    "skill_match": 0.5,
+    "experience_relevance": 0.222,
+    "semantic_similarity": 0.278
+  },
+  "missing_components": [
+    "education_alignment"
+  ],
+  "explanation": "Skill Match: 0.33 (weight 0.50) | Experience Relevance: 0.23 (weight 0.22) | Semantic Similarity: 0.28 (weight 0.28) | Missing data for: education alignment -- weight redistributed.",
+  "candidate": "ba_resume_1"
+}
