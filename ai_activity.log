@@ -394,3 +394,6 @@
 2026-08-18 09:50:49,824 - INFO - ATS score computed: 24.6/100
 2026-08-18 09:50:49,838 - INFO - ATS score computed: 25.6/100
 2026-08-18 09:50:49,841 - INFO - ATS score computed: 52.2/100
+2026-08-19 10:44:57,209 - INFO - Loaded 10 scored candidates for ranking
+2026-08-19 10:44:57,209 - INFO - Ranked 10 candidates
+2026-08-19 10:44:57,209 - INFO - Generated recruiter report

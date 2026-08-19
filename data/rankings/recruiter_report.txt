@@ -1,0 +1,30 @@
+Candidate Ranking Report — Data Analyst
+============================================================
+Total candidates evaluated: 10
+
+--- Shortlisted (0) ---
+  (none)
+
+--- Needs Review (1) ---
+  #1  soft_resume_1                   Score:  52.2/100   [Needs Review]
+      Reason: Skill Match: 0.66 (weight 0.64) | Semantic Similarity: 0.28 (weight 0.36) | Missing data for: experience relevance, education alignment -- weight redistributed.
+
+--- Auto-Rejected (9) ---
+  #2  da_resume_2                     Score:  34.2/100   [Auto-Rejected]
+      Reason: Skill Match: 0.50 (weight 0.64) | Semantic Similarity: 0.06 (weight 0.36) | Missing data for: experience relevance, education alignment -- weight redistributed.
+  #3  da_resume_1                     Score:  33.4/100   [Auto-Rejected]
+      Reason: Skill Match: 0.67 (weight 0.50) | Experience Relevance: 0.00 (weight 0.22) | Semantic Similarity: 0.00 (weight 0.28) | Missing data for: education alignment -- weight redistributed.
+  #4  ba_resume_2                     Score:  32.5/100   [Auto-Rejected]
+      Reason: Skill Match: 0.64 (weight 0.50) | Experience Relevance: 0.00 (weight 0.22) | Semantic Similarity: 0.03 (weight 0.28) | Missing data for: education alignment -- weight redistributed.
+  #5  da_resume_3                     Score:  30.9/100   [Auto-Rejected]
+      Reason: Skill Match: 0.48 (weight 0.50) | Experience Relevance: 0.29 (weight 0.22) | Semantic Similarity: 0.02 (weight 0.28) | Missing data for: education alignment -- weight redistributed.
+  #6  ba_resume_1                     Score:  29.5/100   [Auto-Rejected]
+      Reason: Skill Match: 0.33 (weight 0.50) | Experience Relevance: 0.23 (weight 0.22) | Semantic Similarity: 0.28 (weight 0.28) | Missing data for: education alignment -- weight redistributed.
+  #7  java_resume_1                   Score:  25.6/100   [Auto-Rejected]
+      Reason: Skill Match: 0.49 (weight 0.50) | Experience Relevance: 0.00 (weight 0.22) | Semantic Similarity: 0.04 (weight 0.28) | Missing data for: education alignment -- weight redistributed.
+  #8  hr_resume_2                     Score:  24.6/100   [Auto-Rejected]
+      Reason: Skill Match: 0.48 (weight 0.50) | Experience Relevance: 0.00 (weight 0.22) | Semantic Similarity: 0.02 (weight 0.28) | Missing data for: education alignment -- weight redistributed.
+  #9  hr_resume_1                     Score:  13.0/100   [Auto-Rejected]
+      Reason: Skill Match: 0.17 (weight 0.50) | Experience Relevance: 0.20 (weight 0.22) | Semantic Similarity: 0.01 (weight 0.28) | Missing data for: education alignment -- weight redistributed.
+  #10  civil_resume_1                  Score:   4.0/100   [Auto-Rejected]
+      Reason: Skill Match: 0.00 (weight 0.50) | Experience Relevance: 0.18 (weight 0.22) | Semantic Similarity: 0.00 (weight 0.28) | Missing data for: education alignment -- weight redistributed.
