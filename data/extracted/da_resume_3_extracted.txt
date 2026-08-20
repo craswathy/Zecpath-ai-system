@@ -1,40 +1,52 @@
-Trisha Stamm
-Data Scientist, Microsoft Certified
-401439-3501 linkedin.com/in/trishastamm
-trishastamm@gmail.com
-Microsoft and Google certified data scientist with 9 years of experience. Seeking to increase data efficiency for Contranix, Inc.
-Achievements include creating models to predict stock price with 25% more accuracy than the historical average. Achieved 20%
-improvement in investment returns.
-EXPERIENCE
-2013-10 - 2017-12 Data Scientist
-Exend Capital Inc.
-- Fulfilled all data science duties for a high-end capital management firm.
-- Created and presented models for potential holdings to fund managers. Achieved 20% better returns vs
-historical performance.
-- Created machine learning tools that computed adjusted P/E values.
-- Predicted stock price 25% better than traditional figures.
-2012-08 - 2013-09Junior Data Scientist
-Supracy Rea/ Estate Inc.
-- Collaborated with all team members to optimize Customer Relationship Management database for a
-highvolume real estate firm.
-- Increased repeat business among real estate investors by 25%.
-- Decreased wasted phone and email time by 57%.
-2012-06 - 2017-12Freelance Data Scientist
-Various
-- NCAAMaster: Beat 200+ statistics professors, students, and professionals in an NCAA pool. Didnt try to cram
-basketball into a framework where it didnt fit.
-- FootForest: Used random forest regressor to predict fantasy football scores.
-- Pylearn 2: Regular contributor to Machine Learning project on GitHub.
+TRISHA STAMM
+New York, NY  (201) 439-3501  trishastamm@gmail.com  linkedin.com/in/trishastamm
+PROFESSIONAL SUMMARY
+Client-facing Data Scientist and Microsoft Certified Data Science Professional with hands-on experience in
+machine learning, statistical modeling, and data engineering. Skilled in writing efficient code using Python,
+SQL, R, and PyLearn2 to extract actionable insights from complex datasets. Proven track record of building
+predictive models, optimizing CRM database workflows, and presenting technical solutions to clients and
+cross-functional stakeholders. Fluent in English and Portuguese.
+TECHNICAL SKILLS
+- Programming Languages: Python (PyLearn2), R, SQL (Advanced SQL, Snowflake, BigQuery),
+Git/GitHub.
+- Machine Learning & Modeling: Predictive Modeling, Linear & Logistic Regressions, Random Forest
+Regressor, Support Vector Machines (SVM), Trend Forecasting, Statistical Significance Testing,
+Decision Trees.
+- Data Engineering & BI Tools: Data Cleansing & Normalization, Dashboard Architecture, Automated
+KPI Tracking, Looker, Power BI, Advanced Excel (Macros, Pivot Tables).
+- CRM & Operations: Enterprise CRM Administration (Zoho CRM, Salesforce), Workflow Automation,
+Process Improvement, Data Quality Standards.
+- Professional Skills: Cross-functional Collaboration, Client Presentations, Stakeholder
+Communication, Technical Writing, Reusable Code Library Development.
+- Languages: English (Native/Fluent), Portuguese (Fluent), Spanish (Conversational).
+WORK EXPERIENCE
+Data Scientist
+Exend Capital Inc.  New York, NY  2013  2017
+- Designed, built, and deployed predictive machine learning models for potential financial holdings,
+outperforming historical investment returns by 20%.
+- Developed automated ML tools calculating adjusted P/E metrics, improving stock price prediction
+accuracy by 25% over traditional financial figures.
+- Cleaned, transformed, and queried complex unstructured datasets using Python and SQL to deliver
+actionable insights to executive fund managers.
+- Translated complex technical concepts into strategic data science solutions for internal decision-
+makers and cross-functional teams.
+Junior Data Scientist
+Supracy Real Estate Inc.  New York, NY  2012  2013
+- Partnered with cross-functional teams to optimize customer relationship management (CRM)
+databases, improving data quality and user workflow rules.
+- Implemented targeted data analytics and customer segmentation models that increased repeat
+business among real estate investors by 25%.
+- Standardized contact data normalization, reducing wasted phone and email outreach cycles by 57%.
+Freelance Data Scientist & Open-Source Contributor
+Various Projects  2012  2017
+- FootForest Project: Applied Random Forest Regressor and predictive statistical modeling techniques
+in Python to model complex trends.
+- PyLearn2 Open Source: Authored and contributed modular, reusable machine learning code on
+GitHub for open-source AI frameworks.
 EDUCATION
-2008 - 2012 BS in Statistics, Syracuse University
-- Excelled in machine learning and data science coursework.
-- Completed a senior project to predict waitress tips in a busy Boston restaurant. Used decision trees,
-regression models, and SVM.
-- President, Al club.
-Microsoft Professional Program for Data Science
-- Completed all 10 required courses in Data Science (120 hours).
-- Mastered 10 crucial data science skills.
-Additional Activities
-- Article Machine Learning in the Next 10 Years cited in Forbes.
-- Leader of bi-monthly hiking club.
-- Volunteer monthly at the Boylston St. Soup Kitchen.
+Bachelor of Science in Statistics
+Syracuse University  Syracuse, NY  Graduated 2012
+- Focus: Machine Learning, Data Science, Decision Trees, Regression Analysis, SVM.
+- Leadership: President, AI Club.
+CERTIFICATIONS
+- Microsoft Professional Certificate in Data Science (10-Course Specialization)

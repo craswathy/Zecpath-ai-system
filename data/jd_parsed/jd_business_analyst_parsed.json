@@ -1,6 +1,6 @@
 {
   "job_id": "jd_business_analyst",
-  "title": "Concentrix",
+  "title": "Job ID: CX-BA-001",
   "required_skills": [
     {
       "name": "communication",
@@ -19,6 +19,10 @@
       "mandatory": true
     },
     {
+      "name": "power bi",
+      "mandatory": true
+    },
+    {
       "name": "sql",
       "mandatory": true
     },
@@ -27,7 +31,7 @@
       "mandatory": true
     }
   ],
-  "min_experience_years": 2,
+  "min_experience_years": 4,
   "max_experience_years": 4,
   "education_requirement": {
     "degree": "Bachelor's",

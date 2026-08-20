@@ -1,35 +1,35 @@
-Concentrix
-Business Analyst 
-Mexico City, Mexico · 3 weeks ago · Over 100 applicants
-Promoted by hirer · Actively reviewing applicants
-On-site
-Full-time
-About the job
-We're hiring a Business Analyst to support our Global Sales Center COE. In this role, you'll develop and maintain business intelligence reporting, analyze sales performance data, support business planning activities, and drive process improvements that enable sales teams to achieve their monthly and quarterly objectives. You will work closely with sales leadership, operations teams, and internal stakeholders to deliver data-driven insights and business recommendations. 
+Job ID: CX-BA-001
 
-You have:
-•	2-4+ years of experience as a Business Analyst, Reporting Analyst, Sales Analyst, Business Intelligence Analyst, or similar role.
-•	Bachelor's degree in Business Administration, Engineering, Statistics, Economics, Data Analytics, Information Systems, or a related field.
-•	Strong analytical and problem-solving skills with the ability to interpret complex datasets and identify business trends.
-•	Advanced Microsoft Excel skills, including data analysis, pivot tables, dashboards, and reporting automation.
-•	Advanced PowerPoint skills with the ability to communicate insights effectively to leadership teams.
-•	Experience working with SQL and business reporting tools. 
-•	Experience with Power Platform solutions and Microsoft applications.
-•	Ability to build and maintain dashboards, reports, and performance tracking tools.
-•	Strong stakeholder management and communication skills.
-•	Experience supporting sales, operations, business planning, or performance management environments.
-•	Ability to manage multiple reporting requests and projects simultaneously.
-•	Advanced English communication skills (written and verbal).
+Title: Business Analyst
 
+Company: Concentrix
 
-You will:
-•	Develop, maintain, and improve business reports, dashboards, and performance tracking tools to support sales teams in achieving quota attainment and business objectives.
-•	Collect, cleanse, analyze, and interpret sales and business performance data from multiple sources. 
-•	Monitor sales performance metrics and proactively identify trends, opportunities, risks, and anomalies. 
-•	Collaborate closely with sales leaders, operations teams, business planning teams, and analytics partners to provide data-driven recommendations.
-•	Support monthly and quarterly business reviews through accurate reporting and performance analysis. 
-•	Provide ad hoc reporting and analytical support to management and business stakeholders. 
-•	Coordinate multiple data analysis requests with varying levels of complexity and business impact.
-•	Support process improvement initiatives and contribute to the creation of new reporting solutions, tools, and business processes.
-•	Act as a key liaison between business users, CRM teams, reporting teams, and operational stakeholders.
-•	Ensure compliance with programs, processes, and reporting standards.
+Domain Category: Business Intelligence / Data Analytics
+
+Location: Mexico City, Mexico
+
+POSITION OVERVIEW
+
+Concentrix is seeking a Business Analyst to support the Global Sales Center COE by developing business intelligence reporting, analyzing sales performance data, supporting business planning, and driving process improvements.
+
+REQUIREMENTS
+
+Experience: 2–4+ years of experience as a Business Analyst, Reporting Analyst, Sales Analyst, or Business Intelligence Analyst.
+
+Education: Bachelor's degree in Business Administration, Statistics, Economics, Data Analytics, Information Systems, or Engineering.
+
+Technical Skills: Advanced Microsoft Excel (Pivot Tables, Dashboards, Reporting Automation), SQL, Tableau, Microsoft Power BI, Power Platform Solutions, Microsoft Applications.
+
+Analytics & Domain Knowledge: Sales performance analysis, quota attainment tracking, business planning support, trend analysis, data cleansing, performance management.
+
+Communication & Professional Skills: Advanced PowerPoint skills, stakeholder management, cross-functional collaboration, multi-project coordination, English and Spanish fluency.
+
+RESPONSIBILITIES
+
+Develop and maintain business intelligence reports, dashboards, and performance tracking tools for sales performance and quota attainment.
+
+Collect, cleanse, and analyze sales performance data from multiple sources, identifying trends, opportunities, and risks.
+
+Support monthly and quarterly business reviews by providing data-driven insights to sales leadership and CRM teams.
+
+Drive process improvement initiatives and manage multiple ad hoc reporting requests simultaneously.

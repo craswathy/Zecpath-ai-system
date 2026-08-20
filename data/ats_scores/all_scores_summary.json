@@ -1,42 +1,42 @@
 [
   {
     "candidate": "ba_resume_1",
-    "final_score": 29.5
+    "final_score": 79.8
   },
   {
     "candidate": "ba_resume_2",
-    "final_score": 32.5
+    "final_score": 49.4
   },
   {
     "candidate": "civil_resume_1",
-    "final_score": 4.0
+    "final_score": 8.5
   },
   {
     "candidate": "da_resume_1",
-    "final_score": 33.4
+    "final_score": 71.0
   },
   {
     "candidate": "da_resume_2",
-    "final_score": 34.2
+    "final_score": 57.9
   },
   {
     "candidate": "da_resume_3",
-    "final_score": 30.9
+    "final_score": 77.8
   },
   {
     "candidate": "hr_resume_1",
-    "final_score": 13.0
+    "final_score": 23.3
   },
   {
     "candidate": "hr_resume_2",
-    "final_score": 24.6
+    "final_score": 40.8
   },
   {
     "candidate": "java_resume_1",
-    "final_score": 25.6
+    "final_score": 28.8
   },
   {
     "candidate": "soft_resume_1",
-    "final_score": 52.2
+    "final_score": 21.2
   }
 ]

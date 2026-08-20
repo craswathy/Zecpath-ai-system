@@ -1,61 +1,51 @@
-Desmond Lebsack
-227 Ferry Circles, San Francisco, CA - Phone: +1 (555) 248 0781
-EXPERIENCE SENIOR SYSTEM ANALYST BUSINESS ANALYST
-Philadelphia, PA
-03/2016  present
-Manage multiple projects or medium to very complex projects on time, including cross-functional
-projects, on budget and according to specifications
-Provide status of effort accomplished, estimates of remaining effort, and issues impacting progress
-Assists in the execution of the transition including the implementation plan
-- Create test cases, participate in the actual testing, and document the test results
-May lead a project or project team with significant impact on company results, or may be an expert in
-his field, providing ideas, opinions and advice to others
-Coach others on project management issues and recommend approaches
-- Create and document the test strategy and plan for all part of the system
-FINANCIAL ANALYST 1 BUSINESS ANALYST
-Detroit, Ml
-01/2010-01/2016
-Support operating plan cycle globally ensuring schedule adherence and process completion for all
-involved contributors
-Plays an integral role in assisting senior management to txtter understand current challenges and
-opportunities in regards to the business
-Well-versed in operating plan cycle of multinational company
-- Assist with technical analysis to determine present and future performance of reporting tools for the
-Corporate and/or Business and Operational Units
-Prepares defined reports on a scheduled basis for Major Markets, Sales, HR and the Sr. Executives
-Tracks, analyzes, and troubleshoots process flow problems and recommend systems enhancements
-that will resolve them
-Develop and prepares the Global SeatingCapacity, Financial UCM Model, and HPP Model which
-includes but not limited to partnering with key members of the Operations team and financial
-controllers globally
-DATA ANALYST BUSINESS ANALYST
-Boston, MA
-02/2004 - 12/2009
-Interpret data, analyze results using statistical techniques and provide ongoing reports Adept at
-queries, report writing and presenting findings
-- Technical expertise regarding data models, database design development, data mining and segmentation
-techniques
-Identifying factors that lead to better program outcomes and help to develop statistical models
-Conducting statistical tests of significance and correlation analysis
-- Investigate, define and resolve data and result in consistencies
-Develop and implement data collection systems and other strategies that optimize statistical efficiency
-and data quality
+DESMOND LEBSACK
+San Francisco, CA  +1 (555) 248-0781  desmond.lebsack@email.com  linkedin.com/in/desmondlebsack
+PROFESSIONAL SUMMARY
+Senior Business Analyst and System Analyst with over 20 years of experience driving business intelligence,
+statistical data modeling, and process automation across cross-functional enterprise environments. Expert
+in SQL, Database Management Systems (DBMS), data mining, statistical analysis, and complex report
+automation. Proven track record of managing end-to-end project timelines, creating test strategies,
+building global financial models, and delivering actionable performance analytics to executive leadership.
+SKILLS
+- Business Intelligence & Analytics: SQL, Database Management Systems (DBMS), Data Mining, Data
+Modeling, Statistical Testing & Correlation Analysis, Data Cleansing, Segmentation Techniques.
+- System Analysis & Project Management: Test Strategy & Test Case Execution, Cross-functional
+Project Leadership, Process Flow Optimization, System Enhancement, Transition Planning, BMC
+Remedy Reporting.
+- Tools & Software: Advanced Microsoft Excel, Microsoft Access, Microsoft PowerPoint, Microsoft
+Word, Windows OS, BMC Remedy, Automated Reporting Tools.
+- Core Competencies: Stakeholder Management, Executive Reporting, Technical Analysis, Operations
+Planning, Performance Management, Detail-Oriented Problem Solving.
+WORK EXPERIENCE
+Senior System Analyst / Business Analyst
+Philadelphia, PA  March 2016  Present
+- Lead cross-functional project teams through complex system implementations, ensuring delivery on
+time, within budget, and aligned with enterprise specifications.
+- Formulate comprehensive test strategies, document test plans/cases, and oversee user acceptance
+testing (UAT) to ensure high system quality and reliability.
+- Provide regular status reporting, effort estimation, and risk mitigation strategies to senior
+leadership, coaching project team members on project management methodologies.
+- Utilize BMC Remedy to run, build, and extract detailed operational and system analytics reports.
+Financial Analyst / Business Analyst
+Detroit, MI  January 2010  January 2016
+- Supported global operating plan cycles for multinational operations, partnering with financial
+controllers and operational leads to maintain process completion and schedule adherence.
+- Developed and executed complex financial models, including Global Seating Capacity, Financial
+UCM, and HPP models, to support strategic decision-making.
+- Tracked, analyzed, and troubleshot process flow inefficiencies, recommending and implementing
+key system enhancements.
+- Generated scheduled performance reports for Major Markets, Sales, HR, and Senior Executives
+using Microsoft Excel and SQL queries.
+Data Analyst / Business Analyst
+Boston, MA  February 2004  December 2009
+- Interpreted complex datasets using statistical techniques, hypothesis testing, and correlation
+analysis to optimize program outcomes.
+- Designed, developed, and deployed data collection systems and statistical models that improved
+data quality and statistical efficiency.
+- Identified and resolved data inconsistencies through data cleansing, segmentation, and advanced
+database querying in SQL.
+- Presented analytical findings, data models, and database design improvements to non-technical
+stakeholders and leadership teams.
 EDUCATION
-AUBURN UNIVERSITY
 Bachelors Degree in Analytics
-SKILLS Excellent communication skills Willingness to learn new tool sets and processes Ability to work in a
-dynamic environment Ability to handle multiple projectsJtasks Proven ability to use Microsoft Office
-tools (Access, Excel, Powerpoint in particular) & Windows Operating Systems BMC Remedy
-EXPERIENCE
-SQL proficiency General Knowledge Database Management Systems
-Experienced in Microsoft Word, Powerpoint ,Proven verbal and written communication skills.
-Experienced in BMC Remedy (e.g. , building reports, running reports, extracting reports)
-Ability to develop professional relationships
-- Ability to be careful and thorough about detail
-Ability to comprehend and interpret documents and data
-Ability to communicate effectively with audiences of varying technical aptitudes Result and deadline
-driven
-Ability to drive project timelines to completion with a cross-functional team
-Ability to communicate both verbally and in writing, fluently in English
-Ability to communicate and exchange information
-Ability to multi-task and work under pressure
+Auburn University  Auburn, AL

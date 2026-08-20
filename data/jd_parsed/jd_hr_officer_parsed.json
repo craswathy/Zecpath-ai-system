@@ -1,24 +1,16 @@
 {
   "job_id": "jd_hr_officer",
-  "title": "PX.com",
+  "title": "Job ID: PX-HRO-001",
   "required_skills": [
     {
       "name": "communication",
       "mandatory": true
-    },
-    {
-      "name": "excel",
-      "mandatory": true
-    },
-    {
-      "name": "leadership",
-      "mandatory": true
     }
   ],
-  "min_experience_years": 1,
-  "max_experience_years": 1,
+  "min_experience_years": 5,
+  "max_experience_years": 5,
   "education_requirement": {
-    "degree": "Not specified",
+    "degree": "Master's",
     "field_of_study": null
   }
 }

@@ -1,36 +1,8 @@
 {
   "candidate_file": "hr_resume_1_extracted.txt",
-  "experience_entries": [
-    {
-      "company": null,
-      "designation": "Developed and executed a comprehensive employee engagement",
-      "start_date_raw": "Aug 2013",
-      "end_date_raw": "May 2018",
-      "relevance_score": 0.2
-    },
-    {
-      "company": "Education",
-      "designation": null,
-      "start_date_raw": "May 2023",
-      "end_date_raw": "Present",
-      "relevance_score": 0.0
-    },
-    {
-      "company": null,
-      "designation": null,
-      "start_date_raw": "Aug 2018",
-      "end_date_raw": "Apr 2023",
-      "relevance_score": 0.0
-    }
-  ],
-  "total_experience_years": 12.7,
-  "gaps": [
-    {
-      "gap_from": "2018-05",
-      "gap_to": "2018-08",
-      "gap_days": 92
-    }
-  ],
+  "experience_entries": [],
+  "total_experience_years": 0.0,
+  "gaps": [],
   "overlaps": [],
   "scored_against_job_title": "Data Analyst"
 }

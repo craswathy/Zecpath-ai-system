@@ -1,36 +1,8 @@
 {
   "candidate_file": "java_resume_1_extracted.txt",
-  "experience_entries": [
-    {
-      "company": "SENIOR / LEAD JAVA DEVELOPER",
-      "designation": null,
-      "start_date_raw": "12/2013",
-      "end_date_raw": "10/2016",
-      "relevance_score": 0.0
-    },
-    {
-      "company": "LEAD JAVA DEVELOPER / ARCHITECT",
-      "designation": null,
-      "start_date_raw": "12/2009",
-      "end_date_raw": "08/2013",
-      "relevance_score": 0.0
-    },
-    {
-      "company": "HERGUAN U",
-      "designation": null,
-      "start_date_raw": "NIVERSITY 2003",
-      "end_date_raw": "2008",
-      "relevance_score": 0.0
-    }
-  ],
-  "total_experience_years": 6.5,
-  "gaps": [
-    {
-      "gap_from": "2013-08",
-      "gap_to": "2013-12",
-      "gap_days": 122
-    }
-  ],
+  "experience_entries": [],
+  "total_experience_years": 0.0,
+  "gaps": [],
   "overlaps": [],
   "scored_against_job_title": "Data Analyst"
 }

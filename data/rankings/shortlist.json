@@ -1,1 +1,65 @@
-[]
+[
+  {
+    "final_score": 79.8,
+    "component_scores": {
+      "skill_match": 1.0,
+      "experience_relevance": null,
+      "education_alignment": null,
+      "semantic_similarity": 0.434
+    },
+    "weights_used": {
+      "skill_match": 0.643,
+      "semantic_similarity": 0.357
+    },
+    "missing_components": [
+      "experience_relevance",
+      "education_alignment"
+    ],
+    "explanation": "Skill Match: 1.00 (weight 0.64) | Semantic Similarity: 0.43 (weight 0.36) | Missing data for: experience relevance, education alignment -- weight redistributed.",
+    "candidate": "ba_resume_1",
+    "rank": 1,
+    "decision_zone": "Shortlisted"
+  },
+  {
+    "final_score": 77.8,
+    "component_scores": {
+      "skill_match": 1.0,
+      "experience_relevance": null,
+      "education_alignment": null,
+      "semantic_similarity": 0.378
+    },
+    "weights_used": {
+      "skill_match": 0.643,
+      "semantic_similarity": 0.357
+    },
+    "missing_components": [
+      "experience_relevance",
+      "education_alignment"
+    ],
+    "explanation": "Skill Match: 1.00 (weight 0.64) | Semantic Similarity: 0.38 (weight 0.36) | Missing data for: experience relevance, education alignment -- weight redistributed.",
+    "candidate": "da_resume_3",
+    "rank": 2,
+    "decision_zone": "Shortlisted"
+  },
+  {
+    "final_score": 71.0,
+    "component_scores": {
+      "skill_match": 0.857,
+      "experience_relevance": null,
+      "education_alignment": null,
+      "semantic_similarity": 0.445
+    },
+    "weights_used": {
+      "skill_match": 0.643,
+      "semantic_similarity": 0.357
+    },
+    "missing_components": [
+      "experience_relevance",
+      "education_alignment"
+    ],
+    "explanation": "Skill Match: 0.86 (weight 0.64) | Semantic Similarity: 0.45 (weight 0.36) | Missing data for: experience relevance, education alignment -- weight redistributed.",
+    "candidate": "da_resume_1",
+    "rank": 3,
+    "decision_zone": "Shortlisted"
+  }
+]

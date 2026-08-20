@@ -6,7 +6,55 @@
     "match_type": "exact"
   },
   {
+    "skill": "sql",
+    "category": "technical",
+    "confidence": 1.0,
+    "match_type": "exact"
+  },
+  {
+    "skill": "power bi",
+    "category": "technical",
+    "confidence": 1.0,
+    "match_type": "exact"
+  },
+  {
     "skill": "machine learning",
+    "category": "technical",
+    "confidence": 1.0,
+    "match_type": "exact"
+  },
+  {
+    "skill": "mongodb",
+    "category": "technical",
+    "confidence": 1.0,
+    "match_type": "exact"
+  },
+  {
+    "skill": "aws",
+    "category": "technical",
+    "confidence": 1.0,
+    "match_type": "exact"
+  },
+  {
+    "skill": "tensorflow",
+    "category": "technical",
+    "confidence": 1.0,
+    "match_type": "exact"
+  },
+  {
+    "skill": "scikit-learn",
+    "category": "technical",
+    "confidence": 1.0,
+    "match_type": "exact"
+  },
+  {
+    "skill": "pandas",
+    "category": "technical",
+    "confidence": 1.0,
+    "match_type": "exact"
+  },
+  {
+    "skill": "numpy",
     "category": "technical",
     "confidence": 1.0,
     "match_type": "exact"

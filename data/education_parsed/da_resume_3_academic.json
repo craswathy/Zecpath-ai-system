@@ -2,31 +2,31 @@
   "candidate_file": "da_resume_3_labeled.json",
   "education": [
     {
-      "degree": "Master's",
-      "field_of_study": "data science",
-      "institution": "Excelled in machine learning and data science coursework.",
+      "degree": "Bachelor's",
+      "field_of_study": "statistics",
+      "institution": "Bachelor of Science in Statistics",
       "graduation_year": null
     },
     {
       "degree": "Master's",
       "field_of_study": "data science",
-      "institution": "Mastered 10 crucial data science skills.",
-      "graduation_year": null
-    },
-    {
-      "degree": "Master's",
-      "field_of_study": null,
-      "institution": "Article Machine Learning in the Next 10 Years cited in Forbes.",
+      "institution": "Focus: Machine Learning, Data Science, Decision Trees, Regression Analysis, SVM.",
       "graduation_year": null
     }
   ],
-  "certifications": [],
+  "certifications": [
+    {
+      "name": "- Microsoft Professional Certificate in Data Science (10-Course Specialization)",
+      "category": "general",
+      "year": null
+    }
+  ],
   "education_relevance": {
     "relevance_score": 0.78,
     "best_match": {
       "degree": "Master's",
       "field_of_study": "data science",
-      "institution": "Excelled in machine learning and data science coursework.",
+      "institution": "Focus: Machine Learning, Data Science, Decision Trees, Regression Analysis, SVM.",
       "graduation_year": null,
       "relevance_score": 0.78
     }

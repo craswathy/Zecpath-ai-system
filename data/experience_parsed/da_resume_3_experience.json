@@ -1,28 +1,8 @@
 {
   "candidate_file": "da_resume_3_extracted.txt",
-  "experience_entries": [
-    {
-      "company": null,
-      "designation": "BS in Statistics, Syracuse University",
-      "start_date_raw": "2008",
-      "end_date_raw": "2012",
-      "relevance_score": 0.29
-    },
-    {
-      "company": "40",
-      "designation": "linkedin.com/in/trishastamm",
-      "start_date_raw": "1439",
-      "end_date_raw": "3501",
-      "relevance_score": 0.26
-    }
-  ],
-  "total_experience_years": 2061.96,
+  "experience_entries": [],
+  "total_experience_years": 0.0,
   "gaps": [],
-  "overlaps": [
-    {
-      "overlap_start": "2008-01",
-      "overlap_end": "3501-01"
-    }
-  ],
+  "overlaps": [],
   "scored_against_job_title": "Data Analyst"
 }

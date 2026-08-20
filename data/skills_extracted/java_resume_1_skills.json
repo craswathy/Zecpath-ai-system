@@ -1,6 +1,12 @@
 [
   {
-    "skill": "excel",
+    "skill": "python",
+    "category": "technical",
+    "confidence": 1.0,
+    "match_type": "exact"
+  },
+  {
+    "skill": "sql",
     "category": "technical",
     "confidence": 1.0,
     "match_type": "exact"
@@ -12,25 +18,31 @@
     "match_type": "exact"
   },
   {
+    "skill": "spring boot",
+    "category": "technical",
+    "confidence": 1.0,
+    "match_type": "exact"
+  },
+  {
     "skill": "leadership",
     "category": "business",
     "confidence": 1.0,
     "match_type": "exact"
   },
   {
-    "skill": "communication",
+    "skill": "project management",
     "category": "business",
+    "confidence": 1.0,
+    "match_type": "exact"
+  },
+  {
+    "skill": "machine learning",
+    "category": "technical",
     "confidence": 0.95,
     "match_type": "exact"
   },
   {
     "skill": "business analysis",
-    "category": "business",
-    "confidence": 0.95,
-    "match_type": "exact"
-  },
-  {
-    "skill": "project management",
     "category": "business",
     "confidence": 0.95,
     "match_type": "exact"

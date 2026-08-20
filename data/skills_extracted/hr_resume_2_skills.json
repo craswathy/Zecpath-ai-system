@@ -6,14 +6,14 @@
     "match_type": "exact"
   },
   {
-    "skill": "aws",
-    "category": "technical",
+    "skill": "communication",
+    "category": "business",
     "confidence": 1.0,
     "match_type": "exact"
   },
   {
-    "skill": "communication",
-    "category": "business",
+    "skill": "machine learning",
+    "category": "technical",
     "confidence": 0.95,
     "match_type": "exact"
   },
@@ -25,6 +25,12 @@
   },
   {
     "skill": "business analysis",
+    "category": "business",
+    "confidence": 0.95,
+    "match_type": "exact"
+  },
+  {
+    "skill": "project management",
     "category": "business",
     "confidence": 0.95,
     "match_type": "exact"

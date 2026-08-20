@@ -1,35 +1,8 @@
 {
   "candidate_file": "ba_resume_1_extracted.txt",
-  "experience_entries": [
-    {
-      "company": null,
-      "designation": "Pittsburgh, PA",
-      "start_date_raw": "August 2020",
-      "end_date_raw": "current",
-      "relevance_score": 0.23
-    },
-    {
-      "company": null,
-      "designation": "Pittsburgh, PA",
-      "start_date_raw": "February 2017",
-      "end_date_raw": "August 2020",
-      "relevance_score": 0.23
-    },
-    {
-      "company": null,
-      "designation": null,
-      "start_date_raw": "September 2016",
-      "end_date_raw": "April 2020",
-      "relevance_score": 0.0
-    }
-  ],
-  "total_experience_years": 9.95,
+  "experience_entries": [],
+  "total_experience_years": 0.0,
   "gaps": [],
-  "overlaps": [
-    {
-      "overlap_start": "2017-02",
-      "overlap_end": "2020-04"
-    }
-  ],
+  "overlaps": [],
   "scored_against_job_title": "Data Analyst"
 }

@@ -3,14 +3,14 @@
   "education": [
     {
       "degree": "Bachelor's",
-      "field_of_study": null,
-      "institution": "September  - April",
-      "graduation_year": 2020
+      "field_of_study": "business administration",
+      "institution": "Bachelor of Science in Business Administration",
+      "graduation_year": null
     },
     {
       "degree": "Bachelor's",
       "field_of_study": "statistics",
-      "institution": "probability & Statistics Linear Algebra",
+      "institution": "Relevant Coursework: Applied Econometrics, Probability & Statistics, Linear Algebra, Intermediate",
       "graduation_year": null
     }
   ],
@@ -20,7 +20,7 @@
     "best_match": {
       "degree": "Bachelor's",
       "field_of_study": "statistics",
-      "institution": "probability & Statistics Linear Algebra",
+      "institution": "Relevant Coursework: Applied Econometrics, Probability & Statistics, Linear Algebra, Intermediate",
       "graduation_year": null,
       "relevance_score": 0.7
     }

@@ -4,37 +4,19 @@
     {
       "degree": "Bachelor's",
       "field_of_study": "computer science",
-      "institution": "Bachelors Degree in Computer Science",
-      "graduation_year": null
-    },
-    {
-      "degree": "Master's",
-      "field_of_study": null,
-      "institution": "Strong leadership skills experience With clients and third pany vendors, experience as a scrum master",
-      "graduation_year": null
-    },
-    {
-      "degree": "Master's",
-      "field_of_study": null,
-      "institution": "Experience managing and working With clients and excellent interpersonal and communication skills",
-      "graduation_year": null
-    },
-    {
-      "degree": "Bachelor's",
-      "field_of_study": null,
-      "institution": "Skills in Agile team organization and delivery, database and coding skills",
+      "institution": "Bachelor of Science in Computer Science",
       "graduation_year": null
     }
   ],
   "certifications": [],
   "education_relevance": {
-    "relevance_score": 0.6,
+    "relevance_score": 0.42,
     "best_match": {
-      "degree": "Master's",
-      "field_of_study": null,
-      "institution": "Strong leadership skills experience With clients and third pany vendors, experience as a scrum master",
+      "degree": "Bachelor's",
+      "field_of_study": "computer science",
+      "institution": "Bachelor of Science in Computer Science",
       "graduation_year": null,
-      "relevance_score": 0.6
+      "relevance_score": 0.42
     }
   }
 }

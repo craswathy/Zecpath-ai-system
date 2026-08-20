@@ -1,36 +1,48 @@
 [
   {
+    "skill": "python",
+    "category": "technical",
+    "confidence": 1.0,
+    "match_type": "exact"
+  },
+  {
     "skill": "sql",
     "category": "technical",
     "confidence": 1.0,
     "match_type": "exact"
   },
   {
-    "skill": "excel",
+    "skill": "javascript",
     "category": "technical",
     "confidence": 1.0,
     "match_type": "exact"
   },
   {
-    "skill": "power bi",
+    "skill": "java",
+    "category": "technical",
+    "confidence": 1.0,
+    "match_type": "exact"
+  },
+  {
+    "skill": "react",
+    "category": "technical",
+    "confidence": 1.0,
+    "match_type": "exact"
+  },
+  {
+    "skill": "mongodb",
+    "category": "technical",
+    "confidence": 1.0,
+    "match_type": "exact"
+  },
+  {
+    "skill": "spring boot",
     "category": "technical",
     "confidence": 1.0,
     "match_type": "exact"
   },
   {
     "skill": "machine learning",
-    "category": "technical",
-    "confidence": 1.0,
-    "match_type": "exact"
-  },
-  {
-    "skill": "communication",
-    "category": "business",
-    "confidence": 1.0,
-    "match_type": "exact"
-  },
-  {
-    "skill": "statistics",
     "category": "technical",
     "confidence": 0.95,
     "match_type": "exact"

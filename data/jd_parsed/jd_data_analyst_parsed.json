@@ -1,6 +1,6 @@
 {
   "job_id": "jd_data_analyst",
-  "title": "PayJoy",
+  "title": "Job ID: PJ-DA-001",
   "required_skills": [
     {
       "name": "communication",
@@ -16,10 +16,6 @@
     },
     {
       "name": "leadership",
-      "mandatory": true
-    },
-    {
-      "name": "machine learning",
       "mandatory": true
     },
     {

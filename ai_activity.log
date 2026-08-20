@@ -397,3 +397,1991 @@
 2026-08-19 10:44:57,209 - INFO - Loaded 10 scored candidates for ranking
 2026-08-19 10:44:57,209 - INFO - Ranked 10 candidates
 2026-08-19 10:44:57,209 - INFO - Generated recruiter report
+2026-08-20 08:36:45,061 - INFO - Loaded 10 scored candidates for ranking
+2026-08-20 08:36:45,061 - INFO - Ranked 10 candidates
+2026-08-20 08:36:45,070 - INFO - Generated recruiter report
+2026-08-20 11:57:07,114 - INFO - Found 10 resume files to process
+2026-08-20 11:57:07,214 - INFO - Successfully extracted PDF: data\ba_resume_1.pdf
+2026-08-20 11:57:07,214 - INFO - Text cleaning complete
+2026-08-20 11:57:07,214 - INFO - Saved cleaned text: data/extracted\ba_resume_1_extracted.txt
+2026-08-20 11:57:07,360 - INFO - Successfully extracted PDF: data\ba_resume_2.pdf
+2026-08-20 11:57:07,360 - INFO - Text cleaning complete
+2026-08-20 11:57:07,360 - INFO - Saved cleaned text: data/extracted\ba_resume_2_extracted.txt
+2026-08-20 11:57:07,450 - INFO - Successfully extracted PDF: data\civil_resume_1.pdf
+2026-08-20 11:57:07,450 - INFO - Text cleaning complete
+2026-08-20 11:57:07,450 - INFO - Saved cleaned text: data/extracted\civil_resume_1_extracted.txt
+2026-08-20 11:57:07,648 - INFO - Successfully extracted PDF: data\da_resume_1.pdf
+2026-08-20 11:57:07,648 - INFO - Text cleaning complete
+2026-08-20 11:57:07,665 - INFO - Saved cleaned text: data/extracted\da_resume_1_extracted.txt
+2026-08-20 11:57:07,797 - INFO - Successfully extracted PDF: data\da_resume_2.pdf
+2026-08-20 11:57:07,797 - INFO - Text cleaning complete
+2026-08-20 11:57:07,797 - INFO - Saved cleaned text: data/extracted\da_resume_2_extracted.txt
+2026-08-20 11:57:07,898 - INFO - Successfully extracted PDF: data\da_resume_3.pdf
+2026-08-20 11:57:07,898 - INFO - Text cleaning complete
+2026-08-20 11:57:07,898 - INFO - Saved cleaned text: data/extracted\da_resume_3_extracted.txt
+2026-08-20 11:57:07,998 - INFO - Successfully extracted PDF: data\hr_resume_1.pdf
+2026-08-20 11:57:07,998 - INFO - Text cleaning complete
+2026-08-20 11:57:08,015 - INFO - Saved cleaned text: data/extracted\hr_resume_1_extracted.txt
+2026-08-20 11:57:08,098 - INFO - Successfully extracted PDF: data\hr_resume_2.pdf
+2026-08-20 11:57:08,098 - INFO - Text cleaning complete
+2026-08-20 11:57:08,098 - INFO - Saved cleaned text: data/extracted\hr_resume_2_extracted.txt
+2026-08-20 11:57:08,214 - INFO - Successfully extracted PDF: data\java_resume_1.pdf
+2026-08-20 11:57:08,214 - INFO - Text cleaning complete
+2026-08-20 11:57:08,214 - INFO - Saved cleaned text: data/extracted\java_resume_1_extracted.txt
+2026-08-20 11:57:08,343 - INFO - Successfully extracted PDF: data\soft_resume_1.pdf
+2026-08-20 11:57:08,343 - INFO - Text cleaning complete
+2026-08-20 11:57:08,346 - INFO - Saved cleaned text: data/extracted\soft_resume_1_extracted.txt
+2026-08-20 11:57:21,483 - INFO - Found 10 cleaned resumes to classify
+2026-08-20 11:57:21,497 - INFO - Classified into sections: ['HEADER', 'EXPERIENCE', 'EDUCATION', 'SKILLS']
+2026-08-20 11:57:21,498 - INFO - Saved labeled sections: data/labeled_sections\ba_resume_1_labeled.json
+2026-08-20 11:57:21,498 - INFO - Classified into sections: ['HEADER', 'EXPERIENCE', 'EDUCATION', 'SKILLS']
+2026-08-20 11:57:21,498 - INFO - Saved labeled sections: data/labeled_sections\ba_resume_2_labeled.json
+2026-08-20 11:57:21,498 - INFO - Classified into sections: ['HEADER', 'EXPERIENCE', 'EDUCATION']
+2026-08-20 11:57:21,498 - INFO - Saved labeled sections: data/labeled_sections\civil_resume_1_labeled.json
+2026-08-20 11:57:21,498 - INFO - Classified into sections: ['HEADER', 'SKILLS', 'SUMMARY', 'EXPERIENCE']
+2026-08-20 11:57:21,498 - INFO - Saved labeled sections: data/labeled_sections\da_resume_1_labeled.json
+2026-08-20 11:57:21,498 - INFO - Classified into sections: ['HEADER', 'EXPERIENCE', 'SKILLS', 'CERTIFICATIONS', 'EDUCATION']
+2026-08-20 11:57:21,498 - INFO - Saved labeled sections: data/labeled_sections\da_resume_2_labeled.json
+2026-08-20 11:57:21,498 - INFO - Classified into sections: ['HEADER', 'EXPERIENCE', 'SKILLS', 'EDUCATION']
+2026-08-20 11:57:21,498 - INFO - Saved labeled sections: data/labeled_sections\da_resume_3_labeled.json
+2026-08-20 11:57:21,498 - INFO - Classified into sections: ['HEADER', 'EDUCATION', 'SKILLS', 'EXPERIENCE', 'CERTIFICATIONS']
+2026-08-20 11:57:21,498 - INFO - Saved labeled sections: data/labeled_sections\hr_resume_1_labeled.json
+2026-08-20 11:57:21,498 - INFO - Classified into sections: ['HEADER', 'EXPERIENCE', 'EDUCATION', 'SKILLS']
+2026-08-20 11:57:21,498 - INFO - Saved labeled sections: data/labeled_sections\hr_resume_2_labeled.json
+2026-08-20 11:57:21,498 - INFO - Classified into sections: ['HEADER', 'EXPERIENCE', 'EDUCATION', 'SKILLS']
+2026-08-20 11:57:21,498 - INFO - Saved labeled sections: data/labeled_sections\java_resume_1_labeled.json
+2026-08-20 11:57:21,498 - INFO - Classified into sections: ['HEADER', 'EXPERIENCE', 'EDUCATION', 'SKILLS']
+2026-08-20 11:57:21,498 - INFO - Saved labeled sections: data/labeled_sections\soft_resume_1_labeled.json
+2026-08-20 11:57:33,531 - INFO - Found 10 resumes for skill extraction
+2026-08-20 11:57:33,548 - INFO - Extracted 7 unique skills
+2026-08-20 11:57:33,548 - INFO - Saved skills: data/skills_extracted\ba_resume_1_skills.json
+2026-08-20 11:57:33,548 - INFO - Extracted 8 unique skills
+2026-08-20 11:57:33,548 - INFO - Saved skills: data/skills_extracted\ba_resume_2_skills.json
+2026-08-20 11:57:33,563 - INFO - Extracted 4 unique skills
+2026-08-20 11:57:33,564 - INFO - Saved skills: data/skills_extracted\civil_resume_1_skills.json
+2026-08-20 11:57:33,565 - INFO - Extracted 9 unique skills
+2026-08-20 11:57:33,565 - INFO - Saved skills: data/skills_extracted\da_resume_1_skills.json
+2026-08-20 11:57:33,577 - INFO - Extracted 7 unique skills
+2026-08-20 11:57:33,580 - INFO - Saved skills: data/skills_extracted\da_resume_2_skills.json
+2026-08-20 11:57:33,581 - INFO - Extracted 7 unique skills
+2026-08-20 11:57:33,581 - INFO - Saved skills: data/skills_extracted\da_resume_3_skills.json
+2026-08-20 11:57:33,581 - INFO - Extracted 5 unique skills
+2026-08-20 11:57:33,581 - INFO - Saved skills: data/skills_extracted\hr_resume_1_skills.json
+2026-08-20 11:57:33,581 - INFO - Extracted 5 unique skills
+2026-08-20 11:57:33,597 - INFO - Saved skills: data/skills_extracted\hr_resume_2_skills.json
+2026-08-20 11:57:33,598 - INFO - Extracted 6 unique skills
+2026-08-20 11:57:33,598 - INFO - Saved skills: data/skills_extracted\java_resume_1_skills.json
+2026-08-20 11:57:33,598 - INFO - Extracted 6 unique skills
+2026-08-20 11:57:33,598 - INFO - Saved skills: data/skills_extracted\soft_resume_1_skills.json
+2026-08-20 11:57:43,847 - INFO - Found 10 resumes for experience parsing
+2026-08-20 11:57:43,847 - INFO - Extracted 3 experience entries
+2026-08-20 11:57:43,847 - INFO - Scored 3 experience entries against job title 'Data Analyst'
+2026-08-20 11:57:43,847 - INFO - Saved experience object: data/experience_parsed\ba_resume_1_experience.json
+2026-08-20 11:57:43,847 - INFO - Extracted 2 experience entries
+2026-08-20 11:57:43,847 - INFO - Scored 2 experience entries against job title 'Data Analyst'
+2026-08-20 11:57:43,847 - INFO - Saved experience object: data/experience_parsed\ba_resume_2_experience.json
+2026-08-20 11:57:43,847 - INFO - Extracted 1 experience entries
+2026-08-20 11:57:43,847 - INFO - Scored 1 experience entries against job title 'Data Analyst'
+2026-08-20 11:57:43,847 - INFO - Saved experience object: data/experience_parsed\civil_resume_1_experience.json
+2026-08-20 11:57:43,847 - INFO - Extracted 4 experience entries
+2026-08-20 11:57:43,847 - INFO - Scored 4 experience entries against job title 'Data Analyst'
+2026-08-20 11:57:43,847 - INFO - Saved experience object: data/experience_parsed\da_resume_1_experience.json
+2026-08-20 11:57:43,847 - INFO - Extracted 0 experience entries
+2026-08-20 11:57:43,847 - INFO - Scored 0 experience entries against job title 'Data Analyst'
+2026-08-20 11:57:43,847 - INFO - Saved experience object: data/experience_parsed\da_resume_2_experience.json
+2026-08-20 11:57:43,847 - INFO - Extracted 2 experience entries
+2026-08-20 11:57:43,847 - INFO - Scored 2 experience entries against job title 'Data Analyst'
+2026-08-20 11:57:43,847 - INFO - Saved experience object: data/experience_parsed\da_resume_3_experience.json
+2026-08-20 11:57:43,862 - INFO - Extracted 3 experience entries
+2026-08-20 11:57:43,862 - INFO - Scored 3 experience entries against job title 'Data Analyst'
+2026-08-20 11:57:43,862 - INFO - Saved experience object: data/experience_parsed\hr_resume_1_experience.json
+2026-08-20 11:57:43,863 - INFO - Extracted 1 experience entries
+2026-08-20 11:57:43,863 - INFO - Scored 1 experience entries against job title 'Data Analyst'
+2026-08-20 11:57:43,863 - INFO - Saved experience object: data/experience_parsed\hr_resume_2_experience.json
+2026-08-20 11:57:43,865 - INFO - Extracted 4 experience entries
+2026-08-20 11:57:43,865 - INFO - Scored 4 experience entries against job title 'Data Analyst'
+2026-08-20 11:57:43,865 - INFO - Saved experience object: data/experience_parsed\java_resume_1_experience.json
+2026-08-20 11:57:43,865 - INFO - Extracted 0 experience entries
+2026-08-20 11:57:43,865 - INFO - Scored 0 experience entries against job title 'Data Analyst'
+2026-08-20 11:57:43,868 - INFO - Saved experience object: data/experience_parsed\soft_resume_1_experience.json
+2026-08-20 11:57:58,385 - INFO - Found 10 labeled resumes for education parsing
+2026-08-20 11:57:58,387 - INFO - Extracted 2 education entries
+2026-08-20 11:57:58,387 - INFO - Best education match scored 0.7
+2026-08-20 11:57:58,387 - INFO - Saved academic profile: data/education_parsed\ba_resume_1_academic.json
+2026-08-20 11:57:58,389 - INFO - Extracted 1 education entries
+2026-08-20 11:57:58,389 - INFO - Best education match scored 0.42
+2026-08-20 11:57:58,389 - INFO - Saved academic profile: data/education_parsed\ba_resume_2_academic.json
+2026-08-20 11:57:58,389 - INFO - Extracted 3 education entries
+2026-08-20 11:57:58,389 - INFO - Best education match scored 0.79
+2026-08-20 11:57:58,390 - INFO - Saved academic profile: data/education_parsed\civil_resume_1_academic.json
+2026-08-20 11:57:58,390 - INFO - Extracted 0 education entries
+2026-08-20 11:57:58,390 - INFO - Saved academic profile: data/education_parsed\da_resume_1_academic.json
+2026-08-20 11:57:58,392 - INFO - Extracted 6 education entries
+2026-08-20 11:57:58,392 - INFO - Extracted 2 certifications
+2026-08-20 11:57:58,392 - INFO - Best education match scored 0.78
+2026-08-20 11:57:58,392 - INFO - Saved academic profile: data/education_parsed\da_resume_2_academic.json
+2026-08-20 11:57:58,393 - INFO - Extracted 3 education entries
+2026-08-20 11:57:58,393 - INFO - Best education match scored 0.78
+2026-08-20 11:57:58,393 - INFO - Saved academic profile: data/education_parsed\da_resume_3_academic.json
+2026-08-20 11:57:58,393 - INFO - Extracted 5 education entries
+2026-08-20 11:57:58,393 - INFO - Extracted 6 certifications
+2026-08-20 11:57:58,393 - INFO - Best education match scored 0.79
+2026-08-20 11:57:58,393 - INFO - Saved academic profile: data/education_parsed\hr_resume_1_academic.json
+2026-08-20 11:57:58,393 - INFO - Extracted 1 education entries
+2026-08-20 11:57:58,393 - INFO - Best education match scored 0.6
+2026-08-20 11:57:58,393 - INFO - Saved academic profile: data/education_parsed\hr_resume_2_academic.json
+2026-08-20 11:57:58,393 - INFO - Extracted 3 education entries
+2026-08-20 11:57:58,393 - INFO - Best education match scored 0.6
+2026-08-20 11:57:58,393 - INFO - Saved academic profile: data/education_parsed\java_resume_1_academic.json
+2026-08-20 11:57:58,393 - INFO - Extracted 6 education entries
+2026-08-20 11:57:58,393 - INFO - Best education match scored 0.79
+2026-08-20 11:57:58,393 - INFO - Saved academic profile: data/education_parsed\soft_resume_1_academic.json
+2026-08-20 11:58:45,698 - INFO - Matching 10 resumes against 6 job descriptions
+2026-08-20 11:58:45,698 - INFO - Loading sentence-transformers model (first call only)...
+2026-08-20 11:58:45,698 - INFO - No device provided, using cpu
+2026-08-20 11:58:46,011 - INFO - HTTP Request: GET https://huggingface.co/api/agent-harnesses "HTTP/1.1 200 OK"
+2026-08-20 11:58:46,271 - INFO - HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/modules.json "HTTP/1.1 307 Temporary Redirect"
+2026-08-20 11:58:46,271 - WARNING - Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+2026-08-20 11:58:46,296 - INFO - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/modules.json "HTTP/1.1 200 OK"
+2026-08-20 11:58:46,550 - INFO - HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/config_sentence_transformers.json "HTTP/1.1 307 Temporary Redirect"
+2026-08-20 11:58:46,565 - INFO - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/config_sentence_transformers.json "HTTP/1.1 200 OK"
+2026-08-20 11:58:46,582 - INFO - Loading SentenceTransformer model from sentence-transformers/all-MiniLM-L6-v2.
+2026-08-20 11:58:46,833 - INFO - HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/config_sentence_transformers.json "HTTP/1.1 307 Temporary Redirect"
+2026-08-20 11:58:46,871 - INFO - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/config_sentence_transformers.json "HTTP/1.1 200 OK"
+2026-08-20 11:58:47,133 - INFO - HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/README.md "HTTP/1.1 307 Temporary Redirect"
+2026-08-20 11:58:47,168 - INFO - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/README.md "HTTP/1.1 200 OK"
+2026-08-20 11:58:47,412 - INFO - HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/modules.json "HTTP/1.1 307 Temporary Redirect"
+2026-08-20 11:58:47,433 - INFO - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/modules.json "HTTP/1.1 200 OK"
+2026-08-20 11:58:47,683 - INFO - HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/sentence_bert_config.json "HTTP/1.1 307 Temporary Redirect"
+2026-08-20 11:58:47,717 - INFO - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/sentence_bert_config.json "HTTP/1.1 200 OK"
+2026-08-20 11:58:47,967 - INFO - HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/adapter_config.json "HTTP/1.1 404 Not Found"
+2026-08-20 11:58:48,216 - INFO - HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-08-20 11:58:48,249 - INFO - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/config.json "HTTP/1.1 200 OK"
+2026-08-20 11:58:48,633 - INFO - HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/processor_config.json "HTTP/1.1 404 Not Found"
+2026-08-20 11:58:48,888 - INFO - HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/preprocessor_config.json "HTTP/1.1 404 Not Found"
+2026-08-20 11:58:49,149 - INFO - HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/video_preprocessor_config.json "HTTP/1.1 404 Not Found"
+2026-08-20 11:58:49,395 - INFO - HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/preprocessor_config.json "HTTP/1.1 404 Not Found"
+2026-08-20 11:58:49,648 - INFO - HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/tokenizer_config.json "HTTP/1.1 307 Temporary Redirect"
+2026-08-20 11:58:49,665 - INFO - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/tokenizer_config.json "HTTP/1.1 200 OK"
+2026-08-20 11:58:49,915 - INFO - HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-08-20 11:58:49,948 - INFO - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/config.json "HTTP/1.1 200 OK"
+2026-08-20 11:58:50,182 - INFO - HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-08-20 11:58:50,215 - INFO - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/config.json "HTTP/1.1 200 OK"
+2026-08-20 11:58:50,470 - INFO - HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/tokenizer_config.json "HTTP/1.1 307 Temporary Redirect"
+2026-08-20 11:58:50,486 - INFO - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/tokenizer_config.json "HTTP/1.1 200 OK"
+2026-08-20 11:58:50,750 - INFO - HTTP Request: GET https://huggingface.co/api/models/sentence-transformers/all-MiniLM-L6-v2/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 404 Not Found"
+2026-08-20 11:58:51,000 - INFO - HTTP Request: GET https://huggingface.co/api/models/sentence-transformers/all-MiniLM-L6-v2/tree/main?recursive=true&expand=false "HTTP/1.1 200 OK"
+2026-08-20 11:58:51,314 - INFO - HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/1_Pooling/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-08-20 11:58:51,346 - INFO - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/1_Pooling%2Fconfig.json "HTTP/1.1 200 OK"
+2026-08-20 11:58:51,604 - INFO - HTTP Request: GET https://huggingface.co/api/models/sentence-transformers/all-MiniLM-L6-v2 "HTTP/1.1 200 OK"
+2026-08-20 11:58:51,790 - INFO - Semantic match vs 'Concentrix': overall=0.311
+2026-08-20 11:58:51,862 - INFO - Semantic match vs 'Vestal Corporation': overall=0.313
+2026-08-20 11:58:51,940 - INFO - Semantic match vs 'PayJoy': overall=0.307
+2026-08-20 11:58:52,010 - INFO - Semantic match vs 'QuantumBlack, AI by McKinsey': overall=0.289
+2026-08-20 11:58:52,082 - INFO - Semantic match vs 'PX.com': overall=0.259
+2026-08-20 11:58:52,148 - INFO - Semantic match vs 'Harris Computer': overall=0.154
+2026-08-20 11:58:52,257 - INFO - Semantic match vs 'Concentrix': overall=0.293
+2026-08-20 11:58:52,335 - INFO - Semantic match vs 'Vestal Corporation': overall=0.211
+2026-08-20 11:58:52,414 - INFO - Semantic match vs 'PayJoy': overall=0.239
+2026-08-20 11:58:52,506 - INFO - Semantic match vs 'QuantumBlack, AI by McKinsey': overall=0.145
+2026-08-20 11:58:52,582 - INFO - Semantic match vs 'PX.com': overall=0.245
+2026-08-20 11:58:52,665 - INFO - Semantic match vs 'Harris Computer': overall=0.114
+2026-08-20 11:58:52,715 - INFO - Semantic match vs 'Concentrix': overall=0.0
+2026-08-20 11:58:52,770 - INFO - Semantic match vs 'Vestal Corporation': overall=0.049
+2026-08-20 11:58:52,815 - INFO - Semantic match vs 'PayJoy': overall=0.032
+2026-08-20 11:58:52,865 - INFO - Semantic match vs 'QuantumBlack, AI by McKinsey': overall=0.001
+2026-08-20 11:58:52,915 - INFO - Semantic match vs 'PX.com': overall=0.007
+2026-08-20 11:58:52,971 - INFO - Semantic match vs 'Harris Computer': overall=0.02
+2026-08-20 11:58:53,065 - INFO - Semantic match vs 'Concentrix': overall=0.224
+2026-08-20 11:58:53,158 - INFO - Semantic match vs 'Vestal Corporation': overall=0.145
+2026-08-20 11:58:53,256 - INFO - Semantic match vs 'PayJoy': overall=0.273
+2026-08-20 11:58:53,345 - INFO - Semantic match vs 'QuantumBlack, AI by McKinsey': overall=0.23
+2026-08-20 11:58:53,432 - INFO - Semantic match vs 'PX.com': overall=0.195
+2026-08-20 11:58:53,534 - INFO - Semantic match vs 'Harris Computer': overall=0.161
+2026-08-20 11:58:53,613 - INFO - Semantic match vs 'Concentrix': overall=0.336
+2026-08-20 11:58:53,682 - INFO - Semantic match vs 'Vestal Corporation': overall=0.252
+2026-08-20 11:58:53,748 - INFO - Semantic match vs 'PayJoy': overall=0.387
+2026-08-20 11:58:53,815 - INFO - Semantic match vs 'QuantumBlack, AI by McKinsey': overall=0.276
+2026-08-20 11:58:53,898 - INFO - Semantic match vs 'PX.com': overall=0.214
+2026-08-20 11:58:53,971 - INFO - Semantic match vs 'Harris Computer': overall=0.177
+2026-08-20 11:58:54,048 - INFO - Semantic match vs 'Concentrix': overall=0.328
+2026-08-20 11:58:54,115 - INFO - Semantic match vs 'Vestal Corporation': overall=0.271
+2026-08-20 11:58:54,182 - INFO - Semantic match vs 'PayJoy': overall=0.384
+2026-08-20 11:58:54,265 - INFO - Semantic match vs 'QuantumBlack, AI by McKinsey': overall=0.329
+2026-08-20 11:58:54,330 - INFO - Semantic match vs 'PX.com': overall=0.235
+2026-08-20 11:58:54,396 - INFO - Semantic match vs 'Harris Computer': overall=0.181
+2026-08-20 11:58:54,471 - INFO - Semantic match vs 'Concentrix': overall=0.225
+2026-08-20 11:58:54,532 - INFO - Semantic match vs 'Vestal Corporation': overall=0.128
+2026-08-20 11:58:54,598 - INFO - Semantic match vs 'PayJoy': overall=0.206
+2026-08-20 11:58:54,680 - INFO - Semantic match vs 'QuantumBlack, AI by McKinsey': overall=0.161
+2026-08-20 11:58:54,748 - INFO - Semantic match vs 'PX.com': overall=0.188
+2026-08-20 11:58:54,825 - INFO - Semantic match vs 'Harris Computer': overall=0.126
+2026-08-20 11:58:54,905 - INFO - Semantic match vs 'Concentrix': overall=0.197
+2026-08-20 11:58:54,965 - INFO - Semantic match vs 'Vestal Corporation': overall=0.137
+2026-08-20 11:58:55,052 - INFO - Semantic match vs 'PayJoy': overall=0.186
+2026-08-20 11:58:55,129 - INFO - Semantic match vs 'QuantumBlack, AI by McKinsey': overall=0.118
+2026-08-20 11:58:55,201 - INFO - Semantic match vs 'PX.com': overall=0.174
+2026-08-20 11:58:55,280 - INFO - Semantic match vs 'Harris Computer': overall=0.078
+2026-08-20 11:58:55,366 - INFO - Semantic match vs 'Concentrix': overall=0.19
+2026-08-20 11:58:55,437 - INFO - Semantic match vs 'Vestal Corporation': overall=0.144
+2026-08-20 11:58:55,510 - INFO - Semantic match vs 'PayJoy': overall=0.222
+2026-08-20 11:58:55,581 - INFO - Semantic match vs 'QuantumBlack, AI by McKinsey': overall=0.077
+2026-08-20 11:58:55,650 - INFO - Semantic match vs 'PX.com': overall=0.23
+2026-08-20 11:58:55,740 - INFO - Semantic match vs 'Harris Computer': overall=0.124
+2026-08-20 11:58:55,934 - INFO - Semantic match vs 'Concentrix': overall=0.238
+2026-08-20 11:58:56,099 - INFO - Semantic match vs 'Vestal Corporation': overall=0.177
+2026-08-20 11:58:56,257 - INFO - Semantic match vs 'PayJoy': overall=0.278
+2026-08-20 11:58:56,416 - INFO - Semantic match vs 'QuantumBlack, AI by McKinsey': overall=0.151
+2026-08-20 11:58:56,566 - INFO - Semantic match vs 'PX.com': overall=0.172
+2026-08-20 11:58:56,733 - INFO - Semantic match vs 'Harris Computer': overall=0.201
+2026-08-20 12:00:24,081 - INFO - Scoring 10 candidates
+2026-08-20 12:00:24,082 - INFO - ATS score computed: 30.4/100
+2026-08-20 12:00:24,082 - INFO - ATS score computed: 39.9/100
+2026-08-20 12:00:24,082 - INFO - ATS score computed: 4.0/100
+2026-08-20 12:00:24,082 - INFO - ATS score computed: 39.6/100
+2026-08-20 12:00:24,082 - INFO - ATS score computed: 44.1/100
+2026-08-20 12:00:24,082 - INFO - ATS score computed: 48.9/100
+2026-08-20 12:00:24,082 - INFO - ATS score computed: 14.6/100
+2026-08-20 12:00:24,082 - INFO - ATS score computed: 29.6/100
+2026-08-20 12:00:24,082 - INFO - ATS score computed: 30.3/100
+2026-08-20 12:00:24,098 - INFO - ATS score computed: 40.6/100
+2026-08-20 12:00:37,882 - INFO - Loaded 10 scored candidates for ranking
+2026-08-20 12:00:37,882 - INFO - Ranked 10 candidates
+2026-08-20 12:00:37,898 - INFO - Generated recruiter report
+2026-08-20 16:40:02,146 - INFO - Found 10 resume files to process
+2026-08-20 16:40:02,283 - INFO - Successfully extracted PDF: data\ba_resume_1.pdf
+2026-08-20 16:40:02,283 - INFO - Text cleaning complete
+2026-08-20 16:40:02,283 - INFO - Saved cleaned text: data/extracted\ba_resume_1_extracted.txt
+2026-08-20 16:40:02,466 - INFO - Successfully extracted PDF: data\ba_resume_2.pdf
+2026-08-20 16:40:02,466 - INFO - Text cleaning complete
+2026-08-20 16:40:02,473 - INFO - Saved cleaned text: data/extracted\ba_resume_2_extracted.txt
+2026-08-20 16:40:02,617 - INFO - Successfully extracted PDF: data\civil_resume_1.pdf
+2026-08-20 16:40:02,619 - INFO - Text cleaning complete
+2026-08-20 16:40:02,626 - INFO - Saved cleaned text: data/extracted\civil_resume_1_extracted.txt
+2026-08-20 16:40:02,867 - INFO - Successfully extracted PDF: data\da_resume_1.pdf
+2026-08-20 16:40:02,877 - INFO - Text cleaning complete
+2026-08-20 16:40:02,877 - INFO - Saved cleaned text: data/extracted\da_resume_1_extracted.txt
+2026-08-20 16:40:03,108 - INFO - Successfully extracted PDF: data\da_resume_2.pdf
+2026-08-20 16:40:03,108 - INFO - Text cleaning complete
+2026-08-20 16:40:03,117 - INFO - Saved cleaned text: data/extracted\da_resume_2_extracted.txt
+2026-08-20 16:40:03,291 - INFO - Successfully extracted PDF: data\da_resume_3.pdf
+2026-08-20 16:40:03,291 - INFO - Text cleaning complete
+2026-08-20 16:40:03,300 - INFO - Saved cleaned text: data/extracted\da_resume_3_extracted.txt
+2026-08-20 16:40:03,483 - INFO - Successfully extracted PDF: data\hr_resume_1.pdf
+2026-08-20 16:40:03,483 - INFO - Text cleaning complete
+2026-08-20 16:40:03,491 - INFO - Saved cleaned text: data/extracted\hr_resume_1_extracted.txt
+2026-08-20 16:40:03,679 - INFO - Successfully extracted PDF: data\hr_resume_2.pdf
+2026-08-20 16:40:03,679 - INFO - Text cleaning complete
+2026-08-20 16:40:03,701 - INFO - Saved cleaned text: data/extracted\hr_resume_2_extracted.txt
+2026-08-20 16:40:03,866 - INFO - Successfully extracted PDF: data\java_resume_1.pdf
+2026-08-20 16:40:03,866 - INFO - Text cleaning complete
+2026-08-20 16:40:03,874 - INFO - Saved cleaned text: data/extracted\java_resume_1_extracted.txt
+2026-08-20 16:40:04,060 - INFO - Successfully extracted PDF: data\soft_resume_1.pdf
+2026-08-20 16:40:04,062 - INFO - Text cleaning complete
+2026-08-20 16:40:04,066 - INFO - Saved cleaned text: data/extracted\soft_resume_1_extracted.txt
+2026-08-20 16:40:12,863 - INFO - Found 10 cleaned resumes to classify
+2026-08-20 16:40:12,863 - INFO - Classified into sections: ['HEADER', 'EXPERIENCE', 'EDUCATION', 'SKILLS']
+2026-08-20 16:40:12,867 - INFO - Saved labeled sections: data/labeled_sections\ba_resume_1_labeled.json
+2026-08-20 16:40:12,867 - INFO - Classified into sections: ['HEADER', 'EXPERIENCE', 'EDUCATION', 'SKILLS']
+2026-08-20 16:40:12,870 - INFO - Saved labeled sections: data/labeled_sections\ba_resume_2_labeled.json
+2026-08-20 16:40:12,870 - INFO - Classified into sections: ['HEADER', 'EXPERIENCE', 'EDUCATION', 'SKILLS']
+2026-08-20 16:40:12,873 - INFO - Saved labeled sections: data/labeled_sections\civil_resume_1_labeled.json
+2026-08-20 16:40:12,873 - INFO - Classified into sections: ['HEADER', 'SKILLS', 'SUMMARY', 'EXPERIENCE']
+2026-08-20 16:40:12,873 - INFO - Saved labeled sections: data/labeled_sections\da_resume_1_labeled.json
+2026-08-20 16:40:12,873 - INFO - Classified into sections: ['HEADER', 'SKILLS', 'EXPERIENCE', 'EDUCATION', 'CERTIFICATIONS']
+2026-08-20 16:40:12,873 - INFO - Saved labeled sections: data/labeled_sections\da_resume_2_labeled.json
+2026-08-20 16:40:12,879 - INFO - Classified into sections: ['HEADER', 'SUMMARY', 'EXPERIENCE', 'EDUCATION', 'SKILLS']
+2026-08-20 16:40:12,879 - INFO - Saved labeled sections: data/labeled_sections\da_resume_3_labeled.json
+2026-08-20 16:40:12,879 - INFO - Classified into sections: ['HEADER', 'SKILLS', 'EXPERIENCE', 'EDUCATION', 'CERTIFICATIONS']
+2026-08-20 16:40:12,883 - INFO - Saved labeled sections: data/labeled_sections\hr_resume_1_labeled.json
+2026-08-20 16:40:12,883 - INFO - Classified into sections: ['HEADER', 'SKILLS', 'EXPERIENCE', 'EDUCATION']
+2026-08-20 16:40:12,883 - INFO - Saved labeled sections: data/labeled_sections\hr_resume_2_labeled.json
+2026-08-20 16:40:12,883 - INFO - Classified into sections: ['HEADER', 'EXPERIENCE', 'EDUCATION', 'SKILLS']
+2026-08-20 16:40:12,883 - INFO - Saved labeled sections: data/labeled_sections\java_resume_1_labeled.json
+2026-08-20 16:40:12,883 - INFO - Classified into sections: ['HEADER', 'EXPERIENCE', 'EDUCATION', 'PROJECTS', 'SKILLS']
+2026-08-20 16:40:12,883 - INFO - Saved labeled sections: data/labeled_sections\soft_resume_1_labeled.json
+2026-08-20 16:40:23,256 - INFO - Found 10 resumes for skill extraction
+2026-08-20 16:40:23,271 - INFO - Extracted 8 unique skills
+2026-08-20 16:40:23,271 - INFO - Saved skills: data/skills_extracted\ba_resume_1_skills.json
+2026-08-20 16:40:23,283 - INFO - Extracted 8 unique skills
+2026-08-20 16:40:23,284 - INFO - Saved skills: data/skills_extracted\ba_resume_2_skills.json
+2026-08-20 16:40:23,293 - INFO - Extracted 6 unique skills
+2026-08-20 16:40:23,293 - INFO - Saved skills: data/skills_extracted\civil_resume_1_skills.json
+2026-08-20 16:40:23,299 - INFO - Extracted 13 unique skills
+2026-08-20 16:40:23,299 - INFO - Saved skills: data/skills_extracted\da_resume_1_skills.json
+2026-08-20 16:40:23,312 - INFO - Extracted 17 unique skills
+2026-08-20 16:40:23,317 - INFO - Saved skills: data/skills_extracted\da_resume_2_skills.json
+2026-08-20 16:40:23,325 - INFO - Extracted 10 unique skills
+2026-08-20 16:40:23,325 - INFO - Saved skills: data/skills_extracted\da_resume_3_skills.json
+2026-08-20 16:40:23,333 - INFO - Extracted 4 unique skills
+2026-08-20 16:40:23,333 - INFO - Saved skills: data/skills_extracted\hr_resume_1_skills.json
+2026-08-20 16:40:23,339 - INFO - Extracted 9 unique skills
+2026-08-20 16:40:23,341 - INFO - Saved skills: data/skills_extracted\hr_resume_2_skills.json
+2026-08-20 16:40:23,346 - INFO - Extracted 6 unique skills
+2026-08-20 16:40:23,349 - INFO - Saved skills: data/skills_extracted\java_resume_1_skills.json
+2026-08-20 16:40:23,354 - INFO - Extracted 8 unique skills
+2026-08-20 16:40:23,354 - INFO - Saved skills: data/skills_extracted\soft_resume_1_skills.json
+2026-08-20 16:40:35,175 - INFO - Found 10 resumes for experience parsing
+2026-08-20 16:40:35,177 - INFO - Extracted 3 experience entries
+2026-08-20 16:40:35,181 - INFO - Scored 3 experience entries against job title 'Data Analyst'
+2026-08-20 16:40:35,183 - INFO - Saved experience object: data/experience_parsed\ba_resume_1_experience.json
+2026-08-20 16:40:35,183 - INFO - Extracted 2 experience entries
+2026-08-20 16:40:35,184 - INFO - Scored 2 experience entries against job title 'Data Analyst'
+2026-08-20 16:40:35,184 - INFO - Saved experience object: data/experience_parsed\ba_resume_2_experience.json
+2026-08-20 16:40:35,184 - INFO - Extracted 1 experience entries
+2026-08-20 16:40:35,184 - INFO - Scored 1 experience entries against job title 'Data Analyst'
+2026-08-20 16:40:35,184 - INFO - Saved experience object: data/experience_parsed\civil_resume_1_experience.json
+2026-08-20 16:40:35,184 - INFO - Extracted 4 experience entries
+2026-08-20 16:40:35,184 - INFO - Scored 4 experience entries against job title 'Data Analyst'
+2026-08-20 16:40:35,184 - INFO - Saved experience object: data/experience_parsed\da_resume_1_experience.json
+2026-08-20 16:40:35,184 - INFO - Extracted 0 experience entries
+2026-08-20 16:40:35,184 - INFO - Scored 0 experience entries against job title 'Data Analyst'
+2026-08-20 16:40:35,184 - INFO - Saved experience object: data/experience_parsed\da_resume_2_experience.json
+2026-08-20 16:40:35,184 - INFO - Extracted 2 experience entries
+2026-08-20 16:40:35,184 - INFO - Scored 2 experience entries against job title 'Data Analyst'
+2026-08-20 16:40:35,192 - INFO - Saved experience object: data/experience_parsed\da_resume_3_experience.json
+2026-08-20 16:40:35,192 - INFO - Extracted 0 experience entries
+2026-08-20 16:40:35,192 - INFO - Scored 0 experience entries against job title 'Data Analyst'
+2026-08-20 16:40:35,192 - INFO - Saved experience object: data/experience_parsed\hr_resume_1_experience.json
+2026-08-20 16:40:35,192 - INFO - Extracted 0 experience entries
+2026-08-20 16:40:35,192 - INFO - Scored 0 experience entries against job title 'Data Analyst'
+2026-08-20 16:40:35,192 - INFO - Saved experience object: data/experience_parsed\hr_resume_2_experience.json
+2026-08-20 16:40:35,192 - INFO - Extracted 4 experience entries
+2026-08-20 16:40:35,192 - INFO - Scored 4 experience entries against job title 'Data Analyst'
+2026-08-20 16:40:35,192 - INFO - Saved experience object: data/experience_parsed\java_resume_1_experience.json
+2026-08-20 16:40:35,192 - INFO - Extracted 3 experience entries
+2026-08-20 16:40:35,199 - INFO - Scored 3 experience entries against job title 'Data Analyst'
+2026-08-20 16:40:35,199 - INFO - Saved experience object: data/experience_parsed\soft_resume_1_experience.json
+2026-08-20 16:40:47,433 - INFO - Found 10 labeled resumes for education parsing
+2026-08-20 16:40:47,433 - INFO - Extracted 2 education entries
+2026-08-20 16:40:47,433 - INFO - Best education match scored 0.7
+2026-08-20 16:40:47,433 - INFO - Saved academic profile: data/education_parsed\ba_resume_1_academic.json
+2026-08-20 16:40:47,433 - INFO - Extracted 1 education entries
+2026-08-20 16:40:47,433 - INFO - Best education match scored 0.42
+2026-08-20 16:40:47,433 - INFO - Saved academic profile: data/education_parsed\ba_resume_2_academic.json
+2026-08-20 16:40:47,433 - INFO - Extracted 3 education entries
+2026-08-20 16:40:47,433 - INFO - Best education match scored 0.79
+2026-08-20 16:40:47,433 - INFO - Saved academic profile: data/education_parsed\civil_resume_1_academic.json
+2026-08-20 16:40:47,433 - INFO - Extracted 0 education entries
+2026-08-20 16:40:47,442 - INFO - Saved academic profile: data/education_parsed\da_resume_1_academic.json
+2026-08-20 16:40:47,442 - INFO - Extracted 4 education entries
+2026-08-20 16:40:47,442 - INFO - Extracted 8 certifications
+2026-08-20 16:40:47,442 - INFO - Best education match scored 0.78
+2026-08-20 16:40:47,442 - INFO - Saved academic profile: data/education_parsed\da_resume_2_academic.json
+2026-08-20 16:40:47,442 - INFO - Extracted 2 education entries
+2026-08-20 16:40:47,442 - INFO - Best education match scored 0.78
+2026-08-20 16:40:47,442 - INFO - Saved academic profile: data/education_parsed\da_resume_3_academic.json
+2026-08-20 16:40:47,446 - INFO - Extracted 5 education entries
+2026-08-20 16:40:47,446 - INFO - Extracted 12 certifications
+2026-08-20 16:40:47,446 - INFO - Best education match scored 0.79
+2026-08-20 16:40:47,446 - INFO - Saved academic profile: data/education_parsed\hr_resume_1_academic.json
+2026-08-20 16:40:47,446 - INFO - Extracted 5 education entries
+2026-08-20 16:40:47,446 - INFO - Best education match scored 0.6
+2026-08-20 16:40:47,446 - INFO - Saved academic profile: data/education_parsed\hr_resume_2_academic.json
+2026-08-20 16:40:47,446 - INFO - Extracted 3 education entries
+2026-08-20 16:40:47,450 - INFO - Best education match scored 0.6
+2026-08-20 16:40:47,450 - INFO - Saved academic profile: data/education_parsed\java_resume_1_academic.json
+2026-08-20 16:40:47,450 - INFO - Extracted 3 education entries
+2026-08-20 16:40:47,450 - INFO - Best education match scored 0.79
+2026-08-20 16:40:47,450 - INFO - Saved academic profile: data/education_parsed\soft_resume_1_academic.json
+2026-08-20 16:41:14,174 - INFO - Matching 10 resumes against 6 job descriptions
+2026-08-20 16:41:14,177 - INFO - Loading sentence-transformers model (first call only)...
+2026-08-20 16:41:14,177 - INFO - No device provided, using cpu
+2026-08-20 16:41:14,593 - INFO - HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/modules.json "HTTP/1.1 307 Temporary Redirect"
+2026-08-20 16:41:14,595 - WARNING - Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+2026-08-20 16:41:14,994 - INFO - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/modules.json "HTTP/1.1 200 OK"
+2026-08-20 16:41:15,868 - INFO - HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/config_sentence_transformers.json "HTTP/1.1 307 Temporary Redirect"
+2026-08-20 16:41:16,851 - INFO - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/config_sentence_transformers.json "HTTP/1.1 200 OK"
+2026-08-20 16:41:16,861 - INFO - Loading SentenceTransformer model from sentence-transformers/all-MiniLM-L6-v2.
+2026-08-20 16:41:17,701 - INFO - HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/config_sentence_transformers.json "HTTP/1.1 307 Temporary Redirect"
+2026-08-20 16:41:17,739 - INFO - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/config_sentence_transformers.json "HTTP/1.1 200 OK"
+2026-08-20 16:41:18,019 - INFO - HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/README.md "HTTP/1.1 307 Temporary Redirect"
+2026-08-20 16:41:18,053 - INFO - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/README.md "HTTP/1.1 200 OK"
+2026-08-20 16:41:18,364 - INFO - HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/modules.json "HTTP/1.1 307 Temporary Redirect"
+2026-08-20 16:41:18,396 - INFO - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/modules.json "HTTP/1.1 200 OK"
+2026-08-20 16:41:18,646 - INFO - HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/sentence_bert_config.json "HTTP/1.1 307 Temporary Redirect"
+2026-08-20 16:41:18,745 - INFO - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/sentence_bert_config.json "HTTP/1.1 200 OK"
+2026-08-20 16:41:19,052 - INFO - HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/adapter_config.json "HTTP/1.1 404 Not Found"
+2026-08-20 16:41:19,343 - INFO - HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-08-20 16:41:19,370 - INFO - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/config.json "HTTP/1.1 200 OK"
+2026-08-20 16:41:19,873 - INFO - HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/processor_config.json "HTTP/1.1 404 Not Found"
+2026-08-20 16:41:20,118 - INFO - HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/preprocessor_config.json "HTTP/1.1 404 Not Found"
+2026-08-20 16:41:20,385 - INFO - HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/video_preprocessor_config.json "HTTP/1.1 404 Not Found"
+2026-08-20 16:41:20,637 - INFO - HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/preprocessor_config.json "HTTP/1.1 404 Not Found"
+2026-08-20 16:41:21,185 - INFO - HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/tokenizer_config.json "HTTP/1.1 307 Temporary Redirect"
+2026-08-20 16:41:21,233 - INFO - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/tokenizer_config.json "HTTP/1.1 200 OK"
+2026-08-20 16:41:21,496 - INFO - HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-08-20 16:41:21,520 - INFO - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/config.json "HTTP/1.1 200 OK"
+2026-08-20 16:41:21,768 - INFO - HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-08-20 16:41:21,785 - INFO - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/config.json "HTTP/1.1 200 OK"
+2026-08-20 16:41:22,051 - INFO - HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/tokenizer_config.json "HTTP/1.1 307 Temporary Redirect"
+2026-08-20 16:41:22,080 - INFO - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/tokenizer_config.json "HTTP/1.1 200 OK"
+2026-08-20 16:41:22,352 - INFO - HTTP Request: GET https://huggingface.co/api/models/sentence-transformers/all-MiniLM-L6-v2/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 404 Not Found"
+2026-08-20 16:41:22,610 - INFO - HTTP Request: GET https://huggingface.co/api/models/sentence-transformers/all-MiniLM-L6-v2/tree/main?recursive=true&expand=false "HTTP/1.1 200 OK"
+2026-08-20 16:41:22,945 - INFO - HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/1_Pooling/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-08-20 16:41:22,986 - INFO - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/1_Pooling%2Fconfig.json "HTTP/1.1 200 OK"
+2026-08-20 16:41:23,253 - INFO - HTTP Request: GET https://huggingface.co/api/models/sentence-transformers/all-MiniLM-L6-v2 "HTTP/1.1 200 OK"
+2026-08-20 16:41:23,541 - INFO - Semantic match vs 'Concentrix': overall=0.374
+2026-08-20 16:41:23,621 - INFO - Semantic match vs 'Vestal Corporation': overall=0.273
+2026-08-20 16:41:23,705 - INFO - Semantic match vs 'PayJoy': overall=0.373
+2026-08-20 16:41:23,795 - INFO - Semantic match vs 'QuantumBlack, AI by McKinsey': overall=0.32
+2026-08-20 16:41:23,877 - INFO - Semantic match vs 'PX.com': overall=0.277
+2026-08-20 16:41:23,960 - INFO - Semantic match vs 'Harris Computer': overall=0.18
+2026-08-20 16:41:24,056 - INFO - Semantic match vs 'Concentrix': overall=0.293
+2026-08-20 16:41:24,141 - INFO - Semantic match vs 'Vestal Corporation': overall=0.211
+2026-08-20 16:41:24,233 - INFO - Semantic match vs 'PayJoy': overall=0.239
+2026-08-20 16:41:24,333 - INFO - Semantic match vs 'QuantumBlack, AI by McKinsey': overall=0.145
+2026-08-20 16:41:24,445 - INFO - Semantic match vs 'PX.com': overall=0.245
+2026-08-20 16:41:24,550 - INFO - Semantic match vs 'Harris Computer': overall=0.114
+2026-08-20 16:41:24,658 - INFO - Semantic match vs 'Concentrix': overall=0.136
+2026-08-20 16:41:24,738 - INFO - Semantic match vs 'Vestal Corporation': overall=0.252
+2026-08-20 16:41:24,818 - INFO - Semantic match vs 'PayJoy': overall=0.157
+2026-08-20 16:41:24,912 - INFO - Semantic match vs 'QuantumBlack, AI by McKinsey': overall=0.068
+2026-08-20 16:41:24,996 - INFO - Semantic match vs 'PX.com': overall=0.099
+2026-08-20 16:41:25,080 - INFO - Semantic match vs 'Harris Computer': overall=0.066
+2026-08-20 16:41:25,222 - INFO - Semantic match vs 'Concentrix': overall=0.34
+2026-08-20 16:41:25,334 - INFO - Semantic match vs 'Vestal Corporation': overall=0.207
+2026-08-20 16:41:25,450 - INFO - Semantic match vs 'PayJoy': overall=0.357
+2026-08-20 16:41:25,566 - INFO - Semantic match vs 'QuantumBlack, AI by McKinsey': overall=0.277
+2026-08-20 16:41:25,680 - INFO - Semantic match vs 'PX.com': overall=0.254
+2026-08-20 16:41:25,781 - INFO - Semantic match vs 'Harris Computer': overall=0.176
+2026-08-20 16:41:25,900 - INFO - Semantic match vs 'Concentrix': overall=0.302
+2026-08-20 16:41:26,012 - INFO - Semantic match vs 'Vestal Corporation': overall=0.281
+2026-08-20 16:41:26,127 - INFO - Semantic match vs 'PayJoy': overall=0.387
+2026-08-20 16:41:26,233 - INFO - Semantic match vs 'QuantumBlack, AI by McKinsey': overall=0.319
+2026-08-20 16:41:26,333 - INFO - Semantic match vs 'PX.com': overall=0.175
+2026-08-20 16:41:26,447 - INFO - Semantic match vs 'Harris Computer': overall=0.225
+2026-08-20 16:41:26,550 - INFO - Semantic match vs 'Concentrix': overall=0.315
+2026-08-20 16:41:26,663 - INFO - Semantic match vs 'Vestal Corporation': overall=0.278
+2026-08-20 16:41:26,759 - INFO - Semantic match vs 'PayJoy': overall=0.373
+2026-08-20 16:41:26,860 - INFO - Semantic match vs 'QuantumBlack, AI by McKinsey': overall=0.291
+2026-08-20 16:41:26,965 - INFO - Semantic match vs 'PX.com': overall=0.258
+2026-08-20 16:41:27,078 - INFO - Semantic match vs 'Harris Computer': overall=0.179
+2026-08-20 16:41:27,179 - INFO - Semantic match vs 'Concentrix': overall=0.25
+2026-08-20 16:41:27,272 - INFO - Semantic match vs 'Vestal Corporation': overall=0.15
+2026-08-20 16:41:27,369 - INFO - Semantic match vs 'PayJoy': overall=0.263
+2026-08-20 16:41:27,458 - INFO - Semantic match vs 'QuantumBlack, AI by McKinsey': overall=0.11
+2026-08-20 16:41:27,550 - INFO - Semantic match vs 'PX.com': overall=0.202
+2026-08-20 16:41:27,637 - INFO - Semantic match vs 'Harris Computer': overall=0.135
+2026-08-20 16:41:27,744 - INFO - Semantic match vs 'Concentrix': overall=0.294
+2026-08-20 16:41:27,839 - INFO - Semantic match vs 'Vestal Corporation': overall=0.178
+2026-08-20 16:41:27,933 - INFO - Semantic match vs 'PayJoy': overall=0.306
+2026-08-20 16:41:28,027 - INFO - Semantic match vs 'QuantumBlack, AI by McKinsey': overall=0.126
+2026-08-20 16:41:28,124 - INFO - Semantic match vs 'PX.com': overall=0.234
+2026-08-20 16:41:28,223 - INFO - Semantic match vs 'Harris Computer': overall=0.163
+2026-08-20 16:41:28,333 - INFO - Semantic match vs 'Concentrix': overall=0.19
+2026-08-20 16:41:28,416 - INFO - Semantic match vs 'Vestal Corporation': overall=0.144
+2026-08-20 16:41:28,513 - INFO - Semantic match vs 'PayJoy': overall=0.222
+2026-08-20 16:41:28,601 - INFO - Semantic match vs 'QuantumBlack, AI by McKinsey': overall=0.077
+2026-08-20 16:41:28,682 - INFO - Semantic match vs 'PX.com': overall=0.23
+2026-08-20 16:41:28,763 - INFO - Semantic match vs 'Harris Computer': overall=0.124
+2026-08-20 16:41:28,883 - INFO - Semantic match vs 'Concentrix': overall=0.265
+2026-08-20 16:41:29,007 - INFO - Semantic match vs 'Vestal Corporation': overall=0.247
+2026-08-20 16:41:29,116 - INFO - Semantic match vs 'PayJoy': overall=0.34
+2026-08-20 16:41:29,238 - INFO - Semantic match vs 'QuantumBlack, AI by McKinsey': overall=0.194
+2026-08-20 16:41:29,350 - INFO - Semantic match vs 'PX.com': overall=0.182
+2026-08-20 16:41:29,467 - INFO - Semantic match vs 'Harris Computer': overall=0.37
+2026-08-20 16:41:33,126 - INFO - Scoring 10 candidates
+2026-08-20 16:41:33,126 - INFO - ATS score computed: 48.9/100
+2026-08-20 16:41:33,134 - INFO - ATS score computed: 39.9/100
+2026-08-20 16:41:33,138 - INFO - ATS score computed: 7.8/100
+2026-08-20 16:41:33,141 - INFO - ATS score computed: 59.5/100
+2026-08-20 16:41:33,141 - INFO - ATS score computed: 62.9/100
+2026-08-20 16:41:33,150 - INFO - ATS score computed: 56.8/100
+2026-08-20 16:41:33,150 - INFO - ATS score computed: 19.7/100
+2026-08-20 16:41:33,155 - INFO - ATS score computed: 52.8/100
+2026-08-20 16:41:33,159 - INFO - ATS score computed: 30.3/100
+2026-08-20 16:41:33,164 - INFO - ATS score computed: 15.7/100
+2026-08-20 16:41:43,815 - INFO - Loaded 10 scored candidates for ranking
+2026-08-20 16:41:43,815 - INFO - Ranked 10 candidates
+2026-08-20 16:41:43,820 - INFO - Generated recruiter report
+2026-08-20 16:54:01,997 - INFO - Found 10 resume files to process
+2026-08-20 16:54:02,111 - INFO - Successfully extracted PDF: data\ba_resume_1.pdf
+2026-08-20 16:54:02,111 - INFO - Text cleaning complete
+2026-08-20 16:54:02,111 - INFO - Saved cleaned text: data/extracted\ba_resume_1_extracted.txt
+2026-08-20 16:54:02,253 - INFO - Successfully extracted PDF: data\ba_resume_2.pdf
+2026-08-20 16:54:02,253 - INFO - Text cleaning complete
+2026-08-20 16:54:02,262 - INFO - Saved cleaned text: data/extracted\ba_resume_2_extracted.txt
+2026-08-20 16:54:02,370 - INFO - Successfully extracted PDF: data\civil_resume_1.pdf
+2026-08-20 16:54:02,382 - INFO - Text cleaning complete
+2026-08-20 16:54:02,382 - INFO - Saved cleaned text: data/extracted\civil_resume_1_extracted.txt
+2026-08-20 16:54:02,589 - INFO - Successfully extracted PDF: data\da_resume_1.pdf
+2026-08-20 16:54:02,589 - INFO - Text cleaning complete
+2026-08-20 16:54:02,589 - INFO - Saved cleaned text: data/extracted\da_resume_1_extracted.txt
+2026-08-20 16:54:02,786 - INFO - Successfully extracted PDF: data\da_resume_2.pdf
+2026-08-20 16:54:02,786 - INFO - Text cleaning complete
+2026-08-20 16:54:02,786 - INFO - Saved cleaned text: data/extracted\da_resume_2_extracted.txt
+2026-08-20 16:54:02,953 - INFO - Successfully extracted PDF: data\da_resume_3.pdf
+2026-08-20 16:54:02,953 - INFO - Text cleaning complete
+2026-08-20 16:54:02,953 - INFO - Saved cleaned text: data/extracted\da_resume_3_extracted.txt
+2026-08-20 16:54:03,154 - INFO - Successfully extracted PDF: data\hr_resume_1.pdf
+2026-08-20 16:54:03,154 - INFO - Text cleaning complete
+2026-08-20 16:54:03,166 - INFO - Saved cleaned text: data/extracted\hr_resume_1_extracted.txt
+2026-08-20 16:54:03,349 - INFO - Successfully extracted PDF: data\hr_resume_2.pdf
+2026-08-20 16:54:03,349 - INFO - Text cleaning complete
+2026-08-20 16:54:03,354 - INFO - Saved cleaned text: data/extracted\hr_resume_2_extracted.txt
+2026-08-20 16:54:03,569 - INFO - Successfully extracted PDF: data\java_resume_1.pdf
+2026-08-20 16:54:03,569 - INFO - Text cleaning complete
+2026-08-20 16:54:03,569 - INFO - Saved cleaned text: data/extracted\java_resume_1_extracted.txt
+2026-08-20 16:54:03,754 - INFO - Successfully extracted PDF: data\soft_resume_1.pdf
+2026-08-20 16:54:03,754 - INFO - Text cleaning complete
+2026-08-20 16:54:03,756 - INFO - Saved cleaned text: data/extracted\soft_resume_1_extracted.txt
+2026-08-20 16:54:14,436 - INFO - Found 10 cleaned resumes to classify
+2026-08-20 16:54:14,436 - INFO - Classified into sections: ['HEADER', 'EXPERIENCE', 'EDUCATION', 'SKILLS']
+2026-08-20 16:54:14,436 - INFO - Saved labeled sections: data/labeled_sections\ba_resume_1_labeled.json
+2026-08-20 16:54:14,436 - INFO - Classified into sections: ['HEADER', 'EXPERIENCE', 'EDUCATION', 'SKILLS']
+2026-08-20 16:54:14,441 - INFO - Saved labeled sections: data/labeled_sections\ba_resume_2_labeled.json
+2026-08-20 16:54:14,441 - INFO - Classified into sections: ['HEADER', 'EXPERIENCE', 'EDUCATION', 'SKILLS']
+2026-08-20 16:54:14,441 - INFO - Saved labeled sections: data/labeled_sections\civil_resume_1_labeled.json
+2026-08-20 16:54:14,441 - INFO - Classified into sections: ['HEADER', 'SKILLS', 'SUMMARY', 'EXPERIENCE']
+2026-08-20 16:54:14,441 - INFO - Saved labeled sections: data/labeled_sections\da_resume_1_labeled.json
+2026-08-20 16:54:14,441 - INFO - Classified into sections: ['HEADER', 'SKILLS', 'EXPERIENCE', 'EDUCATION', 'CERTIFICATIONS']
+2026-08-20 16:54:14,441 - INFO - Saved labeled sections: data/labeled_sections\da_resume_2_labeled.json
+2026-08-20 16:54:14,441 - INFO - Classified into sections: ['HEADER', 'SUMMARY', 'EXPERIENCE', 'EDUCATION', 'SKILLS']
+2026-08-20 16:54:14,441 - INFO - Saved labeled sections: data/labeled_sections\da_resume_3_labeled.json
+2026-08-20 16:54:14,441 - INFO - Classified into sections: ['HEADER', 'SKILLS', 'EXPERIENCE', 'EDUCATION', 'CERTIFICATIONS']
+2026-08-20 16:54:14,450 - INFO - Saved labeled sections: data/labeled_sections\hr_resume_1_labeled.json
+2026-08-20 16:54:14,450 - INFO - Classified into sections: ['HEADER', 'SKILLS', 'EXPERIENCE', 'EDUCATION']
+2026-08-20 16:54:14,453 - INFO - Saved labeled sections: data/labeled_sections\hr_resume_2_labeled.json
+2026-08-20 16:54:14,453 - INFO - Classified into sections: ['HEADER', 'EXPERIENCE', 'EDUCATION', 'SKILLS']
+2026-08-20 16:54:14,453 - INFO - Saved labeled sections: data/labeled_sections\java_resume_1_labeled.json
+2026-08-20 16:54:14,453 - INFO - Classified into sections: ['HEADER', 'EXPERIENCE', 'EDUCATION', 'PROJECTS', 'SKILLS']
+2026-08-20 16:54:14,453 - INFO - Saved labeled sections: data/labeled_sections\soft_resume_1_labeled.json
+2026-08-20 16:54:25,680 - INFO - Found 10 resumes for skill extraction
+2026-08-20 16:54:25,680 - INFO - Extracted 8 unique skills
+2026-08-20 16:54:25,680 - INFO - Saved skills: data/skills_extracted\ba_resume_1_skills.json
+2026-08-20 16:54:25,692 - INFO - Extracted 8 unique skills
+2026-08-20 16:54:25,692 - INFO - Saved skills: data/skills_extracted\ba_resume_2_skills.json
+2026-08-20 16:54:25,708 - INFO - Extracted 6 unique skills
+2026-08-20 16:54:25,708 - INFO - Saved skills: data/skills_extracted\civil_resume_1_skills.json
+2026-08-20 16:54:25,724 - INFO - Extracted 13 unique skills
+2026-08-20 16:54:25,724 - INFO - Saved skills: data/skills_extracted\da_resume_1_skills.json
+2026-08-20 16:54:25,733 - INFO - Extracted 17 unique skills
+2026-08-20 16:54:25,733 - INFO - Saved skills: data/skills_extracted\da_resume_2_skills.json
+2026-08-20 16:54:25,740 - INFO - Extracted 10 unique skills
+2026-08-20 16:54:25,740 - INFO - Saved skills: data/skills_extracted\da_resume_3_skills.json
+2026-08-20 16:54:25,747 - INFO - Extracted 4 unique skills
+2026-08-20 16:54:25,747 - INFO - Saved skills: data/skills_extracted\hr_resume_1_skills.json
+2026-08-20 16:54:25,747 - INFO - Extracted 9 unique skills
+2026-08-20 16:54:25,747 - INFO - Saved skills: data/skills_extracted\hr_resume_2_skills.json
+2026-08-20 16:54:25,762 - INFO - Extracted 6 unique skills
+2026-08-20 16:54:25,763 - INFO - Saved skills: data/skills_extracted\java_resume_1_skills.json
+2026-08-20 16:54:25,771 - INFO - Extracted 8 unique skills
+2026-08-20 16:54:25,771 - INFO - Saved skills: data/skills_extracted\soft_resume_1_skills.json
+2026-08-20 16:54:36,009 - INFO - Found 10 resumes for experience parsing
+2026-08-20 16:54:36,009 - INFO - Extracted 3 experience entries
+2026-08-20 16:54:36,011 - INFO - Scored 3 experience entries against job title 'Data Analyst'
+2026-08-20 16:54:36,012 - INFO - Saved experience object: data/experience_parsed\ba_resume_1_experience.json
+2026-08-20 16:54:36,014 - INFO - Extracted 2 experience entries
+2026-08-20 16:54:36,014 - INFO - Scored 2 experience entries against job title 'Data Analyst'
+2026-08-20 16:54:36,015 - INFO - Saved experience object: data/experience_parsed\ba_resume_2_experience.json
+2026-08-20 16:54:36,015 - INFO - Extracted 1 experience entries
+2026-08-20 16:54:36,015 - INFO - Scored 1 experience entries against job title 'Data Analyst'
+2026-08-20 16:54:36,019 - INFO - Saved experience object: data/experience_parsed\civil_resume_1_experience.json
+2026-08-20 16:54:36,019 - INFO - Extracted 4 experience entries
+2026-08-20 16:54:36,019 - INFO - Scored 4 experience entries against job title 'Data Analyst'
+2026-08-20 16:54:36,019 - INFO - Saved experience object: data/experience_parsed\da_resume_1_experience.json
+2026-08-20 16:54:36,019 - INFO - Extracted 0 experience entries
+2026-08-20 16:54:36,019 - INFO - Scored 0 experience entries against job title 'Data Analyst'
+2026-08-20 16:54:36,019 - INFO - Saved experience object: data/experience_parsed\da_resume_2_experience.json
+2026-08-20 16:54:36,019 - INFO - Extracted 2 experience entries
+2026-08-20 16:54:36,027 - INFO - Scored 2 experience entries against job title 'Data Analyst'
+2026-08-20 16:54:36,027 - INFO - Saved experience object: data/experience_parsed\da_resume_3_experience.json
+2026-08-20 16:54:36,027 - INFO - Extracted 0 experience entries
+2026-08-20 16:54:36,027 - INFO - Scored 0 experience entries against job title 'Data Analyst'
+2026-08-20 16:54:36,027 - INFO - Saved experience object: data/experience_parsed\hr_resume_1_experience.json
+2026-08-20 16:54:36,027 - INFO - Extracted 0 experience entries
+2026-08-20 16:54:36,027 - INFO - Scored 0 experience entries against job title 'Data Analyst'
+2026-08-20 16:54:36,034 - INFO - Saved experience object: data/experience_parsed\hr_resume_2_experience.json
+2026-08-20 16:54:36,034 - INFO - Extracted 4 experience entries
+2026-08-20 16:54:36,036 - INFO - Scored 4 experience entries against job title 'Data Analyst'
+2026-08-20 16:54:36,036 - INFO - Saved experience object: data/experience_parsed\java_resume_1_experience.json
+2026-08-20 16:54:36,038 - INFO - Extracted 3 experience entries
+2026-08-20 16:54:36,038 - INFO - Scored 3 experience entries against job title 'Data Analyst'
+2026-08-20 16:54:36,038 - INFO - Saved experience object: data/experience_parsed\soft_resume_1_experience.json
+2026-08-20 16:54:47,901 - INFO - Found 10 labeled resumes for education parsing
+2026-08-20 16:54:47,902 - INFO - Extracted 2 education entries
+2026-08-20 16:54:47,902 - INFO - Best education match scored 0.7
+2026-08-20 16:54:47,903 - INFO - Saved academic profile: data/education_parsed\ba_resume_1_academic.json
+2026-08-20 16:54:47,903 - INFO - Extracted 1 education entries
+2026-08-20 16:54:47,903 - INFO - Best education match scored 0.42
+2026-08-20 16:54:47,903 - INFO - Saved academic profile: data/education_parsed\ba_resume_2_academic.json
+2026-08-20 16:54:47,903 - INFO - Extracted 3 education entries
+2026-08-20 16:54:47,903 - INFO - Best education match scored 0.79
+2026-08-20 16:54:47,903 - INFO - Saved academic profile: data/education_parsed\civil_resume_1_academic.json
+2026-08-20 16:54:47,903 - INFO - Extracted 0 education entries
+2026-08-20 16:54:47,903 - INFO - Saved academic profile: data/education_parsed\da_resume_1_academic.json
+2026-08-20 16:54:47,903 - INFO - Extracted 4 education entries
+2026-08-20 16:54:47,903 - INFO - Extracted 8 certifications
+2026-08-20 16:54:47,903 - INFO - Best education match scored 0.78
+2026-08-20 16:54:47,903 - INFO - Saved academic profile: data/education_parsed\da_resume_2_academic.json
+2026-08-20 16:54:47,903 - INFO - Extracted 2 education entries
+2026-08-20 16:54:47,903 - INFO - Best education match scored 0.78
+2026-08-20 16:54:47,914 - INFO - Saved academic profile: data/education_parsed\da_resume_3_academic.json
+2026-08-20 16:54:47,914 - INFO - Extracted 5 education entries
+2026-08-20 16:54:47,914 - INFO - Extracted 12 certifications
+2026-08-20 16:54:47,914 - INFO - Best education match scored 0.79
+2026-08-20 16:54:47,914 - INFO - Saved academic profile: data/education_parsed\hr_resume_1_academic.json
+2026-08-20 16:54:47,914 - INFO - Extracted 5 education entries
+2026-08-20 16:54:47,914 - INFO - Best education match scored 0.6
+2026-08-20 16:54:47,914 - INFO - Saved academic profile: data/education_parsed\hr_resume_2_academic.json
+2026-08-20 16:54:47,914 - INFO - Extracted 3 education entries
+2026-08-20 16:54:47,914 - INFO - Best education match scored 0.6
+2026-08-20 16:54:47,920 - INFO - Saved academic profile: data/education_parsed\java_resume_1_academic.json
+2026-08-20 16:54:47,920 - INFO - Extracted 3 education entries
+2026-08-20 16:54:47,920 - INFO - Best education match scored 0.79
+2026-08-20 16:54:47,920 - INFO - Saved academic profile: data/education_parsed\soft_resume_1_academic.json
+2026-08-20 16:55:05,649 - INFO - Matching 10 resumes against 6 job descriptions
+2026-08-20 16:55:05,665 - INFO - Loading sentence-transformers model (first call only)...
+2026-08-20 16:55:05,665 - INFO - No device provided, using cpu
+2026-08-20 16:55:06,040 - INFO - HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/modules.json "HTTP/1.1 307 Temporary Redirect"
+2026-08-20 16:55:06,065 - INFO - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/modules.json "HTTP/1.1 200 OK"
+2026-08-20 16:55:06,314 - INFO - HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/config_sentence_transformers.json "HTTP/1.1 307 Temporary Redirect"
+2026-08-20 16:55:06,346 - INFO - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/config_sentence_transformers.json "HTTP/1.1 200 OK"
+2026-08-20 16:55:06,346 - INFO - Loading SentenceTransformer model from sentence-transformers/all-MiniLM-L6-v2.
+2026-08-20 16:55:06,681 - INFO - HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/config_sentence_transformers.json "HTTP/1.1 307 Temporary Redirect"
+2026-08-20 16:55:06,717 - INFO - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/config_sentence_transformers.json "HTTP/1.1 200 OK"
+2026-08-20 16:55:06,971 - INFO - HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/README.md "HTTP/1.1 307 Temporary Redirect"
+2026-08-20 16:55:06,971 - WARNING - Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+2026-08-20 16:55:07,003 - INFO - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/README.md "HTTP/1.1 200 OK"
+2026-08-20 16:55:07,255 - INFO - HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/modules.json "HTTP/1.1 307 Temporary Redirect"
+2026-08-20 16:55:07,283 - INFO - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/modules.json "HTTP/1.1 200 OK"
+2026-08-20 16:55:07,530 - INFO - HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/sentence_bert_config.json "HTTP/1.1 307 Temporary Redirect"
+2026-08-20 16:55:07,559 - INFO - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/sentence_bert_config.json "HTTP/1.1 200 OK"
+2026-08-20 16:55:07,805 - INFO - HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/adapter_config.json "HTTP/1.1 404 Not Found"
+2026-08-20 16:55:08,056 - INFO - HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-08-20 16:55:08,090 - INFO - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/config.json "HTTP/1.1 200 OK"
+2026-08-20 16:55:08,524 - INFO - HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/processor_config.json "HTTP/1.1 404 Not Found"
+2026-08-20 16:55:08,773 - INFO - HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/preprocessor_config.json "HTTP/1.1 404 Not Found"
+2026-08-20 16:55:09,022 - INFO - HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/video_preprocessor_config.json "HTTP/1.1 404 Not Found"
+2026-08-20 16:55:09,286 - INFO - HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/preprocessor_config.json "HTTP/1.1 404 Not Found"
+2026-08-20 16:55:09,580 - INFO - HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/tokenizer_config.json "HTTP/1.1 307 Temporary Redirect"
+2026-08-20 16:55:09,603 - INFO - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/tokenizer_config.json "HTTP/1.1 200 OK"
+2026-08-20 16:55:09,857 - INFO - HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-08-20 16:55:09,888 - INFO - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/config.json "HTTP/1.1 200 OK"
+2026-08-20 16:55:10,171 - INFO - HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-08-20 16:55:10,221 - INFO - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/config.json "HTTP/1.1 200 OK"
+2026-08-20 16:55:10,471 - INFO - HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/tokenizer_config.json "HTTP/1.1 307 Temporary Redirect"
+2026-08-20 16:55:10,492 - INFO - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/tokenizer_config.json "HTTP/1.1 200 OK"
+2026-08-20 16:55:10,932 - INFO - HTTP Request: GET https://huggingface.co/api/models/sentence-transformers/all-MiniLM-L6-v2/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 404 Not Found"
+2026-08-20 16:55:11,635 - INFO - HTTP Request: GET https://huggingface.co/api/models/sentence-transformers/all-MiniLM-L6-v2/tree/main?recursive=true&expand=false "HTTP/1.1 200 OK"
+2026-08-20 16:55:12,038 - INFO - HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/1_Pooling/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-08-20 16:55:12,073 - INFO - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/1_Pooling%2Fconfig.json "HTTP/1.1 200 OK"
+2026-08-20 16:55:12,321 - INFO - HTTP Request: GET https://huggingface.co/api/models/sentence-transformers/all-MiniLM-L6-v2 "HTTP/1.1 200 OK"
+2026-08-20 16:55:12,565 - INFO - Semantic match vs 'Concentrix': overall=0.374
+2026-08-20 16:55:12,637 - INFO - Semantic match vs 'Vestal Corporation': overall=0.273
+2026-08-20 16:55:12,713 - INFO - Semantic match vs 'PayJoy': overall=0.373
+2026-08-20 16:55:12,791 - INFO - Semantic match vs 'QuantumBlack, AI by McKinsey': overall=0.32
+2026-08-20 16:55:12,869 - INFO - Semantic match vs 'PX.com': overall=0.277
+2026-08-20 16:55:12,947 - INFO - Semantic match vs 'Harris Computer': overall=0.18
+2026-08-20 16:55:13,032 - INFO - Semantic match vs 'Concentrix': overall=0.293
+2026-08-20 16:55:13,116 - INFO - Semantic match vs 'Vestal Corporation': overall=0.211
+2026-08-20 16:55:13,203 - INFO - Semantic match vs 'PayJoy': overall=0.239
+2026-08-20 16:55:13,302 - INFO - Semantic match vs 'QuantumBlack, AI by McKinsey': overall=0.145
+2026-08-20 16:55:13,403 - INFO - Semantic match vs 'PX.com': overall=0.245
+2026-08-20 16:55:13,512 - INFO - Semantic match vs 'Harris Computer': overall=0.114
+2026-08-20 16:55:13,600 - INFO - Semantic match vs 'Concentrix': overall=0.136
+2026-08-20 16:55:13,682 - INFO - Semantic match vs 'Vestal Corporation': overall=0.252
+2026-08-20 16:55:13,756 - INFO - Semantic match vs 'PayJoy': overall=0.157
+2026-08-20 16:55:13,855 - INFO - Semantic match vs 'QuantumBlack, AI by McKinsey': overall=0.068
+2026-08-20 16:55:13,944 - INFO - Semantic match vs 'PX.com': overall=0.099
+2026-08-20 16:55:14,029 - INFO - Semantic match vs 'Harris Computer': overall=0.066
+2026-08-20 16:55:14,135 - INFO - Semantic match vs 'Concentrix': overall=0.34
+2026-08-20 16:55:14,246 - INFO - Semantic match vs 'Vestal Corporation': overall=0.207
+2026-08-20 16:55:14,370 - INFO - Semantic match vs 'PayJoy': overall=0.357
+2026-08-20 16:55:14,487 - INFO - Semantic match vs 'QuantumBlack, AI by McKinsey': overall=0.277
+2026-08-20 16:55:14,602 - INFO - Semantic match vs 'PX.com': overall=0.254
+2026-08-20 16:55:14,705 - INFO - Semantic match vs 'Harris Computer': overall=0.176
+2026-08-20 16:55:14,810 - INFO - Semantic match vs 'Concentrix': overall=0.302
+2026-08-20 16:55:14,936 - INFO - Semantic match vs 'Vestal Corporation': overall=0.281
+2026-08-20 16:55:15,053 - INFO - Semantic match vs 'PayJoy': overall=0.387
+2026-08-20 16:55:15,153 - INFO - Semantic match vs 'QuantumBlack, AI by McKinsey': overall=0.319
+2026-08-20 16:55:15,262 - INFO - Semantic match vs 'PX.com': overall=0.175
+2026-08-20 16:55:15,362 - INFO - Semantic match vs 'Harris Computer': overall=0.225
+2026-08-20 16:55:15,470 - INFO - Semantic match vs 'Concentrix': overall=0.315
+2026-08-20 16:55:15,576 - INFO - Semantic match vs 'Vestal Corporation': overall=0.278
+2026-08-20 16:55:15,679 - INFO - Semantic match vs 'PayJoy': overall=0.373
+2026-08-20 16:55:15,780 - INFO - Semantic match vs 'QuantumBlack, AI by McKinsey': overall=0.291
+2026-08-20 16:55:15,885 - INFO - Semantic match vs 'PX.com': overall=0.258
+2026-08-20 16:55:15,986 - INFO - Semantic match vs 'Harris Computer': overall=0.179
+2026-08-20 16:55:16,069 - INFO - Semantic match vs 'Concentrix': overall=0.25
+2026-08-20 16:55:16,164 - INFO - Semantic match vs 'Vestal Corporation': overall=0.15
+2026-08-20 16:55:16,260 - INFO - Semantic match vs 'PayJoy': overall=0.263
+2026-08-20 16:55:16,350 - INFO - Semantic match vs 'QuantumBlack, AI by McKinsey': overall=0.11
+2026-08-20 16:55:16,437 - INFO - Semantic match vs 'PX.com': overall=0.202
+2026-08-20 16:55:16,529 - INFO - Semantic match vs 'Harris Computer': overall=0.135
+2026-08-20 16:55:16,617 - INFO - Semantic match vs 'Concentrix': overall=0.294
+2026-08-20 16:55:16,704 - INFO - Semantic match vs 'Vestal Corporation': overall=0.178
+2026-08-20 16:55:16,786 - INFO - Semantic match vs 'PayJoy': overall=0.306
+2026-08-20 16:55:16,881 - INFO - Semantic match vs 'QuantumBlack, AI by McKinsey': overall=0.126
+2026-08-20 16:55:16,971 - INFO - Semantic match vs 'PX.com': overall=0.234
+2026-08-20 16:55:17,069 - INFO - Semantic match vs 'Harris Computer': overall=0.163
+2026-08-20 16:55:17,167 - INFO - Semantic match vs 'Concentrix': overall=0.19
+2026-08-20 16:55:17,277 - INFO - Semantic match vs 'Vestal Corporation': overall=0.144
+2026-08-20 16:55:17,392 - INFO - Semantic match vs 'PayJoy': overall=0.222
+2026-08-20 16:55:17,498 - INFO - Semantic match vs 'QuantumBlack, AI by McKinsey': overall=0.077
+2026-08-20 16:55:17,613 - INFO - Semantic match vs 'PX.com': overall=0.23
+2026-08-20 16:55:17,716 - INFO - Semantic match vs 'Harris Computer': overall=0.124
+2026-08-20 16:55:17,836 - INFO - Semantic match vs 'Concentrix': overall=0.265
+2026-08-20 16:55:17,953 - INFO - Semantic match vs 'Vestal Corporation': overall=0.247
+2026-08-20 16:55:18,077 - INFO - Semantic match vs 'PayJoy': overall=0.34
+2026-08-20 16:55:18,195 - INFO - Semantic match vs 'QuantumBlack, AI by McKinsey': overall=0.194
+2026-08-20 16:55:18,312 - INFO - Semantic match vs 'PX.com': overall=0.182
+2026-08-20 16:55:18,428 - INFO - Semantic match vs 'Harris Computer': overall=0.37
+2026-08-20 16:55:41,403 - INFO - Scoring 10 candidates
+2026-08-20 16:55:41,403 - INFO - ATS score computed: 48.9/100
+2026-08-20 16:55:41,403 - INFO - ATS score computed: 39.9/100
+2026-08-20 16:55:41,403 - INFO - ATS score computed: 7.8/100
+2026-08-20 16:55:41,403 - INFO - ATS score computed: 59.5/100
+2026-08-20 16:55:41,413 - INFO - ATS score computed: 62.9/100
+2026-08-20 16:55:41,413 - INFO - ATS score computed: 56.8/100
+2026-08-20 16:55:41,413 - INFO - ATS score computed: 19.7/100
+2026-08-20 16:55:41,413 - INFO - ATS score computed: 52.8/100
+2026-08-20 16:55:41,419 - INFO - ATS score computed: 30.3/100
+2026-08-20 16:55:41,420 - INFO - ATS score computed: 15.7/100
+2026-08-20 16:55:57,453 - INFO - Loaded 10 scored candidates for ranking
+2026-08-20 16:55:57,453 - INFO - Ranked 10 candidates
+2026-08-20 16:55:57,470 - INFO - Generated recruiter report
+2026-08-20 17:58:58,696 - INFO - Found 10 resume files to process
+2026-08-20 17:58:58,815 - INFO - Successfully extracted PDF: data\ba_resume_1.pdf
+2026-08-20 17:58:58,821 - INFO - Text cleaning complete
+2026-08-20 17:58:58,821 - INFO - Saved cleaned text: data/extracted\ba_resume_1_extracted.txt
+2026-08-20 17:58:58,968 - INFO - Successfully extracted PDF: data\ba_resume_2.pdf
+2026-08-20 17:58:58,984 - INFO - Text cleaning complete
+2026-08-20 17:58:58,984 - INFO - Saved cleaned text: data/extracted\ba_resume_2_extracted.txt
+2026-08-20 17:58:59,107 - INFO - Successfully extracted PDF: data\civil_resume_1.pdf
+2026-08-20 17:58:59,107 - INFO - Text cleaning complete
+2026-08-20 17:58:59,107 - INFO - Saved cleaned text: data/extracted\civil_resume_1_extracted.txt
+2026-08-20 17:58:59,323 - INFO - Successfully extracted PDF: data\da_resume_1.pdf
+2026-08-20 17:58:59,323 - INFO - Text cleaning complete
+2026-08-20 17:58:59,323 - INFO - Saved cleaned text: data/extracted\da_resume_1_extracted.txt
+2026-08-20 17:58:59,555 - INFO - Successfully extracted PDF: data\da_resume_2.pdf
+2026-08-20 17:58:59,555 - INFO - Text cleaning complete
+2026-08-20 17:58:59,555 - INFO - Saved cleaned text: data/extracted\da_resume_2_extracted.txt
+2026-08-20 17:58:59,739 - INFO - Successfully extracted PDF: data\da_resume_3.pdf
+2026-08-20 17:58:59,739 - INFO - Text cleaning complete
+2026-08-20 17:58:59,739 - INFO - Saved cleaned text: data/extracted\da_resume_3_extracted.txt
+2026-08-20 17:58:59,971 - INFO - Successfully extracted PDF: data\hr_resume_1.pdf
+2026-08-20 17:58:59,973 - INFO - Text cleaning complete
+2026-08-20 17:58:59,973 - INFO - Saved cleaned text: data/extracted\hr_resume_1_extracted.txt
+2026-08-20 17:59:00,155 - INFO - Successfully extracted PDF: data\hr_resume_2.pdf
+2026-08-20 17:59:00,155 - INFO - Text cleaning complete
+2026-08-20 17:59:00,155 - INFO - Saved cleaned text: data/extracted\hr_resume_2_extracted.txt
+2026-08-20 17:59:00,362 - INFO - Successfully extracted PDF: data\java_resume_1.pdf
+2026-08-20 17:59:00,376 - INFO - Text cleaning complete
+2026-08-20 17:59:00,376 - INFO - Saved cleaned text: data/extracted\java_resume_1_extracted.txt
+2026-08-20 17:59:00,529 - INFO - Successfully extracted PDF: data\soft_resume_1.pdf
+2026-08-20 17:59:00,529 - INFO - Text cleaning complete
+2026-08-20 17:59:00,531 - INFO - Saved cleaned text: data/extracted\soft_resume_1_extracted.txt
+2026-08-20 17:59:07,715 - INFO - Found 10 cleaned resumes to classify
+2026-08-20 17:59:07,715 - INFO - Classified into sections: ['HEADER', 'EXPERIENCE', 'EDUCATION', 'SKILLS']
+2026-08-20 17:59:07,724 - INFO - Saved labeled sections: data/labeled_sections\ba_resume_1_labeled.json
+2026-08-20 17:59:07,724 - INFO - Classified into sections: ['HEADER', 'EXPERIENCE', 'EDUCATION', 'SKILLS']
+2026-08-20 17:59:07,724 - INFO - Saved labeled sections: data/labeled_sections\ba_resume_2_labeled.json
+2026-08-20 17:59:07,724 - INFO - Classified into sections: ['HEADER', 'EXPERIENCE', 'EDUCATION', 'SKILLS']
+2026-08-20 17:59:07,724 - INFO - Saved labeled sections: data/labeled_sections\civil_resume_1_labeled.json
+2026-08-20 17:59:07,731 - INFO - Classified into sections: ['HEADER', 'SKILLS', 'SUMMARY', 'EXPERIENCE']
+2026-08-20 17:59:07,732 - INFO - Saved labeled sections: data/labeled_sections\da_resume_1_labeled.json
+2026-08-20 17:59:07,732 - INFO - Classified into sections: ['HEADER', 'SKILLS', 'EXPERIENCE', 'EDUCATION', 'CERTIFICATIONS']
+2026-08-20 17:59:07,732 - INFO - Saved labeled sections: data/labeled_sections\da_resume_2_labeled.json
+2026-08-20 17:59:07,732 - INFO - Classified into sections: ['HEADER', 'SUMMARY', 'EXPERIENCE', 'EDUCATION', 'SKILLS']
+2026-08-20 17:59:07,737 - INFO - Saved labeled sections: data/labeled_sections\da_resume_3_labeled.json
+2026-08-20 17:59:07,737 - INFO - Classified into sections: ['HEADER', 'SKILLS', 'EXPERIENCE', 'EDUCATION', 'CERTIFICATIONS']
+2026-08-20 17:59:07,737 - INFO - Saved labeled sections: data/labeled_sections\hr_resume_1_labeled.json
+2026-08-20 17:59:07,740 - INFO - Classified into sections: ['HEADER', 'SKILLS', 'EXPERIENCE', 'EDUCATION']
+2026-08-20 17:59:07,741 - INFO - Saved labeled sections: data/labeled_sections\hr_resume_2_labeled.json
+2026-08-20 17:59:07,742 - INFO - Classified into sections: ['HEADER', 'EXPERIENCE', 'EDUCATION', 'SKILLS']
+2026-08-20 17:59:07,745 - INFO - Saved labeled sections: data/labeled_sections\java_resume_1_labeled.json
+2026-08-20 17:59:07,745 - INFO - Classified into sections: ['HEADER', 'EXPERIENCE', 'EDUCATION', 'PROJECTS', 'SKILLS']
+2026-08-20 17:59:07,747 - INFO - Saved labeled sections: data/labeled_sections\soft_resume_1_labeled.json
+2026-08-20 17:59:17,121 - INFO - Found 10 resumes for skill extraction
+2026-08-20 17:59:17,121 - INFO - Extracted 8 unique skills
+2026-08-20 17:59:17,129 - INFO - Saved skills: data/skills_extracted\ba_resume_1_skills.json
+2026-08-20 17:59:17,129 - INFO - Extracted 8 unique skills
+2026-08-20 17:59:17,129 - INFO - Saved skills: data/skills_extracted\ba_resume_2_skills.json
+2026-08-20 17:59:17,139 - INFO - Extracted 6 unique skills
+2026-08-20 17:59:17,139 - INFO - Saved skills: data/skills_extracted\civil_resume_1_skills.json
+2026-08-20 17:59:17,147 - INFO - Extracted 13 unique skills
+2026-08-20 17:59:17,147 - INFO - Saved skills: data/skills_extracted\da_resume_1_skills.json
+2026-08-20 17:59:17,163 - INFO - Extracted 17 unique skills
+2026-08-20 17:59:17,163 - INFO - Saved skills: data/skills_extracted\da_resume_2_skills.json
+2026-08-20 17:59:17,171 - INFO - Extracted 10 unique skills
+2026-08-20 17:59:17,171 - INFO - Saved skills: data/skills_extracted\da_resume_3_skills.json
+2026-08-20 17:59:17,180 - INFO - Extracted 4 unique skills
+2026-08-20 17:59:17,180 - INFO - Saved skills: data/skills_extracted\hr_resume_1_skills.json
+2026-08-20 17:59:17,196 - INFO - Extracted 9 unique skills
+2026-08-20 17:59:17,196 - INFO - Saved skills: data/skills_extracted\hr_resume_2_skills.json
+2026-08-20 17:59:17,205 - INFO - Extracted 6 unique skills
+2026-08-20 17:59:17,205 - INFO - Saved skills: data/skills_extracted\java_resume_1_skills.json
+2026-08-20 17:59:17,205 - INFO - Extracted 8 unique skills
+2026-08-20 17:59:17,205 - INFO - Saved skills: data/skills_extracted\soft_resume_1_skills.json
+2026-08-20 17:59:26,378 - INFO - Found 10 resumes for experience parsing
+2026-08-20 17:59:26,378 - INFO - Extracted 3 experience entries
+2026-08-20 17:59:26,384 - INFO - Scored 3 experience entries against job title 'Data Analyst'
+2026-08-20 17:59:26,384 - INFO - Saved experience object: data/experience_parsed\ba_resume_1_experience.json
+2026-08-20 17:59:26,384 - INFO - Extracted 2 experience entries
+2026-08-20 17:59:26,384 - INFO - Scored 2 experience entries against job title 'Data Analyst'
+2026-08-20 17:59:26,384 - INFO - Saved experience object: data/experience_parsed\ba_resume_2_experience.json
+2026-08-20 17:59:26,388 - INFO - Extracted 1 experience entries
+2026-08-20 17:59:26,388 - INFO - Scored 1 experience entries against job title 'Data Analyst'
+2026-08-20 17:59:26,388 - INFO - Saved experience object: data/experience_parsed\civil_resume_1_experience.json
+2026-08-20 17:59:26,388 - INFO - Extracted 4 experience entries
+2026-08-20 17:59:26,388 - INFO - Scored 4 experience entries against job title 'Data Analyst'
+2026-08-20 17:59:26,388 - INFO - Saved experience object: data/experience_parsed\da_resume_1_experience.json
+2026-08-20 17:59:26,388 - INFO - Extracted 0 experience entries
+2026-08-20 17:59:26,388 - INFO - Scored 0 experience entries against job title 'Data Analyst'
+2026-08-20 17:59:26,388 - INFO - Saved experience object: data/experience_parsed\da_resume_2_experience.json
+2026-08-20 17:59:26,388 - INFO - Extracted 2 experience entries
+2026-08-20 17:59:26,388 - INFO - Scored 2 experience entries against job title 'Data Analyst'
+2026-08-20 17:59:26,388 - INFO - Saved experience object: data/experience_parsed\da_resume_3_experience.json
+2026-08-20 17:59:26,397 - INFO - Extracted 0 experience entries
+2026-08-20 17:59:26,397 - INFO - Scored 0 experience entries against job title 'Data Analyst'
+2026-08-20 17:59:26,397 - INFO - Saved experience object: data/experience_parsed\hr_resume_1_experience.json
+2026-08-20 17:59:26,397 - INFO - Extracted 0 experience entries
+2026-08-20 17:59:26,397 - INFO - Scored 0 experience entries against job title 'Data Analyst'
+2026-08-20 17:59:26,397 - INFO - Saved experience object: data/experience_parsed\hr_resume_2_experience.json
+2026-08-20 17:59:26,397 - INFO - Extracted 4 experience entries
+2026-08-20 17:59:26,397 - INFO - Scored 4 experience entries against job title 'Data Analyst'
+2026-08-20 17:59:26,397 - INFO - Saved experience object: data/experience_parsed\java_resume_1_experience.json
+2026-08-20 17:59:26,397 - INFO - Extracted 3 experience entries
+2026-08-20 17:59:26,397 - INFO - Scored 3 experience entries against job title 'Data Analyst'
+2026-08-20 17:59:26,397 - INFO - Saved experience object: data/experience_parsed\soft_resume_1_experience.json
+2026-08-20 17:59:34,766 - INFO - Found 10 labeled resumes for education parsing
+2026-08-20 17:59:34,766 - INFO - Extracted 2 education entries
+2026-08-20 17:59:34,766 - INFO - Best education match scored 0.7
+2026-08-20 17:59:34,766 - INFO - Saved academic profile: data/education_parsed\ba_resume_1_academic.json
+2026-08-20 17:59:34,766 - INFO - Extracted 1 education entries
+2026-08-20 17:59:34,766 - INFO - Best education match scored 0.42
+2026-08-20 17:59:34,775 - INFO - Saved academic profile: data/education_parsed\ba_resume_2_academic.json
+2026-08-20 17:59:34,775 - INFO - Extracted 3 education entries
+2026-08-20 17:59:34,775 - INFO - Best education match scored 0.79
+2026-08-20 17:59:34,775 - INFO - Saved academic profile: data/education_parsed\civil_resume_1_academic.json
+2026-08-20 17:59:34,775 - INFO - Extracted 0 education entries
+2026-08-20 17:59:34,775 - INFO - Saved academic profile: data/education_parsed\da_resume_1_academic.json
+2026-08-20 17:59:34,775 - INFO - Extracted 4 education entries
+2026-08-20 17:59:34,775 - INFO - Extracted 8 certifications
+2026-08-20 17:59:34,775 - INFO - Best education match scored 0.78
+2026-08-20 17:59:34,775 - INFO - Saved academic profile: data/education_parsed\da_resume_2_academic.json
+2026-08-20 17:59:34,775 - INFO - Extracted 2 education entries
+2026-08-20 17:59:34,775 - INFO - Best education match scored 0.78
+2026-08-20 17:59:34,775 - INFO - Saved academic profile: data/education_parsed\da_resume_3_academic.json
+2026-08-20 17:59:34,775 - INFO - Extracted 5 education entries
+2026-08-20 17:59:34,775 - INFO - Extracted 12 certifications
+2026-08-20 17:59:34,775 - INFO - Best education match scored 0.79
+2026-08-20 17:59:34,775 - INFO - Saved academic profile: data/education_parsed\hr_resume_1_academic.json
+2026-08-20 17:59:34,775 - INFO - Extracted 5 education entries
+2026-08-20 17:59:34,775 - INFO - Best education match scored 0.6
+2026-08-20 17:59:34,783 - INFO - Saved academic profile: data/education_parsed\hr_resume_2_academic.json
+2026-08-20 17:59:34,783 - INFO - Extracted 3 education entries
+2026-08-20 17:59:34,783 - INFO - Best education match scored 0.6
+2026-08-20 17:59:34,783 - INFO - Saved academic profile: data/education_parsed\java_resume_1_academic.json
+2026-08-20 17:59:34,783 - INFO - Extracted 3 education entries
+2026-08-20 17:59:34,783 - INFO - Best education match scored 0.79
+2026-08-20 17:59:34,785 - INFO - Saved academic profile: data/education_parsed\soft_resume_1_academic.json
+2026-08-20 17:59:54,741 - INFO - Matching 10 resumes against 6 job descriptions
+2026-08-20 17:59:54,741 - INFO - Loading sentence-transformers model (first call only)...
+2026-08-20 17:59:54,741 - INFO - No device provided, using cpu
+2026-08-20 17:59:55,103 - INFO - HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/modules.json "HTTP/1.1 307 Temporary Redirect"
+2026-08-20 17:59:55,127 - INFO - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/modules.json "HTTP/1.1 200 OK"
+2026-08-20 17:59:55,382 - INFO - HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/config_sentence_transformers.json "HTTP/1.1 307 Temporary Redirect"
+2026-08-20 17:59:55,407 - INFO - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/config_sentence_transformers.json "HTTP/1.1 200 OK"
+2026-08-20 17:59:55,410 - INFO - Loading SentenceTransformer model from sentence-transformers/all-MiniLM-L6-v2.
+2026-08-20 17:59:55,653 - INFO - HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/config_sentence_transformers.json "HTTP/1.1 307 Temporary Redirect"
+2026-08-20 17:59:55,653 - WARNING - Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+2026-08-20 17:59:55,677 - INFO - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/config_sentence_transformers.json "HTTP/1.1 200 OK"
+2026-08-20 17:59:55,932 - INFO - HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/README.md "HTTP/1.1 307 Temporary Redirect"
+2026-08-20 17:59:55,954 - INFO - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/README.md "HTTP/1.1 200 OK"
+2026-08-20 17:59:56,216 - INFO - HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/modules.json "HTTP/1.1 307 Temporary Redirect"
+2026-08-20 17:59:56,249 - INFO - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/modules.json "HTTP/1.1 200 OK"
+2026-08-20 17:59:56,492 - INFO - HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/sentence_bert_config.json "HTTP/1.1 307 Temporary Redirect"
+2026-08-20 17:59:56,515 - INFO - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/sentence_bert_config.json "HTTP/1.1 200 OK"
+2026-08-20 17:59:56,759 - INFO - HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/adapter_config.json "HTTP/1.1 404 Not Found"
+2026-08-20 17:59:57,015 - INFO - HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-08-20 17:59:57,042 - INFO - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/config.json "HTTP/1.1 200 OK"
+2026-08-20 17:59:57,556 - INFO - HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/processor_config.json "HTTP/1.1 404 Not Found"
+2026-08-20 17:59:57,816 - INFO - HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/preprocessor_config.json "HTTP/1.1 404 Not Found"
+2026-08-20 17:59:58,065 - INFO - HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/video_preprocessor_config.json "HTTP/1.1 404 Not Found"
+2026-08-20 17:59:58,336 - INFO - HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/preprocessor_config.json "HTTP/1.1 404 Not Found"
+2026-08-20 17:59:58,581 - INFO - HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/tokenizer_config.json "HTTP/1.1 307 Temporary Redirect"
+2026-08-20 17:59:58,604 - INFO - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/tokenizer_config.json "HTTP/1.1 200 OK"
+2026-08-20 17:59:58,856 - INFO - HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-08-20 17:59:58,884 - INFO - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/config.json "HTTP/1.1 200 OK"
+2026-08-20 17:59:59,135 - INFO - HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-08-20 17:59:59,164 - INFO - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/config.json "HTTP/1.1 200 OK"
+2026-08-20 17:59:59,413 - INFO - HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/tokenizer_config.json "HTTP/1.1 307 Temporary Redirect"
+2026-08-20 17:59:59,438 - INFO - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/tokenizer_config.json "HTTP/1.1 200 OK"
+2026-08-20 17:59:59,694 - INFO - HTTP Request: GET https://huggingface.co/api/models/sentence-transformers/all-MiniLM-L6-v2/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 404 Not Found"
+2026-08-20 17:59:59,956 - INFO - HTTP Request: GET https://huggingface.co/api/models/sentence-transformers/all-MiniLM-L6-v2/tree/main?recursive=true&expand=false "HTTP/1.1 200 OK"
+2026-08-20 18:00:00,304 - INFO - HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/1_Pooling/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-08-20 18:00:00,332 - INFO - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/1_Pooling%2Fconfig.json "HTTP/1.1 200 OK"
+2026-08-20 18:00:00,616 - INFO - HTTP Request: GET https://huggingface.co/api/models/sentence-transformers/all-MiniLM-L6-v2 "HTTP/1.1 200 OK"
+2026-08-20 18:00:00,928 - INFO - Semantic match vs 'Concentrix': overall=0.374
+2026-08-20 18:00:01,019 - INFO - Semantic match vs 'Vestal Corporation': overall=0.273
+2026-08-20 18:00:01,105 - INFO - Semantic match vs 'PayJoy': overall=0.373
+2026-08-20 18:00:01,180 - INFO - Semantic match vs 'QuantumBlack, AI by McKinsey': overall=0.32
+2026-08-20 18:00:01,260 - INFO - Semantic match vs 'PX.com': overall=0.277
+2026-08-20 18:00:01,342 - INFO - Semantic match vs 'Harris Computer': overall=0.18
+2026-08-20 18:00:01,434 - INFO - Semantic match vs 'Concentrix': overall=0.293
+2026-08-20 18:00:01,519 - INFO - Semantic match vs 'Vestal Corporation': overall=0.211
+2026-08-20 18:00:01,617 - INFO - Semantic match vs 'PayJoy': overall=0.239
+2026-08-20 18:00:01,716 - INFO - Semantic match vs 'QuantumBlack, AI by McKinsey': overall=0.145
+2026-08-20 18:00:01,823 - INFO - Semantic match vs 'PX.com': overall=0.245
+2026-08-20 18:00:01,924 - INFO - Semantic match vs 'Harris Computer': overall=0.114
+2026-08-20 18:00:02,070 - INFO - Semantic match vs 'Concentrix': overall=0.136
+2026-08-20 18:00:02,159 - INFO - Semantic match vs 'Vestal Corporation': overall=0.252
+2026-08-20 18:00:02,251 - INFO - Semantic match vs 'PayJoy': overall=0.157
+2026-08-20 18:00:02,333 - INFO - Semantic match vs 'QuantumBlack, AI by McKinsey': overall=0.068
+2026-08-20 18:00:02,417 - INFO - Semantic match vs 'PX.com': overall=0.099
+2026-08-20 18:00:02,505 - INFO - Semantic match vs 'Harris Computer': overall=0.066
+2026-08-20 18:00:02,646 - INFO - Semantic match vs 'Concentrix': overall=0.34
+2026-08-20 18:00:02,755 - INFO - Semantic match vs 'Vestal Corporation': overall=0.207
+2026-08-20 18:00:02,867 - INFO - Semantic match vs 'PayJoy': overall=0.357
+2026-08-20 18:00:02,973 - INFO - Semantic match vs 'QuantumBlack, AI by McKinsey': overall=0.277
+2026-08-20 18:00:03,080 - INFO - Semantic match vs 'PX.com': overall=0.254
+2026-08-20 18:00:03,190 - INFO - Semantic match vs 'Harris Computer': overall=0.176
+2026-08-20 18:00:03,312 - INFO - Semantic match vs 'Concentrix': overall=0.302
+2026-08-20 18:00:03,419 - INFO - Semantic match vs 'Vestal Corporation': overall=0.281
+2026-08-20 18:00:03,525 - INFO - Semantic match vs 'PayJoy': overall=0.387
+2026-08-20 18:00:03,638 - INFO - Semantic match vs 'QuantumBlack, AI by McKinsey': overall=0.319
+2026-08-20 18:00:03,742 - INFO - Semantic match vs 'PX.com': overall=0.175
+2026-08-20 18:00:03,855 - INFO - Semantic match vs 'Harris Computer': overall=0.225
+2026-08-20 18:00:03,985 - INFO - Semantic match vs 'Concentrix': overall=0.315
+2026-08-20 18:00:04,081 - INFO - Semantic match vs 'Vestal Corporation': overall=0.278
+2026-08-20 18:00:04,183 - INFO - Semantic match vs 'PayJoy': overall=0.373
+2026-08-20 18:00:04,290 - INFO - Semantic match vs 'QuantumBlack, AI by McKinsey': overall=0.291
+2026-08-20 18:00:04,388 - INFO - Semantic match vs 'PX.com': overall=0.258
+2026-08-20 18:00:04,490 - INFO - Semantic match vs 'Harris Computer': overall=0.179
+2026-08-20 18:00:04,592 - INFO - Semantic match vs 'Concentrix': overall=0.25
+2026-08-20 18:00:04,682 - INFO - Semantic match vs 'Vestal Corporation': overall=0.15
+2026-08-20 18:00:04,770 - INFO - Semantic match vs 'PayJoy': overall=0.263
+2026-08-20 18:00:04,857 - INFO - Semantic match vs 'QuantumBlack, AI by McKinsey': overall=0.11
+2026-08-20 18:00:04,942 - INFO - Semantic match vs 'PX.com': overall=0.202
+2026-08-20 18:00:05,034 - INFO - Semantic match vs 'Harris Computer': overall=0.135
+2026-08-20 18:00:05,142 - INFO - Semantic match vs 'Concentrix': overall=0.294
+2026-08-20 18:00:05,240 - INFO - Semantic match vs 'Vestal Corporation': overall=0.178
+2026-08-20 18:00:05,333 - INFO - Semantic match vs 'PayJoy': overall=0.306
+2026-08-20 18:00:05,417 - INFO - Semantic match vs 'QuantumBlack, AI by McKinsey': overall=0.126
+2026-08-20 18:00:05,503 - INFO - Semantic match vs 'PX.com': overall=0.234
+2026-08-20 18:00:05,601 - INFO - Semantic match vs 'Harris Computer': overall=0.163
+2026-08-20 18:00:05,706 - INFO - Semantic match vs 'Concentrix': overall=0.19
+2026-08-20 18:00:05,786 - INFO - Semantic match vs 'Vestal Corporation': overall=0.144
+2026-08-20 18:00:05,873 - INFO - Semantic match vs 'PayJoy': overall=0.222
+2026-08-20 18:00:05,956 - INFO - Semantic match vs 'QuantumBlack, AI by McKinsey': overall=0.077
+2026-08-20 18:00:06,043 - INFO - Semantic match vs 'PX.com': overall=0.23
+2026-08-20 18:00:06,135 - INFO - Semantic match vs 'Harris Computer': overall=0.124
+2026-08-20 18:00:06,277 - INFO - Semantic match vs 'Concentrix': overall=0.265
+2026-08-20 18:00:06,393 - INFO - Semantic match vs 'Vestal Corporation': overall=0.247
+2026-08-20 18:00:06,513 - INFO - Semantic match vs 'PayJoy': overall=0.34
+2026-08-20 18:00:06,632 - INFO - Semantic match vs 'QuantumBlack, AI by McKinsey': overall=0.194
+2026-08-20 18:00:06,753 - INFO - Semantic match vs 'PX.com': overall=0.182
+2026-08-20 18:00:06,872 - INFO - Semantic match vs 'Harris Computer': overall=0.37
+2026-08-20 18:00:23,030 - INFO - Scoring 10 candidates
+2026-08-20 18:00:23,030 - INFO - ATS score computed: 48.9/100
+2026-08-20 18:00:23,039 - INFO - ATS score computed: 39.9/100
+2026-08-20 18:00:23,039 - INFO - ATS score computed: 7.8/100
+2026-08-20 18:00:23,039 - INFO - ATS score computed: 59.5/100
+2026-08-20 18:00:23,044 - INFO - ATS score computed: 62.9/100
+2026-08-20 18:00:23,044 - INFO - ATS score computed: 56.8/100
+2026-08-20 18:00:23,044 - INFO - ATS score computed: 19.7/100
+2026-08-20 18:00:23,044 - INFO - ATS score computed: 52.8/100
+2026-08-20 18:00:23,053 - INFO - ATS score computed: 30.3/100
+2026-08-20 18:00:23,055 - INFO - ATS score computed: 15.7/100
+2026-08-20 18:00:32,362 - INFO - Loaded 10 scored candidates for ranking
+2026-08-20 18:00:32,362 - INFO - Ranked 10 candidates
+2026-08-20 18:00:32,370 - INFO - Generated recruiter report
+2026-08-20 18:36:29,952 - INFO - Found 10 resume files to process
+2026-08-20 18:36:30,106 - INFO - Successfully extracted PDF: data\ba_resume_1.pdf
+2026-08-20 18:36:30,106 - INFO - Text cleaning complete
+2026-08-20 18:36:30,113 - INFO - Saved cleaned text: data/extracted\ba_resume_1_extracted.txt
+2026-08-20 18:36:30,324 - INFO - Successfully extracted PDF: data\ba_resume_2.pdf
+2026-08-20 18:36:30,326 - INFO - Text cleaning complete
+2026-08-20 18:36:30,328 - INFO - Saved cleaned text: data/extracted\ba_resume_2_extracted.txt
+2026-08-20 18:36:30,515 - INFO - Successfully extracted PDF: data\civil_resume_1.pdf
+2026-08-20 18:36:30,517 - INFO - Text cleaning complete
+2026-08-20 18:36:30,524 - INFO - Saved cleaned text: data/extracted\civil_resume_1_extracted.txt
+2026-08-20 18:36:30,877 - INFO - Successfully extracted PDF: data\da_resume_1.pdf
+2026-08-20 18:36:30,877 - INFO - Text cleaning complete
+2026-08-20 18:36:30,877 - INFO - Saved cleaned text: data/extracted\da_resume_1_extracted.txt
+2026-08-20 18:36:31,233 - INFO - Successfully extracted PDF: data\da_resume_2.pdf
+2026-08-20 18:36:31,240 - INFO - Text cleaning complete
+2026-08-20 18:36:31,240 - INFO - Saved cleaned text: data/extracted\da_resume_2_extracted.txt
+2026-08-20 18:36:31,513 - INFO - Successfully extracted PDF: data\da_resume_3.pdf
+2026-08-20 18:36:31,513 - INFO - Text cleaning complete
+2026-08-20 18:36:31,513 - INFO - Saved cleaned text: data/extracted\da_resume_3_extracted.txt
+2026-08-20 18:36:31,740 - INFO - Successfully extracted PDF: data\hr_resume_1.pdf
+2026-08-20 18:36:31,740 - INFO - Text cleaning complete
+2026-08-20 18:36:31,740 - INFO - Saved cleaned text: data/extracted\hr_resume_1_extracted.txt
+2026-08-20 18:36:31,987 - INFO - Successfully extracted PDF: data\hr_resume_2.pdf
+2026-08-20 18:36:31,987 - INFO - Text cleaning complete
+2026-08-20 18:36:31,991 - INFO - Saved cleaned text: data/extracted\hr_resume_2_extracted.txt
+2026-08-20 18:36:32,267 - INFO - Successfully extracted PDF: data\java_resume_1.pdf
+2026-08-20 18:36:32,267 - INFO - Text cleaning complete
+2026-08-20 18:36:32,267 - INFO - Saved cleaned text: data/extracted\java_resume_1_extracted.txt
+2026-08-20 18:36:32,622 - INFO - Successfully extracted PDF: data\soft_resume_1.pdf
+2026-08-20 18:36:32,622 - INFO - Text cleaning complete
+2026-08-20 18:36:32,628 - INFO - Saved cleaned text: data/extracted\soft_resume_1_extracted.txt
+2026-08-20 18:36:39,582 - INFO - Found 10 cleaned resumes to classify
+2026-08-20 18:36:39,582 - INFO - Classified into sections: ['HEADER', 'EXPERIENCE', 'EDUCATION', 'SKILLS']
+2026-08-20 18:36:39,582 - INFO - Saved labeled sections: data/labeled_sections\ba_resume_1_labeled.json
+2026-08-20 18:36:39,582 - INFO - Classified into sections: ['HEADER', 'EXPERIENCE', 'EDUCATION', 'SKILLS']
+2026-08-20 18:36:39,582 - INFO - Saved labeled sections: data/labeled_sections\ba_resume_2_labeled.json
+2026-08-20 18:36:39,582 - INFO - Classified into sections: ['HEADER', 'EXPERIENCE', 'EDUCATION', 'SKILLS']
+2026-08-20 18:36:39,582 - INFO - Saved labeled sections: data/labeled_sections\civil_resume_1_labeled.json
+2026-08-20 18:36:39,589 - INFO - Classified into sections: ['HEADER', 'SKILLS', 'SUMMARY', 'EXPERIENCE']
+2026-08-20 18:36:39,589 - INFO - Saved labeled sections: data/labeled_sections\da_resume_1_labeled.json
+2026-08-20 18:36:39,591 - INFO - Classified into sections: ['HEADER', 'SKILLS', 'EXPERIENCE', 'EDUCATION', 'CERTIFICATIONS']
+2026-08-20 18:36:39,591 - INFO - Saved labeled sections: data/labeled_sections\da_resume_2_labeled.json
+2026-08-20 18:36:39,591 - INFO - Classified into sections: ['HEADER', 'SKILLS', 'EXPERIENCE', 'EDUCATION']
+2026-08-20 18:36:39,591 - INFO - Saved labeled sections: data/labeled_sections\da_resume_3_labeled.json
+2026-08-20 18:36:39,591 - INFO - Classified into sections: ['HEADER', 'SKILLS', 'EXPERIENCE', 'EDUCATION', 'CERTIFICATIONS']
+2026-08-20 18:36:39,591 - INFO - Saved labeled sections: data/labeled_sections\hr_resume_1_labeled.json
+2026-08-20 18:36:39,591 - INFO - Classified into sections: ['HEADER', 'SKILLS', 'EXPERIENCE', 'EDUCATION']
+2026-08-20 18:36:39,597 - INFO - Saved labeled sections: data/labeled_sections\hr_resume_2_labeled.json
+2026-08-20 18:36:39,597 - INFO - Classified into sections: ['HEADER', 'EXPERIENCE', 'EDUCATION', 'SKILLS']
+2026-08-20 18:36:39,597 - INFO - Saved labeled sections: data/labeled_sections\java_resume_1_labeled.json
+2026-08-20 18:36:39,597 - INFO - Classified into sections: ['HEADER', 'SKILLS', 'EXPERIENCE', 'PROJECTS', 'EDUCATION', 'CERTIFICATIONS']
+2026-08-20 18:36:39,597 - INFO - Saved labeled sections: data/labeled_sections\soft_resume_1_labeled.json
+2026-08-20 18:36:48,026 - INFO - Found 10 resumes for skill extraction
+2026-08-20 18:36:48,029 - INFO - Extracted 8 unique skills
+2026-08-20 18:36:48,037 - INFO - Saved skills: data/skills_extracted\ba_resume_1_skills.json
+2026-08-20 18:36:48,046 - INFO - Extracted 8 unique skills
+2026-08-20 18:36:48,046 - INFO - Saved skills: data/skills_extracted\ba_resume_2_skills.json
+2026-08-20 18:36:48,062 - INFO - Extracted 6 unique skills
+2026-08-20 18:36:48,062 - INFO - Saved skills: data/skills_extracted\civil_resume_1_skills.json
+2026-08-20 18:36:48,070 - INFO - Extracted 13 unique skills
+2026-08-20 18:36:48,070 - INFO - Saved skills: data/skills_extracted\da_resume_1_skills.json
+2026-08-20 18:36:48,079 - INFO - Extracted 17 unique skills
+2026-08-20 18:36:48,079 - INFO - Saved skills: data/skills_extracted\da_resume_2_skills.json
+2026-08-20 18:36:48,090 - INFO - Extracted 10 unique skills
+2026-08-20 18:36:48,092 - INFO - Saved skills: data/skills_extracted\da_resume_3_skills.json
+2026-08-20 18:36:48,095 - INFO - Extracted 4 unique skills
+2026-08-20 18:36:48,095 - INFO - Saved skills: data/skills_extracted\hr_resume_1_skills.json
+2026-08-20 18:36:48,106 - INFO - Extracted 7 unique skills
+2026-08-20 18:36:48,108 - INFO - Saved skills: data/skills_extracted\hr_resume_2_skills.json
+2026-08-20 18:36:48,116 - INFO - Extracted 6 unique skills
+2026-08-20 18:36:48,116 - INFO - Saved skills: data/skills_extracted\java_resume_1_skills.json
+2026-08-20 18:36:48,125 - INFO - Extracted 10 unique skills
+2026-08-20 18:36:48,125 - INFO - Saved skills: data/skills_extracted\soft_resume_1_skills.json
+2026-08-20 18:36:56,453 - INFO - Found 10 resumes for experience parsing
+2026-08-20 18:36:56,453 - INFO - Extracted 3 experience entries
+2026-08-20 18:36:56,453 - INFO - Scored 3 experience entries against job title 'Data Analyst'
+2026-08-20 18:36:56,453 - INFO - Saved experience object: data/experience_parsed\ba_resume_1_experience.json
+2026-08-20 18:36:56,462 - INFO - Extracted 2 experience entries
+2026-08-20 18:36:56,462 - INFO - Scored 2 experience entries against job title 'Data Analyst'
+2026-08-20 18:36:56,462 - INFO - Saved experience object: data/experience_parsed\ba_resume_2_experience.json
+2026-08-20 18:36:56,462 - INFO - Extracted 1 experience entries
+2026-08-20 18:36:56,462 - INFO - Scored 1 experience entries against job title 'Data Analyst'
+2026-08-20 18:36:56,462 - INFO - Saved experience object: data/experience_parsed\civil_resume_1_experience.json
+2026-08-20 18:36:56,462 - INFO - Extracted 4 experience entries
+2026-08-20 18:36:56,470 - INFO - Scored 4 experience entries against job title 'Data Analyst'
+2026-08-20 18:36:56,470 - INFO - Saved experience object: data/experience_parsed\da_resume_1_experience.json
+2026-08-20 18:36:56,470 - INFO - Extracted 0 experience entries
+2026-08-20 18:36:56,470 - INFO - Scored 0 experience entries against job title 'Data Analyst'
+2026-08-20 18:36:56,470 - INFO - Saved experience object: data/experience_parsed\da_resume_2_experience.json
+2026-08-20 18:36:56,470 - INFO - Extracted 0 experience entries
+2026-08-20 18:36:56,477 - INFO - Scored 0 experience entries against job title 'Data Analyst'
+2026-08-20 18:36:56,477 - INFO - Saved experience object: data/experience_parsed\da_resume_3_experience.json
+2026-08-20 18:36:56,479 - INFO - Extracted 0 experience entries
+2026-08-20 18:36:56,479 - INFO - Scored 0 experience entries against job title 'Data Analyst'
+2026-08-20 18:36:56,479 - INFO - Saved experience object: data/experience_parsed\hr_resume_1_experience.json
+2026-08-20 18:36:56,479 - INFO - Extracted 0 experience entries
+2026-08-20 18:36:56,483 - INFO - Scored 0 experience entries against job title 'Data Analyst'
+2026-08-20 18:36:56,483 - INFO - Saved experience object: data/experience_parsed\hr_resume_2_experience.json
+2026-08-20 18:36:56,483 - INFO - Extracted 4 experience entries
+2026-08-20 18:36:56,487 - INFO - Scored 4 experience entries against job title 'Data Analyst'
+2026-08-20 18:36:56,487 - INFO - Saved experience object: data/experience_parsed\java_resume_1_experience.json
+2026-08-20 18:36:56,487 - INFO - Extracted 3 experience entries
+2026-08-20 18:36:56,487 - INFO - Scored 3 experience entries against job title 'Data Analyst'
+2026-08-20 18:36:56,487 - INFO - Saved experience object: data/experience_parsed\soft_resume_1_experience.json
+2026-08-20 18:37:04,755 - INFO - Found 10 labeled resumes for education parsing
+2026-08-20 18:37:04,755 - INFO - Extracted 2 education entries
+2026-08-20 18:37:04,755 - INFO - Best education match scored 0.7
+2026-08-20 18:37:04,755 - INFO - Saved academic profile: data/education_parsed\ba_resume_1_academic.json
+2026-08-20 18:37:04,755 - INFO - Extracted 1 education entries
+2026-08-20 18:37:04,755 - INFO - Best education match scored 0.42
+2026-08-20 18:37:04,755 - INFO - Saved academic profile: data/education_parsed\ba_resume_2_academic.json
+2026-08-20 18:37:04,755 - INFO - Extracted 3 education entries
+2026-08-20 18:37:04,755 - INFO - Best education match scored 0.79
+2026-08-20 18:37:04,755 - INFO - Saved academic profile: data/education_parsed\civil_resume_1_academic.json
+2026-08-20 18:37:04,763 - INFO - Extracted 0 education entries
+2026-08-20 18:37:04,764 - INFO - Saved academic profile: data/education_parsed\da_resume_1_academic.json
+2026-08-20 18:37:04,764 - INFO - Extracted 4 education entries
+2026-08-20 18:37:04,764 - INFO - Extracted 8 certifications
+2026-08-20 18:37:04,764 - INFO - Best education match scored 0.78
+2026-08-20 18:37:04,767 - INFO - Saved academic profile: data/education_parsed\da_resume_2_academic.json
+2026-08-20 18:37:04,767 - INFO - Extracted 6 education entries
+2026-08-20 18:37:04,767 - INFO - Best education match scored 0.78
+2026-08-20 18:37:04,767 - INFO - Saved academic profile: data/education_parsed\da_resume_3_academic.json
+2026-08-20 18:37:04,767 - INFO - Extracted 4 education entries
+2026-08-20 18:37:04,767 - INFO - Extracted 13 certifications
+2026-08-20 18:37:04,767 - INFO - Best education match scored 0.79
+2026-08-20 18:37:04,772 - INFO - Saved academic profile: data/education_parsed\hr_resume_1_academic.json
+2026-08-20 18:37:04,774 - INFO - Extracted 5 education entries
+2026-08-20 18:37:04,774 - INFO - Best education match scored 0.6
+2026-08-20 18:37:04,774 - INFO - Saved academic profile: data/education_parsed\hr_resume_2_academic.json
+2026-08-20 18:37:04,774 - INFO - Extracted 3 education entries
+2026-08-20 18:37:04,774 - INFO - Best education match scored 0.6
+2026-08-20 18:37:04,774 - INFO - Saved academic profile: data/education_parsed\java_resume_1_academic.json
+2026-08-20 18:37:04,774 - INFO - Extracted 3 education entries
+2026-08-20 18:37:04,774 - INFO - Extracted 12 certifications
+2026-08-20 18:37:04,774 - INFO - Best education match scored 0.79
+2026-08-20 18:37:04,780 - INFO - Saved academic profile: data/education_parsed\soft_resume_1_academic.json
+2026-08-20 18:37:21,435 - INFO - Matching 10 resumes against 6 job descriptions
+2026-08-20 18:37:21,435 - INFO - Loading sentence-transformers model (first call only)...
+2026-08-20 18:37:21,435 - INFO - No device provided, using cpu
+2026-08-20 18:37:21,813 - INFO - HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/modules.json "HTTP/1.1 307 Temporary Redirect"
+2026-08-20 18:37:21,813 - WARNING - Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+2026-08-20 18:37:21,852 - INFO - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/modules.json "HTTP/1.1 200 OK"
+2026-08-20 18:37:22,145 - INFO - HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/config_sentence_transformers.json "HTTP/1.1 307 Temporary Redirect"
+2026-08-20 18:37:22,174 - INFO - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/config_sentence_transformers.json "HTTP/1.1 200 OK"
+2026-08-20 18:37:22,174 - INFO - Loading SentenceTransformer model from sentence-transformers/all-MiniLM-L6-v2.
+2026-08-20 18:37:22,424 - INFO - HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/config_sentence_transformers.json "HTTP/1.1 307 Temporary Redirect"
+2026-08-20 18:37:22,474 - INFO - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/config_sentence_transformers.json "HTTP/1.1 200 OK"
+2026-08-20 18:37:22,719 - INFO - HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/README.md "HTTP/1.1 307 Temporary Redirect"
+2026-08-20 18:37:22,745 - INFO - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/README.md "HTTP/1.1 200 OK"
+2026-08-20 18:37:22,990 - INFO - HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/modules.json "HTTP/1.1 307 Temporary Redirect"
+2026-08-20 18:37:23,024 - INFO - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/modules.json "HTTP/1.1 200 OK"
+2026-08-20 18:37:23,276 - INFO - HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/sentence_bert_config.json "HTTP/1.1 307 Temporary Redirect"
+2026-08-20 18:37:23,305 - INFO - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/sentence_bert_config.json "HTTP/1.1 200 OK"
+2026-08-20 18:37:23,650 - INFO - HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/adapter_config.json "HTTP/1.1 404 Not Found"
+2026-08-20 18:37:24,019 - INFO - HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-08-20 18:37:24,098 - INFO - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/config.json "HTTP/1.1 200 OK"
+2026-08-20 18:37:24,527 - INFO - HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/processor_config.json "HTTP/1.1 404 Not Found"
+2026-08-20 18:37:24,776 - INFO - HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/preprocessor_config.json "HTTP/1.1 404 Not Found"
+2026-08-20 18:37:25,173 - INFO - HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/video_preprocessor_config.json "HTTP/1.1 404 Not Found"
+2026-08-20 18:37:25,424 - INFO - HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/preprocessor_config.json "HTTP/1.1 404 Not Found"
+2026-08-20 18:37:25,676 - INFO - HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/tokenizer_config.json "HTTP/1.1 307 Temporary Redirect"
+2026-08-20 18:37:25,726 - INFO - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/tokenizer_config.json "HTTP/1.1 200 OK"
+2026-08-20 18:37:26,041 - INFO - HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-08-20 18:37:26,490 - INFO - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/config.json "HTTP/1.1 200 OK"
+2026-08-20 18:37:27,414 - INFO - HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-08-20 18:37:27,666 - INFO - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/config.json "HTTP/1.1 200 OK"
+2026-08-20 18:37:27,938 - INFO - HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/tokenizer_config.json "HTTP/1.1 307 Temporary Redirect"
+2026-08-20 18:37:27,958 - INFO - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/tokenizer_config.json "HTTP/1.1 200 OK"
+2026-08-20 18:37:28,216 - INFO - HTTP Request: GET https://huggingface.co/api/models/sentence-transformers/all-MiniLM-L6-v2/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 404 Not Found"
+2026-08-20 18:37:28,470 - INFO - HTTP Request: GET https://huggingface.co/api/models/sentence-transformers/all-MiniLM-L6-v2/tree/main?recursive=true&expand=false "HTTP/1.1 200 OK"
+2026-08-20 18:37:28,771 - INFO - HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/1_Pooling/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-08-20 18:37:28,796 - INFO - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/1_Pooling%2Fconfig.json "HTTP/1.1 200 OK"
+2026-08-20 18:37:29,048 - INFO - HTTP Request: GET https://huggingface.co/api/models/sentence-transformers/all-MiniLM-L6-v2 "HTTP/1.1 200 OK"
+2026-08-20 18:37:29,167 - INFO - Semantic match vs 'Concentrix': overall=0.374
+2026-08-20 18:37:29,244 - INFO - Semantic match vs 'Vestal Corporation': overall=0.273
+2026-08-20 18:37:29,319 - INFO - Semantic match vs 'PayJoy': overall=0.373
+2026-08-20 18:37:29,396 - INFO - Semantic match vs 'QuantumBlack, AI by McKinsey': overall=0.32
+2026-08-20 18:37:29,470 - INFO - Semantic match vs 'PX.com': overall=0.277
+2026-08-20 18:37:29,545 - INFO - Semantic match vs 'Harris Computer': overall=0.18
+2026-08-20 18:37:29,630 - INFO - Semantic match vs 'Concentrix': overall=0.293
+2026-08-20 18:37:29,714 - INFO - Semantic match vs 'Vestal Corporation': overall=0.211
+2026-08-20 18:37:29,798 - INFO - Semantic match vs 'PayJoy': overall=0.239
+2026-08-20 18:37:29,907 - INFO - Semantic match vs 'QuantumBlack, AI by McKinsey': overall=0.145
+2026-08-20 18:37:30,012 - INFO - Semantic match vs 'PX.com': overall=0.245
+2026-08-20 18:37:30,110 - INFO - Semantic match vs 'Harris Computer': overall=0.114
+2026-08-20 18:37:30,201 - INFO - Semantic match vs 'Concentrix': overall=0.136
+2026-08-20 18:37:30,282 - INFO - Semantic match vs 'Vestal Corporation': overall=0.252
+2026-08-20 18:37:30,371 - INFO - Semantic match vs 'PayJoy': overall=0.157
+2026-08-20 18:37:30,454 - INFO - Semantic match vs 'QuantumBlack, AI by McKinsey': overall=0.068
+2026-08-20 18:37:30,543 - INFO - Semantic match vs 'PX.com': overall=0.099
+2026-08-20 18:37:30,630 - INFO - Semantic match vs 'Harris Computer': overall=0.066
+2026-08-20 18:37:30,730 - INFO - Semantic match vs 'Concentrix': overall=0.34
+2026-08-20 18:37:30,844 - INFO - Semantic match vs 'Vestal Corporation': overall=0.207
+2026-08-20 18:37:30,953 - INFO - Semantic match vs 'PayJoy': overall=0.357
+2026-08-20 18:37:31,056 - INFO - Semantic match vs 'QuantumBlack, AI by McKinsey': overall=0.277
+2026-08-20 18:37:31,162 - INFO - Semantic match vs 'PX.com': overall=0.254
+2026-08-20 18:37:31,269 - INFO - Semantic match vs 'Harris Computer': overall=0.176
+2026-08-20 18:37:31,365 - INFO - Semantic match vs 'Concentrix': overall=0.302
+2026-08-20 18:37:31,472 - INFO - Semantic match vs 'Vestal Corporation': overall=0.281
+2026-08-20 18:37:31,574 - INFO - Semantic match vs 'PayJoy': overall=0.387
+2026-08-20 18:37:31,674 - INFO - Semantic match vs 'QuantumBlack, AI by McKinsey': overall=0.319
+2026-08-20 18:37:31,780 - INFO - Semantic match vs 'PX.com': overall=0.175
+2026-08-20 18:37:31,886 - INFO - Semantic match vs 'Harris Computer': overall=0.225
+2026-08-20 18:37:32,028 - INFO - Semantic match vs 'Concentrix': overall=0.354
+2026-08-20 18:37:32,123 - INFO - Semantic match vs 'Vestal Corporation': overall=0.273
+2026-08-20 18:37:32,222 - INFO - Semantic match vs 'PayJoy': overall=0.407
+2026-08-20 18:37:32,319 - INFO - Semantic match vs 'QuantumBlack, AI by McKinsey': overall=0.272
+2026-08-20 18:37:32,401 - INFO - Semantic match vs 'PX.com': overall=0.257
+2026-08-20 18:37:32,499 - INFO - Semantic match vs 'Harris Computer': overall=0.207
+2026-08-20 18:37:32,589 - INFO - Semantic match vs 'Concentrix': overall=0.264
+2026-08-20 18:37:32,680 - INFO - Semantic match vs 'Vestal Corporation': overall=0.164
+2026-08-20 18:37:32,771 - INFO - Semantic match vs 'PayJoy': overall=0.275
+2026-08-20 18:37:32,861 - INFO - Semantic match vs 'QuantumBlack, AI by McKinsey': overall=0.114
+2026-08-20 18:37:32,946 - INFO - Semantic match vs 'PX.com': overall=0.219
+2026-08-20 18:37:33,033 - INFO - Semantic match vs 'Harris Computer': overall=0.147
+2026-08-20 18:37:33,126 - INFO - Semantic match vs 'Concentrix': overall=0.262
+2026-08-20 18:37:33,209 - INFO - Semantic match vs 'Vestal Corporation': overall=0.143
+2026-08-20 18:37:33,299 - INFO - Semantic match vs 'PayJoy': overall=0.26
+2026-08-20 18:37:33,392 - INFO - Semantic match vs 'QuantumBlack, AI by McKinsey': overall=0.112
+2026-08-20 18:37:33,478 - INFO - Semantic match vs 'PX.com': overall=0.215
+2026-08-20 18:37:33,567 - INFO - Semantic match vs 'Harris Computer': overall=0.146
+2026-08-20 18:37:33,652 - INFO - Semantic match vs 'Concentrix': overall=0.19
+2026-08-20 18:37:33,733 - INFO - Semantic match vs 'Vestal Corporation': overall=0.144
+2026-08-20 18:37:33,822 - INFO - Semantic match vs 'PayJoy': overall=0.222
+2026-08-20 18:37:33,903 - INFO - Semantic match vs 'QuantumBlack, AI by McKinsey': overall=0.077
+2026-08-20 18:37:33,984 - INFO - Semantic match vs 'PX.com': overall=0.23
+2026-08-20 18:37:34,070 - INFO - Semantic match vs 'Harris Computer': overall=0.124
+2026-08-20 18:37:34,216 - INFO - Semantic match vs 'Concentrix': overall=0.278
+2026-08-20 18:37:34,337 - INFO - Semantic match vs 'Vestal Corporation': overall=0.227
+2026-08-20 18:37:34,460 - INFO - Semantic match vs 'PayJoy': overall=0.357
+2026-08-20 18:37:34,581 - INFO - Semantic match vs 'QuantumBlack, AI by McKinsey': overall=0.191
+2026-08-20 18:37:34,699 - INFO - Semantic match vs 'PX.com': overall=0.196
+2026-08-20 18:37:34,823 - INFO - Semantic match vs 'Harris Computer': overall=0.368
+2026-08-20 18:38:01,124 - INFO - Scoring 10 candidates
+2026-08-20 18:38:01,132 - INFO - ATS score computed: 48.9/100
+2026-08-20 18:38:01,132 - INFO - ATS score computed: 39.9/100
+2026-08-20 18:38:01,135 - INFO - ATS score computed: 7.8/100
+2026-08-20 18:38:01,141 - INFO - ATS score computed: 59.5/100
+2026-08-20 18:38:01,141 - INFO - ATS score computed: 62.9/100
+2026-08-20 18:38:01,141 - INFO - ATS score computed: 66.2/100
+2026-08-20 18:38:01,149 - INFO - ATS score computed: 20.2/100
+2026-08-20 18:38:01,151 - INFO - ATS score computed: 41.0/100
+2026-08-20 18:38:01,151 - INFO - ATS score computed: 30.3/100
+2026-08-20 18:38:01,157 - INFO - ATS score computed: 16.1/100
+2026-08-20 18:38:10,716 - INFO - Loaded 10 scored candidates for ranking
+2026-08-20 18:38:10,716 - INFO - Ranked 10 candidates
+2026-08-20 18:38:10,716 - INFO - Generated recruiter report
+2026-08-20 18:54:27,780 - INFO - Found 6 JD files to process
+2026-08-20 18:54:27,780 - INFO - Parsed JD 'jd_business_analyst': 6 skills found, title='Job ID: CX-BA-001'
+2026-08-20 18:54:27,780 - INFO - Saved parsed JD: data/jd_parsed\jd_business_analyst_parsed.json
+2026-08-20 18:54:27,788 - INFO - Parsed JD 'jd_civil_engineer': 4 skills found, title='Job ID: VC-CE-001'
+2026-08-20 18:54:27,788 - INFO - Saved parsed JD: data/jd_parsed\jd_civil_engineer_parsed.json
+2026-08-20 18:54:27,788 - INFO - Parsed JD 'jd_data_analyst': 8 skills found, title='PayJoy'
+2026-08-20 18:54:27,792 - INFO - Saved parsed JD: data/jd_parsed\jd_data_analyst_parsed.json
+2026-08-20 18:54:27,792 - INFO - Parsed JD 'jd_data_scientist': 4 skills found, title='QuantumBlack, AI by McKinsey'
+2026-08-20 18:54:27,792 - INFO - Saved parsed JD: data/jd_parsed\jd_data_scientist_parsed.json
+2026-08-20 18:54:27,792 - INFO - Parsed JD 'jd_hr_officer': 3 skills found, title='Job ID: PX-HRO-001'
+2026-08-20 18:54:27,792 - INFO - Saved parsed JD: data/jd_parsed\jd_hr_officer_parsed.json
+2026-08-20 18:54:27,792 - INFO - Parsed JD 'jd_software_engineer': 5 skills found, title='Job ID: HC-SE-001'
+2026-08-20 18:54:27,796 - INFO - Saved parsed JD: data/jd_parsed\jd_software_engineer_parsed.json
+2026-08-20 18:54:49,725 - INFO - Matching 10 resumes against 6 job descriptions
+2026-08-20 18:54:49,725 - INFO - Loading sentence-transformers model (first call only)...
+2026-08-20 18:54:49,725 - INFO - No device provided, using cpu
+2026-08-20 18:54:50,060 - INFO - HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/modules.json "HTTP/1.1 307 Temporary Redirect"
+2026-08-20 18:54:50,087 - INFO - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/modules.json "HTTP/1.1 200 OK"
+2026-08-20 18:54:50,327 - INFO - HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/config_sentence_transformers.json "HTTP/1.1 307 Temporary Redirect"
+2026-08-20 18:54:50,353 - INFO - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/config_sentence_transformers.json "HTTP/1.1 200 OK"
+2026-08-20 18:54:50,353 - INFO - Loading SentenceTransformer model from sentence-transformers/all-MiniLM-L6-v2.
+2026-08-20 18:54:50,593 - INFO - HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/config_sentence_transformers.json "HTTP/1.1 307 Temporary Redirect"
+2026-08-20 18:54:50,593 - WARNING - Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+2026-08-20 18:54:50,618 - INFO - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/config_sentence_transformers.json "HTTP/1.1 200 OK"
+2026-08-20 18:54:50,867 - INFO - HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/README.md "HTTP/1.1 307 Temporary Redirect"
+2026-08-20 18:54:50,894 - INFO - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/README.md "HTTP/1.1 200 OK"
+2026-08-20 18:54:51,145 - INFO - HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/modules.json "HTTP/1.1 307 Temporary Redirect"
+2026-08-20 18:54:51,168 - INFO - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/modules.json "HTTP/1.1 200 OK"
+2026-08-20 18:54:51,409 - INFO - HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/sentence_bert_config.json "HTTP/1.1 307 Temporary Redirect"
+2026-08-20 18:54:51,431 - INFO - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/sentence_bert_config.json "HTTP/1.1 200 OK"
+2026-08-20 18:54:51,694 - INFO - HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/adapter_config.json "HTTP/1.1 404 Not Found"
+2026-08-20 18:54:51,947 - INFO - HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-08-20 18:54:51,973 - INFO - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/config.json "HTTP/1.1 200 OK"
+2026-08-20 18:54:52,377 - INFO - HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/processor_config.json "HTTP/1.1 404 Not Found"
+2026-08-20 18:54:52,618 - INFO - HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/preprocessor_config.json "HTTP/1.1 404 Not Found"
+2026-08-20 18:54:52,895 - INFO - HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/video_preprocessor_config.json "HTTP/1.1 404 Not Found"
+2026-08-20 18:54:53,176 - INFO - HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/preprocessor_config.json "HTTP/1.1 404 Not Found"
+2026-08-20 18:54:53,417 - INFO - HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/tokenizer_config.json "HTTP/1.1 307 Temporary Redirect"
+2026-08-20 18:54:53,451 - INFO - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/tokenizer_config.json "HTTP/1.1 200 OK"
+2026-08-20 18:54:53,692 - INFO - HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-08-20 18:54:53,719 - INFO - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/config.json "HTTP/1.1 200 OK"
+2026-08-20 18:54:53,970 - INFO - HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-08-20 18:54:53,995 - INFO - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/config.json "HTTP/1.1 200 OK"
+2026-08-20 18:54:54,238 - INFO - HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/tokenizer_config.json "HTTP/1.1 307 Temporary Redirect"
+2026-08-20 18:54:54,266 - INFO - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/tokenizer_config.json "HTTP/1.1 200 OK"
+2026-08-20 18:54:54,519 - INFO - HTTP Request: GET https://huggingface.co/api/models/sentence-transformers/all-MiniLM-L6-v2/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 404 Not Found"
+2026-08-20 18:54:54,771 - INFO - HTTP Request: GET https://huggingface.co/api/models/sentence-transformers/all-MiniLM-L6-v2/tree/main?recursive=true&expand=false "HTTP/1.1 200 OK"
+2026-08-20 18:54:55,079 - INFO - HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/1_Pooling/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-08-20 18:54:55,105 - INFO - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/1_Pooling%2Fconfig.json "HTTP/1.1 200 OK"
+2026-08-20 18:54:55,346 - INFO - HTTP Request: GET https://huggingface.co/api/models/sentence-transformers/all-MiniLM-L6-v2 "HTTP/1.1 200 OK"
+2026-08-20 18:54:55,594 - INFO - Semantic match vs 'Job ID: CX-BA-001': overall=0.414
+2026-08-20 18:54:55,672 - INFO - Semantic match vs 'Job ID: VC-CE-001': overall=0.261
+2026-08-20 18:54:55,744 - INFO - Semantic match vs 'PayJoy': overall=0.373
+2026-08-20 18:54:55,817 - INFO - Semantic match vs 'QuantumBlack, AI by McKinsey': overall=0.32
+2026-08-20 18:54:55,890 - INFO - Semantic match vs 'Job ID: PX-HRO-001': overall=0.293
+2026-08-20 18:54:55,970 - INFO - Semantic match vs 'Job ID: HC-SE-001': overall=0.176
+2026-08-20 18:54:56,052 - INFO - Semantic match vs 'Job ID: CX-BA-001': overall=0.306
+2026-08-20 18:54:56,134 - INFO - Semantic match vs 'Job ID: VC-CE-001': overall=0.178
+2026-08-20 18:54:56,217 - INFO - Semantic match vs 'PayJoy': overall=0.239
+2026-08-20 18:54:56,309 - INFO - Semantic match vs 'QuantumBlack, AI by McKinsey': overall=0.145
+2026-08-20 18:54:56,413 - INFO - Semantic match vs 'Job ID: PX-HRO-001': overall=0.275
+2026-08-20 18:54:56,510 - INFO - Semantic match vs 'Job ID: HC-SE-001': overall=0.092
+2026-08-20 18:54:56,599 - INFO - Semantic match vs 'Job ID: CX-BA-001': overall=0.189
+2026-08-20 18:54:56,683 - INFO - Semantic match vs 'Job ID: VC-CE-001': overall=0.254
+2026-08-20 18:54:56,765 - INFO - Semantic match vs 'PayJoy': overall=0.157
+2026-08-20 18:54:56,858 - INFO - Semantic match vs 'QuantumBlack, AI by McKinsey': overall=0.068
+2026-08-20 18:54:56,938 - INFO - Semantic match vs 'Job ID: PX-HRO-001': overall=0.135
+2026-08-20 18:54:57,021 - INFO - Semantic match vs 'Job ID: HC-SE-001': overall=0.109
+2026-08-20 18:54:57,135 - INFO - Semantic match vs 'Job ID: CX-BA-001': overall=0.38
+2026-08-20 18:54:57,245 - INFO - Semantic match vs 'Job ID: VC-CE-001': overall=0.256
+2026-08-20 18:54:57,350 - INFO - Semantic match vs 'PayJoy': overall=0.357
+2026-08-20 18:54:57,464 - INFO - Semantic match vs 'QuantumBlack, AI by McKinsey': overall=0.277
+2026-08-20 18:54:57,571 - INFO - Semantic match vs 'Job ID: PX-HRO-001': overall=0.271
+2026-08-20 18:54:57,674 - INFO - Semantic match vs 'Job ID: HC-SE-001': overall=0.221
+2026-08-20 18:54:57,780 - INFO - Semantic match vs 'Job ID: CX-BA-001': overall=0.344
+2026-08-20 18:54:57,886 - INFO - Semantic match vs 'Job ID: VC-CE-001': overall=0.3
+2026-08-20 18:54:57,991 - INFO - Semantic match vs 'PayJoy': overall=0.387
+2026-08-20 18:54:58,093 - INFO - Semantic match vs 'QuantumBlack, AI by McKinsey': overall=0.319
+2026-08-20 18:54:58,187 - INFO - Semantic match vs 'Job ID: PX-HRO-001': overall=0.212
+2026-08-20 18:54:58,292 - INFO - Semantic match vs 'Job ID: HC-SE-001': overall=0.211
+2026-08-20 18:54:58,390 - INFO - Semantic match vs 'Job ID: CX-BA-001': overall=0.374
+2026-08-20 18:54:58,489 - INFO - Semantic match vs 'Job ID: VC-CE-001': overall=0.269
+2026-08-20 18:54:58,589 - INFO - Semantic match vs 'PayJoy': overall=0.407
+2026-08-20 18:54:58,720 - INFO - Semantic match vs 'QuantumBlack, AI by McKinsey': overall=0.272
+2026-08-20 18:54:58,824 - INFO - Semantic match vs 'Job ID: PX-HRO-001': overall=0.255
+2026-08-20 18:54:58,916 - INFO - Semantic match vs 'Job ID: HC-SE-001': overall=0.189
+2026-08-20 18:54:59,009 - INFO - Semantic match vs 'Job ID: CX-BA-001': overall=0.349
+2026-08-20 18:54:59,096 - INFO - Semantic match vs 'Job ID: VC-CE-001': overall=0.214
+2026-08-20 18:54:59,178 - INFO - Semantic match vs 'PayJoy': overall=0.275
+2026-08-20 18:54:59,271 - INFO - Semantic match vs 'QuantumBlack, AI by McKinsey': overall=0.114
+2026-08-20 18:54:59,362 - INFO - Semantic match vs 'Job ID: PX-HRO-001': overall=0.322
+2026-08-20 18:54:59,450 - INFO - Semantic match vs 'Job ID: HC-SE-001': overall=0.212
+2026-08-20 18:54:59,540 - INFO - Semantic match vs 'Job ID: CX-BA-001': overall=0.318
+2026-08-20 18:54:59,624 - INFO - Semantic match vs 'Job ID: VC-CE-001': overall=0.162
+2026-08-20 18:54:59,711 - INFO - Semantic match vs 'PayJoy': overall=0.26
+2026-08-20 18:54:59,797 - INFO - Semantic match vs 'QuantumBlack, AI by McKinsey': overall=0.112
+2026-08-20 18:54:59,879 - INFO - Semantic match vs 'Job ID: PX-HRO-001': overall=0.316
+2026-08-20 18:54:59,964 - INFO - Semantic match vs 'Job ID: HC-SE-001': overall=0.201
+2026-08-20 18:55:00,057 - INFO - Semantic match vs 'Job ID: CX-BA-001': overall=0.242
+2026-08-20 18:55:00,146 - INFO - Semantic match vs 'Job ID: VC-CE-001': overall=0.143
+2026-08-20 18:55:00,232 - INFO - Semantic match vs 'PayJoy': overall=0.222
+2026-08-20 18:55:00,316 - INFO - Semantic match vs 'QuantumBlack, AI by McKinsey': overall=0.077
+2026-08-20 18:55:00,401 - INFO - Semantic match vs 'Job ID: PX-HRO-001': overall=0.248
+2026-08-20 18:55:00,483 - INFO - Semantic match vs 'Job ID: HC-SE-001': overall=0.12
+2026-08-20 18:55:00,612 - INFO - Semantic match vs 'Job ID: CX-BA-001': overall=0.32
+2026-08-20 18:55:00,738 - INFO - Semantic match vs 'Job ID: VC-CE-001': overall=0.208
+2026-08-20 18:55:00,869 - INFO - Semantic match vs 'PayJoy': overall=0.357
+2026-08-20 18:55:00,985 - INFO - Semantic match vs 'QuantumBlack, AI by McKinsey': overall=0.191
+2026-08-20 18:55:01,109 - INFO - Semantic match vs 'Job ID: PX-HRO-001': overall=0.199
+2026-08-20 18:55:01,229 - INFO - Semantic match vs 'Job ID: HC-SE-001': overall=0.38
+2026-08-20 18:55:05,948 - INFO - Scoring 10 candidates
+2026-08-20 18:55:05,949 - INFO - ATS score computed: 50.0/100
+2026-08-20 18:55:05,951 - INFO - ATS score computed: 40.3/100
+2026-08-20 18:55:05,952 - INFO - ATS score computed: 9.3/100
+2026-08-20 18:55:05,954 - INFO - ATS score computed: 60.6/100
+2026-08-20 18:55:05,955 - INFO - ATS score computed: 64.4/100
+2026-08-20 18:55:05,957 - INFO - ATS score computed: 66.9/100
+2026-08-20 18:55:05,957 - INFO - ATS score computed: 23.2/100
+2026-08-20 18:55:05,961 - INFO - ATS score computed: 43.0/100
+2026-08-20 18:55:05,961 - INFO - ATS score computed: 31.7/100
+2026-08-20 18:55:05,961 - INFO - ATS score computed: 17.2/100
+2026-08-20 18:55:18,259 - INFO - Loaded 10 scored candidates for ranking
+2026-08-20 18:55:18,260 - INFO - Ranked 10 candidates
+2026-08-20 18:55:18,300 - INFO - Generated recruiter report
+2026-08-20 21:04:04,592 - INFO - Found 6 JD files to process
+2026-08-20 21:04:04,592 - INFO - Parsed JD 'jd_business_analyst': 7 skills found, title='Job ID: CX-BA-001'
+2026-08-20 21:04:04,608 - INFO - Saved parsed JD: data/jd_parsed\jd_business_analyst_parsed.json
+2026-08-20 21:04:04,608 - INFO - Parsed JD 'jd_civil_engineer': 4 skills found, title='Job ID: VC-CE-001'
+2026-08-20 21:04:04,608 - INFO - Saved parsed JD: data/jd_parsed\jd_civil_engineer_parsed.json
+2026-08-20 21:04:04,608 - INFO - Parsed JD 'jd_data_analyst': 7 skills found, title='Job ID: PJ-DA-001'
+2026-08-20 21:04:04,608 - INFO - Saved parsed JD: data/jd_parsed\jd_data_analyst_parsed.json
+2026-08-20 21:04:04,608 - INFO - Parsed JD 'jd_data_scientist': 5 skills found, title='Job ID: QB-JDS-001'
+2026-08-20 21:04:04,608 - INFO - Saved parsed JD: data/jd_parsed\jd_data_scientist_parsed.json
+2026-08-20 21:04:04,608 - INFO - Parsed JD 'jd_hr_officer': 1 skills found, title='Job ID: PX-HRO-001'
+2026-08-20 21:04:04,608 - INFO - Saved parsed JD: data/jd_parsed\jd_hr_officer_parsed.json
+2026-08-20 21:04:04,608 - INFO - Parsed JD 'jd_software_engineer': 5 skills found, title='Job ID: HC-SE-001'
+2026-08-20 21:04:04,608 - INFO - Saved parsed JD: data/jd_parsed\jd_software_engineer_parsed.json
+2026-08-20 21:04:31,480 - INFO - Matching 10 resumes against 6 job descriptions
+2026-08-20 21:04:31,492 - INFO - Loading sentence-transformers model (first call only)...
+2026-08-20 21:04:31,496 - INFO - No device provided, using cpu
+2026-08-20 21:04:31,902 - INFO - HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/modules.json "HTTP/1.1 307 Temporary Redirect"
+2026-08-20 21:04:31,903 - WARNING - Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+2026-08-20 21:04:31,928 - INFO - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/modules.json "HTTP/1.1 200 OK"
+2026-08-20 21:04:32,166 - INFO - HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/config_sentence_transformers.json "HTTP/1.1 307 Temporary Redirect"
+2026-08-20 21:04:32,195 - INFO - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/config_sentence_transformers.json "HTTP/1.1 200 OK"
+2026-08-20 21:04:32,199 - INFO - Loading SentenceTransformer model from sentence-transformers/all-MiniLM-L6-v2.
+2026-08-20 21:04:32,432 - INFO - HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/config_sentence_transformers.json "HTTP/1.1 307 Temporary Redirect"
+2026-08-20 21:04:32,458 - INFO - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/config_sentence_transformers.json "HTTP/1.1 200 OK"
+2026-08-20 21:04:32,824 - INFO - HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/README.md "HTTP/1.1 307 Temporary Redirect"
+2026-08-20 21:04:32,850 - INFO - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/README.md "HTTP/1.1 200 OK"
+2026-08-20 21:04:33,100 - INFO - HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/modules.json "HTTP/1.1 307 Temporary Redirect"
+2026-08-20 21:04:33,117 - INFO - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/modules.json "HTTP/1.1 200 OK"
+2026-08-20 21:04:33,378 - INFO - HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/sentence_bert_config.json "HTTP/1.1 307 Temporary Redirect"
+2026-08-20 21:04:33,412 - INFO - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/sentence_bert_config.json "HTTP/1.1 200 OK"
+2026-08-20 21:04:33,664 - INFO - HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/adapter_config.json "HTTP/1.1 404 Not Found"
+2026-08-20 21:04:33,943 - INFO - HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-08-20 21:04:33,978 - INFO - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/config.json "HTTP/1.1 200 OK"
+2026-08-20 21:04:34,664 - INFO - HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/processor_config.json "HTTP/1.1 404 Not Found"
+2026-08-20 21:04:34,946 - INFO - HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/preprocessor_config.json "HTTP/1.1 404 Not Found"
+2026-08-20 21:04:35,177 - INFO - HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/video_preprocessor_config.json "HTTP/1.1 404 Not Found"
+2026-08-20 21:04:35,435 - INFO - HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/preprocessor_config.json "HTTP/1.1 404 Not Found"
+2026-08-20 21:04:35,728 - INFO - HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/tokenizer_config.json "HTTP/1.1 307 Temporary Redirect"
+2026-08-20 21:04:35,776 - INFO - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/tokenizer_config.json "HTTP/1.1 200 OK"
+2026-08-20 21:04:36,030 - INFO - HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-08-20 21:04:36,055 - INFO - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/config.json "HTTP/1.1 200 OK"
+2026-08-20 21:04:36,300 - INFO - HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-08-20 21:04:36,329 - INFO - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/config.json "HTTP/1.1 200 OK"
+2026-08-20 21:04:36,570 - INFO - HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/tokenizer_config.json "HTTP/1.1 307 Temporary Redirect"
+2026-08-20 21:04:36,619 - INFO - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/tokenizer_config.json "HTTP/1.1 200 OK"
+2026-08-20 21:04:37,012 - INFO - HTTP Request: GET https://huggingface.co/api/models/sentence-transformers/all-MiniLM-L6-v2/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 404 Not Found"
+2026-08-20 21:04:37,270 - INFO - HTTP Request: GET https://huggingface.co/api/models/sentence-transformers/all-MiniLM-L6-v2/tree/main?recursive=true&expand=false "HTTP/1.1 200 OK"
+2026-08-20 21:04:37,551 - INFO - HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/1_Pooling/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-08-20 21:04:37,583 - INFO - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/1_Pooling%2Fconfig.json "HTTP/1.1 200 OK"
+2026-08-20 21:04:37,829 - INFO - HTTP Request: GET https://huggingface.co/api/models/sentence-transformers/all-MiniLM-L6-v2 "HTTP/1.1 200 OK"
+2026-08-20 21:04:37,956 - INFO - Semantic match vs 'Job ID: CX-BA-001': overall=0.44
+2026-08-20 21:04:38,035 - INFO - Semantic match vs 'Job ID: VC-CE-001': overall=0.261
+2026-08-20 21:04:38,155 - INFO - Semantic match vs 'Job ID: PJ-DA-001': overall=0.402
+2026-08-20 21:04:38,237 - INFO - Semantic match vs 'Job ID: QB-JDS-001': overall=0.346
+2026-08-20 21:04:38,319 - INFO - Semantic match vs 'Job ID: PX-HRO-001': overall=0.097
+2026-08-20 21:04:38,398 - INFO - Semantic match vs 'Job ID: HC-SE-001': overall=0.176
+2026-08-20 21:04:38,486 - INFO - Semantic match vs 'Job ID: CX-BA-001': overall=0.305
+2026-08-20 21:04:38,574 - INFO - Semantic match vs 'Job ID: VC-CE-001': overall=0.178
+2026-08-20 21:04:38,672 - INFO - Semantic match vs 'Job ID: PJ-DA-001': overall=0.274
+2026-08-20 21:04:38,771 - INFO - Semantic match vs 'Job ID: QB-JDS-001': overall=0.216
+2026-08-20 21:04:38,868 - INFO - Semantic match vs 'Job ID: PX-HRO-001': overall=0.14
+2026-08-20 21:04:38,971 - INFO - Semantic match vs 'Job ID: HC-SE-001': overall=0.092
+2026-08-20 21:04:39,054 - INFO - Semantic match vs 'Job ID: CX-BA-001': overall=0.209
+2026-08-20 21:04:39,137 - INFO - Semantic match vs 'Job ID: VC-CE-001': overall=0.254
+2026-08-20 21:04:39,222 - INFO - Semantic match vs 'Job ID: PJ-DA-001': overall=0.188
+2026-08-20 21:04:39,305 - INFO - Semantic match vs 'Job ID: QB-JDS-001': overall=0.123
+2026-08-20 21:04:39,392 - INFO - Semantic match vs 'Job ID: PX-HRO-001': overall=0.058
+2026-08-20 21:04:39,474 - INFO - Semantic match vs 'Job ID: HC-SE-001': overall=0.109
+2026-08-20 21:04:39,581 - INFO - Semantic match vs 'Job ID: CX-BA-001': overall=0.39
+2026-08-20 21:04:39,693 - INFO - Semantic match vs 'Job ID: VC-CE-001': overall=0.256
+2026-08-20 21:04:39,803 - INFO - Semantic match vs 'Job ID: PJ-DA-001': overall=0.418
+2026-08-20 21:04:39,910 - INFO - Semantic match vs 'Job ID: QB-JDS-001': overall=0.345
+2026-08-20 21:04:40,017 - INFO - Semantic match vs 'Job ID: PX-HRO-001': overall=0.125
+2026-08-20 21:04:40,133 - INFO - Semantic match vs 'Job ID: HC-SE-001': overall=0.221
+2026-08-20 21:04:40,240 - INFO - Semantic match vs 'Job ID: CX-BA-001': overall=0.362
+2026-08-20 21:04:40,341 - INFO - Semantic match vs 'Job ID: VC-CE-001': overall=0.3
+2026-08-20 21:04:40,443 - INFO - Semantic match vs 'Job ID: PJ-DA-001': overall=0.38
+2026-08-20 21:04:40,542 - INFO - Semantic match vs 'Job ID: QB-JDS-001': overall=0.354
+2026-08-20 21:04:40,650 - INFO - Semantic match vs 'Job ID: PX-HRO-001': overall=0.082
+2026-08-20 21:04:40,767 - INFO - Semantic match vs 'Job ID: HC-SE-001': overall=0.211
+2026-08-20 21:04:40,863 - INFO - Semantic match vs 'Job ID: CX-BA-001': overall=0.39
+2026-08-20 21:04:40,964 - INFO - Semantic match vs 'Job ID: VC-CE-001': overall=0.269
+2026-08-20 21:04:41,055 - INFO - Semantic match vs 'Job ID: PJ-DA-001': overall=0.396
+2026-08-20 21:04:41,152 - INFO - Semantic match vs 'Job ID: QB-JDS-001': overall=0.299
+2026-08-20 21:04:41,245 - INFO - Semantic match vs 'Job ID: PX-HRO-001': overall=0.073
+2026-08-20 21:04:41,329 - INFO - Semantic match vs 'Job ID: HC-SE-001': overall=0.189
+2026-08-20 21:04:41,427 - INFO - Semantic match vs 'Job ID: CX-BA-001': overall=0.362
+2026-08-20 21:04:41,518 - INFO - Semantic match vs 'Job ID: VC-CE-001': overall=0.214
+2026-08-20 21:04:41,603 - INFO - Semantic match vs 'Job ID: PJ-DA-001': overall=0.347
+2026-08-20 21:04:41,690 - INFO - Semantic match vs 'Job ID: QB-JDS-001': overall=0.22
+2026-08-20 21:04:41,775 - INFO - Semantic match vs 'Job ID: PX-HRO-001': overall=0.152
+2026-08-20 21:04:41,858 - INFO - Semantic match vs 'Job ID: HC-SE-001': overall=0.212
+2026-08-20 21:04:41,944 - INFO - Semantic match vs 'Job ID: CX-BA-001': overall=0.322
+2026-08-20 21:04:42,027 - INFO - Semantic match vs 'Job ID: VC-CE-001': overall=0.162
+2026-08-20 21:04:42,112 - INFO - Semantic match vs 'Job ID: PJ-DA-001': overall=0.327
+2026-08-20 21:04:42,197 - INFO - Semantic match vs 'Job ID: QB-JDS-001': overall=0.218
+2026-08-20 21:04:42,276 - INFO - Semantic match vs 'Job ID: PX-HRO-001': overall=0.191
+2026-08-20 21:04:42,362 - INFO - Semantic match vs 'Job ID: HC-SE-001': overall=0.201
+2026-08-20 21:04:42,452 - INFO - Semantic match vs 'Job ID: CX-BA-001': overall=0.237
+2026-08-20 21:04:42,541 - INFO - Semantic match vs 'Job ID: VC-CE-001': overall=0.143
+2026-08-20 21:04:42,626 - INFO - Semantic match vs 'Job ID: PJ-DA-001': overall=0.248
+2026-08-20 21:04:42,703 - INFO - Semantic match vs 'Job ID: QB-JDS-001': overall=0.189
+2026-08-20 21:04:42,792 - INFO - Semantic match vs 'Job ID: PX-HRO-001': overall=0.178
+2026-08-20 21:04:42,881 - INFO - Semantic match vs 'Job ID: HC-SE-001': overall=0.12
+2026-08-20 21:04:43,003 - INFO - Semantic match vs 'Job ID: CX-BA-001': overall=0.343
+2026-08-20 21:04:43,125 - INFO - Semantic match vs 'Job ID: VC-CE-001': overall=0.208
+2026-08-20 21:04:43,254 - INFO - Semantic match vs 'Job ID: PJ-DA-001': overall=0.365
+2026-08-20 21:04:43,380 - INFO - Semantic match vs 'Job ID: QB-JDS-001': overall=0.279
+2026-08-20 21:04:43,497 - INFO - Semantic match vs 'Job ID: PX-HRO-001': overall=0.072
+2026-08-20 21:04:43,618 - INFO - Semantic match vs 'Job ID: HC-SE-001': overall=0.38
+2026-08-20 21:04:47,891 - INFO - Scoring 10 candidates
+2026-08-20 21:04:47,907 - INFO - ATS score computed: 53.0/100
+2026-08-20 21:04:47,908 - INFO - ATS score computed: 35.7/100
+2026-08-20 21:04:47,908 - INFO - ATS score computed: 9.8/100
+2026-08-20 21:04:47,908 - INFO - ATS score computed: 60.8/100
+2026-08-20 21:04:47,908 - INFO - ATS score computed: 66.7/100
+2026-08-20 21:04:47,908 - INFO - ATS score computed: 69.0/100
+2026-08-20 21:04:47,918 - INFO - ATS score computed: 22.1/100
+2026-08-20 21:04:47,923 - INFO - ATS score computed: 38.6/100
+2026-08-20 21:04:47,928 - INFO - ATS score computed: 28.0/100
+2026-08-20 21:04:47,933 - INFO - ATS score computed: 16.7/100
+2026-08-20 21:04:58,698 - INFO - Loaded 10 scored candidates for ranking
+2026-08-20 21:04:58,698 - INFO - Ranked 10 candidates
+2026-08-20 21:04:58,698 - INFO - Generated recruiter report
+2026-08-20 21:12:24,420 - INFO - Found 10 resume files to process
+2026-08-20 21:12:24,563 - INFO - Successfully extracted PDF: data\ba_resume_1.pdf
+2026-08-20 21:12:24,563 - INFO - Text cleaning complete
+2026-08-20 21:12:24,563 - INFO - Saved cleaned text: data/extracted\ba_resume_1_extracted.txt
+2026-08-20 21:12:24,721 - INFO - Successfully extracted PDF: data\ba_resume_2.pdf
+2026-08-20 21:12:24,721 - INFO - Text cleaning complete
+2026-08-20 21:12:24,721 - INFO - Saved cleaned text: data/extracted\ba_resume_2_extracted.txt
+2026-08-20 21:12:24,847 - INFO - Successfully extracted PDF: data\civil_resume_1.pdf
+2026-08-20 21:12:24,847 - INFO - Text cleaning complete
+2026-08-20 21:12:24,847 - INFO - Saved cleaned text: data/extracted\civil_resume_1_extracted.txt
+2026-08-20 21:12:25,007 - INFO - Successfully extracted PDF: data\da_resume_1.pdf
+2026-08-20 21:12:25,007 - INFO - Text cleaning complete
+2026-08-20 21:12:25,007 - INFO - Saved cleaned text: data/extracted\da_resume_1_extracted.txt
+2026-08-20 21:12:25,199 - INFO - Successfully extracted PDF: data\da_resume_2.pdf
+2026-08-20 21:12:25,199 - INFO - Text cleaning complete
+2026-08-20 21:12:25,199 - INFO - Saved cleaned text: data/extracted\da_resume_2_extracted.txt
+2026-08-20 21:12:25,331 - INFO - Successfully extracted PDF: data\da_resume_3.pdf
+2026-08-20 21:12:25,331 - INFO - Text cleaning complete
+2026-08-20 21:12:25,342 - INFO - Saved cleaned text: data/extracted\da_resume_3_extracted.txt
+2026-08-20 21:12:25,453 - INFO - Successfully extracted PDF: data\hr_resume_1.pdf
+2026-08-20 21:12:25,469 - INFO - Text cleaning complete
+2026-08-20 21:12:25,469 - INFO - Saved cleaned text: data/extracted\hr_resume_1_extracted.txt
+2026-08-20 21:12:25,676 - INFO - Successfully extracted PDF: data\hr_resume_2.pdf
+2026-08-20 21:12:25,677 - INFO - Text cleaning complete
+2026-08-20 21:12:25,677 - INFO - Saved cleaned text: data/extracted\hr_resume_2_extracted.txt
+2026-08-20 21:12:25,830 - INFO - Successfully extracted PDF: data\java_resume_1.pdf
+2026-08-20 21:12:25,830 - INFO - Text cleaning complete
+2026-08-20 21:12:25,831 - INFO - Saved cleaned text: data/extracted\java_resume_1_extracted.txt
+2026-08-20 21:12:26,041 - INFO - Successfully extracted PDF: data\soft_resume_1.pdf
+2026-08-20 21:12:26,041 - INFO - Text cleaning complete
+2026-08-20 21:12:26,043 - INFO - Saved cleaned text: data/extracted\soft_resume_1_extracted.txt
+2026-08-20 21:12:33,398 - INFO - Found 10 cleaned resumes to classify
+2026-08-20 21:12:33,398 - INFO - Classified into sections: ['HEADER', 'SKILLS', 'EXPERIENCE', 'EDUCATION']
+2026-08-20 21:12:33,409 - INFO - Saved labeled sections: data/labeled_sections\ba_resume_1_labeled.json
+2026-08-20 21:12:33,409 - INFO - Classified into sections: ['HEADER', 'SKILLS', 'EXPERIENCE', 'EDUCATION']
+2026-08-20 21:12:33,409 - INFO - Saved labeled sections: data/labeled_sections\ba_resume_2_labeled.json
+2026-08-20 21:12:33,416 - INFO - Classified into sections: ['HEADER', 'SKILLS', 'EXPERIENCE', 'EDUCATION']
+2026-08-20 21:12:33,416 - INFO - Saved labeled sections: data/labeled_sections\civil_resume_1_labeled.json
+2026-08-20 21:12:33,419 - INFO - Classified into sections: ['HEADER', 'SKILLS', 'EXPERIENCE', 'EDUCATION']
+2026-08-20 21:12:33,419 - INFO - Saved labeled sections: data/labeled_sections\da_resume_1_labeled.json
+2026-08-20 21:12:33,419 - INFO - Classified into sections: ['HEADER', 'SKILLS', 'EXPERIENCE', 'EDUCATION', 'CERTIFICATIONS']
+2026-08-20 21:12:33,419 - INFO - Saved labeled sections: data/labeled_sections\da_resume_2_labeled.json
+2026-08-20 21:12:33,425 - INFO - Classified into sections: ['HEADER', 'SKILLS', 'EXPERIENCE', 'EDUCATION', 'CERTIFICATIONS']
+2026-08-20 21:12:33,426 - INFO - Saved labeled sections: data/labeled_sections\da_resume_3_labeled.json
+2026-08-20 21:12:33,426 - INFO - Classified into sections: ['HEADER', 'SKILLS', 'EXPERIENCE', 'EDUCATION', 'CERTIFICATIONS']
+2026-08-20 21:12:33,430 - INFO - Saved labeled sections: data/labeled_sections\hr_resume_1_labeled.json
+2026-08-20 21:12:33,431 - INFO - Classified into sections: ['HEADER', 'SKILLS', 'EXPERIENCE', 'EDUCATION']
+2026-08-20 21:12:33,434 - INFO - Saved labeled sections: data/labeled_sections\hr_resume_2_labeled.json
+2026-08-20 21:12:33,435 - INFO - Classified into sections: ['HEADER', 'SKILLS', 'EXPERIENCE', 'EDUCATION']
+2026-08-20 21:12:33,437 - INFO - Saved labeled sections: data/labeled_sections\java_resume_1_labeled.json
+2026-08-20 21:12:33,437 - INFO - Classified into sections: ['HEADER', 'SKILLS', 'EXPERIENCE', 'PROJECTS', 'EDUCATION', 'CERTIFICATIONS']
+2026-08-20 21:12:33,439 - INFO - Saved labeled sections: data/labeled_sections\soft_resume_1_labeled.json
+2026-08-20 21:12:56,941 - INFO - Found 10 resumes for skill extraction
+2026-08-20 21:12:56,947 - INFO - Extracted 10 unique skills
+2026-08-20 21:12:56,947 - INFO - Saved skills: data/skills_extracted\ba_resume_1_skills.json
+2026-08-20 21:12:56,953 - INFO - Extracted 8 unique skills
+2026-08-20 21:12:56,953 - INFO - Saved skills: data/skills_extracted\ba_resume_2_skills.json
+2026-08-20 21:12:56,953 - INFO - Extracted 6 unique skills
+2026-08-20 21:12:56,953 - INFO - Saved skills: data/skills_extracted\civil_resume_1_skills.json
+2026-08-20 21:12:56,953 - INFO - Extracted 10 unique skills
+2026-08-20 21:12:56,953 - INFO - Saved skills: data/skills_extracted\da_resume_1_skills.json
+2026-08-20 21:12:56,969 - INFO - Extracted 15 unique skills
+2026-08-20 21:12:56,969 - INFO - Saved skills: data/skills_extracted\da_resume_2_skills.json
+2026-08-20 21:12:56,980 - INFO - Extracted 11 unique skills
+2026-08-20 21:12:56,980 - INFO - Saved skills: data/skills_extracted\da_resume_3_skills.json
+2026-08-20 21:12:56,985 - INFO - Extracted 3 unique skills
+2026-08-20 21:12:56,985 - INFO - Saved skills: data/skills_extracted\hr_resume_1_skills.json
+2026-08-20 21:12:56,985 - INFO - Extracted 6 unique skills
+2026-08-20 21:12:56,985 - INFO - Saved skills: data/skills_extracted\hr_resume_2_skills.json
+2026-08-20 21:12:56,985 - INFO - Extracted 8 unique skills
+2026-08-20 21:12:56,985 - INFO - Saved skills: data/skills_extracted\java_resume_1_skills.json
+2026-08-20 21:12:57,001 - INFO - Extracted 10 unique skills
+2026-08-20 21:12:57,001 - INFO - Saved skills: data/skills_extracted\soft_resume_1_skills.json
+2026-08-20 21:13:05,760 - INFO - Found 10 resumes for experience parsing
+2026-08-20 21:13:05,762 - INFO - Extracted 0 experience entries
+2026-08-20 21:13:05,762 - INFO - Scored 0 experience entries against job title 'Data Analyst'
+2026-08-20 21:13:05,762 - INFO - Saved experience object: data/experience_parsed\ba_resume_1_experience.json
+2026-08-20 21:13:05,762 - INFO - Extracted 0 experience entries
+2026-08-20 21:13:05,762 - INFO - Scored 0 experience entries against job title 'Data Analyst'
+2026-08-20 21:13:05,762 - INFO - Saved experience object: data/experience_parsed\ba_resume_2_experience.json
+2026-08-20 21:13:05,765 - INFO - Extracted 0 experience entries
+2026-08-20 21:13:05,765 - INFO - Scored 0 experience entries against job title 'Data Analyst'
+2026-08-20 21:13:05,765 - INFO - Saved experience object: data/experience_parsed\civil_resume_1_experience.json
+2026-08-20 21:13:05,765 - INFO - Extracted 0 experience entries
+2026-08-20 21:13:05,765 - INFO - Scored 0 experience entries against job title 'Data Analyst'
+2026-08-20 21:13:05,765 - INFO - Saved experience object: data/experience_parsed\da_resume_1_experience.json
+2026-08-20 21:13:05,765 - INFO - Extracted 0 experience entries
+2026-08-20 21:13:05,765 - INFO - Scored 0 experience entries against job title 'Data Analyst'
+2026-08-20 21:13:05,765 - INFO - Saved experience object: data/experience_parsed\da_resume_2_experience.json
+2026-08-20 21:13:05,765 - INFO - Extracted 0 experience entries
+2026-08-20 21:13:05,765 - INFO - Scored 0 experience entries against job title 'Data Analyst'
+2026-08-20 21:13:05,765 - INFO - Saved experience object: data/experience_parsed\da_resume_3_experience.json
+2026-08-20 21:13:05,765 - INFO - Extracted 0 experience entries
+2026-08-20 21:13:05,765 - INFO - Scored 0 experience entries against job title 'Data Analyst'
+2026-08-20 21:13:05,765 - INFO - Saved experience object: data/experience_parsed\hr_resume_1_experience.json
+2026-08-20 21:13:05,765 - INFO - Extracted 0 experience entries
+2026-08-20 21:13:05,765 - INFO - Scored 0 experience entries against job title 'Data Analyst'
+2026-08-20 21:13:05,765 - INFO - Saved experience object: data/experience_parsed\hr_resume_2_experience.json
+2026-08-20 21:13:05,765 - INFO - Extracted 0 experience entries
+2026-08-20 21:13:05,765 - INFO - Scored 0 experience entries against job title 'Data Analyst'
+2026-08-20 21:13:05,765 - INFO - Saved experience object: data/experience_parsed\java_resume_1_experience.json
+2026-08-20 21:13:05,765 - INFO - Extracted 0 experience entries
+2026-08-20 21:13:05,765 - INFO - Scored 0 experience entries against job title 'Data Analyst'
+2026-08-20 21:13:05,765 - INFO - Saved experience object: data/experience_parsed\soft_resume_1_experience.json
+2026-08-20 21:13:14,233 - INFO - Found 10 labeled resumes for education parsing
+2026-08-20 21:13:14,233 - INFO - Extracted 2 education entries
+2026-08-20 21:13:14,233 - INFO - Best education match scored 0.7
+2026-08-20 21:13:14,233 - INFO - Saved academic profile: data/education_parsed\ba_resume_1_academic.json
+2026-08-20 21:13:14,233 - INFO - Extracted 1 education entries
+2026-08-20 21:13:14,233 - INFO - Best education match scored 0.42
+2026-08-20 21:13:14,233 - INFO - Saved academic profile: data/education_parsed\ba_resume_2_academic.json
+2026-08-20 21:13:14,249 - INFO - Extracted 4 education entries
+2026-08-20 21:13:14,249 - INFO - Best education match scored 0.79
+2026-08-20 21:13:14,249 - INFO - Saved academic profile: data/education_parsed\civil_resume_1_academic.json
+2026-08-20 21:13:14,249 - INFO - Extracted 2 education entries
+2026-08-20 21:13:14,249 - INFO - Best education match scored 1.0
+2026-08-20 21:13:14,249 - INFO - Saved academic profile: data/education_parsed\da_resume_1_academic.json
+2026-08-20 21:13:14,249 - INFO - Extracted 3 education entries
+2026-08-20 21:13:14,249 - INFO - Extracted 3 certifications
+2026-08-20 21:13:14,249 - INFO - Best education match scored 0.72
+2026-08-20 21:13:14,249 - INFO - Saved academic profile: data/education_parsed\da_resume_2_academic.json
+2026-08-20 21:13:14,249 - INFO - Extracted 2 education entries
+2026-08-20 21:13:14,249 - INFO - Extracted 1 certifications
+2026-08-20 21:13:14,249 - INFO - Best education match scored 0.78
+2026-08-20 21:13:14,249 - INFO - Saved academic profile: data/education_parsed\da_resume_3_academic.json
+2026-08-20 21:13:14,249 - INFO - Extracted 2 education entries
+2026-08-20 21:13:14,249 - INFO - Extracted 2 certifications
+2026-08-20 21:13:14,249 - INFO - Best education match scored 0.79
+2026-08-20 21:13:14,249 - INFO - Saved academic profile: data/education_parsed\hr_resume_1_academic.json
+2026-08-20 21:13:14,249 - INFO - Extracted 4 education entries
+2026-08-20 21:13:14,249 - INFO - Best education match scored 0.6
+2026-08-20 21:13:14,249 - INFO - Saved academic profile: data/education_parsed\hr_resume_2_academic.json
+2026-08-20 21:13:14,249 - INFO - Extracted 1 education entries
+2026-08-20 21:13:14,249 - INFO - Best education match scored 0.42
+2026-08-20 21:13:14,249 - INFO - Saved academic profile: data/education_parsed\java_resume_1_academic.json
+2026-08-20 21:13:14,249 - INFO - Extracted 2 education entries
+2026-08-20 21:13:14,249 - INFO - Extracted 3 certifications
+2026-08-20 21:13:14,249 - INFO - Best education match scored 0.79
+2026-08-20 21:13:14,249 - INFO - Saved academic profile: data/education_parsed\soft_resume_1_academic.json
+2026-08-20 21:13:30,708 - INFO - Matching 10 resumes against 6 job descriptions
+2026-08-20 21:13:30,708 - INFO - Loading sentence-transformers model (first call only)...
+2026-08-20 21:13:30,708 - INFO - No device provided, using cpu
+2026-08-20 21:13:31,059 - INFO - HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/modules.json "HTTP/1.1 307 Temporary Redirect"
+2026-08-20 21:13:31,090 - INFO - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/modules.json "HTTP/1.1 200 OK"
+2026-08-20 21:13:31,333 - INFO - HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/config_sentence_transformers.json "HTTP/1.1 307 Temporary Redirect"
+2026-08-20 21:13:31,339 - WARNING - Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+2026-08-20 21:13:31,364 - INFO - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/config_sentence_transformers.json "HTTP/1.1 200 OK"
+2026-08-20 21:13:31,365 - INFO - Loading SentenceTransformer model from sentence-transformers/all-MiniLM-L6-v2.
+2026-08-20 21:13:31,604 - INFO - HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/config_sentence_transformers.json "HTTP/1.1 307 Temporary Redirect"
+2026-08-20 21:13:31,617 - INFO - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/config_sentence_transformers.json "HTTP/1.1 200 OK"
+2026-08-20 21:13:31,858 - INFO - HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/README.md "HTTP/1.1 307 Temporary Redirect"
+2026-08-20 21:13:31,896 - INFO - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/README.md "HTTP/1.1 200 OK"
+2026-08-20 21:13:32,136 - INFO - HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/modules.json "HTTP/1.1 307 Temporary Redirect"
+2026-08-20 21:13:32,148 - INFO - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/modules.json "HTTP/1.1 200 OK"
+2026-08-20 21:13:32,404 - INFO - HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/sentence_bert_config.json "HTTP/1.1 307 Temporary Redirect"
+2026-08-20 21:13:32,431 - INFO - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/sentence_bert_config.json "HTTP/1.1 200 OK"
+2026-08-20 21:13:32,672 - INFO - HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/adapter_config.json "HTTP/1.1 404 Not Found"
+2026-08-20 21:13:32,946 - INFO - HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-08-20 21:13:32,976 - INFO - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/config.json "HTTP/1.1 200 OK"
+2026-08-20 21:13:33,409 - INFO - HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/processor_config.json "HTTP/1.1 404 Not Found"
+2026-08-20 21:13:33,651 - INFO - HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/preprocessor_config.json "HTTP/1.1 404 Not Found"
+2026-08-20 21:13:33,897 - INFO - HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/video_preprocessor_config.json "HTTP/1.1 404 Not Found"
+2026-08-20 21:13:34,131 - INFO - HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/preprocessor_config.json "HTTP/1.1 404 Not Found"
+2026-08-20 21:13:34,370 - INFO - HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/tokenizer_config.json "HTTP/1.1 307 Temporary Redirect"
+2026-08-20 21:13:34,399 - INFO - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/tokenizer_config.json "HTTP/1.1 200 OK"
+2026-08-20 21:13:34,637 - INFO - HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-08-20 21:13:34,673 - INFO - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/config.json "HTTP/1.1 200 OK"
+2026-08-20 21:13:34,923 - INFO - HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-08-20 21:13:34,949 - INFO - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/config.json "HTTP/1.1 200 OK"
+2026-08-20 21:13:35,198 - INFO - HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/tokenizer_config.json "HTTP/1.1 307 Temporary Redirect"
+2026-08-20 21:13:35,231 - INFO - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/tokenizer_config.json "HTTP/1.1 200 OK"
+2026-08-20 21:13:35,479 - INFO - HTTP Request: GET https://huggingface.co/api/models/sentence-transformers/all-MiniLM-L6-v2/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 404 Not Found"
+2026-08-20 21:13:35,729 - INFO - HTTP Request: GET https://huggingface.co/api/models/sentence-transformers/all-MiniLM-L6-v2/tree/main?recursive=true&expand=false "HTTP/1.1 200 OK"
+2026-08-20 21:13:36,048 - INFO - HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/1_Pooling/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-08-20 21:13:36,064 - INFO - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/1_Pooling%2Fconfig.json "HTTP/1.1 200 OK"
+2026-08-20 21:13:36,316 - INFO - HTTP Request: GET https://huggingface.co/api/models/sentence-transformers/all-MiniLM-L6-v2 "HTTP/1.1 200 OK"
+2026-08-20 21:13:36,557 - INFO - Semantic match vs 'Job ID: CX-BA-001': overall=0.434
+2026-08-20 21:13:36,645 - INFO - Semantic match vs 'Job ID: VC-CE-001': overall=0.26
+2026-08-20 21:13:36,759 - INFO - Semantic match vs 'Job ID: PJ-DA-001': overall=0.398
+2026-08-20 21:13:36,865 - INFO - Semantic match vs 'Job ID: QB-JDS-001': overall=0.324
+2026-08-20 21:13:36,970 - INFO - Semantic match vs 'Job ID: PX-HRO-001': overall=0.103
+2026-08-20 21:13:37,085 - INFO - Semantic match vs 'Job ID: HC-SE-001': overall=0.174
+2026-08-20 21:13:37,192 - INFO - Semantic match vs 'Job ID: CX-BA-001': overall=0.391
+2026-08-20 21:13:37,286 - INFO - Semantic match vs 'Job ID: VC-CE-001': overall=0.224
+2026-08-20 21:13:37,386 - INFO - Semantic match vs 'Job ID: PJ-DA-001': overall=0.337
+2026-08-20 21:13:37,483 - INFO - Semantic match vs 'Job ID: QB-JDS-001': overall=0.269
+2026-08-20 21:13:37,594 - INFO - Semantic match vs 'Job ID: PX-HRO-001': overall=0.07
+2026-08-20 21:13:37,690 - INFO - Semantic match vs 'Job ID: HC-SE-001': overall=0.174
+2026-08-20 21:13:37,790 - INFO - Semantic match vs 'Job ID: CX-BA-001': overall=0.239
+2026-08-20 21:13:37,878 - INFO - Semantic match vs 'Job ID: VC-CE-001': overall=0.244
+2026-08-20 21:13:37,992 - INFO - Semantic match vs 'Job ID: PJ-DA-001': overall=0.205
+2026-08-20 21:13:38,090 - INFO - Semantic match vs 'Job ID: QB-JDS-001': overall=0.127
+2026-08-20 21:13:38,185 - INFO - Semantic match vs 'Job ID: PX-HRO-001': overall=0.052
+2026-08-20 21:13:38,264 - INFO - Semantic match vs 'Job ID: HC-SE-001': overall=0.118
+2026-08-20 21:13:38,396 - INFO - Semantic match vs 'Job ID: CX-BA-001': overall=0.445
+2026-08-20 21:13:38,505 - INFO - Semantic match vs 'Job ID: VC-CE-001': overall=0.302
+2026-08-20 21:13:38,596 - INFO - Semantic match vs 'Job ID: PJ-DA-001': overall=0.437
+2026-08-20 21:13:38,704 - INFO - Semantic match vs 'Job ID: QB-JDS-001': overall=0.362
+2026-08-20 21:13:38,812 - INFO - Semantic match vs 'Job ID: PX-HRO-001': overall=0.127
+2026-08-20 21:13:38,907 - INFO - Semantic match vs 'Job ID: HC-SE-001': overall=0.249
+2026-08-20 21:13:39,007 - INFO - Semantic match vs 'Job ID: CX-BA-001': overall=0.335
+2026-08-20 21:13:39,129 - INFO - Semantic match vs 'Job ID: VC-CE-001': overall=0.282
+2026-08-20 21:13:39,234 - INFO - Semantic match vs 'Job ID: PJ-DA-001': overall=0.364
+2026-08-20 21:13:39,352 - INFO - Semantic match vs 'Job ID: QB-JDS-001': overall=0.348
+2026-08-20 21:13:39,456 - INFO - Semantic match vs 'Job ID: PX-HRO-001': overall=0.077
+2026-08-20 21:13:39,550 - INFO - Semantic match vs 'Job ID: HC-SE-001': overall=0.216
+2026-08-20 21:13:39,669 - INFO - Semantic match vs 'Job ID: CX-BA-001': overall=0.378
+2026-08-20 21:13:39,772 - INFO - Semantic match vs 'Job ID: VC-CE-001': overall=0.263
+2026-08-20 21:13:39,866 - INFO - Semantic match vs 'Job ID: PJ-DA-001': overall=0.405
+2026-08-20 21:13:39,976 - INFO - Semantic match vs 'Job ID: QB-JDS-001': overall=0.325
+2026-08-20 21:13:40,080 - INFO - Semantic match vs 'Job ID: PX-HRO-001': overall=0.063
+2026-08-20 21:13:40,182 - INFO - Semantic match vs 'Job ID: HC-SE-001': overall=0.181
+2026-08-20 21:13:40,294 - INFO - Semantic match vs 'Job ID: CX-BA-001': overall=0.394
+2026-08-20 21:13:40,400 - INFO - Semantic match vs 'Job ID: VC-CE-001': overall=0.249
+2026-08-20 21:13:40,496 - INFO - Semantic match vs 'Job ID: PJ-DA-001': overall=0.386
+2026-08-20 21:13:40,593 - INFO - Semantic match vs 'Job ID: QB-JDS-001': overall=0.251
+2026-08-20 21:13:40,684 - INFO - Semantic match vs 'Job ID: PX-HRO-001': overall=0.205
+2026-08-20 21:13:40,776 - INFO - Semantic match vs 'Job ID: HC-SE-001': overall=0.209
+2026-08-20 21:13:40,877 - INFO - Semantic match vs 'Job ID: CX-BA-001': overall=0.385
+2026-08-20 21:13:40,982 - INFO - Semantic match vs 'Job ID: VC-CE-001': overall=0.249
+2026-08-20 21:13:41,086 - INFO - Semantic match vs 'Job ID: PJ-DA-001': overall=0.389
+2026-08-20 21:13:41,178 - INFO - Semantic match vs 'Job ID: QB-JDS-001': overall=0.258
+2026-08-20 21:13:41,271 - INFO - Semantic match vs 'Job ID: PX-HRO-001': overall=0.238
+2026-08-20 21:13:41,365 - INFO - Semantic match vs 'Job ID: HC-SE-001': overall=0.22
+2026-08-20 21:13:41,485 - INFO - Semantic match vs 'Job ID: CX-BA-001': overall=0.292
+2026-08-20 21:13:41,599 - INFO - Semantic match vs 'Job ID: VC-CE-001': overall=0.184
+2026-08-20 21:13:41,702 - INFO - Semantic match vs 'Job ID: PJ-DA-001': overall=0.302
+2026-08-20 21:13:41,795 - INFO - Semantic match vs 'Job ID: QB-JDS-001': overall=0.264
+2026-08-20 21:13:41,894 - INFO - Semantic match vs 'Job ID: PX-HRO-001': overall=0.091
+2026-08-20 21:13:41,994 - INFO - Semantic match vs 'Job ID: HC-SE-001': overall=0.312
+2026-08-20 21:13:42,128 - INFO - Semantic match vs 'Job ID: CX-BA-001': overall=0.335
+2026-08-20 21:13:42,259 - INFO - Semantic match vs 'Job ID: VC-CE-001': overall=0.23
+2026-08-20 21:13:42,391 - INFO - Semantic match vs 'Job ID: PJ-DA-001': overall=0.336
+2026-08-20 21:13:42,512 - INFO - Semantic match vs 'Job ID: QB-JDS-001': overall=0.291
+2026-08-20 21:13:42,624 - INFO - Semantic match vs 'Job ID: PX-HRO-001': overall=0.102
+2026-08-20 21:13:42,749 - INFO - Semantic match vs 'Job ID: HC-SE-001': overall=0.422
+2026-08-20 21:14:03,102 - INFO - Scoring 10 candidates
+2026-08-20 21:14:03,118 - INFO - ATS score computed: 79.8/100
+2026-08-20 21:14:03,118 - INFO - ATS score computed: 49.4/100
+2026-08-20 21:14:03,118 - INFO - ATS score computed: 8.5/100
+2026-08-20 21:14:03,118 - INFO - ATS score computed: 71.0/100
+2026-08-20 21:14:03,118 - INFO - ATS score computed: 57.9/100
+2026-08-20 21:14:03,118 - INFO - ATS score computed: 77.8/100
+2026-08-20 21:14:03,118 - INFO - ATS score computed: 23.3/100
+2026-08-20 21:14:03,118 - INFO - ATS score computed: 40.8/100
+2026-08-20 21:14:03,118 - INFO - ATS score computed: 28.8/100
+2026-08-20 21:14:03,118 - INFO - ATS score computed: 21.2/100
+2026-08-20 21:14:20,331 - INFO - Loaded 10 scored candidates for ranking
+2026-08-20 21:14:20,331 - INFO - Ranked 10 candidates
+2026-08-20 21:14:20,331 - INFO - Generated recruiter report
+2026-08-20 21:22:11,108 - INFO - Found 10 resume files to process
+2026-08-20 21:22:11,222 - INFO - Successfully extracted PDF: data\ba_resume_1.pdf
+2026-08-20 21:22:11,224 - INFO - Text cleaning complete
+2026-08-20 21:22:11,224 - INFO - Saved cleaned text: data/extracted\ba_resume_1_extracted.txt
+2026-08-20 21:22:11,405 - INFO - Successfully extracted PDF: data\ba_resume_2.pdf
+2026-08-20 21:22:11,405 - INFO - Text cleaning complete
+2026-08-20 21:22:11,419 - INFO - Saved cleaned text: data/extracted\ba_resume_2_extracted.txt
+2026-08-20 21:22:11,561 - INFO - Successfully extracted PDF: data\civil_resume_1.pdf
+2026-08-20 21:22:11,561 - INFO - Text cleaning complete
+2026-08-20 21:22:11,561 - INFO - Saved cleaned text: data/extracted\civil_resume_1_extracted.txt
+2026-08-20 21:22:11,704 - INFO - Successfully extracted PDF: data\da_resume_1.pdf
+2026-08-20 21:22:11,704 - INFO - Text cleaning complete
+2026-08-20 21:22:11,704 - INFO - Saved cleaned text: data/extracted\da_resume_1_extracted.txt
+2026-08-20 21:22:11,905 - INFO - Successfully extracted PDF: data\da_resume_2.pdf
+2026-08-20 21:22:11,905 - INFO - Text cleaning complete
+2026-08-20 21:22:11,905 - INFO - Saved cleaned text: data/extracted\da_resume_2_extracted.txt
+2026-08-20 21:22:12,085 - INFO - Successfully extracted PDF: data\da_resume_3.pdf
+2026-08-20 21:22:12,085 - INFO - Text cleaning complete
+2026-08-20 21:22:12,085 - INFO - Saved cleaned text: data/extracted\da_resume_3_extracted.txt
+2026-08-20 21:22:12,227 - INFO - Successfully extracted PDF: data\hr_resume_1.pdf
+2026-08-20 21:22:12,227 - INFO - Text cleaning complete
+2026-08-20 21:22:12,227 - INFO - Saved cleaned text: data/extracted\hr_resume_1_extracted.txt
+2026-08-20 21:22:12,384 - INFO - Successfully extracted PDF: data\hr_resume_2.pdf
+2026-08-20 21:22:12,384 - INFO - Text cleaning complete
+2026-08-20 21:22:12,387 - INFO - Saved cleaned text: data/extracted\hr_resume_2_extracted.txt
+2026-08-20 21:22:12,562 - INFO - Successfully extracted PDF: data\java_resume_1.pdf
+2026-08-20 21:22:12,562 - INFO - Text cleaning complete
+2026-08-20 21:22:12,572 - INFO - Saved cleaned text: data/extracted\java_resume_1_extracted.txt
+2026-08-20 21:22:12,753 - INFO - Successfully extracted PDF: data\soft_resume_1.pdf
+2026-08-20 21:22:12,753 - INFO - Text cleaning complete
+2026-08-20 21:22:12,753 - INFO - Saved cleaned text: data/extracted\soft_resume_1_extracted.txt
+2026-08-20 21:22:19,286 - INFO - Found 10 cleaned resumes to classify
+2026-08-20 21:22:19,286 - INFO - Classified into sections: ['HEADER', 'SKILLS', 'EXPERIENCE', 'EDUCATION']
+2026-08-20 21:22:19,286 - INFO - Saved labeled sections: data/labeled_sections\ba_resume_1_labeled.json
+2026-08-20 21:22:19,286 - INFO - Classified into sections: ['HEADER', 'SKILLS', 'EXPERIENCE', 'EDUCATION']
+2026-08-20 21:22:19,291 - INFO - Saved labeled sections: data/labeled_sections\ba_resume_2_labeled.json
+2026-08-20 21:22:19,291 - INFO - Classified into sections: ['HEADER', 'SKILLS', 'EXPERIENCE', 'EDUCATION']
+2026-08-20 21:22:19,291 - INFO - Saved labeled sections: data/labeled_sections\civil_resume_1_labeled.json
+2026-08-20 21:22:19,294 - INFO - Classified into sections: ['HEADER', 'SKILLS', 'EXPERIENCE', 'EDUCATION']
+2026-08-20 21:22:19,294 - INFO - Saved labeled sections: data/labeled_sections\da_resume_1_labeled.json
+2026-08-20 21:22:19,294 - INFO - Classified into sections: ['HEADER', 'SKILLS', 'EXPERIENCE', 'EDUCATION', 'CERTIFICATIONS']
+2026-08-20 21:22:19,294 - INFO - Saved labeled sections: data/labeled_sections\da_resume_2_labeled.json
+2026-08-20 21:22:19,296 - INFO - Classified into sections: ['HEADER', 'SKILLS', 'EXPERIENCE', 'EDUCATION', 'CERTIFICATIONS']
+2026-08-20 21:22:19,296 - INFO - Saved labeled sections: data/labeled_sections\da_resume_3_labeled.json
+2026-08-20 21:22:19,297 - INFO - Classified into sections: ['HEADER', 'SKILLS', 'EXPERIENCE', 'EDUCATION', 'CERTIFICATIONS']
+2026-08-20 21:22:19,297 - INFO - Saved labeled sections: data/labeled_sections\hr_resume_1_labeled.json
+2026-08-20 21:22:19,297 - INFO - Classified into sections: ['HEADER', 'SKILLS', 'EXPERIENCE', 'EDUCATION']
+2026-08-20 21:22:19,298 - INFO - Saved labeled sections: data/labeled_sections\hr_resume_2_labeled.json
+2026-08-20 21:22:19,298 - INFO - Classified into sections: ['HEADER', 'SKILLS', 'EXPERIENCE', 'EDUCATION']
+2026-08-20 21:22:19,298 - INFO - Saved labeled sections: data/labeled_sections\java_resume_1_labeled.json
+2026-08-20 21:22:19,298 - INFO - Classified into sections: ['HEADER', 'SKILLS', 'EXPERIENCE', 'PROJECTS', 'EDUCATION', 'CERTIFICATIONS']
+2026-08-20 21:22:19,298 - INFO - Saved labeled sections: data/labeled_sections\soft_resume_1_labeled.json
+2026-08-20 21:22:27,082 - INFO - Found 10 resumes for skill extraction
+2026-08-20 21:22:27,087 - INFO - Extracted 10 unique skills
+2026-08-20 21:22:27,087 - INFO - Saved skills: data/skills_extracted\ba_resume_1_skills.json
+2026-08-20 21:22:27,094 - INFO - Extracted 8 unique skills
+2026-08-20 21:22:27,094 - INFO - Saved skills: data/skills_extracted\ba_resume_2_skills.json
+2026-08-20 21:22:27,100 - INFO - Extracted 6 unique skills
+2026-08-20 21:22:27,102 - INFO - Saved skills: data/skills_extracted\civil_resume_1_skills.json
+2026-08-20 21:22:27,107 - INFO - Extracted 10 unique skills
+2026-08-20 21:22:27,107 - INFO - Saved skills: data/skills_extracted\da_resume_1_skills.json
+2026-08-20 21:22:27,114 - INFO - Extracted 15 unique skills
+2026-08-20 21:22:27,114 - INFO - Saved skills: data/skills_extracted\da_resume_2_skills.json
+2026-08-20 21:22:27,119 - INFO - Extracted 11 unique skills
+2026-08-20 21:22:27,119 - INFO - Saved skills: data/skills_extracted\da_resume_3_skills.json
+2026-08-20 21:22:27,125 - INFO - Extracted 3 unique skills
+2026-08-20 21:22:27,127 - INFO - Saved skills: data/skills_extracted\hr_resume_1_skills.json
+2026-08-20 21:22:27,127 - INFO - Extracted 6 unique skills
+2026-08-20 21:22:27,127 - INFO - Saved skills: data/skills_extracted\hr_resume_2_skills.json
+2026-08-20 21:22:27,135 - INFO - Extracted 8 unique skills
+2026-08-20 21:22:27,135 - INFO - Saved skills: data/skills_extracted\java_resume_1_skills.json
+2026-08-20 21:22:27,144 - INFO - Extracted 10 unique skills
+2026-08-20 21:22:27,144 - INFO - Saved skills: data/skills_extracted\soft_resume_1_skills.json
+2026-08-20 21:22:34,322 - INFO - Found 10 resumes for experience parsing
+2026-08-20 21:22:34,322 - INFO - Extracted 0 experience entries
+2026-08-20 21:22:34,322 - INFO - Scored 0 experience entries against job title 'Data Analyst'
+2026-08-20 21:22:34,322 - INFO - Saved experience object: data/experience_parsed\ba_resume_1_experience.json
+2026-08-20 21:22:34,322 - INFO - Extracted 0 experience entries
+2026-08-20 21:22:34,322 - INFO - Scored 0 experience entries against job title 'Data Analyst'
+2026-08-20 21:22:34,322 - INFO - Saved experience object: data/experience_parsed\ba_resume_2_experience.json
+2026-08-20 21:22:34,322 - INFO - Extracted 0 experience entries
+2026-08-20 21:22:34,322 - INFO - Scored 0 experience entries against job title 'Data Analyst'
+2026-08-20 21:22:34,322 - INFO - Saved experience object: data/experience_parsed\civil_resume_1_experience.json
+2026-08-20 21:22:34,329 - INFO - Extracted 0 experience entries
+2026-08-20 21:22:34,329 - INFO - Scored 0 experience entries against job title 'Data Analyst'
+2026-08-20 21:22:34,329 - INFO - Saved experience object: data/experience_parsed\da_resume_1_experience.json
+2026-08-20 21:22:34,329 - INFO - Extracted 0 experience entries
+2026-08-20 21:22:34,329 - INFO - Scored 0 experience entries against job title 'Data Analyst'
+2026-08-20 21:22:34,329 - INFO - Saved experience object: data/experience_parsed\da_resume_2_experience.json
+2026-08-20 21:22:34,329 - INFO - Extracted 0 experience entries
+2026-08-20 21:22:34,329 - INFO - Scored 0 experience entries against job title 'Data Analyst'
+2026-08-20 21:22:34,329 - INFO - Saved experience object: data/experience_parsed\da_resume_3_experience.json
+2026-08-20 21:22:34,335 - INFO - Extracted 0 experience entries
+2026-08-20 21:22:34,335 - INFO - Scored 0 experience entries against job title 'Data Analyst'
+2026-08-20 21:22:34,335 - INFO - Saved experience object: data/experience_parsed\hr_resume_1_experience.json
+2026-08-20 21:22:34,335 - INFO - Extracted 0 experience entries
+2026-08-20 21:22:34,335 - INFO - Scored 0 experience entries against job title 'Data Analyst'
+2026-08-20 21:22:34,338 - INFO - Saved experience object: data/experience_parsed\hr_resume_2_experience.json
+2026-08-20 21:22:34,338 - INFO - Extracted 0 experience entries
+2026-08-20 21:22:34,338 - INFO - Scored 0 experience entries against job title 'Data Analyst'
+2026-08-20 21:22:34,338 - INFO - Saved experience object: data/experience_parsed\java_resume_1_experience.json
+2026-08-20 21:22:34,338 - INFO - Extracted 0 experience entries
+2026-08-20 21:22:34,338 - INFO - Scored 0 experience entries against job title 'Data Analyst'
+2026-08-20 21:22:34,338 - INFO - Saved experience object: data/experience_parsed\soft_resume_1_experience.json
+2026-08-20 21:22:43,109 - INFO - Found 10 labeled resumes for education parsing
+2026-08-20 21:22:43,109 - INFO - Extracted 2 education entries
+2026-08-20 21:22:43,109 - INFO - Best education match scored 0.7
+2026-08-20 21:22:43,109 - INFO - Saved academic profile: data/education_parsed\ba_resume_1_academic.json
+2026-08-20 21:22:43,109 - INFO - Extracted 1 education entries
+2026-08-20 21:22:43,109 - INFO - Best education match scored 0.42
+2026-08-20 21:22:43,109 - INFO - Saved academic profile: data/education_parsed\ba_resume_2_academic.json
+2026-08-20 21:22:43,109 - INFO - Extracted 4 education entries
+2026-08-20 21:22:43,109 - INFO - Best education match scored 0.79
+2026-08-20 21:22:43,109 - INFO - Saved academic profile: data/education_parsed\civil_resume_1_academic.json
+2026-08-20 21:22:43,109 - INFO - Extracted 2 education entries
+2026-08-20 21:22:43,109 - INFO - Best education match scored 1.0
+2026-08-20 21:22:43,109 - INFO - Saved academic profile: data/education_parsed\da_resume_1_academic.json
+2026-08-20 21:22:43,109 - INFO - Extracted 3 education entries
+2026-08-20 21:22:43,109 - INFO - Extracted 3 certifications
+2026-08-20 21:22:43,109 - INFO - Best education match scored 0.72
+2026-08-20 21:22:43,109 - INFO - Saved academic profile: data/education_parsed\da_resume_2_academic.json
+2026-08-20 21:22:43,109 - INFO - Extracted 2 education entries
+2026-08-20 21:22:43,109 - INFO - Extracted 1 certifications
+2026-08-20 21:22:43,109 - INFO - Best education match scored 0.78
+2026-08-20 21:22:43,109 - INFO - Saved academic profile: data/education_parsed\da_resume_3_academic.json
+2026-08-20 21:22:43,109 - INFO - Extracted 2 education entries
+2026-08-20 21:22:43,109 - INFO - Extracted 2 certifications
+2026-08-20 21:22:43,109 - INFO - Best education match scored 0.79
+2026-08-20 21:22:43,109 - INFO - Saved academic profile: data/education_parsed\hr_resume_1_academic.json
+2026-08-20 21:22:43,109 - INFO - Extracted 4 education entries
+2026-08-20 21:22:43,109 - INFO - Best education match scored 0.6
+2026-08-20 21:22:43,109 - INFO - Saved academic profile: data/education_parsed\hr_resume_2_academic.json
+2026-08-20 21:22:43,109 - INFO - Extracted 1 education entries
+2026-08-20 21:22:43,109 - INFO - Best education match scored 0.42
+2026-08-20 21:22:43,109 - INFO - Saved academic profile: data/education_parsed\java_resume_1_academic.json
+2026-08-20 21:22:43,109 - INFO - Extracted 2 education entries
+2026-08-20 21:22:43,109 - INFO - Extracted 3 certifications
+2026-08-20 21:22:43,109 - INFO - Best education match scored 0.79
+2026-08-20 21:22:43,109 - INFO - Saved academic profile: data/education_parsed\soft_resume_1_academic.json
+2026-08-20 21:22:57,372 - INFO - Matching 10 resumes against 6 job descriptions
+2026-08-20 21:22:57,383 - INFO - Loading sentence-transformers model (first call only)...
+2026-08-20 21:22:57,383 - INFO - No device provided, using cpu
+2026-08-20 21:22:57,718 - INFO - HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/modules.json "HTTP/1.1 307 Temporary Redirect"
+2026-08-20 21:22:57,750 - INFO - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/modules.json "HTTP/1.1 200 OK"
+2026-08-20 21:22:58,172 - INFO - HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/config_sentence_transformers.json "HTTP/1.1 307 Temporary Redirect"
+2026-08-20 21:22:58,172 - WARNING - Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+2026-08-20 21:22:58,200 - INFO - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/config_sentence_transformers.json "HTTP/1.1 200 OK"
+2026-08-20 21:22:58,203 - INFO - Loading SentenceTransformer model from sentence-transformers/all-MiniLM-L6-v2.
+2026-08-20 21:22:58,450 - INFO - HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/config_sentence_transformers.json "HTTP/1.1 307 Temporary Redirect"
+2026-08-20 21:22:58,466 - INFO - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/config_sentence_transformers.json "HTTP/1.1 200 OK"
+2026-08-20 21:22:58,707 - INFO - HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/README.md "HTTP/1.1 307 Temporary Redirect"
+2026-08-20 21:22:58,739 - INFO - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/README.md "HTTP/1.1 200 OK"
+2026-08-20 21:22:59,047 - INFO - HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/modules.json "HTTP/1.1 307 Temporary Redirect"
+2026-08-20 21:22:59,061 - INFO - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/modules.json "HTTP/1.1 200 OK"
+2026-08-20 21:22:59,304 - INFO - HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/sentence_bert_config.json "HTTP/1.1 307 Temporary Redirect"
+2026-08-20 21:22:59,340 - INFO - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/sentence_bert_config.json "HTTP/1.1 200 OK"
+2026-08-20 21:22:59,593 - INFO - HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/adapter_config.json "HTTP/1.1 404 Not Found"
+2026-08-20 21:22:59,832 - INFO - HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-08-20 21:22:59,848 - INFO - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/config.json "HTTP/1.1 200 OK"
+2026-08-20 21:23:00,235 - INFO - HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/processor_config.json "HTTP/1.1 404 Not Found"
+2026-08-20 21:23:00,486 - INFO - HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/preprocessor_config.json "HTTP/1.1 404 Not Found"
+2026-08-20 21:23:00,743 - INFO - HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/video_preprocessor_config.json "HTTP/1.1 404 Not Found"
+2026-08-20 21:23:00,997 - INFO - HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/preprocessor_config.json "HTTP/1.1 404 Not Found"
+2026-08-20 21:23:01,250 - INFO - HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/tokenizer_config.json "HTTP/1.1 307 Temporary Redirect"
+2026-08-20 21:23:01,276 - INFO - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/tokenizer_config.json "HTTP/1.1 200 OK"
+2026-08-20 21:23:01,573 - INFO - HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-08-20 21:23:01,591 - INFO - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/config.json "HTTP/1.1 200 OK"
+2026-08-20 21:23:01,847 - INFO - HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-08-20 21:23:01,878 - INFO - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/config.json "HTTP/1.1 200 OK"
+2026-08-20 21:23:02,152 - INFO - HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/tokenizer_config.json "HTTP/1.1 307 Temporary Redirect"
+2026-08-20 21:23:02,183 - INFO - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/tokenizer_config.json "HTTP/1.1 200 OK"
+2026-08-20 21:23:02,442 - INFO - HTTP Request: GET https://huggingface.co/api/models/sentence-transformers/all-MiniLM-L6-v2/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 404 Not Found"
+2026-08-20 21:23:02,759 - INFO - HTTP Request: GET https://huggingface.co/api/models/sentence-transformers/all-MiniLM-L6-v2/tree/main?recursive=true&expand=false "HTTP/1.1 200 OK"
+2026-08-20 21:23:03,067 - INFO - HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/1_Pooling/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-08-20 21:23:03,081 - INFO - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/1_Pooling%2Fconfig.json "HTTP/1.1 200 OK"
+2026-08-20 21:23:03,332 - INFO - HTTP Request: GET https://huggingface.co/api/models/sentence-transformers/all-MiniLM-L6-v2 "HTTP/1.1 200 OK"
+2026-08-20 21:23:03,572 - INFO - Semantic match vs 'Job ID: CX-BA-001': overall=0.434
+2026-08-20 21:23:03,664 - INFO - Semantic match vs 'Job ID: VC-CE-001': overall=0.26
+2026-08-20 21:23:03,745 - INFO - Semantic match vs 'Job ID: PJ-DA-001': overall=0.398
+2026-08-20 21:23:03,837 - INFO - Semantic match vs 'Job ID: QB-JDS-001': overall=0.324
+2026-08-20 21:23:03,929 - INFO - Semantic match vs 'Job ID: PX-HRO-001': overall=0.103
+2026-08-20 21:23:04,010 - INFO - Semantic match vs 'Job ID: HC-SE-001': overall=0.174
+2026-08-20 21:23:04,095 - INFO - Semantic match vs 'Job ID: CX-BA-001': overall=0.391
+2026-08-20 21:23:04,179 - INFO - Semantic match vs 'Job ID: VC-CE-001': overall=0.224
+2026-08-20 21:23:04,261 - INFO - Semantic match vs 'Job ID: PJ-DA-001': overall=0.337
+2026-08-20 21:23:04,355 - INFO - Semantic match vs 'Job ID: QB-JDS-001': overall=0.269
+2026-08-20 21:23:04,452 - INFO - Semantic match vs 'Job ID: PX-HRO-001': overall=0.07
+2026-08-20 21:23:04,550 - INFO - Semantic match vs 'Job ID: HC-SE-001': overall=0.174
+2026-08-20 21:23:04,637 - INFO - Semantic match vs 'Job ID: CX-BA-001': overall=0.239
+2026-08-20 21:23:04,732 - INFO - Semantic match vs 'Job ID: VC-CE-001': overall=0.244
+2026-08-20 21:23:04,832 - INFO - Semantic match vs 'Job ID: PJ-DA-001': overall=0.205
+2026-08-20 21:23:04,932 - INFO - Semantic match vs 'Job ID: QB-JDS-001': overall=0.127
+2026-08-20 21:23:05,035 - INFO - Semantic match vs 'Job ID: PX-HRO-001': overall=0.052
+2026-08-20 21:23:05,133 - INFO - Semantic match vs 'Job ID: HC-SE-001': overall=0.118
+2026-08-20 21:23:05,239 - INFO - Semantic match vs 'Job ID: CX-BA-001': overall=0.445
+2026-08-20 21:23:05,346 - INFO - Semantic match vs 'Job ID: VC-CE-001': overall=0.302
+2026-08-20 21:23:05,447 - INFO - Semantic match vs 'Job ID: PJ-DA-001': overall=0.437
+2026-08-20 21:23:05,542 - INFO - Semantic match vs 'Job ID: QB-JDS-001': overall=0.362
+2026-08-20 21:23:05,633 - INFO - Semantic match vs 'Job ID: PX-HRO-001': overall=0.127
+2026-08-20 21:23:05,746 - INFO - Semantic match vs 'Job ID: HC-SE-001': overall=0.249
+2026-08-20 21:23:05,846 - INFO - Semantic match vs 'Job ID: CX-BA-001': overall=0.335
+2026-08-20 21:23:05,946 - INFO - Semantic match vs 'Job ID: VC-CE-001': overall=0.282
+2026-08-20 21:23:06,076 - INFO - Semantic match vs 'Job ID: PJ-DA-001': overall=0.364
+2026-08-20 21:23:06,176 - INFO - Semantic match vs 'Job ID: QB-JDS-001': overall=0.348
+2026-08-20 21:23:06,306 - INFO - Semantic match vs 'Job ID: PX-HRO-001': overall=0.077
+2026-08-20 21:23:06,420 - INFO - Semantic match vs 'Job ID: HC-SE-001': overall=0.216
+2026-08-20 21:23:06,523 - INFO - Semantic match vs 'Job ID: CX-BA-001': overall=0.378
+2026-08-20 21:23:06,627 - INFO - Semantic match vs 'Job ID: VC-CE-001': overall=0.263
+2026-08-20 21:23:06,724 - INFO - Semantic match vs 'Job ID: PJ-DA-001': overall=0.405
+2026-08-20 21:23:06,833 - INFO - Semantic match vs 'Job ID: QB-JDS-001': overall=0.325
+2026-08-20 21:23:06,930 - INFO - Semantic match vs 'Job ID: PX-HRO-001': overall=0.063
+2026-08-20 21:23:07,040 - INFO - Semantic match vs 'Job ID: HC-SE-001': overall=0.181
+2026-08-20 21:23:07,146 - INFO - Semantic match vs 'Job ID: CX-BA-001': overall=0.394
+2026-08-20 21:23:07,237 - INFO - Semantic match vs 'Job ID: VC-CE-001': overall=0.249
+2026-08-20 21:23:07,339 - INFO - Semantic match vs 'Job ID: PJ-DA-001': overall=0.386
+2026-08-20 21:23:07,436 - INFO - Semantic match vs 'Job ID: QB-JDS-001': overall=0.251
+2026-08-20 21:23:07,532 - INFO - Semantic match vs 'Job ID: PX-HRO-001': overall=0.205
+2026-08-20 21:23:07,633 - INFO - Semantic match vs 'Job ID: HC-SE-001': overall=0.209
+2026-08-20 21:23:07,742 - INFO - Semantic match vs 'Job ID: CX-BA-001': overall=0.385
+2026-08-20 21:23:07,849 - INFO - Semantic match vs 'Job ID: VC-CE-001': overall=0.249
+2026-08-20 21:23:07,953 - INFO - Semantic match vs 'Job ID: PJ-DA-001': overall=0.389
+2026-08-20 21:23:08,056 - INFO - Semantic match vs 'Job ID: QB-JDS-001': overall=0.258
+2026-08-20 21:23:08,152 - INFO - Semantic match vs 'Job ID: PX-HRO-001': overall=0.238
+2026-08-20 21:23:08,250 - INFO - Semantic match vs 'Job ID: HC-SE-001': overall=0.22
+2026-08-20 21:23:08,356 - INFO - Semantic match vs 'Job ID: CX-BA-001': overall=0.292
+2026-08-20 21:23:08,465 - INFO - Semantic match vs 'Job ID: VC-CE-001': overall=0.184
+2026-08-20 21:23:08,563 - INFO - Semantic match vs 'Job ID: PJ-DA-001': overall=0.302
+2026-08-20 21:23:08,673 - INFO - Semantic match vs 'Job ID: QB-JDS-001': overall=0.264
+2026-08-20 21:23:08,787 - INFO - Semantic match vs 'Job ID: PX-HRO-001': overall=0.091
+2026-08-20 21:23:08,890 - INFO - Semantic match vs 'Job ID: HC-SE-001': overall=0.312
+2026-08-20 21:23:09,013 - INFO - Semantic match vs 'Job ID: CX-BA-001': overall=0.335
+2026-08-20 21:23:09,136 - INFO - Semantic match vs 'Job ID: VC-CE-001': overall=0.23
+2026-08-20 21:23:09,273 - INFO - Semantic match vs 'Job ID: PJ-DA-001': overall=0.336
+2026-08-20 21:23:09,407 - INFO - Semantic match vs 'Job ID: QB-JDS-001': overall=0.291
+2026-08-20 21:23:09,528 - INFO - Semantic match vs 'Job ID: PX-HRO-001': overall=0.102
+2026-08-20 21:23:09,673 - INFO - Semantic match vs 'Job ID: HC-SE-001': overall=0.422
+2026-08-20 21:23:17,160 - INFO - Scoring 10 candidates
+2026-08-20 21:23:17,162 - INFO - ATS score computed: 79.8/100
+2026-08-20 21:23:17,162 - INFO - ATS score computed: 49.4/100
+2026-08-20 21:23:17,162 - INFO - ATS score computed: 8.5/100
+2026-08-20 21:23:17,171 - INFO - ATS score computed: 71.0/100
+2026-08-20 21:23:17,177 - INFO - ATS score computed: 57.9/100
+2026-08-20 21:23:17,181 - INFO - ATS score computed: 77.8/100
+2026-08-20 21:23:17,181 - INFO - ATS score computed: 23.3/100
+2026-08-20 21:23:17,186 - INFO - ATS score computed: 40.8/100
+2026-08-20 21:23:17,186 - INFO - ATS score computed: 28.8/100
+2026-08-20 21:23:17,192 - INFO - ATS score computed: 21.2/100
+2026-08-20 21:23:24,945 - INFO - Loaded 10 scored candidates for ranking
+2026-08-20 21:23:24,945 - INFO - Ranked 10 candidates
+2026-08-20 21:23:24,945 - INFO - Generated recruiter report

@@ -1,7 +1,11 @@
 {
   "job_id": "jd_data_scientist",
-  "title": "QuantumBlack, AI by McKinsey",
+  "title": "Job ID: QB-JDS-001",
   "required_skills": [
+    {
+      "name": "communication",
+      "mandatory": true
+    },
     {
       "name": "machine learning",
       "mandatory": true
@@ -22,7 +26,7 @@
   "min_experience_years": null,
   "max_experience_years": null,
   "education_requirement": {
-    "degree": "Bachelor's",
+    "degree": "Master's",
     "field_of_study": null
   }
 }

@@ -3,540 +3,540 @@
     "resume": "ba_resume_1_labeled.json",
     "job": "jd_business_analyst_parsed.json",
     "match": false,
-    "skills_similarity": 0.524,
-    "experience_similarity": 0.05,
+    "skills_similarity": 0.74,
+    "experience_similarity": 0.214,
     "projects_similarity": 0.0,
-    "overall_similarity": 0.277
+    "overall_similarity": 0.434
   },
   {
     "resume": "ba_resume_1_labeled.json",
     "job": "jd_civil_engineer_parsed.json",
     "match": false,
-    "skills_similarity": 0.478,
-    "experience_similarity": 0.238,
+    "skills_similarity": 0.441,
+    "experience_similarity": 0.131,
     "projects_similarity": 0.0,
-    "overall_similarity": 0.31
+    "overall_similarity": 0.26
   },
   {
     "resume": "ba_resume_1_labeled.json",
     "job": "jd_data_analyst_parsed.json",
     "match": false,
-    "skills_similarity": 0.552,
-    "experience_similarity": 0.105,
-    "projects_similarity": 0.0,
-    "overall_similarity": 0.307
-  },
-  {
-    "resume": "ba_resume_1_labeled.json",
-    "job": "jd_data_scientist_parsed.json",
-    "match": false,
-    "skills_similarity": 0.488,
-    "experience_similarity": 0.118,
-    "projects_similarity": 0.0,
-    "overall_similarity": 0.279
-  },
-  {
-    "resume": "ba_resume_1_labeled.json",
-    "job": "jd_hr_officer_parsed.json",
-    "match": false,
-    "skills_similarity": 0.433,
-    "experience_similarity": 0.183,
-    "projects_similarity": 0.0,
-    "overall_similarity": 0.271
-  },
-  {
-    "resume": "ba_resume_1_labeled.json",
-    "job": "jd_software_engineer_parsed.json",
-    "match": false,
-    "skills_similarity": 0.139,
-    "experience_similarity": 0.213,
-    "projects_similarity": 0.0,
-    "overall_similarity": 0.133
-  },
-  {
-    "resume": "ba_resume_2_labeled.json",
-    "job": "jd_business_analyst_parsed.json",
-    "match": false,
-    "skills_similarity": 0.0,
-    "experience_similarity": 0.087,
-    "projects_similarity": 0.0,
-    "overall_similarity": 0.026
-  },
-  {
-    "resume": "ba_resume_2_labeled.json",
-    "job": "jd_civil_engineer_parsed.json",
-    "match": false,
-    "skills_similarity": 0.0,
-    "experience_similarity": 0.098,
-    "projects_similarity": 0.0,
-    "overall_similarity": 0.029
-  },
-  {
-    "resume": "ba_resume_2_labeled.json",
-    "job": "jd_data_analyst_parsed.json",
-    "match": false,
-    "skills_similarity": 0.0,
-    "experience_similarity": 0.06,
-    "projects_similarity": 0.0,
-    "overall_similarity": 0.018
-  },
-  {
-    "resume": "ba_resume_2_labeled.json",
-    "job": "jd_data_scientist_parsed.json",
-    "match": false,
-    "skills_similarity": 0.0,
-    "experience_similarity": 0.038,
-    "projects_similarity": 0.0,
-    "overall_similarity": 0.011
-  },
-  {
-    "resume": "ba_resume_2_labeled.json",
-    "job": "jd_hr_officer_parsed.json",
-    "match": false,
-    "skills_similarity": 0.0,
-    "experience_similarity": 0.054,
-    "projects_similarity": 0.0,
-    "overall_similarity": 0.016
-  },
-  {
-    "resume": "ba_resume_2_labeled.json",
-    "job": "jd_software_engineer_parsed.json",
-    "match": false,
-    "skills_similarity": 0.0,
-    "experience_similarity": 0.16,
-    "projects_similarity": 0.0,
-    "overall_similarity": 0.048
-  },
-  {
-    "resume": "civil_resume_1_labeled.json",
-    "job": "jd_business_analyst_parsed.json",
-    "match": false,
-    "skills_similarity": 0.0,
-    "experience_similarity": 0.0,
-    "projects_similarity": 0.0,
-    "overall_similarity": 0.0
-  },
-  {
-    "resume": "civil_resume_1_labeled.json",
-    "job": "jd_civil_engineer_parsed.json",
-    "match": false,
-    "skills_similarity": 0.0,
-    "experience_similarity": 0.162,
-    "projects_similarity": 0.0,
-    "overall_similarity": 0.049
-  },
-  {
-    "resume": "civil_resume_1_labeled.json",
-    "job": "jd_data_analyst_parsed.json",
-    "match": false,
-    "skills_similarity": 0.0,
-    "experience_similarity": 0.107,
-    "projects_similarity": 0.0,
-    "overall_similarity": 0.032
-  },
-  {
-    "resume": "civil_resume_1_labeled.json",
-    "job": "jd_data_scientist_parsed.json",
-    "match": false,
-    "skills_similarity": 0.0,
-    "experience_similarity": 0.004,
-    "projects_similarity": 0.0,
-    "overall_similarity": 0.001
-  },
-  {
-    "resume": "civil_resume_1_labeled.json",
-    "job": "jd_hr_officer_parsed.json",
-    "match": false,
-    "skills_similarity": 0.0,
-    "experience_similarity": 0.025,
-    "projects_similarity": 0.0,
-    "overall_similarity": 0.007
-  },
-  {
-    "resume": "civil_resume_1_labeled.json",
-    "job": "jd_software_engineer_parsed.json",
-    "match": false,
-    "skills_similarity": 0.0,
-    "experience_similarity": 0.068,
-    "projects_similarity": 0.0,
-    "overall_similarity": 0.02
-  },
-  {
-    "resume": "da_resume_1_labeled.json",
-    "job": "jd_business_analyst_parsed.json",
-    "match": false,
-    "skills_similarity": 0.0,
-    "experience_similarity": 0.0,
-    "projects_similarity": 0.0,
-    "overall_similarity": 0.0
-  },
-  {
-    "resume": "da_resume_1_labeled.json",
-    "job": "jd_civil_engineer_parsed.json",
-    "match": false,
-    "skills_similarity": 0.0,
-    "experience_similarity": 0.0,
-    "projects_similarity": 0.0,
-    "overall_similarity": 0.0
-  },
-  {
-    "resume": "da_resume_1_labeled.json",
-    "job": "jd_data_analyst_parsed.json",
-    "match": false,
-    "skills_similarity": 0.0,
-    "experience_similarity": 0.0,
-    "projects_similarity": 0.0,
-    "overall_similarity": 0.0
-  },
-  {
-    "resume": "da_resume_1_labeled.json",
-    "job": "jd_data_scientist_parsed.json",
-    "match": false,
-    "skills_similarity": 0.0,
-    "experience_similarity": 0.0,
-    "projects_similarity": 0.0,
-    "overall_similarity": 0.0
-  },
-  {
-    "resume": "da_resume_1_labeled.json",
-    "job": "jd_hr_officer_parsed.json",
-    "match": false,
-    "skills_similarity": 0.0,
-    "experience_similarity": 0.0,
-    "projects_similarity": 0.0,
-    "overall_similarity": 0.0
-  },
-  {
-    "resume": "da_resume_1_labeled.json",
-    "job": "jd_software_engineer_parsed.json",
-    "match": false,
-    "skills_similarity": 0.0,
-    "experience_similarity": 0.0,
-    "projects_similarity": 0.0,
-    "overall_similarity": 0.0
-  },
-  {
-    "resume": "da_resume_2_labeled.json",
-    "job": "jd_business_analyst_parsed.json",
-    "match": false,
-    "skills_similarity": 0.0,
-    "experience_similarity": 0.19,
-    "projects_similarity": 0.0,
-    "overall_similarity": 0.057
-  },
-  {
-    "resume": "da_resume_2_labeled.json",
-    "job": "jd_civil_engineer_parsed.json",
-    "match": false,
-    "skills_similarity": 0.0,
+    "skills_similarity": 0.69,
     "experience_similarity": 0.177,
     "projects_similarity": 0.0,
-    "overall_similarity": 0.053
+    "overall_similarity": 0.398
+  },
+  {
+    "resume": "ba_resume_1_labeled.json",
+    "job": "jd_data_scientist_parsed.json",
+    "match": false,
+    "skills_similarity": 0.523,
+    "experience_similarity": 0.207,
+    "projects_similarity": 0.0,
+    "overall_similarity": 0.324
+  },
+  {
+    "resume": "ba_resume_1_labeled.json",
+    "job": "jd_hr_officer_parsed.json",
+    "match": false,
+    "skills_similarity": 0.088,
+    "experience_similarity": 0.196,
+    "projects_similarity": 0.0,
+    "overall_similarity": 0.103
+  },
+  {
+    "resume": "ba_resume_1_labeled.json",
+    "job": "jd_software_engineer_parsed.json",
+    "match": false,
+    "skills_similarity": 0.222,
+    "experience_similarity": 0.211,
+    "projects_similarity": 0.0,
+    "overall_similarity": 0.174
+  },
+  {
+    "resume": "ba_resume_2_labeled.json",
+    "job": "jd_business_analyst_parsed.json",
+    "match": false,
+    "skills_similarity": 0.662,
+    "experience_similarity": 0.2,
+    "projects_similarity": 0.0,
+    "overall_similarity": 0.391
+  },
+  {
+    "resume": "ba_resume_2_labeled.json",
+    "job": "jd_civil_engineer_parsed.json",
+    "match": false,
+    "skills_similarity": 0.398,
+    "experience_similarity": 0.084,
+    "projects_similarity": 0.0,
+    "overall_similarity": 0.224
+  },
+  {
+    "resume": "ba_resume_2_labeled.json",
+    "job": "jd_data_analyst_parsed.json",
+    "match": false,
+    "skills_similarity": 0.586,
+    "experience_similarity": 0.146,
+    "projects_similarity": 0.0,
+    "overall_similarity": 0.337
+  },
+  {
+    "resume": "ba_resume_2_labeled.json",
+    "job": "jd_data_scientist_parsed.json",
+    "match": false,
+    "skills_similarity": 0.43,
+    "experience_similarity": 0.18,
+    "projects_similarity": 0.0,
+    "overall_similarity": 0.269
+  },
+  {
+    "resume": "ba_resume_2_labeled.json",
+    "job": "jd_hr_officer_parsed.json",
+    "match": false,
+    "skills_similarity": 0.044,
+    "experience_similarity": 0.16,
+    "projects_similarity": 0.0,
+    "overall_similarity": 0.07
+  },
+  {
+    "resume": "ba_resume_2_labeled.json",
+    "job": "jd_software_engineer_parsed.json",
+    "match": false,
+    "skills_similarity": 0.248,
+    "experience_similarity": 0.166,
+    "projects_similarity": 0.0,
+    "overall_similarity": 0.174
+  },
+  {
+    "resume": "civil_resume_1_labeled.json",
+    "job": "jd_business_analyst_parsed.json",
+    "match": false,
+    "skills_similarity": 0.386,
+    "experience_similarity": 0.152,
+    "projects_similarity": 0.0,
+    "overall_similarity": 0.239
+  },
+  {
+    "resume": "civil_resume_1_labeled.json",
+    "job": "jd_civil_engineer_parsed.json",
+    "match": false,
+    "skills_similarity": 0.414,
+    "experience_similarity": 0.122,
+    "projects_similarity": 0.0,
+    "overall_similarity": 0.244
+  },
+  {
+    "resume": "civil_resume_1_labeled.json",
+    "job": "jd_data_analyst_parsed.json",
+    "match": false,
+    "skills_similarity": 0.35,
+    "experience_similarity": 0.099,
+    "projects_similarity": 0.0,
+    "overall_similarity": 0.205
+  },
+  {
+    "resume": "civil_resume_1_labeled.json",
+    "job": "jd_data_scientist_parsed.json",
+    "match": false,
+    "skills_similarity": 0.2,
+    "experience_similarity": 0.09,
+    "projects_similarity": 0.0,
+    "overall_similarity": 0.127
+  },
+  {
+    "resume": "civil_resume_1_labeled.json",
+    "job": "jd_hr_officer_parsed.json",
+    "match": false,
+    "skills_similarity": 0.05,
+    "experience_similarity": 0.091,
+    "projects_similarity": 0.0,
+    "overall_similarity": 0.052
+  },
+  {
+    "resume": "civil_resume_1_labeled.json",
+    "job": "jd_software_engineer_parsed.json",
+    "match": false,
+    "skills_similarity": 0.133,
+    "experience_similarity": 0.171,
+    "projects_similarity": 0.0,
+    "overall_similarity": 0.118
+  },
+  {
+    "resume": "da_resume_1_labeled.json",
+    "job": "jd_business_analyst_parsed.json",
+    "match": false,
+    "skills_similarity": 0.725,
+    "experience_similarity": 0.276,
+    "projects_similarity": 0.0,
+    "overall_similarity": 0.445
+  },
+  {
+    "resume": "da_resume_1_labeled.json",
+    "job": "jd_civil_engineer_parsed.json",
+    "match": false,
+    "skills_similarity": 0.483,
+    "experience_similarity": 0.202,
+    "projects_similarity": 0.0,
+    "overall_similarity": 0.302
+  },
+  {
+    "resume": "da_resume_1_labeled.json",
+    "job": "jd_data_analyst_parsed.json",
+    "match": false,
+    "skills_similarity": 0.733,
+    "experience_similarity": 0.234,
+    "projects_similarity": 0.0,
+    "overall_similarity": 0.437
+  },
+  {
+    "resume": "da_resume_1_labeled.json",
+    "job": "jd_data_scientist_parsed.json",
+    "match": false,
+    "skills_similarity": 0.55,
+    "experience_similarity": 0.29,
+    "projects_similarity": 0.0,
+    "overall_similarity": 0.362
+  },
+  {
+    "resume": "da_resume_1_labeled.json",
+    "job": "jd_hr_officer_parsed.json",
+    "match": false,
+    "skills_similarity": 0.126,
+    "experience_similarity": 0.213,
+    "projects_similarity": 0.0,
+    "overall_similarity": 0.127
+  },
+  {
+    "resume": "da_resume_1_labeled.json",
+    "job": "jd_software_engineer_parsed.json",
+    "match": false,
+    "skills_similarity": 0.315,
+    "experience_similarity": 0.305,
+    "projects_similarity": 0.0,
+    "overall_similarity": 0.249
+  },
+  {
+    "resume": "da_resume_2_labeled.json",
+    "job": "jd_business_analyst_parsed.json",
+    "match": false,
+    "skills_similarity": 0.556,
+    "experience_similarity": 0.191,
+    "projects_similarity": 0.0,
+    "overall_similarity": 0.335
+  },
+  {
+    "resume": "da_resume_2_labeled.json",
+    "job": "jd_civil_engineer_parsed.json",
+    "match": false,
+    "skills_similarity": 0.473,
+    "experience_similarity": 0.152,
+    "projects_similarity": 0.0,
+    "overall_similarity": 0.282
   },
   {
     "resume": "da_resume_2_labeled.json",
     "job": "jd_data_analyst_parsed.json",
     "match": false,
-    "skills_similarity": 0.0,
-    "experience_similarity": 0.134,
+    "skills_similarity": 0.62,
+    "experience_similarity": 0.18,
     "projects_similarity": 0.0,
-    "overall_similarity": 0.04
+    "overall_similarity": 0.364
   },
   {
     "resume": "da_resume_2_labeled.json",
     "job": "jd_data_scientist_parsed.json",
     "match": false,
-    "skills_similarity": 0.0,
-    "experience_similarity": 0.178,
+    "skills_similarity": 0.583,
+    "experience_similarity": 0.189,
     "projects_similarity": 0.0,
-    "overall_similarity": 0.053
+    "overall_similarity": 0.348
   },
   {
     "resume": "da_resume_2_labeled.json",
     "job": "jd_hr_officer_parsed.json",
     "match": false,
-    "skills_similarity": 0.0,
-    "experience_similarity": 0.09,
-    "projects_similarity": 0.0,
-    "overall_similarity": 0.027
-  },
-  {
-    "resume": "da_resume_2_labeled.json",
-    "job": "jd_software_engineer_parsed.json",
-    "match": false,
-    "skills_similarity": 0.0,
-    "experience_similarity": 0.256,
+    "skills_similarity": 0.076,
+    "experience_similarity": 0.129,
     "projects_similarity": 0.0,
     "overall_similarity": 0.077
   },
   {
+    "resume": "da_resume_2_labeled.json",
+    "job": "jd_software_engineer_parsed.json",
+    "match": false,
+    "skills_similarity": 0.307,
+    "experience_similarity": 0.207,
+    "projects_similarity": 0.0,
+    "overall_similarity": 0.216
+  },
+  {
     "resume": "da_resume_3_labeled.json",
     "job": "jd_business_analyst_parsed.json",
     "match": false,
-    "skills_similarity": 0.0,
-    "experience_similarity": 0.077,
+    "skills_similarity": 0.689,
+    "experience_similarity": 0.113,
     "projects_similarity": 0.0,
-    "overall_similarity": 0.023
+    "overall_similarity": 0.378
   },
   {
     "resume": "da_resume_3_labeled.json",
     "job": "jd_civil_engineer_parsed.json",
     "match": false,
-    "skills_similarity": 0.0,
-    "experience_similarity": 0.152,
+    "skills_similarity": 0.486,
+    "experience_similarity": 0.066,
     "projects_similarity": 0.0,
-    "overall_similarity": 0.046
+    "overall_similarity": 0.263
   },
   {
     "resume": "da_resume_3_labeled.json",
     "job": "jd_data_analyst_parsed.json",
     "match": false,
-    "skills_similarity": 0.0,
-    "experience_similarity": 0.11,
+    "skills_similarity": 0.725,
+    "experience_similarity": 0.142,
     "projects_similarity": 0.0,
-    "overall_similarity": 0.033
+    "overall_similarity": 0.405
   },
   {
     "resume": "da_resume_3_labeled.json",
     "job": "jd_data_scientist_parsed.json",
     "match": false,
-    "skills_similarity": 0.0,
-    "experience_similarity": 0.21,
+    "skills_similarity": 0.569,
+    "experience_similarity": 0.134,
+    "projects_similarity": 0.0,
+    "overall_similarity": 0.325
+  },
+  {
+    "resume": "da_resume_3_labeled.json",
+    "job": "jd_hr_officer_parsed.json",
+    "match": false,
+    "skills_similarity": 0.081,
+    "experience_similarity": 0.076,
     "projects_similarity": 0.0,
     "overall_similarity": 0.063
   },
   {
     "resume": "da_resume_3_labeled.json",
-    "job": "jd_hr_officer_parsed.json",
-    "match": false,
-    "skills_similarity": 0.0,
-    "experience_similarity": 0.152,
-    "projects_similarity": 0.0,
-    "overall_similarity": 0.046
-  },
-  {
-    "resume": "da_resume_3_labeled.json",
     "job": "jd_software_engineer_parsed.json",
     "match": false,
-    "skills_similarity": 0.0,
-    "experience_similarity": 0.213,
+    "skills_similarity": 0.289,
+    "experience_similarity": 0.123,
     "projects_similarity": 0.0,
-    "overall_similarity": 0.064
+    "overall_similarity": 0.181
   },
   {
     "resume": "hr_resume_1_labeled.json",
     "job": "jd_business_analyst_parsed.json",
     "match": false,
-    "skills_similarity": 0.0,
-    "experience_similarity": 0.029,
+    "skills_similarity": 0.584,
+    "experience_similarity": 0.341,
     "projects_similarity": 0.0,
-    "overall_similarity": 0.009
+    "overall_similarity": 0.394
   },
   {
     "resume": "hr_resume_1_labeled.json",
     "job": "jd_civil_engineer_parsed.json",
     "match": false,
-    "skills_similarity": 0.0,
-    "experience_similarity": 0.109,
+    "skills_similarity": 0.298,
+    "experience_similarity": 0.332,
     "projects_similarity": 0.0,
-    "overall_similarity": 0.033
+    "overall_similarity": 0.249
   },
   {
     "resume": "hr_resume_1_labeled.json",
     "job": "jd_data_analyst_parsed.json",
     "match": false,
-    "skills_similarity": 0.0,
-    "experience_similarity": 0.051,
+    "skills_similarity": 0.549,
+    "experience_similarity": 0.371,
     "projects_similarity": 0.0,
-    "overall_similarity": 0.015
+    "overall_similarity": 0.386
   },
   {
     "resume": "hr_resume_1_labeled.json",
     "job": "jd_data_scientist_parsed.json",
     "match": false,
-    "skills_similarity": 0.0,
-    "experience_similarity": 0.0,
+    "skills_similarity": 0.316,
+    "experience_similarity": 0.309,
     "projects_similarity": 0.0,
-    "overall_similarity": 0.0
+    "overall_similarity": 0.251
   },
   {
     "resume": "hr_resume_1_labeled.json",
     "job": "jd_hr_officer_parsed.json",
     "match": false,
-    "skills_similarity": 0.0,
-    "experience_similarity": 0.012,
+    "skills_similarity": 0.149,
+    "experience_similarity": 0.434,
     "projects_similarity": 0.0,
-    "overall_similarity": 0.004
+    "overall_similarity": 0.205
   },
   {
     "resume": "hr_resume_1_labeled.json",
     "job": "jd_software_engineer_parsed.json",
     "match": false,
-    "skills_similarity": 0.0,
-    "experience_similarity": 0.147,
+    "skills_similarity": 0.173,
+    "experience_similarity": 0.407,
     "projects_similarity": 0.0,
-    "overall_similarity": 0.044
+    "overall_similarity": 0.209
   },
   {
     "resume": "hr_resume_2_labeled.json",
     "job": "jd_business_analyst_parsed.json",
     "match": false,
-    "skills_similarity": 0.0,
-    "experience_similarity": 0.053,
+    "skills_similarity": 0.576,
+    "experience_similarity": 0.325,
     "projects_similarity": 0.0,
-    "overall_similarity": 0.016
+    "overall_similarity": 0.385
   },
   {
     "resume": "hr_resume_2_labeled.json",
     "job": "jd_civil_engineer_parsed.json",
-    "match": false,
-    "skills_similarity": 0.0,
-    "experience_similarity": 0.193,
-    "projects_similarity": 0.0,
-    "overall_similarity": 0.058
-  },
-  {
-    "resume": "hr_resume_2_labeled.json",
-    "job": "jd_data_analyst_parsed.json",
-    "match": false,
-    "skills_similarity": 0.0,
-    "experience_similarity": 0.153,
-    "projects_similarity": 0.0,
-    "overall_similarity": 0.046
-  },
-  {
-    "resume": "hr_resume_2_labeled.json",
-    "job": "jd_data_scientist_parsed.json",
-    "match": false,
-    "skills_similarity": 0.0,
-    "experience_similarity": 0.116,
-    "projects_similarity": 0.0,
-    "overall_similarity": 0.035
-  },
-  {
-    "resume": "hr_resume_2_labeled.json",
-    "job": "jd_hr_officer_parsed.json",
-    "match": false,
-    "skills_similarity": 0.0,
-    "experience_similarity": 0.114,
-    "projects_similarity": 0.0,
-    "overall_similarity": 0.034
-  },
-  {
-    "resume": "hr_resume_2_labeled.json",
-    "job": "jd_software_engineer_parsed.json",
-    "match": false,
-    "skills_similarity": 0.0,
-    "experience_similarity": 0.149,
-    "projects_similarity": 0.0,
-    "overall_similarity": 0.045
-  },
-  {
-    "resume": "java_resume_1_labeled.json",
-    "job": "jd_business_analyst_parsed.json",
-    "match": false,
-    "skills_similarity": 0.041,
-    "experience_similarity": 0.056,
-    "projects_similarity": 0.0,
-    "overall_similarity": 0.037
-  },
-  {
-    "resume": "java_resume_1_labeled.json",
-    "job": "jd_civil_engineer_parsed.json",
-    "match": false,
-    "skills_similarity": 0.0,
-    "experience_similarity": 0.159,
-    "projects_similarity": 0.0,
-    "overall_similarity": 0.048
-  },
-  {
-    "resume": "java_resume_1_labeled.json",
-    "job": "jd_data_analyst_parsed.json",
-    "match": false,
-    "skills_similarity": 0.047,
-    "experience_similarity": 0.197,
-    "projects_similarity": 0.0,
-    "overall_similarity": 0.083
-  },
-  {
-    "resume": "java_resume_1_labeled.json",
-    "job": "jd_data_scientist_parsed.json",
-    "match": false,
-    "skills_similarity": 0.009,
-    "experience_similarity": 0.068,
-    "projects_similarity": 0.0,
-    "overall_similarity": 0.025
-  },
-  {
-    "resume": "java_resume_1_labeled.json",
-    "job": "jd_hr_officer_parsed.json",
-    "match": false,
-    "skills_similarity": 0.073,
-    "experience_similarity": 0.158,
-    "projects_similarity": 0.0,
-    "overall_similarity": 0.084
-  },
-  {
-    "resume": "java_resume_1_labeled.json",
-    "job": "jd_software_engineer_parsed.json",
-    "match": false,
-    "skills_similarity": 0.0,
-    "experience_similarity": 0.222,
-    "projects_similarity": 0.0,
-    "overall_similarity": 0.067
-  },
-  {
-    "resume": "soft_resume_1_labeled.json",
-    "job": "jd_business_analyst_parsed.json",
-    "match": false,
-    "skills_similarity": 0.496,
-    "experience_similarity": 0.097,
-    "projects_similarity": 0.0,
-    "overall_similarity": 0.277
-  },
-  {
-    "resume": "soft_resume_1_labeled.json",
-    "job": "jd_civil_engineer_parsed.json",
-    "match": false,
-    "skills_similarity": 0.363,
-    "experience_similarity": 0.081,
-    "projects_similarity": 0.0,
-    "overall_similarity": 0.206
-  },
-  {
-    "resume": "soft_resume_1_labeled.json",
-    "job": "jd_data_analyst_parsed.json",
-    "match": false,
-    "skills_similarity": 0.518,
-    "experience_similarity": 0.245,
-    "projects_similarity": 0.0,
-    "overall_similarity": 0.333
-  },
-  {
-    "resume": "soft_resume_1_labeled.json",
-    "job": "jd_data_scientist_parsed.json",
     "match": false,
     "skills_similarity": 0.324,
-    "experience_similarity": 0.05,
+    "experience_similarity": 0.291,
     "projects_similarity": 0.0,
-    "overall_similarity": 0.177
+    "overall_similarity": 0.249
+  },
+  {
+    "resume": "hr_resume_2_labeled.json",
+    "job": "jd_data_analyst_parsed.json",
+    "match": false,
+    "skills_similarity": 0.546,
+    "experience_similarity": 0.388,
+    "projects_similarity": 0.0,
+    "overall_similarity": 0.389
+  },
+  {
+    "resume": "hr_resume_2_labeled.json",
+    "job": "jd_data_scientist_parsed.json",
+    "match": false,
+    "skills_similarity": 0.325,
+    "experience_similarity": 0.318,
+    "projects_similarity": 0.0,
+    "overall_similarity": 0.258
+  },
+  {
+    "resume": "hr_resume_2_labeled.json",
+    "job": "jd_hr_officer_parsed.json",
+    "match": false,
+    "skills_similarity": 0.178,
+    "experience_similarity": 0.497,
+    "projects_similarity": 0.0,
+    "overall_similarity": 0.238
+  },
+  {
+    "resume": "hr_resume_2_labeled.json",
+    "job": "jd_software_engineer_parsed.json",
+    "match": false,
+    "skills_similarity": 0.202,
+    "experience_similarity": 0.396,
+    "projects_similarity": 0.0,
+    "overall_similarity": 0.22
+  },
+  {
+    "resume": "java_resume_1_labeled.json",
+    "job": "jd_business_analyst_parsed.json",
+    "match": false,
+    "skills_similarity": 0.48,
+    "experience_similarity": 0.172,
+    "projects_similarity": 0.0,
+    "overall_similarity": 0.292
+  },
+  {
+    "resume": "java_resume_1_labeled.json",
+    "job": "jd_civil_engineer_parsed.json",
+    "match": false,
+    "skills_similarity": 0.282,
+    "experience_similarity": 0.144,
+    "projects_similarity": 0.0,
+    "overall_similarity": 0.184
+  },
+  {
+    "resume": "java_resume_1_labeled.json",
+    "job": "jd_data_analyst_parsed.json",
+    "match": false,
+    "skills_similarity": 0.488,
+    "experience_similarity": 0.194,
+    "projects_similarity": 0.0,
+    "overall_similarity": 0.302
+  },
+  {
+    "resume": "java_resume_1_labeled.json",
+    "job": "jd_data_scientist_parsed.json",
+    "match": false,
+    "skills_similarity": 0.349,
+    "experience_similarity": 0.3,
+    "projects_similarity": 0.0,
+    "overall_similarity": 0.264
+  },
+  {
+    "resume": "java_resume_1_labeled.json",
+    "job": "jd_hr_officer_parsed.json",
+    "match": false,
+    "skills_similarity": 0.085,
+    "experience_similarity": 0.161,
+    "projects_similarity": 0.0,
+    "overall_similarity": 0.091
+  },
+  {
+    "resume": "java_resume_1_labeled.json",
+    "job": "jd_software_engineer_parsed.json",
+    "match": false,
+    "skills_similarity": 0.498,
+    "experience_similarity": 0.211,
+    "projects_similarity": 0.0,
+    "overall_similarity": 0.312
+  },
+  {
+    "resume": "soft_resume_1_labeled.json",
+    "job": "jd_business_analyst_parsed.json",
+    "match": false,
+    "skills_similarity": 0.471,
+    "experience_similarity": 0.195,
+    "projects_similarity": 0.205,
+    "overall_similarity": 0.335
+  },
+  {
+    "resume": "soft_resume_1_labeled.json",
+    "job": "jd_civil_engineer_parsed.json",
+    "match": false,
+    "skills_similarity": 0.28,
+    "experience_similarity": 0.148,
+    "projects_similarity": 0.227,
+    "overall_similarity": 0.23
+  },
+  {
+    "resume": "soft_resume_1_labeled.json",
+    "job": "jd_data_analyst_parsed.json",
+    "match": false,
+    "skills_similarity": 0.484,
+    "experience_similarity": 0.18,
+    "projects_similarity": 0.201,
+    "overall_similarity": 0.336
+  },
+  {
+    "resume": "soft_resume_1_labeled.json",
+    "job": "jd_data_scientist_parsed.json",
+    "match": false,
+    "skills_similarity": 0.343,
+    "experience_similarity": 0.265,
+    "projects_similarity": 0.199,
+    "overall_similarity": 0.291
   },
   {
     "resume": "soft_resume_1_labeled.json",
     "job": "jd_hr_officer_parsed.json",
     "match": false,
-    "skills_similarity": 0.464,
-    "experience_similarity": 0.167,
-    "projects_similarity": 0.0,
-    "overall_similarity": 0.282
+    "skills_similarity": 0.099,
+    "experience_similarity": 0.15,
+    "projects_similarity": 0.037,
+    "overall_similarity": 0.102
   },
   {
     "resume": "soft_resume_1_labeled.json",
     "job": "jd_software_engineer_parsed.json",
     "match": false,
-    "skills_similarity": 0.153,
-    "experience_similarity": 0.295,
-    "projects_similarity": 0.0,
-    "overall_similarity": 0.165
+    "skills_similarity": 0.573,
+    "experience_similarity": 0.25,
+    "projects_similarity": 0.301,
+    "overall_similarity": 0.422
   }
 ]

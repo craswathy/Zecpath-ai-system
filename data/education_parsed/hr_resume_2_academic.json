@@ -1,9 +1,40 @@
 {
   "candidate_file": "hr_resume_2_labeled.json",
-  "education": [],
+  "education": [
+    {
+      "degree": "Master's",
+      "field_of_study": null,
+      "institution": "Bachelor of Science in Human Resources",
+      "graduation_year": null
+    },
+    {
+      "degree": "Master's",
+      "field_of_study": null,
+      "institution": "ADDITIONAL INFORMATION",
+      "graduation_year": null
+    },
+    {
+      "degree": "Master's",
+      "field_of_study": null,
+      "institution": "Relocation: Willing to relocate to Panama City, Panama.",
+      "graduation_year": null
+    },
+    {
+      "degree": "Master's",
+      "field_of_study": null,
+      "institution": "Work Authorization: US Citizen (will require work visa for Panama).",
+      "graduation_year": null
+    }
+  ],
   "certifications": [],
   "education_relevance": {
-    "relevance_score": 0.0,
-    "best_match": null
+    "relevance_score": 0.6,
+    "best_match": {
+      "degree": "Master's",
+      "field_of_study": null,
+      "institution": "Bachelor of Science in Human Resources",
+      "graduation_year": null,
+      "relevance_score": 0.6
+    }
   }
 }

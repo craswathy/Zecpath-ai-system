@@ -18,7 +18,7 @@
     "match_type": "exact"
   },
   {
-    "skill": "java",
+    "skill": "power bi",
     "category": "technical",
     "confidence": 1.0,
     "match_type": "exact"
@@ -36,19 +36,25 @@
     "match_type": "exact"
   },
   {
+    "skill": "crm",
+    "category": "business",
+    "confidence": 1.0,
+    "match_type": "exact"
+  },
+  {
     "skill": "reporting",
     "category": "business",
     "confidence": 1.0,
     "match_type": "exact"
   },
   {
-    "skill": "machine learning",
-    "category": "technical",
+    "skill": "business analysis",
+    "category": "business",
     "confidence": 0.95,
     "match_type": "exact"
   },
   {
-    "skill": "business analysis",
+    "skill": "project management",
     "category": "business",
     "confidence": 0.95,
     "match_type": "exact"

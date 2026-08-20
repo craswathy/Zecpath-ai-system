@@ -1,46 +1,24 @@
+Job ID: VC-CE-001
+Title: Civil Engineer
+Company: Vestal Corporation
+Domain Category: Engineering / Civil Infrastructure
+Location: Guadalajara, Jalisco, Mexico
+Employment Type: Full-time
 
-Vestal Corporation
-Civil Engineer 
-Guadalajara, Jalisco, Mexico · 2 months ago · 
-About the job
-Job Summary
+POSITION OVERVIEW
+Vestal Corporation is seeking a Civil Engineer in Guadalajara, Mexico to perform civil site design, roadway geometry, commercial design, and water and sewer infrastructure projects while collaborating with multidisciplinary teams and clients.
 
-The Civil Engineer will perform civil site design, roadway, commercial design, and water and sewer.
+REQUIREMENTS
+- Experience: Minimum 3 years of experience in civil engineering, commercial design, and site infrastructure projects.
+- Education: Bachelor's degree in Civil Engineering or equivalent.
+- Licensing: Registered Professional Engineer (P.E.) preferred.
+- Mandatory Codes Knowledge: Functional knowledge of ASCE, AWWA, and International Building Codes (IBC).
+- Technical Software: Proficient user of AutoCAD and Civil 3D strongly preferred.
+- Core Engineering Competencies: Site layout and design, grading, stormwater drainage, sanitary sewer design, erosion control, flood studies, pavement/roadway design.
+- Interpersonal & Soft Skills: Excellent written and verbal communication, client interfacing, cross-disciplinary collaboration, problem-solving, quality control compliance, time management.
 
-Job Duties
-
-•	Perform site layout and design, grading, Stormwater drainage, sanitary sewer design, and erosion control design.
-•	Conduct flood studies.
-•	Develop pavement and roadway design for industrial and commercial projects.
-•	Coordinate with various disciplines for seamless project execution.
-•	Interface directly with clients and external partners.
-•	Maintain Civil Design/ engineering standards and procedures.
-•	Comply with Company’s Quality Control and Project Management procedures.
-•	Develop and maintain relationships with employees at all locations.
-•	Promote a positive working environment in order to achieve the organization’s goals.
-•	Perform other duties as assigned.
-
-Work Environment
-
-Work is performed in a Vestal Corporation office.
-
-Physical Requirements
-
-
-•	Prolonged periods of sitting at a desk and able to operate a computer and other office equipment.
-•	Must be able to move about the office to access office equipment and other office buildings within the Vestal office complex.
-•	This position frequently communicates with others and must be able to exchange accurate information.
-
-Knowledge / Skill / Ability / Education / Experience
-
-
-•	Bachelor’s degree in Civil Engineering equivalent is required.
-•	Minimum 3 of years of experience is required.
-•	Registered P.E is preferred.
-•	Functional knowledge of ASCE, AWWA, and International Codes is required.
-•	Proficient user of AutoCAD and Civil 3D is strongly preferred.
-•	Excellent written and verbal communication skills.
-•	Strong attention to detail, facilitation, team building, collaboration, organization, and problem-solving skills.
-•	Requires effective time management skills, personal conduct, and change management abilities.
-•	Ability to effectively interact with co-workers, clients, vendors, and other business contacts.
-•	Must comply with Vestal Corporations’ core values for the safe and efficient operation of the business and maintain sound relationships among and with employees.
+RESPONSIBILITIES
+- Perform site layout and design, grading, stormwater drainage, sanitary sewer systems, erosion control, and flood studies.
+- Develop pavement and roadway design for industrial and commercial projects using AutoCAD and Civil 3D.
+- Coordinate with internal engineering disciplines, external partners, clients, and vendors for seamless project execution.
+- Maintain civil design/engineering standards and comply with corporate Quality Control and Project Management procedures.

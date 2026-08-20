@@ -1,42 +1,8 @@
 {
   "candidate_file": "da_resume_1_extracted.txt",
-  "experience_entries": [
-    {
-      "company": "Seattle, WA",
-      "designation": null,
-      "start_date_raw": "12/2016",
-      "end_date_raw": "Current",
-      "relevance_score": 0.0
-    },
-    {
-      "company": "customers Proven public san Diego, CA",
-      "designation": null,
-      "start_date_raw": "05/2016",
-      "end_date_raw": "12/2016",
-      "relevance_score": 0.0
-    },
-    {
-      "company": "City, STATE",
-      "designation": null,
-      "start_date_raw": "06/2016",
-      "end_date_raw": "05/2016",
-      "relevance_score": 0.0
-    },
-    {
-      "company": "City, STATE",
-      "designation": null,
-      "start_date_raw": "04/2016",
-      "end_date_raw": "06/2016",
-      "relevance_score": 0.0
-    }
-  ],
-  "total_experience_years": 10.37,
+  "experience_entries": [],
+  "total_experience_years": 0.0,
   "gaps": [],
-  "overlaps": [
-    {
-      "overlap_start": "2016-05",
-      "overlap_end": "2016-06"
-    }
-  ],
+  "overlaps": [],
   "scored_against_job_title": "Data Analyst"
 }

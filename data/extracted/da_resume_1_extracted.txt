@@ -1,121 +1,51 @@
-JESSICA EDUCATION AND TRAINING
-University of Waterloo Waterloo, Ontario, Canada - CLAIRE 06/2015
-Bachelor of Science: Honors
-Biochemistry Completed education in bioinformatics, biochemistry organic chemistry and
-human molecular genetics
-resumesample@example.com Heart Lake Secondary School
-Brampton
-(555) 432-1000 Ontario - 2010
-High School Diploma
-100 Montgomery St. 10th
-9 SUMMARY
-Forward-thinking Bioinformatics and Data Science Engineer with the related experience and
-dedication to make a difference to research and clinical outcomes. Proven skills in evaluating
-bioinformatics data with software-based, statistical and data mining approaches.
-Excellent documentation, reporting and presentation skills. Seeking to offer knowledge and
-SKILLS abilities to a dynamic, growth-oriented company
-- Over 7 years of expert level
-experience in R-
-Programming 4 years
-experience working in a Linux
-Environment with bash
-scripting skills
-- Connecting to relational EXPERIENCE
-database models and SQL
-Konica Minolta - Bioinformatics and Data Science Engineer
-databases (MySQL, Microsoft
-Seattle, WA 12/2016 - Current
-SQL Server, Apache Drill
-Primary responsibilities include demonstrating ORIEN Informatics portal and collect feedback
-(NOSQL)) - and feature requirements from researchers including biologists, clinical trial designers and
-- Experience coding in multiple
-clinicians
-languages such as Python,
-Active contributor to monthly clinical/ molecular data releases
-Java, and Visual Basic - - Knowledge of Qik Sense - Perform exploratory data analysis and visualizations using R to support needs for internal and
-Adapt quickly to new collaborative data research projects
-software systems, data Demo interactive informatics tools with M2Gens executive leadership team, to cancer centers
-- structure, collection and and pharmaceutical companies across the USA
-trend analysis as required in Collaborate with team members to implement pipelines in a Linux based environment and
-- a fast-paced environment
-DNAnexus, ultimately uploading molecular data to a MySQL database
-Commitment to providing
-Translating/ piloting common bioinformatics tools to applications suitable for non-
-- outstanding customer
-bioinformatics biologists and clinicians to query and interpret the molecular/clinical data
-service by maintaining
-Pilot developer: design features, and pilot applications
-- positive relationships with
-both internal and external Bionano Genomics, Inc. - BMT Data Analyst
-customers Proven public san Diego, CA - 05/2016 - 12/2016
-speaking and presentation
-Work collaboratively in a team of lead medical oncologist to automate the collection and
-- skills through demonstrating
-reporting of CAR-T cell therapy data
-interactive informatics tools
-Automate processes using R and MySQL to support the data needs of ICE-T leadership
-alongside the M2Gens - Create queries in a MySQL relational database to supplement IT reporting
-executive leadership team, to - Experience using iStar and -lira for triaging database issues collaboratively between
-cancer centers and - departments Active participant of ICE-T tumor board
-pharmaceutical companies
-across the LISA Excellent
-Moffitt Cancer Center (M2Gen) - Data Project Analyst
-work integrity with the ability
-City, STATE - 06/2016 - 05/2016
-to work independently and
-see the big picture Solid Demonstrate initiative by completing Moffitt Cancer Center classes in Bioinformatics and
-- bioinformatics training Biostatistics guild Redcap forms for clinical
-familiar with open source data abstraction
-bioinformatics tools and Create video tutorials using Camtasia to teach customers how to use Qik based tools
-- databases, NGS analysis, Follow QA/QC/UAT procedures to validate cancer related clinical data for customers on a bi-
-- annotation and visualization weekly basis
-tools, and with a solid
-Write queries in SQL to test the quality and movement of data between staging and production
-- computer science training
-environments in the data warehouse
-Proficient in MS Office (Office
-Work on complex problems in which analysis of situations or data requires an in-depth
-- 365, Teams, OneDrive, Excel,
-evaluation of various factor
-Word)
-Exercise independent judgment and project oversight within broadly defined practices and
-- policies in selecting methods, techniques and evaluating criteria for obtaining results
-Identify issues with ETL process and fast-tracks corrective produces, while developing templates
-- for future improvement
-Moffitt Cancer Center (M2Gen) -
-Bioinformatics Intern
-City, STATE - 04/2016 - 06/2016
-Work directly with Executive
-- Leadership to data mine
-clinicaltrials.gov and PubMed
-using RProgramming
-Apply a high degree of critical
-- thinking to develop R-Scripts
-to compile PFS
-Use R to extract drug elements
-- from XML files to summarize
-FDA approval of drugs
-ACTIVITIES AND
-HONORS
-ADDITIONAL INFORMATION
-Ayards and Recognition , First
-winner of the M2Gens Spot
-Award for teamwork and
-problem solving by writing
-SQL code as an alternate
-method for clinical data QC
-Canadian Society for
-Chemistry Accreditation
-Faculty of Science Entrance
-Scholarship
-ACCOMPLISHMENTS
-First winner of the
-- M2Gens Spot Award for
-teamwork and problem solving
-by writing SQL code as an
-alternate method for clinical data
-QC
-Canadian Society for
-- Chemistry Accreditation
-Faculty of Science
-- Entrance Scholarship
+JESSICA CLAIRE
+Seattle, WA  (555) 432-1000  resumesample@example.com  linkedin.com/in/jessicaclaire
+PROFESSIONAL SUMMARY
+Data Analyst and Business Intelligence professional with 7+ years of experience in commercial reporting,
+process automation, and database management. Proven expertise in intermediate-to-advanced SQL
+(Snowflake, BigQuery, MySQL), Python, and CRM administration (Zoho CRM). Skilled in automating
+workflows, cleaning and normalizing complex datasets, and delivering KPI dashboards for cross-functional
+commercial, operations, and finance teams.
+SKILLS
+- Data Analytics & Visualization: SQL (Snowflake, BigQuery, MySQL, SQL Server), Python, R
+Programming, Power BI, Qlik Sense, Advanced Excel & Google Sheets (Pivot Tables, Formulas, Data
+Validation).
+- CRM & Process Automation: Zoho CRM Administration (Modules, Custom Fields, Workflows,
+Assignment Rules), Low-Code Automation, Process Optimization.
+- Database & Data Management: Data Cleaning & Normalization (Geolocation, Contact Data), Data
+Quality Assurance (QA/QC/UAT), ETL Pipelines, Data Warehousing.
+- Business & Stakeholder Collaboration: Cross-Functional Alignment (Commercial, Operations,
+Finance), Executive Presentations, KPI Development, Project Oversight.
+WORK EXPERIENCE
+Data Analyst & Business Intelligence Engineer
+Konica Minolta  Seattle, WA  12/2016  Present
+- Partner with commercial, operations, and executive teams to gather reporting requirements,
+translating them into actionable BI dashboards, KPIs, and data insights.
+- Execute complex SQL queries and Python scripts to extract, clean, and validate data across MySQL
+databases and cloud environments.
+- Present analytical findings and data-driven recommendations to commercial leadership, external
+partners, and cross-functional stakeholders.
+- Automate data ingestion and ETL workflows in Linux environments to reduce manual processing
+time.
+BMT Data Analyst & Operations Specialist
+Bionano Genomics, Inc.  San Diego, CA  05/2016  12/2016
+- Managed commercial reporting and clinical trial data collection, automating manual workflows
+using R, SQL, and low-code scripts.
+- Developed and administered CRM modules and operational tracking systems using Zoho CRM, Jira,
+and internal workflow tools.
+- Conducted rigorous data cleansing and normalization on customer/partner databases to ensure
+high data quality and accuracy.
+- Collaborated with lead oncologists and cross-functional teams to resolve data issues and support
+strategic decisions.
+Data Project Analyst
+Moffitt Cancer Center (M2Gen)  Tampa, FL  06/2015  05/2016
+- Executed QA/QC/UAT procedures and SQL test scripts to validate data movement across enterprise
+staging and production data warehouses.
+- Identified ETL pipeline issues, created standardized documentation templates, and reduced clinical
+data QC time by 20 hours per release cycle (Spot Award Winner).
+- Designed Qlik Sense training materials and video tutorials to help stakeholders interpret complex
+commercial data.
+EDUCATION
+Bachelor of Science (Honors) in Data Analytics & Biochemistry
+University of Waterloo  Waterloo, ON, Canada  Graduated 06/2015
+- Coursework: Statistics, Bioinformatics, Data Analysis, Organic Chemistry.

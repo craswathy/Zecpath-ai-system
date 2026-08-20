@@ -1,10 +1,10 @@
 {
-  "final_score": 52.2,
+  "final_score": 21.2,
   "component_scores": {
-    "skill_match": 0.658,
+    "skill_match": 0.143,
     "experience_relevance": null,
     "education_alignment": null,
-    "semantic_similarity": 0.277
+    "semantic_similarity": 0.335
   },
   "weights_used": {
     "skill_match": 0.643,
@@ -14,6 +14,6 @@
     "experience_relevance",
     "education_alignment"
   ],
-  "explanation": "Skill Match: 0.66 (weight 0.64) | Semantic Similarity: 0.28 (weight 0.36) | Missing data for: experience relevance, education alignment -- weight redistributed.",
+  "explanation": "Skill Match: 0.14 (weight 0.64) | Semantic Similarity: 0.34 (weight 0.36) | Missing data for: experience relevance, education alignment -- weight redistributed.",
   "candidate": "soft_resume_1"
 }

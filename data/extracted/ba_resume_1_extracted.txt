@@ -1,73 +1,43 @@
-Responded to multi-line phone
 ROSE NATHERS
-system, directing calls With wait
-times less than 90 seconds, and
-answered emails Managed
-Entry Level Business Analyst
-customer accounts, and
-suggested improved
-rosenathers@email.com J (123) 456-7890
-organization method that
-Linkedln
-WORK EXPERIENCE Supported 6 office advisors,
-overseeing their appointment
-calendars, booking
-Business Analyst Intern accommodations, and typing
-memos
-Bainbridge, Inc.
-Handled inventories, and
-August 2020 - current Pittsburgh, PA
-ensured copy machine and
-Performed in-depth research and analysis to help Fortune
-printer remained functional,
-1000 companies stay ahead of their competition
-replacing toner and removing
-Compiled data using data visualization and Excel, working
-jams
-with 2 senior business analysts to infer meaningful insights
-Maintained lobby appearance,
-that improved organizational processes for several
-sweeping, dusting, and
-companies, which saved a total of 90 man hours per month
-rearranging furniture and
-Participated in 700+ hours of in-house workshops and
-entertainment selections
-statewide conferences to improve industry knowledge Pittsburgh, PA
-Contributed to presentation preparations, and offered
-discussion in client and stakeholder meetings
-Drafted client reports under the supervision of senior
-analysts, receiving 100% positive feedback for alignment to CAREER
-client goals Communicated strategies to analyst team, and
-received valuable feedback regarding approach to business
-OBJECTIVE
-observations
-Administrative Assistant
-Team-oriented critical thinker with
-GCSS Advisors
-intern experience and relevant
-February 2017 - August 2020 Pittsburgh, PA
-undergraduate coursework.
-Greeted 100 guests and clients each shift, directing them to
-Motivated to join a group of
-appropriate offices and staff
-seasoned business analysts and
-crossfunctional teammates at Professional Technology Integration,
-where anticipate growth and the chance to prove my abilities by
-reaching clients as a Spanish speaker.
-EDUCATION
-Business university of Pittsburgh
-September 2016 - April 2020
-Pittsburgh, PA GPA: 3.7
-Relevant courses
-- Intermediate programming
-- probability & Statistics Linear Algebra
-- Applied Econometrics
-- Game Theory
-- calculus 1-3
+Pittsburgh, PA  (123) 456-7890  rosenathers@email.com  linkedin.com/in/rosenathers
+PROFESSIONAL SUMMARY
+Analytical Business Analyst with experience in business intelligence, sales performance analysis, and
+automated reporting. Skilled in Advanced Microsoft Excel, SQL, Tableau, Microsoft Power BI, and Power
+Platform solutions to develop interactive dashboards and optimize business processes. Proven track record
+of analyzing sales performance data, supporting business planning activities, and delivering actionable
+insights to sales leadership and cross-functional stakeholders. Fully bilingual in English and Spanish.
 SKILLS
-Modeling: Linear and logistic regressions
-Data Visualization: Excel, Google
-Sheets. Matplotlib, Tableau
-Problem Solving
-Research and Analytical Skills
-Bilingual (Spanish)
+- Business Intelligence & Reporting: SQL, Advanced Microsoft Excel (Pivot Tables, Dashboards, Reporting
+Automation, VLOOKUP), Tableau, Microsoft Power BI, Power Platform Solutions, Google Sheets,
+Matplotlib.
+- Analytics & Data Modeling: Sales Performance Analysis, Trend Analysis, Quota Attainment Tracking,
+Data Cleansing, Linear & Logistic Regressions, Applied Econometrics, Quantitative Statistics.
+- Business & Operations: Stakeholder Management, Business Planning Support, Process Improvement,
+CRM Data Integration, Cross-functional Collaboration, Presentation Preparation (Advanced PowerPoint).
+- Languages: English (Advanced/Fluent), Spanish (Bilingual).
+WORK EXPERIENCE
+Business Analyst (formerly Business Analyst Intern)
+Bainbridge, Inc.  Pittsburgh, PA  August 2020  Present
+- Developed, maintained, and improved interactive business intelligence reporting dashboards and
+performance tracking tools using Advanced Microsoft Excel, Tableau, and Power BI.
+- Collected, cleansed, and analyzed complex sales and business performance data from multiple sources
+to track sales trend metrics, quota attainment, and identify operational risks.
+- Automated monthly reporting processes using Excel scripts and Power Platform solutions, improving
+data accuracy and saving 90 man-hours per month across organizational teams.
+- Leveraged Advanced PowerPoint to deliver high-impact data presentations and quarterly business
+review reports for senior sales leadership and corporate stakeholders.
+- Managed multiple ad hoc reporting and analytical requests simultaneously while liaising between
+analytics partners and operational teams.
+Data & Operations Assistant (formerly Administrative Assistant)
+GCSS Advisors  Pittsburgh, PA  February 2017  August 2020
+- Performed reporting, customer data management, and record organization, introducing an improved
+file structure that reduced information retrieval time by 13%.
+- Managed customer accounts, multi-line communications, and operational logs while maintaining
+service level agreements (call wait times under 90 seconds).
+- Provided daily administrative, scheduling, and inventory management support to 6 senior advisors.
+EDUCATION
+Bachelor of Science in Business Administration
+University of Pittsburgh  Pittsburgh, PA  Graduated April 2020
+- GPA: 3.7 / 4.0
+- Relevant Coursework: Applied Econometrics, Probability & Statistics, Linear Algebra, Intermediate
+Programming, Game Theory, Calculus IIII.

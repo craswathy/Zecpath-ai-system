@@ -1,48 +1,54 @@
-631 Hal Ferry, Dallas, TX  +1(555)4369537
 TYRELL HERMANN
+Dallas, TX  +1 (555) 436-9537  tyrell.hermann@email.com  linkedin.com/in/tyrellhermann
+PROFESSIONAL SUMMARY
+Senior Software Engineer and Technical Architect with 15+ years of experience building, designing, and
+optimizing enterprise applications using Core Java (Java 11/17+), Spring Boot, and RESTful API architecture.
+Expertise in multi-threading, database management (Oracle, Sybase, PostgreSQL), search technologies, and
+automated unit testing. Proven track record of leading cross-functional engineering teams, conducting code
+reviews, mentoring junior developers, and collaborating across Agile delivery cycles. Skilled in using AI-
+assisted development tools to drive continuous system delivery.
+TECHNICAL SKILLS
+- Programming Languages & Core: Core Java (Java 11/17+), JVM Internals,
+Concurrency/Multithreading, Shell Scripting, Perl, Python.
+- Frameworks & API Design: Spring Boot, Spring Framework, RESTful API Design & Security,
+Microservices Architecture, Design Patterns.
+- Databases & Search Technology: Relational & Non-Relational Databases, Oracle, Sybase, PostgreSQL,
+MySQL, Elasticsearch, Indexing.
+- Software Development & Testing: Unit Testing Frameworks (JUnit, Mockito), Code Review, Ant,
+Maven, Gradle, Debugging & Performance Tuning.
+- Methodologies & Leadership: Agile/Scrum Master, Technical Architecture, System Integration,
+Requirements Analysis, Project Management, Team Mentorship.
+- AI Tools & Modern Tech: AI-Assisted Development (GitHub Copilot, ChatGPT), Prompt Engineering,
+Middleware/Messaging Services.
 WORK EXPERIENCE
-LEAD JAVA DEVELOPER 11/2016- PRESENr
-Dallas, rx
-- Working directly With the business
-- Designing, developing and implementing technical solutions
-- Supporting end users, analyzing and resolving technical issues
-- Partnering With application development colleagues locally and globally
-- Review colleagues code in order to improve the quality of coding
-- Very motivated to build excellent code and progress towards design
-- Messaging/Midd1eware like
-SENIOR / LEAD JAVA DEVELOPER 12/2013- 10/2016
-Phoenix, AZ
-- Scripting  Shell, Ant, Perl, etc
-- Testing tools (Unit test, mock framework)
-- Database development (Sybase/Oracle)
-- Participate in the feasibility analysis for new systems/applications
-- Lead or play a leadership role in the technical design of new systems/applications for small to midsize projects, working from
-functional specifications
-- Direct junior staff in the coding and/or configuration and testing needed to meet documented needs
-- Monitor the operating efficiency of existing application systems and provides (or arranges for) proactive maintenance
-- Review, analyze, and modify programming systems, including coding, testing, debugging and installing for a large-scale system
-maintain records to document program development and revisions
-LEAD JAVA DEVELOPER / ARCHITECT 12/2009 - 08/2013
-Dallas, rx
-- Serve as a coach and mentor to more junior developers delegate tasks as appropriate
-- Lead the development phase of small to midsiæprojects, making work assignments and holding staff accountable
-- Select tools and methodologies for projects
-- Commit to deliverables for scope Of work With customers and/or management
-- Lead the coding/configuration, testing, implementation and documentation of solution develop detailed design specifications
-- Perform complex applications programming activities, to include code, test, debug, document, maintain, and modify complex
-applications
-- Establish systems to monitor the operating efficiency and performance stability of existing applicationsystems and provide (or arrange
-for) proactive maintenance
-- Lead the resolution of complex application issues
+Lead Software Engineer / Java Developer
+Enterprise Solutions  Dallas, TX  November 2016  Present
+- Architect, design, and write high-quality Core Java (Java 11/17+) code and RESTful APIs to deliver
+scalable software modules for business clients.
+- Participate in requirements analysis, system architecture, integration, and testing while supporting
+end users to resolve complex application issues.
+- Lead peer code reviews to enforce software engineering standards, optimize query performance, and
+ensure memory efficiency.
+- Collaborate across global, cross-functional engineering teams using Agile/Scrum methodologies and
+leverage AI-assisted tools to streamline workflows.
+Senior Software Engineer / Lead Developer
+Tech Solutions Inc.  Phoenix, AZ  December 2013  October 2016
+- Led technical design, system integration, and software development for core business applications
+from functional specifications.
+- Developed robust relational database schemas and queries using Sybase and Oracle executed
+comprehensive unit testing and mock frameworks.
+- Directed junior engineers in coding, configuration, and testing, maintaining records to document
+program development and revisions.
+- Monitored operating efficiency of existing systems and delivered proactive maintenance to maximize
+system availability.
+Software Engineer / Solutions Architect
+Systems Corp  Dallas, TX  December 2009  August 2013
+- Coached and mentored junior developers, delegating technical tasks and establishing coding
+guidelines for complex projects.
+- Selected development tools, frameworks, and methodologies for project scope deliverables with
+executive stakeholders.
+- Managed end-to-end coding, debugging, and implementation of complex multi-threaded Java
+applications.
 EDUCATION
-HERGUAN UNIVERSITY 2003 - 2008
-Bachelors Degree in Computer Science
-PROFESSIONAL SKILLS
-- Very strong analysis/troubleshooting skills, and strong partnering/relationship building skills Strong analytical skills, problem
-solving and documentation skills
-- Strong leadership skills experience With clients and third pany vendors, experience as a scrum master
-- Experience managing and working With clients and excellent interpersonal and communication skills
-- Skills in Agile team organization and delivery, database and coding skills
-- Demonstrates the use of consulting skills including questioning. listening, idea development, permission and rapport, and
-influencing
-- Strong communication, analytical, problem solving, multitasking and strategic planning skills
+Bachelor of Science in Computer Science
+Herguan University  2003  2008

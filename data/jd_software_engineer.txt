@@ -1,28 +1,23 @@
-Harris Computer
-Software Engineer 
-Puerto Rico · Reposted 2 weeks ago · 
-About the job
-Responsibilities & Duties
+Job ID: HC-SE-001
+Title: Software Engineer
+Company: Harris Computer
+Domain Category: Software Engineering / Technology
+Location: Puerto Rico
+Employment Type: Full-time
+Salary Range: $80,000 - $90,000 USD per year
 
-•	Write code and contribute to the development of software applications, modules, or components.
-•	Participate in higher-level aspects of the development process, such as requirements analysis, design, architecture, system integration, testing, and project management.
-•	Partake in testing code to identify and fix bugs and ensure the quality and reliability of the software.
-•	Collaborate with other team members, including software architects, designers, and product managers, to ensure alignment with project goals and timelines.
-•	Proficiency in Java: Deep understanding of Core Java (Java 11/17+), JVM internals, memory management, tuning, and concurrency/multithreading.
-•	Enterprise Frameworks: Experience with Spring in particular Spring Boot.
-•	RESTful API Design: Experience designing, building, and securing robust, scalable REST APIs for third-party integrations and internal UI consumption.
-•	Database Expertise: Proficiency with relational and non-relational databases (e.g., PostgreSQL, MySQL, MongoDB).
-•	Search Engine Technology: Experience with search and indexing technologies such as Elasticsearch.
-•	Experience in React, Next.js and Material UI.
-•	Worked on AI assisted development (e.g. GitHub Copilot, Claude, Cursor or ChatGPT)
-•	Familiarity with AI directed prompt engineering for developing applications.
+POSITION OVERVIEW
+Harris Computer is seeking a skilled Software Engineer in Puerto Rico to write high-quality code and contribute to software applications, modules, and components across the entire development lifecycle.
 
-Requirements
+REQUIREMENTS
+- Experience: 3+ years of experience in software development with strong engineering principles, design patterns, and system architecture.
+- Education: Bachelor's degree or Diploma in Computer Science, Engineering, or related field.
+- Mandatory Languages & Frameworks: Core Java (Java 11/17+), JVM internals, memory management, tuning, concurrency/multithreading, Spring Framework (Spring Boot).
+- Mandatory Technical Competencies: RESTful API design/security, Relational & non-relational databases (PostgreSQL, MySQL, MongoDB), Search technology (Elasticsearch), Frontend development (React, Next.js, Material UI).
+- Development Tools & AI (Nice-to-Have): Modern software tools, AI-assisted development (GitHub Copilot, Claude, Cursor, ChatGPT), and prompt engineering techniques.
 
-
-•	Bachelor's degree or Diploma in Computer Science, Engineering, related field, or equivalent work experience.
-•	3+ years of experience in software development, with proficiency in one or more programming languages.
-•	Understanding of software engineering principles, design patterns, algorithms, and system architecture.
-•	Familiarity with modern software development tools, frameworks, and methodologies.
-
-Salary range: $80,000 - $90,000 USD per year.
+RESPONSIBILITIES
+- Write clean code and contribute to application development, requirements analysis, system design, architecture, integration, testing, and project management.
+- Design, build, and secure robust, scalable REST APIs for third-party integrations and UI consumption.
+- Develop frontends using React, Next.js, and Material UI, and manage databases (PostgreSQL, MySQL, MongoDB).
+- Implement search and indexing capabilities using Elasticsearch and leverage AI-assisted tools for software development.

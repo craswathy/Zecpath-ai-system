@@ -1,13 +1,13 @@
 from utils.logger import logger
 
 # Configurable decision thresholds (0-100 scale, matches Day 13's final_score)
+
 THRESHOLDS = {
-    "auto_shortlist": 75,   # score >= this -> Shortlisted
-    "review_zone_min": 50,  # score in [review_zone_min, auto_shortlist) -> Needs Review
+    "auto_shortlist": 70,  # score >= this -> Shortlisted
+    "review_zone_min": 50, # score in [review_zone_min, auto_shortlist) -> Needs Review
     # anything below review_zone_min -> Auto-Rejected
+
 }
-
-
 def classify_candidate(score):
     """Assign a decision zone based on final ATS score."""
     if score >= THRESHOLDS["auto_shortlist"]:

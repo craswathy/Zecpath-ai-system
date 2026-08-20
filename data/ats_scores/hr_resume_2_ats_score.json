@@ -1,19 +1,19 @@
 {
-  "final_score": 24.6,
+  "final_score": 40.8,
   "component_scores": {
-    "skill_match": 0.483,
-    "experience_relevance": 0.0,
+    "skill_match": 0.421,
+    "experience_relevance": null,
     "education_alignment": null,
-    "semantic_similarity": 0.016
+    "semantic_similarity": 0.385
   },
   "weights_used": {
-    "skill_match": 0.5,
-    "experience_relevance": 0.222,
-    "semantic_similarity": 0.278
+    "skill_match": 0.643,
+    "semantic_similarity": 0.357
   },
   "missing_components": [
+    "experience_relevance",
     "education_alignment"
   ],
-  "explanation": "Skill Match: 0.48 (weight 0.50) | Experience Relevance: 0.00 (weight 0.22) | Semantic Similarity: 0.02 (weight 0.28) | Missing data for: education alignment -- weight redistributed.",
+  "explanation": "Skill Match: 0.42 (weight 0.64) | Semantic Similarity: 0.39 (weight 0.36) | Missing data for: experience relevance, education alignment -- weight redistributed.",
   "candidate": "hr_resume_2"
 }

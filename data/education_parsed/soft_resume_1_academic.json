@@ -2,20 +2,42 @@
   "candidate_file": "soft_resume_1_labeled.json",
   "education": [
     {
+      "degree": "Bachelor's",
+      "field_of_study": "computer science",
+      "institution": "Bachelor of Technology in Computer Science & Engineering",
+      "graduation_year": null
+    },
+    {
       "degree": "Master's",
       "field_of_study": "business administration",
-      "institution": "Indian Institute of Technology  Mumbai",
-      "graduation_year": null
+      "institution": "Indian Institute of Technology (IIT)  Mumbai, India  Graduated",
+      "graduation_year": 2016
     }
   ],
-  "certifications": [],
+  "certifications": [
+    {
+      "name": "- Oracle Certified Professional (OCP) Java 11",
+      "category": "general",
+      "year": null
+    },
+    {
+      "name": "- Microsoft Certified: Azure Developer Associate",
+      "category": "general",
+      "year": null
+    },
+    {
+      "name": "- Spring Professional Certification",
+      "category": "general",
+      "year": null
+    }
+  ],
   "education_relevance": {
     "relevance_score": 0.79,
     "best_match": {
       "degree": "Master's",
       "field_of_study": "business administration",
-      "institution": "Indian Institute of Technology  Mumbai",
-      "graduation_year": null,
+      "institution": "Indian Institute of Technology (IIT)  Mumbai, India  Graduated",
+      "graduation_year": 2016,
       "relevance_score": 0.79
     }
   }

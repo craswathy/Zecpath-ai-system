@@ -1,6 +1,18 @@
 [
   {
+    "skill": "sql",
+    "category": "technical",
+    "confidence": 1.0,
+    "match_type": "exact"
+  },
+  {
     "skill": "excel",
+    "category": "technical",
+    "confidence": 1.0,
+    "match_type": "exact"
+  },
+  {
+    "skill": "power bi",
     "category": "technical",
     "confidence": 1.0,
     "match_type": "exact"
@@ -12,33 +24,39 @@
     "match_type": "exact"
   },
   {
+    "skill": "communication",
+    "category": "business",
+    "confidence": 1.0,
+    "match_type": "exact"
+  },
+  {
+    "skill": "leadership",
+    "category": "business",
+    "confidence": 1.0,
+    "match_type": "exact"
+  },
+  {
+    "skill": "stakeholder management",
+    "category": "business",
+    "confidence": 1.0,
+    "match_type": "exact"
+  },
+  {
+    "skill": "crm",
+    "category": "business",
+    "confidence": 1.0,
+    "match_type": "exact"
+  },
+  {
+    "skill": "reporting",
+    "category": "business",
+    "confidence": 1.0,
+    "match_type": "exact"
+  },
+  {
     "skill": "business analysis",
     "category": "business",
     "confidence": 0.95,
     "match_type": "exact"
-  },
-  {
-    "skill": "mongodb",
-    "category": "technical",
-    "confidence": 0.85,
-    "match_type": "stack:mean"
-  },
-  {
-    "skill": "angular",
-    "category": "technical",
-    "confidence": 0.85,
-    "match_type": "stack:mean"
-  },
-  {
-    "skill": "express.js",
-    "category": "technical",
-    "confidence": 0.85,
-    "match_type": "stack:mean"
-  },
-  {
-    "skill": "node.js",
-    "category": "technical",
-    "confidence": 0.85,
-    "match_type": "stack:mean"
   }
 ]

@@ -1,15 +1,7 @@
 {
   "candidate_file": "civil_resume_1_extracted.txt",
-  "experience_entries": [
-    {
-      "company": null,
-      "designation": "B.S. Civil Engineering, University of Idaho",
-      "start_date_raw": "2009",
-      "end_date_raw": "2013",
-      "relevance_score": 0.18
-    }
-  ],
-  "total_experience_years": 4.0,
+  "experience_entries": [],
+  "total_experience_years": 0.0,
   "gaps": [],
   "overlaps": [],
   "scored_against_job_title": "Data Analyst"

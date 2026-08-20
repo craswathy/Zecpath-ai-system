@@ -1,6 +1,24 @@
 [
   {
+    "skill": "python",
+    "category": "technical",
+    "confidence": 1.0,
+    "match_type": "exact"
+  },
+  {
+    "skill": "sql",
+    "category": "technical",
+    "confidence": 1.0,
+    "match_type": "exact"
+  },
+  {
     "skill": "excel",
+    "category": "technical",
+    "confidence": 1.0,
+    "match_type": "exact"
+  },
+  {
+    "skill": "power bi",
     "category": "technical",
     "confidence": 1.0,
     "match_type": "exact"
@@ -18,15 +36,33 @@
     "match_type": "exact"
   },
   {
+    "skill": "communication",
+    "category": "business",
+    "confidence": 1.0,
+    "match_type": "exact"
+  },
+  {
+    "skill": "leadership",
+    "category": "business",
+    "confidence": 1.0,
+    "match_type": "exact"
+  },
+  {
+    "skill": "crm",
+    "category": "business",
+    "confidence": 1.0,
+    "match_type": "exact"
+  },
+  {
     "skill": "business analysis",
     "category": "business",
     "confidence": 0.95,
     "match_type": "exact"
   },
   {
-    "skill": "crm",
+    "skill": "project management",
     "category": "business",
-    "confidence": 0.86,
-    "match_type": "fuzzy"
+    "confidence": 0.95,
+    "match_type": "exact"
   }
 ]

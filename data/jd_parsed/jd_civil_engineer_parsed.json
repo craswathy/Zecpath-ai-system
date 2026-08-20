@@ -1,6 +1,6 @@
 {
   "job_id": "jd_civil_engineer",
-  "title": "Vestal Corporation",
+  "title": "Job ID: VC-CE-001",
   "required_skills": [
     {
       "name": "autocad",
@@ -19,8 +19,8 @@
       "mandatory": true
     }
   ],
-  "min_experience_years": null,
-  "max_experience_years": null,
+  "min_experience_years": 3,
+  "max_experience_years": 3,
   "education_requirement": {
     "degree": "Bachelor's",
     "field_of_study": null
