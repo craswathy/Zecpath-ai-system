@@ -5,19 +5,25 @@ from utils.logger import logger
 
 
 def read_pdf(file_path):
-    """Extract raw text from a PDF resume, page by page."""
+    """Extract raw text from a PDF resume, page by page, skipping any page that fails."""
     text = ""
+    pages_failed = 0
     try:
         with pdfplumber.open(file_path) as pdf:
-            for page in pdf.pages:
-                page_text = page.extract_text()
-                if page_text:
-                    text += page_text + "\n"
+            for i, page in enumerate(pdf.pages):
+                try:
+                    page_text = page.extract_text()
+                    if page_text:
+                        text += page_text + "\n"
+                except Exception as page_error:
+                    pages_failed += 1
+                    logger.warning(f"Page {i} in {file_path} failed to extract: {page_error}")
+        if pages_failed:
+            logger.warning(f"{file_path}: {pages_failed} page(s) failed but extraction continued")
         logger.info(f"Successfully extracted PDF: {file_path}")
     except Exception as e:
         logger.error(f"Failed to extract PDF {file_path}: {e}")
     return text
-
 
 def read_docx(file_path):
     """Extract raw text from a DOCX resume, including table cells."""

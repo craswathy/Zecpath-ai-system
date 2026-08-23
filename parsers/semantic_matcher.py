@@ -19,6 +19,15 @@ def embed_text(text):
     model = get_model()
     return model.encode(text, convert_to_tensor=True)
 
+def embed_batch(text_list):
+    """
+    Encode multiple texts in one batch call instead of one-by-one.
+    Batch encoding is significantly faster on repeated calls since the
+    model processes them together rather than reloading overhead each time.
+    """
+    model = get_model()
+    texts = [t if t and t.strip() else "" for t in text_list]
+    return model.encode(texts, convert_to_tensor=True, batch_size=16)
 
 def semantic_similarity(text_a, text_b):
     """

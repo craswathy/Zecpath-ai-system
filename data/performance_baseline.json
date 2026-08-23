@@ -1,0 +1,11 @@
+{
+  "extraction": {
+    "total_files": 10,
+    "total_time": 1.68,
+    "avg_time": 0.168
+  },
+  "semantic_model": {
+    "model_load_time": 7.05,
+    "inference_time": 0.042
+  }
+}
