@@ -26,7 +26,7 @@ ats_engine/           -- scoring, ranking, fairness, API modules (Days 13-18)
 utils/                -- shared logger
 tests/                -- one test file per module
 notebooks/            -- experimentation/prototyping only, not production code
-
+```
 
 ## Adding a New Feature
 1. Check ATS_TECHNICAL_DOCUMENTATION.md to see which pipeline stage your
