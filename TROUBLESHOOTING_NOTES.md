@@ -18,7 +18,7 @@ IMPROVEMENT_BACKLOG.md.
 
 **How to detect this if it happens again**:
 
-type data\labeled_sections<resume>_labeled.json
+`type data\labeled_sections<resume>_labeled.json`
 
 If "SKILLS" key is missing or nearly all content sits under one section, suspect this issue.
 

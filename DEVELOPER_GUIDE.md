@@ -4,27 +4,27 @@
 1. Clone the repo, create the conda environment:
 
 
-conda create -n zecpath-ai python=3.11 -y
-conda activate zecpath-ai
-pip install -r requirements.txt
+-conda create -n zecpath-ai python=3.11 -y
+-conda activate zecpath-ai
+-pip install -r requirements.txt
 
 
 2. Verify setup:
 
 
-pytest tests/
+`pytest tests/`
 
 
    All tests should pass before making changes.
 
 ## Project Structure
 
-data/                 -- sample resumes, JDs, and all pipeline output
-parsers/              -- extraction, parsing, matching modules (Days 5-12)
-ats_engine/           -- scoring, ranking, fairness, API modules (Days 13-18)
-utils/                -- shared logger
-tests/                -- one test file per module
-notebooks/            -- experimentation/prototyping only, not production code
+-data/                 -- sample resumes, JDs, and all pipeline output
+-parsers/              -- extraction, parsing, matching modules (Days 5-12)
+-ats_engine/           -- scoring, ranking, fairness, API modules (Days 13-18)
+-utils/                -- shared logger
+-tests/                -- one test file per module
+-notebooks/            -- experimentation/prototyping only, not production code
 
 
 
