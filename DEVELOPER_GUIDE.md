@@ -20,14 +20,13 @@ pip install -r requirements.txt
 ## Project Structure
 
 ​```
-data/                 -- sample resumes, JDs, and all pipeline output
-parsers/              -- extraction, parsing, matching modules (Days 5-12)
-ats_engine/           -- scoring, ranking, fairness, API modules (Days 13-18)
-utils/                -- shared logger
-tests/                -- one test file per module
-notebooks/            -- experimentation/prototyping only, not production code
+data/-- sample resumes, JDs, and all pipeline output
+parsers/-- extraction, parsing, matching modules (Days 5-12)
+ats_engine/-- scoring, ranking, fairness, API modules (Days 13-18)
+utils/-- shared logger
+tests/-- one test file per module
+notebooks/-- experimentation/prototyping only, not production code
 ​```
-
 
 
 ## Adding a New Feature
