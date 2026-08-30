@@ -3,30 +3,29 @@
 ## Getting Started
 1. Clone the repo, create the conda environment:
 
-[code fence open]
+
 conda create -n zecpath-ai python=3.11 -y
 conda activate zecpath-ai
 pip install -r requirements.txt
-[code fence close]
+
 
 2. Verify setup:
 
-[code fence open]
+
 pytest tests/
-[code fence close]
+
 
    All tests should pass before making changes.
 
 ## Project Structure
 
-[code fence open]
 data/                 -- sample resumes, JDs, and all pipeline output
 parsers/              -- extraction, parsing, matching modules (Days 5-12)
 ats_engine/           -- scoring, ranking, fairness, API modules (Days 13-18)
 utils/                -- shared logger
 tests/                -- one test file per module
 notebooks/            -- experimentation/prototyping only, not production code
-[code fence close]
+
 
 
 ## Adding a New Feature
