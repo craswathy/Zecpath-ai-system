@@ -1,0 +1,37 @@
+Job ID: PJ-DA-001
+
+Title: Data Analyst
+
+Company: PayJoy
+
+Domain Category: Data Analytics / Business Intelligence
+
+Location: Quito, Pichincha, Ecuador
+
+POSITION OVERVIEW
+
+PayJoy is hiring a Data Analyst to partner with commercial, operations, and fraud teams. The role combines data analysis, CRM administration (Zoho CRM), process automation, and data quality management to turn scattered datasets into actionable business insights.
+
+REQUIREMENTS
+
+Experience: 2+ years of experience in Data Analysis, Business Operations, or CRM-related roles.
+
+Education: Bachelor's degree in Data Science, Business Administration, Economics, Engineering, or a related field.
+
+Technical Skills: Intermediate-to-advanced SQL (Snowflake, BigQuery, MySQL), Python, Advanced Excel and Google Sheets (Pivot Tables, Formulas, Data Validation), BI Tools (Power BI, Looker, Hex).
+
+CRM Administration: Experience administering CRM platforms (Zoho CRM preferred; custom fields, workflows, assignment rules, modules).
+
+Data Quality & Automation: Data cleansing and normalization (names, emails, phone numbers, geolocation), low-code process automation, QA/QC testing.
+
+Communication & Collaboration: Strong problem-solving abilities with ambiguous data, ability to translate technical concepts for commercial stakeholders, cross-functional collaboration (sales, operations, finance).
+
+RESPONSIBILITIES
+
+Partner with commercial and operations teams to build dashboards, track KPIs, and deliver data-driven recommendations.
+
+Manage and optimize Zoho CRM modules, custom fields, workflows, and assignment rules.
+
+Perform data cleaning, validation, and normalization to ensure high database quality.
+
+Present key insights and reports clearly to commercial leadership and cross-functional partners.

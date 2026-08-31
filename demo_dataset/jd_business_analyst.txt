@@ -1,0 +1,35 @@
+Job ID: CX-BA-001
+
+Title: Business Analyst
+
+Company: Concentrix
+
+Domain Category: Business Intelligence / Data Analytics
+
+Location: Mexico City, Mexico
+
+POSITION OVERVIEW
+
+Concentrix is seeking a Business Analyst to support the Global Sales Center COE by developing business intelligence reporting, analyzing sales performance data, supporting business planning, and driving process improvements.
+
+REQUIREMENTS
+
+Experience: 2–4+ years of experience as a Business Analyst, Reporting Analyst, Sales Analyst, or Business Intelligence Analyst.
+
+Education: Bachelor's degree in Business Administration, Statistics, Economics, Data Analytics, Information Systems, or Engineering.
+
+Technical Skills: Advanced Microsoft Excel (Pivot Tables, Dashboards, Reporting Automation), SQL, Tableau, Microsoft Power BI, Power Platform Solutions, Microsoft Applications.
+
+Analytics & Domain Knowledge: Sales performance analysis, quota attainment tracking, business planning support, trend analysis, data cleansing, performance management.
+
+Communication & Professional Skills: Advanced PowerPoint skills, stakeholder management, cross-functional collaboration, multi-project coordination, English and Spanish fluency.
+
+RESPONSIBILITIES
+
+Develop and maintain business intelligence reports, dashboards, and performance tracking tools for sales performance and quota attainment.
+
+Collect, cleanse, and analyze sales performance data from multiple sources, identifying trends, opportunities, and risks.
+
+Support monthly and quarterly business reviews by providing data-driven insights to sales leadership and CRM teams.
+
+Drive process improvement initiatives and manage multiple ad hoc reporting requests simultaneously.
