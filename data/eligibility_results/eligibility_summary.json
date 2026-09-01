@@ -1,0 +1,148 @@
+[
+  {
+    "candidate_id": "ba_resume_1",
+    "job_id": "jd_data_analyst",
+    "eligibility_tag": "Eligible",
+    "checks": {
+      "ats_score_ok": true,
+      "mandatory_skills_ok": true,
+      "experience_range_ok": true,
+      "location_ok": true
+    },
+    "reasons": [
+      "All eligibility checks passed"
+    ]
+  },
+  {
+    "candidate_id": "ba_resume_2",
+    "job_id": "jd_data_analyst",
+    "eligibility_tag": "Rejected",
+    "checks": {
+      "ats_score_ok": false,
+      "mandatory_skills_ok": true,
+      "experience_range_ok": true,
+      "location_ok": true
+    },
+    "reasons": [
+      "ATS score 49.4 below minimum 60"
+    ]
+  },
+  {
+    "candidate_id": "civil_resume_1",
+    "job_id": "jd_data_analyst",
+    "eligibility_tag": "Rejected",
+    "checks": {
+      "ats_score_ok": false,
+      "mandatory_skills_ok": false,
+      "experience_range_ok": true,
+      "location_ok": true
+    },
+    "reasons": [
+      "ATS score 8.5 below minimum 60",
+      "Missing mandatory skills: sql, excel"
+    ]
+  },
+  {
+    "candidate_id": "da_resume_1",
+    "job_id": "jd_data_analyst",
+    "eligibility_tag": "Eligible",
+    "checks": {
+      "ats_score_ok": true,
+      "mandatory_skills_ok": true,
+      "experience_range_ok": true,
+      "location_ok": true
+    },
+    "reasons": [
+      "All eligibility checks passed"
+    ]
+  },
+  {
+    "candidate_id": "da_resume_2",
+    "job_id": "jd_data_analyst",
+    "eligibility_tag": "Rejected",
+    "checks": {
+      "ats_score_ok": false,
+      "mandatory_skills_ok": false,
+      "experience_range_ok": true,
+      "location_ok": true
+    },
+    "reasons": [
+      "ATS score 57.9 below minimum 60",
+      "Missing mandatory skills: excel"
+    ]
+  },
+  {
+    "candidate_id": "da_resume_3",
+    "job_id": "jd_data_analyst",
+    "eligibility_tag": "Eligible",
+    "checks": {
+      "ats_score_ok": true,
+      "mandatory_skills_ok": true,
+      "experience_range_ok": true,
+      "location_ok": true
+    },
+    "reasons": [
+      "All eligibility checks passed"
+    ]
+  },
+  {
+    "candidate_id": "hr_resume_1",
+    "job_id": "jd_data_analyst",
+    "eligibility_tag": "Rejected",
+    "checks": {
+      "ats_score_ok": false,
+      "mandatory_skills_ok": false,
+      "experience_range_ok": true,
+      "location_ok": true
+    },
+    "reasons": [
+      "ATS score 23.3 below minimum 60",
+      "Missing mandatory skills: sql, excel"
+    ]
+  },
+  {
+    "candidate_id": "hr_resume_2",
+    "job_id": "jd_data_analyst",
+    "eligibility_tag": "Rejected",
+    "checks": {
+      "ats_score_ok": false,
+      "mandatory_skills_ok": false,
+      "experience_range_ok": true,
+      "location_ok": true
+    },
+    "reasons": [
+      "ATS score 40.8 below minimum 60",
+      "Missing mandatory skills: sql"
+    ]
+  },
+  {
+    "candidate_id": "java_resume_1",
+    "job_id": "jd_data_analyst",
+    "eligibility_tag": "Rejected",
+    "checks": {
+      "ats_score_ok": false,
+      "mandatory_skills_ok": false,
+      "experience_range_ok": true,
+      "location_ok": true
+    },
+    "reasons": [
+      "ATS score 28.8 below minimum 60",
+      "Missing mandatory skills: excel"
+    ]
+  },
+  {
+    "candidate_id": "soft_resume_1",
+    "job_id": "jd_data_analyst",
+    "eligibility_tag": "Rejected",
+    "checks": {
+      "ats_score_ok": false,
+      "mandatory_skills_ok": false,
+      "experience_range_ok": true,
+      "location_ok": true
+    },
+    "reasons": [
+      "ATS score 21.2 below minimum 60",
+      "Missing mandatory skills: excel"
+    ]
+  }
+]

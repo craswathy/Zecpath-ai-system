@@ -1,0 +1,15 @@
+{
+  "candidate_id": "soft_resume_1",
+  "job_id": "jd_data_analyst",
+  "eligibility_tag": "Rejected",
+  "checks": {
+    "ats_score_ok": false,
+    "mandatory_skills_ok": false,
+    "experience_range_ok": true,
+    "location_ok": true
+  },
+  "reasons": [
+    "ATS score 21.2 below minimum 60",
+    "Missing mandatory skills: excel"
+  ]
+}

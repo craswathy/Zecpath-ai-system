@@ -3017,3 +3017,14 @@
 2026-08-31 09:44:28,896 - INFO - Loaded 10 scored candidates for ranking
 2026-08-31 09:44:28,912 - INFO - Ranked 10 candidates
 2026-08-31 09:44:28,944 - INFO - Generated recruiter report
+2026-09-01 10:30:50,121 - INFO - Evaluating eligibility for 10 candidates
+2026-09-01 10:30:50,121 - INFO - Eligibility for ba_resume_1 vs jd_data_analyst: Eligible
+2026-09-01 10:30:50,137 - INFO - Eligibility for ba_resume_2 vs jd_data_analyst: Rejected
+2026-09-01 10:30:50,137 - INFO - Eligibility for civil_resume_1 vs jd_data_analyst: Rejected
+2026-09-01 10:30:50,137 - INFO - Eligibility for da_resume_1 vs jd_data_analyst: Eligible
+2026-09-01 10:30:50,137 - INFO - Eligibility for da_resume_2 vs jd_data_analyst: Rejected
+2026-09-01 10:30:50,137 - INFO - Eligibility for da_resume_3 vs jd_data_analyst: Eligible
+2026-09-01 10:30:50,152 - INFO - Eligibility for hr_resume_1 vs jd_data_analyst: Rejected
+2026-09-01 10:30:50,155 - INFO - Eligibility for hr_resume_2 vs jd_data_analyst: Rejected
+2026-09-01 10:30:50,155 - INFO - Eligibility for java_resume_1 vs jd_data_analyst: Rejected
+2026-09-01 10:30:50,155 - INFO - Eligibility for soft_resume_1 vs jd_data_analyst: Rejected
