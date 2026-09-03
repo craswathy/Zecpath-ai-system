@@ -1,0 +1,74 @@
+[
+  {
+    "question_id": "q_intro_01",
+    "category": "Introduction",
+    "prompt_text": "Can you briefly introduce yourself and your professional background?",
+    "expected_answer_type": "free_text",
+    "mandatory": true,
+    "scoring_importance": "low"
+  },
+  {
+    "question_id": "q_edu_01",
+    "category": "Education",
+    "prompt_text": "What is your highest educational qualification and field of study?",
+    "expected_answer_type": "free_text",
+    "mandatory": true,
+    "scoring_importance": "medium"
+  },
+  {
+    "question_id": "q_edu_02",
+    "category": "Education",
+    "prompt_text": "Do you have any relevant certifications for this role?",
+    "expected_answer_type": "free_text",
+    "mandatory": false,
+    "scoring_importance": "low"
+  },
+  {
+    "question_id": "q_exp_01",
+    "category": "Experience",
+    "prompt_text": "How many years of relevant work experience do you have?",
+    "expected_answer_type": "numeric",
+    "mandatory": true,
+    "scoring_importance": "high"
+  },
+  {
+    "question_id": "q_exp_02",
+    "category": "Experience",
+    "prompt_text": "Can you describe your current or most recent role and key responsibilities?",
+    "expected_answer_type": "free_text",
+    "mandatory": true,
+    "scoring_importance": "high"
+  },
+  {
+    "question_id": "q_loc_01",
+    "category": "Location",
+    "prompt_text": "Are you currently based in the job location, or open to relocating?",
+    "expected_answer_type": "yes_no",
+    "mandatory": true,
+    "scoring_importance": "medium"
+  },
+  {
+    "question_id": "q_loc_02",
+    "category": "Location",
+    "prompt_text": "Are you open to remote or hybrid work arrangements?",
+    "expected_answer_type": "multiple_choice",
+    "mandatory": false,
+    "scoring_importance": "low"
+  },
+  {
+    "question_id": "q_sal_01",
+    "category": "Salary",
+    "prompt_text": "What is your current CTC and expected CTC for this role?",
+    "expected_answer_type": "numeric",
+    "mandatory": true,
+    "scoring_importance": "medium"
+  },
+  {
+    "question_id": "q_notice_01",
+    "category": "Notice Period",
+    "prompt_text": "What is your current notice period, or when would you be available to join?",
+    "expected_answer_type": "free_text",
+    "mandatory": true,
+    "scoring_importance": "medium"
+  }
+]

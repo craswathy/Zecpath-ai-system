@@ -3028,3 +3028,10 @@
 2026-09-01 10:30:50,155 - INFO - Eligibility for hr_resume_2 vs jd_data_analyst: Rejected
 2026-09-01 10:30:50,155 - INFO - Eligibility for java_resume_1 vs jd_data_analyst: Rejected
 2026-09-01 10:30:50,155 - INFO - Eligibility for soft_resume_1 vs jd_data_analyst: Rejected
+2026-09-03 19:35:04,814 - INFO - Generating screening questions for 6 job postings
+2026-09-03 19:35:04,814 - INFO - Built 9 conversation-ready questions for role_type=all
+2026-09-03 19:35:04,818 - INFO - Built 9 conversation-ready questions for role_type=all
+2026-09-03 19:35:04,818 - INFO - Built 11 conversation-ready questions for role_type=technical
+2026-09-03 19:35:04,821 - INFO - Built 11 conversation-ready questions for role_type=technical
+2026-09-03 19:35:04,821 - INFO - Built 9 conversation-ready questions for role_type=all
+2026-09-03 19:35:04,821 - INFO - Built 11 conversation-ready questions for role_type=technical
