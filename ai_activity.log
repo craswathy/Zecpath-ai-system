@@ -3035,3 +3035,7 @@
 2026-09-03 19:35:04,821 - INFO - Built 11 conversation-ready questions for role_type=technical
 2026-09-03 19:35:04,821 - INFO - Built 9 conversation-ready questions for role_type=all
 2026-09-03 19:35:04,821 - INFO - Built 11 conversation-ready questions for role_type=technical
+2026-09-04 11:40:12,340 - INFO - Normalized transcript text
+2026-09-04 11:40:12,349 - INFO - Normalized transcript text
+2026-09-04 11:40:12,349 - INFO - Normalized transcript text
+2026-09-04 11:40:12,351 - INFO - Demo transcript saved to data/demo_transcript.json

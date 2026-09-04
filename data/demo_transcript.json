@@ -1,0 +1,54 @@
+{
+  "call_id": "call_00001",
+  "candidate_id": "cand_00123",
+  "job_id": "job_00045",
+  "call_metadata": {
+    "start_timestamp": "2026-09-04T11:40:12.340862",
+    "end_timestamp": "2026-09-04T11:41:42.340862",
+    "duration_seconds": 90,
+    "language": "en",
+    "voice_profile": "female_en",
+    "call_status": "completed"
+  },
+  "turns": [
+    {
+      "turn_id": "turn_1",
+      "question_id": "q_intro_01",
+      "question_category": "Introduction",
+      "question_text_spoken": "Can you briefly introduce yourself?",
+      "candidate_response_raw": "uh yeah so I am um a data analyst with three years of experience",
+      "candidate_response_normalized": "Yeah so I am a data analyst with 3 years of experience",
+      "response_confidence": 0.89,
+      "timestamp": "2026-09-04T11:40:12.340862",
+      "response_duration_seconds": 4.5
+    },
+    {
+      "turn_id": "turn_2",
+      "question_id": "q_exp_01",
+      "question_category": "Experience",
+      "question_text_spoken": "How many years of relevant work experience do you have?",
+      "candidate_response_raw": "about three years",
+      "candidate_response_normalized": "About 3 years",
+      "response_confidence": 0.94,
+      "timestamp": "2026-09-04T11:40:42.340862",
+      "response_duration_seconds": 4.5
+    },
+    {
+      "turn_id": "turn_3",
+      "question_id": "q_loc_01",
+      "question_category": "Location",
+      "question_text_spoken": "Are you open to relocating?",
+      "candidate_response_raw": "yes definitely",
+      "candidate_response_normalized": "Yes definitely",
+      "response_confidence": 0.97,
+      "timestamp": "2026-09-04T11:41:12.340862",
+      "response_duration_seconds": 4.5
+    }
+  ],
+  "call_summary": {
+    "questions_asked": 3,
+    "mandatory_questions_answered": 3,
+    "mandatory_questions_total": 3,
+    "average_response_confidence": 0.93
+  }
+}
