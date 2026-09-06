@@ -1,0 +1,8 @@
+{
+  "file": "clip2_noisy.mp3",
+  "raw_transcription": "I have around two years of relevant experience in data analysis. In my current role, I worked on data cleaning, feature engineering and building machine learning models for hiring platform.",
+  "normalized_transcription": "I have around 2 years of relevant experience in data analysis. In my current role, I worked on data cleaning, feature engineering and building machine learning models for hiring platform.",
+  "confidence": 0.79,
+  "language_detected": "en",
+  "quality_flag": "ok"
+}

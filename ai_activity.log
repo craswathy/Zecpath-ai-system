@@ -3039,3 +3039,17 @@
 2026-09-04 11:40:12,349 - INFO - Normalized transcript text
 2026-09-04 11:40:12,349 - INFO - Normalized transcript text
 2026-09-04 11:40:12,351 - INFO - Demo transcript saved to data/demo_transcript.json
+2026-09-07 00:18:00,565 - INFO - Processing 4 audio samples
+2026-09-07 00:18:00,565 - INFO - Loading Whisper model (first call only)...
+2026-09-07 00:18:33,415 - INFO - Transcribed data/audio_samples\clip1_clear.mp3: confidence=0.69
+2026-09-07 00:18:33,415 - INFO - Response quality assessment: ok
+2026-09-07 00:18:33,415 - INFO - Normalized transcript text
+2026-09-07 00:18:36,047 - INFO - Transcribed data/audio_samples\clip2_noisy.mp3: confidence=0.79
+2026-09-07 00:18:36,049 - INFO - Response quality assessment: ok
+2026-09-07 00:18:36,049 - INFO - Normalized transcript text
+2026-09-07 00:18:41,954 - INFO - Transcribed data/audio_samples\clip3_fast.mp3: confidence=0.0
+2026-09-07 00:18:41,954 - INFO - Response quality assessment: low_confidence
+2026-09-07 00:18:41,954 - INFO - Normalized transcript text
+2026-09-07 00:18:44,915 - INFO - Transcribed data/audio_samples\clip4_interrupted.mp3: confidence=0.57
+2026-09-07 00:18:44,915 - INFO - Response quality assessment: ok
+2026-09-07 00:18:44,915 - INFO - Normalized transcript text
