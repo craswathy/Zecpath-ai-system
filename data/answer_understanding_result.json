@@ -1,0 +1,47 @@
+[
+  {
+    "turn_id": "turn_1",
+    "question_category": "Introduction",
+    "detected_intents": [
+      "experience_mention"
+    ],
+    "is_off_topic": false,
+    "structured_answer": {
+      "category": "Introduction",
+      "raw_answer": "Yeah so I am a data analyst with 3 years of experience",
+      "is_vague_or_missing": false,
+      "extracted_value": "Yeah so I am a data analyst with 3 years of experience",
+      "extraction_type": "free_text"
+    }
+  },
+  {
+    "turn_id": "turn_2",
+    "question_category": "Experience",
+    "detected_intents": [
+      "experience_mention"
+    ],
+    "is_off_topic": false,
+    "structured_answer": {
+      "category": "Experience",
+      "raw_answer": "About 3 years",
+      "is_vague_or_missing": false,
+      "extracted_value": 3.0,
+      "extraction_type": "years_numeric"
+    }
+  },
+  {
+    "turn_id": "turn_3",
+    "question_category": "Location",
+    "detected_intents": [
+      "unclassified"
+    ],
+    "is_off_topic": true,
+    "structured_answer": {
+      "category": "Location",
+      "raw_answer": "Yes definitely",
+      "is_vague_or_missing": true,
+      "extracted_value": null,
+      "extraction_type": null
+    }
+  }
+]

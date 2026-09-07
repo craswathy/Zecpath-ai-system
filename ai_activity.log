@@ -3053,3 +3053,8 @@
 2026-09-07 00:18:44,915 - INFO - Transcribed data/audio_samples\clip4_interrupted.mp3: confidence=0.57
 2026-09-07 00:18:44,915 - INFO - Response quality assessment: ok
 2026-09-07 00:18:44,915 - INFO - Normalized transcript text
+2026-09-07 14:50:18,584 - INFO - Processed turn turn_1: intents=['experience_mention'], off_topic=False
+2026-09-07 14:50:18,584 - INFO - Processed turn turn_2: intents=['experience_mention'], off_topic=False
+2026-09-07 14:50:18,584 - INFO - Off-topic answer detected for category 'Location': ['unclassified']
+2026-09-07 14:50:18,584 - INFO - Vague or missing answer detected for category 'Location'
+2026-09-07 14:50:18,584 - INFO - Processed turn turn_3: intents=['unclassified'], off_topic=True
