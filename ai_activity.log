@@ -3058,3 +3058,7 @@
 2026-09-07 14:50:18,584 - INFO - Off-topic answer detected for category 'Location': ['unclassified']
 2026-09-07 14:50:18,584 - INFO - Vague or missing answer detected for category 'Location'
 2026-09-07 14:50:18,584 - INFO - Processed turn turn_3: intents=['unclassified'], off_topic=True
+2026-09-08 18:47:11,829 - INFO - Scored answer for Introduction: 0.96
+2026-09-08 18:47:11,829 - INFO - Scored answer for Experience: 0.89
+2026-09-08 18:47:11,829 - INFO - Scored answer for Location: 0.37
+2026-09-08 18:47:11,829 - INFO - Final aggregated screening score: 76.1/100
