@@ -1,0 +1,91 @@
+{
+  "per_turn_indicators": [
+    {
+      "turn_id": "turn_1",
+      "question_category": "Introduction",
+      "confidence": {
+        "confidence_score": 0.64,
+        "hesitation_count": 2,
+        "uncertainty_detected": false,
+        "pace": {
+          "words_per_second": 3.11,
+          "pace_label": "fast (may indicate rushing or rehearsal)"
+        }
+      },
+      "sentiment": {
+        "compound": 0.296,
+        "positive": 0.167,
+        "neutral": 0.833,
+        "negative": 0.0,
+        "label": "neutral"
+      },
+      "indicator": {
+        "communication_strength": "Moderate",
+        "flags": [
+          "unusual_pace"
+        ]
+      }
+    },
+    {
+      "turn_id": "turn_2",
+      "question_category": "Experience",
+      "confidence": {
+        "confidence_score": 0.89,
+        "hesitation_count": 0,
+        "uncertainty_detected": false,
+        "pace": {
+          "words_per_second": 0.67,
+          "pace_label": "slow (may indicate hesitation)"
+        }
+      },
+      "sentiment": {
+        "compound": 0.0,
+        "positive": 0.0,
+        "neutral": 1.0,
+        "negative": 0.0,
+        "label": "neutral"
+      },
+      "indicator": {
+        "communication_strength": "Strong",
+        "flags": [
+          "unusual_pace"
+        ]
+      }
+    },
+    {
+      "turn_id": "turn_3",
+      "question_category": "Location",
+      "confidence": {
+        "confidence_score": 0.92,
+        "hesitation_count": 0,
+        "uncertainty_detected": false,
+        "pace": {
+          "words_per_second": 0.44,
+          "pace_label": "slow (may indicate hesitation)"
+        }
+      },
+      "sentiment": {
+        "compound": 0.66,
+        "positive": 1.0,
+        "neutral": 0.0,
+        "negative": 0.0,
+        "label": "positive"
+      },
+      "indicator": {
+        "communication_strength": "Strong",
+        "flags": [
+          "unusual_pace"
+        ]
+      }
+    }
+  ],
+  "call_level_report": {
+    "overall_strength": "Strong",
+    "average_confidence_score": 0.82,
+    "negative_sentiment_turns": 0,
+    "total_turns_analyzed": 3,
+    "flag_summary": {
+      "unusual_pace": 3
+    }
+  }
+}
