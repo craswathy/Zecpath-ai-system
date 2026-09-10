@@ -1,0 +1,35 @@
+============================================================
+AI SCREENING REPORT
+============================================================
+Candidate: cand_00123
+Job: job_00045
+Final Screening Score: 76.1/100
+Communication Strength: Strong
+
+--- KEY HIGHLIGHTS ---
+Salary Expectation: Not captured
+Availability: Not captured
+Skills Confirmed: None confirmed
+
+--- KEY ANSWERS ---
+  Introduction: Yeah so I am a data analyst with 3 years of experience
+  Experience: 3.0
+
+--- STRENGTHS ---
+  + Strong, clear response on Introduction
+  + Strong, clear response on Experience
+  + Confident, clear communication throughout the call
+  + Consistently positive/neutral tone
+
+--- RISKS / FLAGS ---
+  ! Off-topic responses detected for: Location
+  ! Weak responses on: Location
+
+--- MISSING DATA ---
+  ? Education
+  ? Skills
+  ? Location
+  ? Salary
+  ? Notice Period
+
+============================================================

@@ -3069,3 +3069,5 @@
 2026-09-09 12:31:46,719 - INFO - Confidence indicator: 0.92 (hesitations=0, uncertain=False)
 2026-09-09 12:31:46,719 - INFO - Sentiment: positive (compound=0.6597)
 2026-09-09 12:31:46,719 - INFO - Call-level behavioral report: overall=Strong, avg_confidence=0.82
+2026-09-10 12:39:41,546 - INFO - Built screening report for cand_00123: score=76.1
+2026-09-10 12:39:41,546 - INFO - Exported screening report for cand_00123 to data/screening_reports
