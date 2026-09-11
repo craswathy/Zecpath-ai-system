@@ -3071,3 +3071,26 @@
 2026-09-09 12:31:46,719 - INFO - Call-level behavioral report: overall=Strong, avg_confidence=0.82
 2026-09-10 12:39:41,546 - INFO - Built screening report for cand_00123: score=76.1
 2026-09-10 12:39:41,546 - INFO - Exported screening report for cand_00123 to data/screening_reports
+2026-09-11 20:18:03,435 - INFO - [demo_call_01] State=greeting, Event=start
+2026-09-11 20:18:03,435 - INFO - [demo_call_01] State=asking_question, Event=ask
+2026-09-11 20:18:03,435 - INFO - [demo_call_01] State=awaiting_answer, Event=answer_received_ok
+2026-09-11 20:18:03,435 - INFO - [demo_call_01] State=moving_to_next, Event=advance
+2026-09-11 20:18:03,435 - INFO - [demo_call_01] State=asking_question, Event=ask
+2026-09-11 20:18:03,435 - INFO - [demo_call_01] State=awaiting_answer, Event=silence_detected
+2026-09-11 20:18:03,435 - INFO - [demo_call_01] State=clarifying, Event=ask
+2026-09-11 20:18:03,435 - INFO - [demo_call_01] State=moving_to_next, Event=answer_received_ok
+2026-09-11 20:18:03,435 - INFO - [demo_call_01] State=asking_question, Event=ask
+2026-09-11 20:18:03,435 - INFO - [demo_call_01] State=awaiting_answer, Event=off_topic_detected
+2026-09-11 20:18:03,435 - INFO - [demo_call_01] State=clarifying, Event=ask
+2026-09-11 20:18:03,435 - INFO - [demo_call_01] State=moving_to_next, Event=off_topic_detected
+2026-09-11 20:18:03,435 - INFO - [demo_call_01] State=asking_question, Event=ask
+2026-09-11 20:18:03,435 - INFO - [demo_call_01] State=awaiting_answer, Event=answer_received_ok
+2026-09-11 20:18:03,435 - INFO - [demo_call_01] State=moving_to_next, Event=advance
+2026-09-11 20:18:03,435 - INFO - [demo_call_01] State=asking_question, Event=ask
+2026-09-11 20:18:03,435 - INFO - [demo_call_01] State=awaiting_answer, Event=answer_received_ok
+2026-09-11 20:18:03,435 - INFO - [demo_call_01] State=moving_to_next, Event=advance
+2026-09-11 20:18:03,435 - INFO - [demo_call_01] State=asking_question, Event=ask
+2026-09-11 20:18:03,435 - INFO - [demo_call_01] State=awaiting_answer, Event=vague_answer
+2026-09-11 20:18:03,435 - INFO - [demo_call_01] State=clarifying, Event=ask
+2026-09-11 20:18:03,435 - INFO - [demo_call_01] State=moving_to_next, Event=answer_received_ok
+2026-09-11 20:18:03,435 - INFO - [demo_call_01] State=asking_question, Event=ask
