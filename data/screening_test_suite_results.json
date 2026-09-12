@@ -1,0 +1,106 @@
+[
+  {
+    "scenario": "ideal_candidate",
+    "final_state": "awaiting_answer",
+    "questions_reached": 5,
+    "total_questions": 11,
+    "call_log": [
+      {
+        "event": "answer_received_ok",
+        "resulting_state": "moving_to_next"
+      },
+      {
+        "event": "answer_received_ok",
+        "resulting_state": "moving_to_next"
+      },
+      {
+        "event": "answer_received_ok",
+        "resulting_state": "moving_to_next"
+      },
+      {
+        "event": "answer_received_ok",
+        "resulting_state": "moving_to_next"
+      },
+      {
+        "event": "answer_received_ok",
+        "resulting_state": "moving_to_next"
+      }
+    ]
+  },
+  {
+    "scenario": "hesitant_candidate",
+    "final_state": "awaiting_answer",
+    "questions_reached": 3,
+    "total_questions": 11,
+    "call_log": [
+      {
+        "event": "silence_detected",
+        "resulting_state": "clarifying"
+      },
+      {
+        "event": "answer_received_ok",
+        "resulting_state": "moving_to_next"
+      },
+      {
+        "event": "silence_detected",
+        "resulting_state": "clarifying"
+      },
+      {
+        "event": "answer_received_ok",
+        "resulting_state": "moving_to_next"
+      },
+      {
+        "event": "vague_answer",
+        "resulting_state": "clarifying"
+      },
+      {
+        "event": "answer_received_ok",
+        "resulting_state": "moving_to_next"
+      }
+    ]
+  },
+  {
+    "scenario": "off_topic_candidate",
+    "final_state": "awaiting_answer",
+    "questions_reached": 3,
+    "total_questions": 11,
+    "call_log": [
+      {
+        "event": "off_topic_detected",
+        "resulting_state": "clarifying"
+      },
+      {
+        "event": "off_topic_detected",
+        "resulting_state": "clarifying"
+      },
+      {
+        "event": "off_topic_detected",
+        "resulting_state": "moving_to_next"
+      },
+      {
+        "event": "answer_received_ok",
+        "resulting_state": "moving_to_next"
+      },
+      {
+        "event": "answer_received_ok",
+        "resulting_state": "moving_to_next"
+      }
+    ]
+  },
+  {
+    "scenario": "dropped_call_candidate",
+    "final_state": "ended_failure",
+    "questions_reached": 1,
+    "total_questions": 11,
+    "call_log": [
+      {
+        "event": "answer_received_ok",
+        "resulting_state": "moving_to_next"
+      },
+      {
+        "event": "call_dropped",
+        "resulting_state": "ended_failure"
+      }
+    ]
+  }
+]

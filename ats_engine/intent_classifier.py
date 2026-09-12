@@ -8,7 +8,7 @@ from utils.logger import logger
 INTENT_PATTERNS = {
     "skills_mention": [r"\bpython\b", r"\bsql\b", r"\bexcel\b", r"\bexperience with\b", r"\bskilled in\b", r"\bworked with\b"],
     "experience_mention": [r"\byears?\b", r"\bmonths?\b", r"\bcurrently work\b", r"\bpreviously\b", r"\bmy role\b"],
-    "availability_mention": [r"\bnotice period\b", r"\bavailable\b", r"\bjoin\b", r"\bimmediately\b", r"\brelocat\w*\b"],
+    "availability_mention": [r"\bnotice period\b", r"\bavailable\b", r"\bjoin\b", r"\bimmediately\b", r"\brelocat\w*\b", r"^\s*(yes|no)\b", r"\byes\b", r"\bno\b"],
     "salary_mention": [r"\bctc\b", r"\bsalary\b", r"\blakh\w*\b", r"\bexpected\b.*\bpay\b", r"\bcompensation\b"],
     "education_mention": [r"\bdegree\b", r"\bgraduat\w*\b", r"\buniversity\b", r"\bcollege\b", r"\bbachelor\b", r"\bmaster\b"],
     "refusal_or_unclear": [r"\bi don'?t know\b", r"\bnot sure\b", r"\bcan you repeat\b", r"\bwhat do you mean\b"],

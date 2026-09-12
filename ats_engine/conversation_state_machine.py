@@ -92,4 +92,7 @@ class ConversationStateMachine:
         if event == "call_dropped":
             return CallState.ENDED_FAILURE
 
+        if event == "ask":
+            return CallState.CLARIFYING  # re-prompting, not a real answer -- stay put
+
         return CallState.MOVING_TO_NEXT

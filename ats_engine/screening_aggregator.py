@@ -64,3 +64,24 @@ def aggregate_screening_score(per_question_scores):
         "questions_scored": len(per_question_scores),
         "explanation": " | ".join(breakdown),
     }
+
+
+def apply_false_rejection_safeguard(per_question_scores, final_score):
+    """
+    Prevent one single weak/off-topic answer from disproportionately
+    rejecting an otherwise strong candidate -- if most answers scored
+    well but one category tanked the average, flag for human review
+    instead of auto-rejecting.
+    """
+    scores = [q["weighted_score"] for q in per_question_scores]
+    if not scores:
+        return final_score, False
+
+    strong_answers = sum(1 for s in scores if s >= 0.7)
+    weak_answers = sum(1 for s in scores if s < 0.3)
+
+    majority_strong = strong_answers >= len(scores) * 0.6
+    one_or_two_weak = 0 < weak_answers <= 2
+
+    needs_review_override = majority_strong and one_or_two_weak and final_score < 50
+    return final_score, needs_review_override
