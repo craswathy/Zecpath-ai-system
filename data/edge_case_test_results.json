@@ -1,0 +1,42 @@
+[
+  {
+    "scenario": "noisy_low_confidence",
+    "diagnosed_issue": "poor_audio_quality",
+    "safety_response": {
+      "action": "retry",
+      "message": "I'm having trouble hearing you clearly -- could you move to a quieter space and repeat that?"
+    }
+  },
+  {
+    "scenario": "total_silence",
+    "diagnosed_issue": "poor_audio_quality",
+    "safety_response": {
+      "action": "retry",
+      "message": "I'm having trouble hearing you clearly -- could you move to a quieter space and repeat that?"
+    }
+  },
+  {
+    "scenario": "call_dropped_mid_question",
+    "diagnosed_issue": "call_technical_failure",
+    "safety_response": {
+      "action": "end_call_reschedule",
+      "message": "It looks like we lost connection. We'll reach out to reschedule this call."
+    }
+  },
+  {
+    "scenario": "clear_normal_answer",
+    "diagnosed_issue": null,
+    "safety_response": {
+      "action": "proceed",
+      "message": null
+    }
+  },
+  {
+    "scenario": "exhausted_retries",
+    "diagnosed_issue": "poor_audio_quality",
+    "safety_response": {
+      "action": "escalate_to_human_review",
+      "message": "Thank you for your patience. We'll have a member of our team follow up with you directly."
+    }
+  }
+]

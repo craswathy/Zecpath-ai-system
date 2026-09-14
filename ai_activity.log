@@ -3209,3 +3209,11 @@
 2026-09-12 14:52:54,406 - INFO - [dropped_call_candidate] State=asking_question, Event=ask
 2026-09-12 14:52:54,406 - INFO - [dropped_call_candidate] State=awaiting_answer, Event=call_dropped
 2026-09-12 14:52:54,406 - INFO - Scenario 'dropped_call_candidate': ended at ended_failure, reached 1/11 questions
+2026-09-14 19:41:20,372 - WARNING - Poor audio quality: very_low_confidence
+2026-09-14 19:41:20,372 - INFO - noisy_low_confidence: issue=poor_audio_quality, action=retry
+2026-09-14 19:41:20,372 - WARNING - Poor audio quality: very_low_confidence
+2026-09-14 19:41:20,372 - INFO - total_silence: issue=poor_audio_quality, action=retry
+2026-09-14 19:41:20,372 - INFO - call_dropped_mid_question: issue=call_technical_failure, action=end_call_reschedule
+2026-09-14 19:41:20,372 - INFO - clear_normal_answer: issue=None, action=proceed
+2026-09-14 19:41:20,372 - WARNING - Poor audio quality: very_low_confidence
+2026-09-14 19:41:20,372 - INFO - exhausted_retries: issue=poor_audio_quality, action=escalate_to_human_review
