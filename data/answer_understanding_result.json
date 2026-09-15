@@ -33,9 +33,9 @@
     "turn_id": "turn_3",
     "question_category": "Location",
     "detected_intents": [
-      "unclassified"
+      "availability_mention"
     ],
-    "is_off_topic": true,
+    "is_off_topic": false,
     "structured_answer": {
       "category": "Location",
       "raw_answer": "Yes definitely",

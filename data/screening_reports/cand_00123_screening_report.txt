@@ -3,7 +3,7 @@ AI SCREENING REPORT
 ============================================================
 Candidate: cand_00123
 Job: job_00045
-Final Screening Score: 76.1/100
+Final Screening Score: 83.5/100
 Communication Strength: Strong
 
 --- KEY HIGHLIGHTS ---
@@ -22,8 +22,7 @@ Skills Confirmed: None confirmed
   + Consistently positive/neutral tone
 
 --- RISKS / FLAGS ---
-  ! Off-topic responses detected for: Location
-  ! Weak responses on: Location
+  ! No significant risks identified
 
 --- MISSING DATA ---
   ? Education

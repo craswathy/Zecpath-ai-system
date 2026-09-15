@@ -15,7 +15,7 @@
     {
       "question": "What is your highest educational qualification and field of study?",
       "event": "answer_received_ok",
-      "resulting_state": "asking_question"
+      "resulting_state": "moving_to_next"
     },
     {
       "question": "Do you have any relevant certifications for this role?",
@@ -26,7 +26,13 @@
     {
       "question": "Do you have any relevant certifications for this role?",
       "event": "off_topic_detected",
-      "resulting_state": "asking_question"
+      "resulting_state": "clarifying",
+      "ai_says": "Could you please clarify your answer?"
+    },
+    {
+      "question": "Do you have any relevant certifications for this role?",
+      "event": "answer_received_ok",
+      "resulting_state": "moving_to_next"
     },
     {
       "question": "How many years of relevant work experience do you have?",
@@ -35,19 +41,14 @@
     },
     {
       "question": "Can you describe your current or most recent role and key responsibilities?",
-      "event": "answer_received_ok",
-      "resulting_state": "moving_to_next"
-    },
-    {
-      "question": "Which of the following tools/technologies have you worked with: communication, crm, excel, leadership, power bi, python, sql?",
       "event": "vague_answer",
       "resulting_state": "clarifying",
       "ai_says": "Could you give me a bit more detail on that, please?"
     },
     {
-      "question": "Which of the following tools/technologies have you worked with: communication, crm, excel, leadership, power bi, python, sql?",
+      "question": "Can you describe your current or most recent role and key responsibilities?",
       "event": "answer_received_ok",
-      "resulting_state": "asking_question"
+      "resulting_state": "moving_to_next"
     },
     {
       "ai_says": "Thank you for your time today. Our team will review your responses and get back to you soon.",

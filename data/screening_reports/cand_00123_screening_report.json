@@ -1,7 +1,7 @@
 {
   "candidate_id": "cand_00123",
   "job_id": "job_00045",
-  "final_screening_score": 76.1,
+  "final_screening_score": 83.5,
   "overall_communication_strength": "Strong",
   "key_answers": {
     "Introduction": "Yeah so I am a data analyst with 3 years of experience",
@@ -19,8 +19,7 @@
     "Consistently positive/neutral tone"
   ],
   "risks": [
-    "Off-topic responses detected for: Location",
-    "Weak responses on: Location"
+    "No significant risks identified"
   ],
   "missing_data": [
     "Education",

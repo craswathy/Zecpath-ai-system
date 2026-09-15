@@ -3217,3 +3217,125 @@
 2026-09-14 19:41:20,372 - INFO - clear_normal_answer: issue=None, action=proceed
 2026-09-14 19:41:20,372 - WARNING - Poor audio quality: very_low_confidence
 2026-09-14 19:41:20,372 - INFO - exhausted_retries: issue=poor_audio_quality, action=escalate_to_human_review
+2026-09-15 14:07:25,554 - INFO - Generating screening questions for 6 job postings
+2026-09-15 14:07:25,556 - INFO - Built 9 conversation-ready questions for role_type=all
+2026-09-15 14:07:25,558 - INFO - Built 9 conversation-ready questions for role_type=all
+2026-09-15 14:07:25,559 - INFO - Built 11 conversation-ready questions for role_type=technical
+2026-09-15 14:07:25,559 - INFO - Built 11 conversation-ready questions for role_type=technical
+2026-09-15 14:07:25,559 - INFO - Built 9 conversation-ready questions for role_type=all
+2026-09-15 14:07:25,562 - INFO - Built 11 conversation-ready questions for role_type=technical
+2026-09-15 14:07:35,979 - INFO - Normalized transcript text
+2026-09-15 14:07:35,979 - INFO - Normalized transcript text
+2026-09-15 14:07:35,979 - INFO - Normalized transcript text
+2026-09-15 14:07:35,979 - INFO - Demo transcript saved to data/demo_transcript.json
+2026-09-15 14:07:46,236 - INFO - Processed turn turn_1: intents=['experience_mention'], off_topic=False
+2026-09-15 14:07:46,236 - INFO - Processed turn turn_2: intents=['experience_mention'], off_topic=False
+2026-09-15 14:07:46,236 - INFO - Vague or missing answer detected for category 'Location'
+2026-09-15 14:07:46,236 - INFO - Processed turn turn_3: intents=['availability_mention'], off_topic=False
+2026-09-15 14:07:58,214 - INFO - Scored answer for Introduction: 0.96
+2026-09-15 14:07:58,214 - INFO - Scored answer for Experience: 0.89
+2026-09-15 14:07:58,214 - INFO - Scored answer for Location: 0.64
+2026-09-15 14:07:58,214 - INFO - Final aggregated screening score: 83.5/100
+2026-09-15 14:08:08,532 - INFO - Confidence indicator: 0.64 (hesitations=2, uncertain=False)
+2026-09-15 14:08:08,545 - INFO - Sentiment: neutral (compound=0.296)
+2026-09-15 14:08:08,545 - INFO - Confidence indicator: 0.89 (hesitations=0, uncertain=False)
+2026-09-15 14:08:08,545 - INFO - Sentiment: neutral (compound=0.0)
+2026-09-15 14:08:08,545 - INFO - Confidence indicator: 0.92 (hesitations=0, uncertain=False)
+2026-09-15 14:08:08,545 - INFO - Sentiment: positive (compound=0.6597)
+2026-09-15 14:08:08,545 - INFO - Call-level behavioral report: overall=Strong, avg_confidence=0.82
+2026-09-15 14:08:20,007 - INFO - Built screening report for cand_00123: score=83.5
+2026-09-15 14:08:20,007 - INFO - Exported screening report for cand_00123 to data/screening_reports
+2026-09-15 14:08:32,736 - INFO - [demo_call_01] State=greeting, Event=start
+2026-09-15 14:08:32,736 - INFO - [demo_call_01] State=asking_question, Event=ask
+2026-09-15 14:08:32,736 - INFO - [demo_call_01] State=awaiting_answer, Event=answer_received_ok
+2026-09-15 14:08:32,736 - INFO - [demo_call_01] State=moving_to_next, Event=advance
+2026-09-15 14:08:32,736 - INFO - [demo_call_01] State=asking_question, Event=ask
+2026-09-15 14:08:32,736 - INFO - [demo_call_01] State=awaiting_answer, Event=silence_detected
+2026-09-15 14:08:32,736 - INFO - [demo_call_01] State=clarifying, Event=ask
+2026-09-15 14:08:32,736 - INFO - [demo_call_01] State=clarifying, Event=answer_received_ok
+2026-09-15 14:08:32,736 - INFO - [demo_call_01] State=moving_to_next, Event=advance
+2026-09-15 14:08:32,736 - INFO - [demo_call_01] State=asking_question, Event=ask
+2026-09-15 14:08:32,736 - INFO - [demo_call_01] State=awaiting_answer, Event=off_topic_detected
+2026-09-15 14:08:32,736 - INFO - [demo_call_01] State=clarifying, Event=ask
+2026-09-15 14:08:32,736 - INFO - [demo_call_01] State=clarifying, Event=off_topic_detected
+2026-09-15 14:08:32,736 - INFO - [demo_call_01] State=clarifying, Event=ask
+2026-09-15 14:08:32,736 - INFO - [demo_call_01] State=clarifying, Event=answer_received_ok
+2026-09-15 14:08:32,736 - INFO - [demo_call_01] State=moving_to_next, Event=advance
+2026-09-15 14:08:32,736 - INFO - [demo_call_01] State=asking_question, Event=ask
+2026-09-15 14:08:32,736 - INFO - [demo_call_01] State=awaiting_answer, Event=answer_received_ok
+2026-09-15 14:08:32,736 - INFO - [demo_call_01] State=moving_to_next, Event=advance
+2026-09-15 14:08:32,736 - INFO - [demo_call_01] State=asking_question, Event=ask
+2026-09-15 14:08:32,736 - INFO - [demo_call_01] State=awaiting_answer, Event=vague_answer
+2026-09-15 14:08:32,736 - INFO - [demo_call_01] State=clarifying, Event=ask
+2026-09-15 14:08:32,736 - INFO - [demo_call_01] State=clarifying, Event=answer_received_ok
+2026-09-15 14:08:32,736 - INFO - [demo_call_01] State=moving_to_next, Event=advance
+2026-09-15 14:08:32,736 - INFO - [demo_call_01] State=asking_question, Event=ask
+2026-09-15 14:08:41,787 - INFO - [ideal_candidate] State=greeting, Event=start
+2026-09-15 14:08:41,787 - INFO - [ideal_candidate] State=asking_question, Event=ask
+2026-09-15 14:08:41,787 - INFO - [ideal_candidate] State=awaiting_answer, Event=answer_received_ok
+2026-09-15 14:08:41,787 - INFO - [ideal_candidate] State=moving_to_next, Event=advance
+2026-09-15 14:08:41,787 - INFO - [ideal_candidate] State=asking_question, Event=ask
+2026-09-15 14:08:41,787 - INFO - [ideal_candidate] State=awaiting_answer, Event=answer_received_ok
+2026-09-15 14:08:41,787 - INFO - [ideal_candidate] State=moving_to_next, Event=advance
+2026-09-15 14:08:41,787 - INFO - [ideal_candidate] State=asking_question, Event=ask
+2026-09-15 14:08:41,787 - INFO - [ideal_candidate] State=awaiting_answer, Event=answer_received_ok
+2026-09-15 14:08:41,787 - INFO - [ideal_candidate] State=moving_to_next, Event=advance
+2026-09-15 14:08:41,787 - INFO - [ideal_candidate] State=asking_question, Event=ask
+2026-09-15 14:08:41,787 - INFO - [ideal_candidate] State=awaiting_answer, Event=answer_received_ok
+2026-09-15 14:08:41,787 - INFO - [ideal_candidate] State=moving_to_next, Event=advance
+2026-09-15 14:08:41,787 - INFO - [ideal_candidate] State=asking_question, Event=ask
+2026-09-15 14:08:41,787 - INFO - [ideal_candidate] State=awaiting_answer, Event=answer_received_ok
+2026-09-15 14:08:41,787 - INFO - [ideal_candidate] State=moving_to_next, Event=advance
+2026-09-15 14:08:41,787 - INFO - [ideal_candidate] State=asking_question, Event=ask
+2026-09-15 14:08:41,787 - INFO - Scenario 'ideal_candidate': ended at awaiting_answer, reached 5/11 questions
+2026-09-15 14:08:41,787 - INFO - [hesitant_candidate] State=greeting, Event=start
+2026-09-15 14:08:41,787 - INFO - [hesitant_candidate] State=asking_question, Event=ask
+2026-09-15 14:08:41,787 - INFO - [hesitant_candidate] State=awaiting_answer, Event=silence_detected
+2026-09-15 14:08:41,787 - INFO - [hesitant_candidate] State=clarifying, Event=ask
+2026-09-15 14:08:41,787 - INFO - [hesitant_candidate] State=clarifying, Event=answer_received_ok
+2026-09-15 14:08:41,787 - INFO - [hesitant_candidate] State=moving_to_next, Event=advance
+2026-09-15 14:08:41,787 - INFO - [hesitant_candidate] State=asking_question, Event=ask
+2026-09-15 14:08:41,787 - INFO - [hesitant_candidate] State=awaiting_answer, Event=silence_detected
+2026-09-15 14:08:41,787 - INFO - [hesitant_candidate] State=clarifying, Event=ask
+2026-09-15 14:08:41,787 - INFO - [hesitant_candidate] State=clarifying, Event=answer_received_ok
+2026-09-15 14:08:41,787 - INFO - [hesitant_candidate] State=moving_to_next, Event=advance
+2026-09-15 14:08:41,787 - INFO - [hesitant_candidate] State=asking_question, Event=ask
+2026-09-15 14:08:41,787 - INFO - [hesitant_candidate] State=awaiting_answer, Event=vague_answer
+2026-09-15 14:08:41,787 - INFO - [hesitant_candidate] State=clarifying, Event=ask
+2026-09-15 14:08:41,787 - INFO - [hesitant_candidate] State=clarifying, Event=answer_received_ok
+2026-09-15 14:08:41,787 - INFO - [hesitant_candidate] State=moving_to_next, Event=advance
+2026-09-15 14:08:41,787 - INFO - [hesitant_candidate] State=asking_question, Event=ask
+2026-09-15 14:08:41,787 - INFO - Scenario 'hesitant_candidate': ended at awaiting_answer, reached 3/11 questions
+2026-09-15 14:08:41,787 - INFO - [off_topic_candidate] State=greeting, Event=start
+2026-09-15 14:08:41,787 - INFO - [off_topic_candidate] State=asking_question, Event=ask
+2026-09-15 14:08:41,787 - INFO - [off_topic_candidate] State=awaiting_answer, Event=off_topic_detected
+2026-09-15 14:08:41,787 - INFO - [off_topic_candidate] State=clarifying, Event=ask
+2026-09-15 14:08:41,787 - INFO - [off_topic_candidate] State=clarifying, Event=off_topic_detected
+2026-09-15 14:08:41,787 - INFO - [off_topic_candidate] State=clarifying, Event=ask
+2026-09-15 14:08:41,787 - INFO - [off_topic_candidate] State=clarifying, Event=off_topic_detected
+2026-09-15 14:08:41,787 - INFO - [off_topic_candidate] State=moving_to_next, Event=advance
+2026-09-15 14:08:41,787 - INFO - [off_topic_candidate] State=asking_question, Event=ask
+2026-09-15 14:08:41,787 - INFO - [off_topic_candidate] State=awaiting_answer, Event=answer_received_ok
+2026-09-15 14:08:41,787 - INFO - [off_topic_candidate] State=moving_to_next, Event=advance
+2026-09-15 14:08:41,787 - INFO - [off_topic_candidate] State=asking_question, Event=ask
+2026-09-15 14:08:41,787 - INFO - [off_topic_candidate] State=awaiting_answer, Event=answer_received_ok
+2026-09-15 14:08:41,787 - INFO - [off_topic_candidate] State=moving_to_next, Event=advance
+2026-09-15 14:08:41,787 - INFO - [off_topic_candidate] State=asking_question, Event=ask
+2026-09-15 14:08:41,787 - INFO - Scenario 'off_topic_candidate': ended at awaiting_answer, reached 3/11 questions
+2026-09-15 14:08:41,787 - INFO - [dropped_call_candidate] State=greeting, Event=start
+2026-09-15 14:08:41,787 - INFO - [dropped_call_candidate] State=asking_question, Event=ask
+2026-09-15 14:08:41,787 - INFO - [dropped_call_candidate] State=awaiting_answer, Event=answer_received_ok
+2026-09-15 14:08:41,787 - INFO - [dropped_call_candidate] State=moving_to_next, Event=advance
+2026-09-15 14:08:41,787 - INFO - [dropped_call_candidate] State=asking_question, Event=ask
+2026-09-15 14:08:41,787 - INFO - [dropped_call_candidate] State=awaiting_answer, Event=call_dropped
+2026-09-15 14:08:41,787 - INFO - Scenario 'dropped_call_candidate': ended at ended_failure, reached 1/11 questions
+2026-09-15 14:08:51,246 - WARNING - Poor audio quality: very_low_confidence
+2026-09-15 14:08:51,246 - INFO - noisy_low_confidence: issue=poor_audio_quality, action=retry
+2026-09-15 14:08:51,246 - WARNING - Poor audio quality: very_low_confidence
+2026-09-15 14:08:51,246 - INFO - total_silence: issue=poor_audio_quality, action=retry
+2026-09-15 14:08:51,246 - INFO - call_dropped_mid_question: issue=call_technical_failure, action=end_call_reschedule
+2026-09-15 14:08:51,246 - INFO - clear_normal_answer: issue=None, action=proceed
+2026-09-15 14:08:51,246 - WARNING - Poor audio quality: very_low_confidence
+2026-09-15 14:08:51,246 - INFO - exhausted_retries: issue=poor_audio_quality, action=escalate_to_human_review
+2026-09-15 14:11:27,845 - INFO - Built screening report for cand_00123: score=83.5
+2026-09-15 14:11:27,845 - INFO - Exported screening report for cand_00123 to data/screening_reports

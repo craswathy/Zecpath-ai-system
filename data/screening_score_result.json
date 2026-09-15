@@ -24,25 +24,25 @@
       },
       "weighted_score": 0.89,
       "explanation": "Clarity: 0.57 (25%) | Relevance: 1.0 (30%) | Completeness: 1.0 (25%) | Consistency: 1.0 (20%)",
-      "normalized_score": 0.88
+      "normalized_score": 0.78
     },
     {
       "turn_id": "turn_3",
       "question_category": "Location",
       "component_scores": {
         "clarity": 0.55,
-        "relevance": 0.1,
+        "relevance": 1.0,
         "completeness": 0.0,
         "consistency": 1.0
       },
-      "weighted_score": 0.37,
-      "explanation": "Clarity: 0.55 (25%) | Relevance: 0.1 (30%) | Completeness: 0.0 (25%) | Consistency: 1.0 (20%)",
+      "weighted_score": 0.64,
+      "explanation": "Clarity: 0.55 (25%) | Relevance: 1.0 (30%) | Completeness: 0.0 (25%) | Consistency: 1.0 (20%)",
       "normalized_score": 0.0
     }
   ],
   "final_screening_score": {
-    "final_screening_score": 76.1,
+    "final_screening_score": 83.5,
     "questions_scored": 3,
-    "explanation": "Introduction: 0.96 (importance 0.5x) | Experience: 0.89 (importance 1.5x) | Location: 0.37 (importance 0.75x)"
+    "explanation": "Introduction: 0.96 (importance 0.5x) | Experience: 0.89 (importance 1.5x) | Location: 0.64 (importance 0.75x)"
   }
 }
