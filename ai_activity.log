@@ -3339,3 +3339,11 @@
 2026-09-15 14:08:51,246 - INFO - exhausted_retries: issue=poor_audio_quality, action=escalate_to_human_review
 2026-09-15 14:11:27,845 - INFO - Built screening report for cand_00123: score=83.5
 2026-09-15 14:11:27,845 - INFO - Exported screening report for cand_00123 to data/screening_reports
+2026-09-16 09:44:00,326 - INFO - [hrint_001] Captured response for hr_intro_01
+2026-09-16 09:44:00,326 - INFO - [hrint_001] Advanced to phase: core_hr_questions
+2026-09-16 09:44:00,326 - INFO - [hrint_001] Captured response for hr_journey_02
+2026-09-16 09:44:00,326 - INFO - [hrint_001] Captured response for hr_strengths_01
+2026-09-16 09:44:00,326 - INFO - [hrint_001] Captured response for hr_strengths_02
+2026-09-16 09:44:00,326 - INFO - [hrint_001] Captured response for hr_team_02
+2026-09-16 09:44:00,326 - INFO - [hrint_001] Captured response for hr_team_03
+2026-09-16 09:44:00,326 - INFO - [hrint_001] Advanced to phase: role_based_evaluation

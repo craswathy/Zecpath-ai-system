@@ -1,0 +1,49 @@
+{
+  "interview_id": "hrint_001",
+  "final_phase": "role_based_evaluation",
+  "total_responses_captured": 6,
+  "interview_log": [
+    {
+      "phase": "introduction",
+      "question_id": "hr_intro_01",
+      "question_text": "Walk me through your background and what led you to apply for this role.",
+      "response": "I'm a recent MSc Statistics graduate with a strong interest in data science.",
+      "follow_up_eligible": true
+    },
+    {
+      "phase": "core_hr_questions",
+      "question_id": "hr_journey_02",
+      "question_text": "What projects or coursework during your studies do you feel best prepared you for this role?",
+      "response": "My capstone project on retail recommendation systems really shaped my interest in ML.",
+      "follow_up_eligible": true
+    },
+    {
+      "phase": "core_hr_questions",
+      "question_id": "hr_strengths_01",
+      "question_text": "What would you say is your greatest strength, and how has it helped you professionally?",
+      "response": "I'd say my analytical thinking is my biggest strength.",
+      "follow_up_eligible": true
+    },
+    {
+      "phase": "core_hr_questions",
+      "question_id": "hr_strengths_02",
+      "question_text": "Tell me about an area you're actively working to improve.",
+      "response": "I collaborate well by staying organized and communicating early about blockers.",
+      "follow_up_eligible": true
+    },
+    {
+      "phase": "core_hr_questions",
+      "question_id": "hr_team_02",
+      "question_text": "How do you prefer to collaborate with others when working on a group project or assignment?",
+      "response": "In 2-3 years I hope to grow into a senior data scientist role.",
+      "follow_up_eligible": true
+    },
+    {
+      "phase": "core_hr_questions",
+      "question_id": "hr_team_03",
+      "question_text": "How do you handle working with team members from different technical backgrounds, like designers or product managers?",
+      "response": "I'm comfortable with occasional flexible hours when needed.",
+      "follow_up_eligible": true
+    }
+  ]
+}
