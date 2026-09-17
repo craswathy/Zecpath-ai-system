@@ -1,0 +1,47 @@
+[
+  {
+    "question_id": "hr_strengths_01",
+    "answer_text": "good",
+    "decision": {
+      "action": "ask_follow_up",
+      "follow_up_text": "Could you give me a specific example of that?",
+      "reason": "deepening"
+    }
+  },
+  {
+    "question_id": "hr_strengths_01",
+    "answer_text": "I'm good at solving problems.",
+    "decision": {
+      "action": "ask_follow_up",
+      "follow_up_text": "Can you walk me through a particular situation where that applied?",
+      "reason": "deepening"
+    }
+  },
+  {
+    "question_id": "hr_journey_01",
+    "answer_text": "I led a team of five and specifically redesigned our onboarding pipeline, for example cutting setup time by half.",
+    "decision": {
+      "action": "ask_follow_up",
+      "follow_up_text": "Given that experience, how would you handle a situation where a teammate strongly disagreed with your approach?",
+      "reason": "scenario_based"
+    }
+  },
+  {
+    "question_id": "hr_avail_01",
+    "answer_text": "yes",
+    "decision": {
+      "action": "move_to_next",
+      "follow_up_text": null,
+      "reason": "question not follow_up_eligible"
+    }
+  },
+  {
+    "question_id": "hr_team_01",
+    "answer_text": "",
+    "decision": {
+      "action": "ask_follow_up",
+      "follow_up_text": "Could you clarify what you mean by that?",
+      "reason": "clarification"
+    }
+  }
+]

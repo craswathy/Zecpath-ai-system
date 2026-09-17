@@ -3347,3 +3347,13 @@
 2026-09-16 09:44:00,326 - INFO - [hrint_001] Captured response for hr_team_02
 2026-09-16 09:44:00,326 - INFO - [hrint_001] Captured response for hr_team_03
 2026-09-16 09:44:00,326 - INFO - [hrint_001] Advanced to phase: role_based_evaluation
+2026-09-17 15:59:58,446 - INFO - Follow-up classification: deepening
+2026-09-17 15:59:58,446 - INFO - Follow-up decision for hr_strengths_01: ask_follow_up (deepening)
+2026-09-17 15:59:58,446 - INFO - Follow-up classification: deepening
+2026-09-17 15:59:58,446 - INFO - Follow-up decision for hr_strengths_01: ask_follow_up (deepening)
+2026-09-17 15:59:58,446 - INFO - Follow-up classification: scenario_based
+2026-09-17 15:59:58,446 - INFO - Follow-up decision for hr_journey_01: ask_follow_up (scenario_based)
+2026-09-17 15:59:58,446 - INFO - Follow-up classification: deepening
+2026-09-17 15:59:58,446 - INFO - Follow-up decision for hr_avail_01: move_to_next (question not follow_up_eligible)
+2026-09-17 15:59:58,446 - INFO - Follow-up classification: clarification
+2026-09-17 15:59:58,446 - INFO - Follow-up decision for hr_team_01: ask_follow_up (clarification)
