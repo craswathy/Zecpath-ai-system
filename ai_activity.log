@@ -3357,3 +3357,11 @@
 2026-09-17 15:59:58,446 - INFO - Follow-up decision for hr_avail_01: move_to_next (question not follow_up_eligible)
 2026-09-17 15:59:58,446 - INFO - Follow-up classification: clarification
 2026-09-17 15:59:58,446 - INFO - Follow-up decision for hr_team_01: ask_follow_up (clarification)
+2026-09-19 09:50:17,604 - INFO - Loading LanguageTool grammar checker (first call only)...
+2026-09-19 09:53:07,961 - INFO - Loading LanguageTool grammar checker (first call only)...
+2026-09-19 10:00:25,399 - INFO - Grammar check: 0 issues in 12 words, score=1.0
+2026-09-19 10:00:25,399 - INFO - Communication score: 78.5/100
+2026-09-19 10:00:25,399 - INFO - Grammar check: 0 issues in 3 words, score=1.0
+2026-09-19 10:00:25,399 - INFO - Communication score: 87.5/100
+2026-09-19 10:00:25,399 - INFO - Grammar check: 0 issues in 2 words, score=1.0
+2026-09-19 10:00:25,399 - INFO - Communication score: 66.5/100

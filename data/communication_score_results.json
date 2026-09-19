@@ -1,0 +1,53 @@
+[
+  {
+    "turn_id": "turn_1",
+    "question_category": "Introduction",
+    "raw_answer": "uh yeah so I am um a data analyst with three years of experience",
+    "communication_score": 78.5,
+    "component_scores": {
+      "fluency": 0.94,
+      "grammar": 1.0,
+      "vocabulary": 1.0,
+      "clarity": 0.21
+    },
+    "filler_word_count": 2,
+    "grammar_error_count": 0,
+    "explanation": "Fluency: 0.94 (weight 0.3) | Grammar: 1.0 (weight 0.25) | Vocabulary: 1.0 (weight 0.2) | Clarity: 0.21 (weight 0.25)",
+    "short_answer_leniency_flag": false,
+    "normalized_score": 57.1
+  },
+  {
+    "turn_id": "turn_2",
+    "question_category": "Experience",
+    "raw_answer": "about three years",
+    "communication_score": 87.5,
+    "component_scores": {
+      "fluency": 1.0,
+      "grammar": 1.0,
+      "vocabulary": 1.0,
+      "clarity": 0.5
+    },
+    "filler_word_count": 0,
+    "grammar_error_count": 0,
+    "explanation": "Fluency: 1.0 (weight 0.3) | Grammar: 1.0 (weight 0.25) | Vocabulary: 1.0 (weight 0.2) | Clarity: 0.5 (weight 0.25)",
+    "short_answer_leniency_flag": true,
+    "normalized_score": 100.0
+  },
+  {
+    "turn_id": "turn_3",
+    "question_category": "Location",
+    "raw_answer": "yes definitely",
+    "communication_score": 66.5,
+    "component_scores": {
+      "fluency": 0.3,
+      "grammar": 1.0,
+      "vocabulary": 1.0,
+      "clarity": 0.5
+    },
+    "filler_word_count": 0,
+    "grammar_error_count": 0,
+    "explanation": "Fluency: 0.3 (weight 0.3) | Grammar: 1.0 (weight 0.25) | Vocabulary: 1.0 (weight 0.2) | Clarity: 0.5 (weight 0.25)",
+    "short_answer_leniency_flag": true,
+    "normalized_score": 0.0
+  }
+]
