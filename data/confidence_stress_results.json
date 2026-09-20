@@ -1,0 +1,107 @@
+[
+  {
+    "turn_id": "turn_1",
+    "question_category": "Introduction",
+    "confidence": {
+      "confidence_score": 0.64,
+      "hesitation_count": 2,
+      "uncertainty_detected": false,
+      "pace": {
+        "words_per_second": 3.11,
+        "pace_label": "fast (may indicate rushing or rehearsal)"
+      }
+    },
+    "sentiment": {
+      "compound": 0.296,
+      "positive": 0.167,
+      "neutral": 0.833,
+      "negative": 0.0,
+      "label": "neutral"
+    },
+    "pause_analysis": {
+      "long_pause_detected": false,
+      "estimated_pause_seconds": 0.0
+    },
+    "repetition_analysis": {
+      "repetition_count": 0,
+      "repeated_phrases": []
+    },
+    "contradiction_detected": true,
+    "stress_score": 0.3,
+    "behavioral_confidence": {
+      "behavioral_confidence_score": 52.0,
+      "base_confidence": 0.64,
+      "stress_score": 0.3
+    }
+  },
+  {
+    "turn_id": "turn_2",
+    "question_category": "Experience",
+    "confidence": {
+      "confidence_score": 0.89,
+      "hesitation_count": 0,
+      "uncertainty_detected": false,
+      "pace": {
+        "words_per_second": 0.67,
+        "pace_label": "slow (may indicate hesitation)"
+      }
+    },
+    "sentiment": {
+      "compound": 0.0,
+      "positive": 0.0,
+      "neutral": 1.0,
+      "negative": 0.0,
+      "label": "neutral"
+    },
+    "pause_analysis": {
+      "long_pause_detected": false,
+      "estimated_pause_seconds": 3.0
+    },
+    "repetition_analysis": {
+      "repetition_count": 0,
+      "repeated_phrases": []
+    },
+    "contradiction_detected": true,
+    "stress_score": 0.2,
+    "behavioral_confidence": {
+      "behavioral_confidence_score": 81.0,
+      "base_confidence": 0.89,
+      "stress_score": 0.2
+    }
+  },
+  {
+    "turn_id": "turn_3",
+    "question_category": "Location",
+    "confidence": {
+      "confidence_score": 0.92,
+      "hesitation_count": 0,
+      "uncertainty_detected": false,
+      "pace": {
+        "words_per_second": 0.44,
+        "pace_label": "slow (may indicate hesitation)"
+      }
+    },
+    "sentiment": {
+      "compound": 0.66,
+      "positive": 1.0,
+      "neutral": 0.0,
+      "negative": 0.0,
+      "label": "positive"
+    },
+    "pause_analysis": {
+      "long_pause_detected": true,
+      "estimated_pause_seconds": 3.5
+    },
+    "repetition_analysis": {
+      "repetition_count": 0,
+      "repeated_phrases": []
+    },
+    "contradiction_detected": false,
+    "stress_score": 0.2,
+    "behavioral_confidence": {
+      "behavioral_confidence_score": 84.0,
+      "base_confidence": 0.92,
+      "stress_score": 0.2
+    }
+  }
+]

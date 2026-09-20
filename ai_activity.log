@@ -3365,3 +3365,15 @@
 2026-09-19 10:00:25,399 - INFO - Communication score: 87.5/100
 2026-09-19 10:00:25,399 - INFO - Grammar check: 0 issues in 2 words, score=1.0
 2026-09-19 10:00:25,399 - INFO - Communication score: 66.5/100
+2026-09-20 14:33:16,457 - INFO - Confidence indicator: 0.64 (hesitations=2, uncertain=False)
+2026-09-20 14:33:16,470 - INFO - Sentiment: neutral (compound=0.296)
+2026-09-20 14:33:16,477 - INFO - Found 1 contradiction(s) in field 'experience_years'
+2026-09-20 14:33:16,477 - INFO - Stress score computed: 0.3
+2026-09-20 14:33:16,477 - INFO - Confidence indicator: 0.89 (hesitations=0, uncertain=False)
+2026-09-20 14:33:16,477 - INFO - Sentiment: neutral (compound=0.0)
+2026-09-20 14:33:16,477 - INFO - Found 1 contradiction(s) in field 'experience_years'
+2026-09-20 14:33:16,477 - INFO - Stress score computed: 0.2
+2026-09-20 14:33:16,477 - INFO - Confidence indicator: 0.92 (hesitations=0, uncertain=False)
+2026-09-20 14:33:16,477 - INFO - Sentiment: positive (compound=0.6597)
+2026-09-20 14:33:16,477 - INFO - Found 1 contradiction(s) in field 'experience_years'
+2026-09-20 14:33:16,477 - INFO - Stress score computed: 0.2
