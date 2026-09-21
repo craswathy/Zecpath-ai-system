@@ -1,0 +1,19 @@
+{
+  "hr_interview_score": 65.5,
+  "component_scores": {
+    "relevance": 0.77,
+    "communication": 0.78,
+    "confidence": 0.72,
+    "consistency": 0.33
+  },
+  "weights_used": {
+    "relevance": 0.4,
+    "communication": 0.2,
+    "confidence": 0.15,
+    "consistency": 0.25
+  },
+  "turns_scored": 3,
+  "explanation": "Relevance: 0.77 (weight 0.4) | Communication: 0.78 (weight 0.2) | Confidence: 0.72 (weight 0.15) | Consistency: 0.33 (weight 0.25)",
+  "score_reliability": "low_reliability",
+  "reliability_note": "Based on 3 turn(s); fewer turns than recommended minimum, interpret with caution."
+}

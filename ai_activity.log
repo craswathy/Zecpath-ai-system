@@ -3377,3 +3377,7 @@
 2026-09-20 14:33:16,477 - INFO - Sentiment: positive (compound=0.6597)
 2026-09-20 14:33:16,477 - INFO - Found 1 contradiction(s) in field 'experience_years'
 2026-09-20 14:33:16,477 - INFO - Stress score computed: 0.2
+2026-09-21 15:17:01,814 - INFO - Found 1 contradiction(s) in field 'experience_years'
+2026-09-21 15:17:01,814 - INFO - HR interview score: 65.5/100 across 3 turns
+2026-09-21 15:17:01,814 - INFO - Interview length reliability: low_reliability (3 turns)
+2026-09-21 15:17:01,814 - INFO - Exported HR score report for cand_00123

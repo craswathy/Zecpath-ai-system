@@ -1,0 +1,16 @@
+============================================================
+HR INTERVIEW SCORE REPORT
+============================================================
+Candidate: cand_00123
+Final HR Interview Score: 65.5/100
+Reliability: low_reliability
+  Based on 3 turn(s); fewer turns than recommended minimum, interpret with caution.
+
+--- COMPONENT BREAKDOWN ---
+  Relevance: 0.77 (weight 0.4)
+  Communication: 0.78 (weight 0.2)
+  Confidence: 0.72 (weight 0.15)
+  Consistency: 0.33 (weight 0.25)
+
+Turns Scored: 3
+============================================================
