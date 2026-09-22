@@ -1,0 +1,76 @@
+[
+  {
+    "question_id": "apt_logic_01",
+    "category": "Numerical Reasoning",
+    "response": "So 3 people take 12 days, that means 36 person-days total. With 4 people it would take 9 days.",
+    "type": "logical_reasoning",
+    "score": 0.2,
+    "correct": false,
+    "extracted_answer": 3.0,
+    "reasoning": "Incorrect final answer, partial credit for attempt."
+  },
+  {
+    "question_id": "apt_logic_02",
+    "category": "Pattern Recognition",
+    "response": "The differences are 4, 6, 8, 10, so the next difference is 12, giving 42.",
+    "type": "logical_reasoning",
+    "score": 0.2,
+    "correct": false,
+    "extracted_answer": 4.0,
+    "reasoning": "Incorrect final answer, partial credit for attempt."
+  },
+  {
+    "question_id": "apt_verbal_01",
+    "category": "Verbal Reasoning",
+    "response": "No, that doesn't follow, because only some detail-oriented people are slow, not all of them.",
+    "type": "logical_reasoning",
+    "score": 1.0,
+    "correct": true,
+    "reasoning": "Correct logical conclusion."
+  },
+  {
+    "question_id": "apt_sjt_01",
+    "category": "Situational Judgment",
+    "response": "I would first acknowledge the mistake and then immediately inform the client and my team so we can correct it together.",
+    "type": "situational_judgment",
+    "coverage_score": 1.0,
+    "elements_covered": [
+      "acknowledges the mistake promptly",
+      "proposes informing relevant stakeholders",
+      "focuses on correction, not blame"
+    ],
+    "elements_missing": [],
+    "clarity_score": 1.0,
+    "has_structured_reasoning": true
+  },
+  {
+    "question_id": "apt_sjt_02",
+    "category": "Situational Judgment",
+    "response": "I would first talk to them directly to understand why, before escalating to management.",
+    "type": "situational_judgment",
+    "coverage_score": 1.0,
+    "elements_covered": [
+      "mentions direct communication first",
+      "avoids immediately escalating to management",
+      "focuses on understanding root cause"
+    ],
+    "elements_missing": [],
+    "clarity_score": 0.75,
+    "has_structured_reasoning": true
+  },
+  {
+    "question_id": "apt_sjt_03",
+    "category": "Situational Judgment",
+    "response": "",
+    "type": "situational_judgment",
+    "coverage_score": 0.0,
+    "elements_covered": [],
+    "elements_missing": [
+      "communicates the risk clearly",
+      "proposes alternatives (reduced scope, phased delivery)",
+      "doesn't simply agree or simply refuse"
+    ],
+    "clarity_score": 0.0,
+    "has_structured_reasoning": false
+  }
+]

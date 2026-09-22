@@ -3381,3 +3381,8 @@
 2026-09-21 15:17:01,814 - INFO - HR interview score: 65.5/100 across 3 turns
 2026-09-21 15:17:01,814 - INFO - Interview length reliability: low_reliability (3 turns)
 2026-09-21 15:17:01,814 - INFO - Exported HR score report for cand_00123
+2026-09-22 16:06:27,499 - INFO - [apt_logic_01] Numeric answer: 3.0, correct: 9, match: False
+2026-09-22 16:06:27,499 - INFO - [apt_logic_02] Numeric answer: 4.0, correct: 42, match: False
+2026-09-22 16:06:27,499 - INFO - [apt_verbal_01] Verbal reasoning correct: True
+2026-09-22 16:06:27,499 - INFO - Scenario coverage: 3/3 elements detected
+2026-09-22 16:06:27,499 - INFO - Scenario coverage: 3/3 elements detected
