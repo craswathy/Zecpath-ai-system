@@ -1,0 +1,28 @@
+============================================================
+AI HR INTERVIEW SUMMARY REPORT
+============================================================
+Candidate: cand_00123
+Overall HR Score: 65.5/100
+
+--- NARRATIVE SUMMARY ---
+Adequate HR interview performance with some areas for improvement. The candidate showed strong relevance throughout the interview; strong communication throughout the interview. Areas to probe further include weak consistency observed during the interview; 2 logical reasoning question(s) answered incorrectly. On cultural fit, demonstrated collaborative problem-solving approach in scenario questions. Note: 1 contradiction(s) detected across interview responses -- review for consistency.
+
+--- STRENGTHS ---
+  + Strong relevance throughout the interview
+  + Strong communication throughout the interview
+  + Situational judgment responses covered key reasoning points well
+  + Clear, well-structured communication throughout
+
+--- WEAKNESSES ---
+  - Weak consistency observed during the interview
+  - 2 logical reasoning question(s) answered incorrectly
+  - Situational judgment responses missed key reasoning elements
+
+--- CULTURAL FIT INDICATORS ---
+  * Demonstrated collaborative problem-solving approach in scenario questions
+  * Calm, composed demeanor under interview conditions
+
+--- RISK FLAGS ---
+  ! 1 contradiction(s) detected across interview responses -- review for consistency
+  ! Score based on limited data (3 turns) -- interpret with caution
+============================================================

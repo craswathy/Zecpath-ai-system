@@ -1,0 +1,27 @@
+{
+  "summary": {
+    "candidate_id": "cand_00123",
+    "overall_hr_score": 65.5,
+    "overall_performance_summary": "Adequate HR interview performance with some areas for improvement.",
+    "strengths": [
+      "Strong relevance throughout the interview",
+      "Strong communication throughout the interview",
+      "Situational judgment responses covered key reasoning points well",
+      "Clear, well-structured communication throughout"
+    ],
+    "weaknesses": [
+      "Weak consistency observed during the interview",
+      "2 logical reasoning question(s) answered incorrectly",
+      "Situational judgment responses missed key reasoning elements"
+    ],
+    "cultural_fit_indicators": [
+      "Demonstrated collaborative problem-solving approach in scenario questions",
+      "Calm, composed demeanor under interview conditions"
+    ],
+    "risk_flags": [
+      "1 contradiction(s) detected across interview responses -- review for consistency",
+      "Score based on limited data (3 turns) -- interpret with caution"
+    ]
+  },
+  "narrative": "Adequate HR interview performance with some areas for improvement. The candidate showed strong relevance throughout the interview; strong communication throughout the interview. Areas to probe further include weak consistency observed during the interview; 2 logical reasoning question(s) answered incorrectly. On cultural fit, demonstrated collaborative problem-solving approach in scenario questions. Note: 1 contradiction(s) detected across interview responses -- review for consistency."
+}
