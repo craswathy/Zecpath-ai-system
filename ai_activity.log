@@ -3388,3 +3388,19 @@
 2026-09-22 16:06:27,499 - INFO - Scenario coverage: 3/3 elements detected
 2026-09-23 17:21:00,612 - INFO - Found 1 contradiction(s) in field 'experience_years'
 2026-09-23 17:21:00,612 - INFO - Built HR interview summary for cand_00123
+2026-09-24 14:09:04,950 - INFO - HR interview score: 95.5/100 across 4 turns
+2026-09-24 14:09:04,950 - INFO - Interview length reliability: reliable (4 turns)
+2026-09-24 14:09:04,950 - INFO - Built HR interview summary for confident_candidate
+2026-09-24 14:09:04,950 - INFO - confident_candidate: score=95.5, reliability=reliable
+2026-09-24 14:09:04,950 - INFO - HR interview score: 75.8/100 across 4 turns
+2026-09-24 14:09:04,950 - INFO - Interview length reliability: reliable (4 turns)
+2026-09-24 14:09:04,950 - INFO - Built HR interview summary for hesitant_candidate
+2026-09-24 14:09:04,950 - INFO - hesitant_candidate: score=75.8, reliability=reliable
+2026-09-24 14:09:04,950 - INFO - HR interview score: 64.9/100 across 3 turns
+2026-09-24 14:09:04,950 - INFO - Interview length reliability: low_reliability (3 turns)
+2026-09-24 14:09:04,950 - INFO - Built HR interview summary for inexperienced_candidate
+2026-09-24 14:09:04,950 - INFO - inexperienced_candidate: score=64.9, reliability=low_reliability
+2026-09-24 14:09:04,950 - INFO - HR interview score: 86.6/100 across 5 turns
+2026-09-24 14:09:04,950 - INFO - Interview length reliability: reliable (5 turns)
+2026-09-24 14:09:04,950 - INFO - Built HR interview summary for overqualified_candidate
+2026-09-24 14:09:04,950 - INFO - overqualified_candidate: score=86.6, reliability=reliable
