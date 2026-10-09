@@ -3404,3 +3404,31 @@
 2026-09-24 14:09:04,950 - INFO - Interview length reliability: reliable (5 turns)
 2026-09-24 14:09:04,950 - INFO - Built HR interview summary for overqualified_candidate
 2026-09-24 14:09:04,950 - INFO - overqualified_candidate: score=86.6, reliability=reliable
+2026-10-09 11:25:13,030 - INFO - Unified hiring-fit score: 75.7% (3 rounds)
+2026-10-09 11:25:13,030 - INFO - Hiring fit category: Strong Fit
+2026-10-09 11:25:13,030 - INFO - Unified hiring-fit score: 82.0% (3 rounds)
+2026-10-09 11:25:13,030 - INFO - Hiring fit category: Strong Fit
+2026-10-09 11:25:13,030 - INFO - Unified hiring-fit score: 69.5% (3 rounds)
+2026-10-09 11:25:13,030 - INFO - Hiring fit category: Moderate Fit
+2026-10-09 11:25:13,030 - INFO - Unified hiring-fit score: 78.1% (2 rounds)
+2026-10-09 11:25:13,030 - INFO - Hiring fit category: Strong Fit
+2026-10-09 11:25:13,030 - INFO - Unified hiring-fit score: 40.5% (3 rounds)
+2026-10-09 11:25:13,030 - INFO - Hiring fit category: Weak Fit
+2026-10-09 16:08:45,869 - INFO - Unified hiring-fit score: 75.7% (3 rounds)
+2026-10-09 16:08:45,869 - INFO - Hiring fit category: Strong Fit
+2026-10-09 16:08:45,869 - INFO - Unified hiring-fit score: 82.0% (3 rounds)
+2026-10-09 16:08:45,869 - INFO - Hiring fit category: Strong Fit
+2026-10-09 16:08:45,869 - INFO - Unified hiring-fit score: 69.5% (3 rounds)
+2026-10-09 16:08:45,869 - INFO - Hiring fit category: Moderate Fit
+2026-10-09 16:08:45,869 - INFO - Unified hiring-fit score: 78.1% (2 rounds)
+2026-10-09 16:08:45,869 - INFO - Hiring fit category: Strong Fit
+2026-10-09 16:08:45,869 - INFO - Unified hiring-fit score: 40.5% (3 rounds)
+2026-10-09 16:08:45,869 - INFO - Hiring fit category: Weak Fit
+2026-10-09 16:08:45,869 - INFO - Unified hiring-fit score: 78.7% (3 rounds)
+2026-10-09 16:08:45,869 - INFO - Hiring fit category: Moderate Fit
+2026-10-09 22:06:51,153 - INFO - Unified hiring-fit score: 75.7% (3 rounds)
+2026-10-09 22:06:51,153 - INFO - Hiring fit category: Strong Fit
+2026-10-09 22:06:51,153 - INFO - Built unified candidate object for ba_resume_1: Strong Fit
+2026-10-09 22:06:51,153 - INFO - Unified hiring-fit score: 77.8% (1 rounds)
+2026-10-09 22:06:51,153 - INFO - Hiring fit category: Strong Fit
+2026-10-09 22:06:51,153 - INFO - Built unified candidate object for da_resume_3: Strong Fit

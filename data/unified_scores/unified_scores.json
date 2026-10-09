@@ -1,0 +1,123 @@
+[
+  {
+    "profile": "real_demo (ba_resume_1)",
+    "hiring_fit_percentage": 75.7,
+    "round_scores_used": {
+      "ats": 79.8,
+      "screening": 83.5,
+      "hr_interview": 65.5
+    },
+    "weights_used": {
+      "ats": 0.4,
+      "screening": 0.25,
+      "hr_interview": 0.35
+    },
+    "missing_rounds": [],
+    "rounds_completed": 3,
+    "explanation": "Ats: 79.8 (weight 0.4) | Screening: 83.5 (weight 0.25) | Hr Interview: 65.5 (weight 0.35)",
+    "fit_category": "Strong Fit",
+    "flags": []
+  },
+  {
+    "profile": "balanced_strong",
+    "hiring_fit_percentage": 82.0,
+    "round_scores_used": {
+      "ats": 82.0,
+      "screening": 78.0,
+      "hr_interview": 85.0
+    },
+    "weights_used": {
+      "ats": 0.4,
+      "screening": 0.25,
+      "hr_interview": 0.35
+    },
+    "missing_rounds": [],
+    "rounds_completed": 3,
+    "explanation": "Ats: 82.0 (weight 0.4) | Screening: 78.0 (weight 0.25) | Hr Interview: 85.0 (weight 0.35)",
+    "fit_category": "Strong Fit",
+    "flags": []
+  },
+  {
+    "profile": "one_weak_round",
+    "hiring_fit_percentage": 69.5,
+    "round_scores_used": {
+      "ats": 90.0,
+      "screening": 85.0,
+      "hr_interview": 35.0
+    },
+    "weights_used": {
+      "ats": 0.4,
+      "screening": 0.25,
+      "hr_interview": 0.35
+    },
+    "missing_rounds": [],
+    "rounds_completed": 3,
+    "explanation": "Ats: 90.0 (weight 0.4) | Screening: 85.0 (weight 0.25) | Hr Interview: 35.0 (weight 0.35)",
+    "fit_category": "Moderate Fit",
+    "flags": [
+      "Weak round(s): hr_interview scored below 40 -- review before deciding"
+    ]
+  },
+  {
+    "profile": "missing_hr_round",
+    "hiring_fit_percentage": 78.1,
+    "round_scores_used": {
+      "ats": 80.0,
+      "screening": 75.0
+    },
+    "weights_used": {
+      "ats": 0.615,
+      "screening": 0.385
+    },
+    "missing_rounds": [
+      "hr_interview"
+    ],
+    "rounds_completed": 2,
+    "explanation": "Ats: 80.0 (weight 0.615) | Screening: 75.0 (weight 0.385) | Missing: hr interview -- weight redistributed.",
+    "fit_category": "Strong Fit",
+    "flags": []
+  },
+  {
+    "profile": "weak_across_rounds",
+    "hiring_fit_percentage": 40.5,
+    "round_scores_used": {
+      "ats": 40.0,
+      "screening": 45.0,
+      "hr_interview": 38.0
+    },
+    "weights_used": {
+      "ats": 0.4,
+      "screening": 0.25,
+      "hr_interview": 0.35
+    },
+    "missing_rounds": [],
+    "rounds_completed": 3,
+    "explanation": "Ats: 40.0 (weight 0.4) | Screening: 45.0 (weight 0.25) | Hr Interview: 38.0 (weight 0.35)",
+    "fit_category": "Weak Fit",
+    "flags": [
+      "Weak round(s): hr_interview scored below 40 -- review before deciding"
+    ]
+  },
+  {
+    "profile": "floor_cap_demo",
+    "hiring_fit_percentage": 78.7,
+    "round_scores_used": {
+      "ats": 100.0,
+      "screening": 100.0,
+      "hr_interview": 39.0
+    },
+    "weights_used": {
+      "ats": 0.4,
+      "screening": 0.25,
+      "hr_interview": 0.35
+    },
+    "missing_rounds": [],
+    "rounds_completed": 3,
+    "explanation": "Ats: 100.0 (weight 0.4) | Screening: 100.0 (weight 0.25) | Hr Interview: 39.0 (weight 0.35)",
+    "fit_category": "Moderate Fit",
+    "flags": [
+      "Weak round(s): hr_interview scored below 40 -- review before deciding",
+      "Category capped at Moderate Fit due to round floor"
+    ]
+  }
+]
