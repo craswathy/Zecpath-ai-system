@@ -25,8 +25,8 @@ def run():
             "turn_id": turn_id,
             "is_off_topic": answer["is_off_topic"],
             "is_vague_or_missing": answer["structured_answer"]["is_vague_or_missing"],
-            "communication_score": comm_by_turn.get(turn_id, 50.0),
-            "behavioral_confidence_score": conf_by_turn.get(turn_id, 50.0),
+            "communication_score": comm_by_turn.get(turn_id),
+            "behavioral_confidence_score": conf_by_turn.get(turn_id),
         })
 
     contradictions = scan_for_contradictions(answers_data, "experience_years")

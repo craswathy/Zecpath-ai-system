@@ -1,0 +1,98 @@
+[
+  {
+    "candidate_type": "confident_candidate",
+    "hr_score_result": {
+      "hr_interview_score": 95.5,
+      "component_scores": {
+        "relevance": 1.0,
+        "communication": 0.86,
+        "confidence": 0.89,
+        "consistency": 1.0
+      },
+      "weights_used": {
+        "relevance": 0.4,
+        "communication": 0.2,
+        "confidence": 0.15,
+        "consistency": 0.25
+      },
+      "turns_scored": 4,
+      "explanation": "Relevance: 1.0 (weight 0.4) | Communication: 0.86 (weight 0.2) | Confidence: 0.89 (weight 0.15) | Consistency: 1.0 (weight 0.25)",
+      "score_reliability": "reliable",
+      "reliability_note": "Based on 4 turn(s); sufficient for reliable scoring."
+    },
+    "narrative": "Strong overall HR interview performance. The candidate showed strong relevance throughout the interview; strong communication throughout the interview. On cultural fit, calm, composed demeanor under interview conditions.",
+    "expected_manual_verdict": "Strong"
+  },
+  {
+    "candidate_type": "hesitant_candidate",
+    "hr_score_result": {
+      "hr_interview_score": 75.8,
+      "component_scores": {
+        "relevance": 0.82,
+        "communication": 0.53,
+        "confidence": 0.49,
+        "consistency": 1.0
+      },
+      "weights_used": {
+        "relevance": 0.4,
+        "communication": 0.2,
+        "confidence": 0.15,
+        "consistency": 0.25
+      },
+      "turns_scored": 4,
+      "explanation": "Relevance: 0.82 (weight 0.4) | Communication: 0.53 (weight 0.2) | Confidence: 0.49 (weight 0.15) | Consistency: 1.0 (weight 0.25)",
+      "score_reliability": "reliable",
+      "reliability_note": "Based on 4 turn(s); sufficient for reliable scoring."
+    },
+    "narrative": "Strong overall HR interview performance. The candidate showed strong relevance throughout the interview; strong consistency throughout the interview. Areas to probe further include weak confidence observed during the interview. On cultural fit, calm, composed demeanor under interview conditions.",
+    "expected_manual_verdict": "Adequate, coaching needed on confidence"
+  },
+  {
+    "candidate_type": "inexperienced_candidate",
+    "hr_score_result": {
+      "hr_interview_score": 64.9,
+      "component_scores": {
+        "relevance": 0.47,
+        "communication": 0.55,
+        "confidence": 0.67,
+        "consistency": 1.0
+      },
+      "weights_used": {
+        "relevance": 0.4,
+        "communication": 0.2,
+        "confidence": 0.15,
+        "consistency": 0.25
+      },
+      "turns_scored": 3,
+      "explanation": "Relevance: 0.47 (weight 0.4) | Communication: 0.55 (weight 0.2) | Confidence: 0.67 (weight 0.15) | Consistency: 1.0 (weight 0.25)",
+      "score_reliability": "low_reliability",
+      "reliability_note": "Based on 3 turn(s); fewer turns than recommended minimum, interpret with caution."
+    },
+    "narrative": "Adequate HR interview performance with some areas for improvement. The candidate showed strong consistency throughout the interview. Areas to probe further include weak relevance observed during the interview. On cultural fit, calm, composed demeanor under interview conditions. Note: score based on limited data (3 turns) -- interpret with caution.",
+    "expected_manual_verdict": "Below-expectation on role-specific depth, acceptable communication"
+  },
+  {
+    "candidate_type": "overqualified_candidate",
+    "hr_score_result": {
+      "hr_interview_score": 86.6,
+      "component_scores": {
+        "relevance": 1.0,
+        "communication": 0.91,
+        "confidence": 0.89,
+        "consistency": 0.6
+      },
+      "weights_used": {
+        "relevance": 0.4,
+        "communication": 0.2,
+        "confidence": 0.15,
+        "consistency": 0.25
+      },
+      "turns_scored": 5,
+      "explanation": "Relevance: 1.0 (weight 0.4) | Communication: 0.91 (weight 0.2) | Confidence: 0.89 (weight 0.15) | Consistency: 0.6 (weight 0.25)",
+      "score_reliability": "reliable",
+      "reliability_note": "Based on 5 turn(s); sufficient for reliable scoring."
+    },
+    "narrative": "Strong overall HR interview performance. The candidate showed strong relevance throughout the interview; strong communication throughout the interview. On cultural fit, calm, composed demeanor under interview conditions. Note: 1 contradiction(s) detected across interview responses -- review for consistency.",
+    "expected_manual_verdict": "Strong content, but 1 contradiction flagged -- possible over-scripted answers, needs manual review"
+  }
+]

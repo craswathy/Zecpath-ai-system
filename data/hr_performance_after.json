@@ -1,0 +1,9 @@
+{
+  "label": "after",
+  "iterations_per_test": 3000,
+  "microseconds_per_call": {
+    "normalize_transcript_text": 25.1,
+    "classify_follow_up_need": 2.2,
+    "compute_hr_interview_score": 9.7
+  }
+}

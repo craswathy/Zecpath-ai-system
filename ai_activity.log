@@ -3432,3 +3432,19 @@
 2026-10-09 22:06:51,153 - INFO - Unified hiring-fit score: 77.8% (1 rounds)
 2026-10-09 22:06:51,153 - INFO - Hiring fit category: Strong Fit
 2026-10-09 22:06:51,153 - INFO - Built unified candidate object for da_resume_3: Strong Fit
+2026-10-10 21:01:47,519 - INFO - HR interview score: 95.5/100, band=Strong, turns=4
+2026-10-10 21:01:47,519 - INFO - Interview length reliability: reliable (4 turns)
+2026-10-10 21:01:47,519 - INFO - Built HR interview summary for confident_candidate
+2026-10-10 21:01:47,519 - INFO - confident_candidate: score=95.5, reliability=reliable
+2026-10-10 21:01:47,519 - INFO - HR interview score: 75.8/100, band=Adequate, turns=4
+2026-10-10 21:01:47,519 - INFO - Interview length reliability: reliable (4 turns)
+2026-10-10 21:01:47,519 - INFO - Built HR interview summary for hesitant_candidate
+2026-10-10 21:01:47,519 - INFO - hesitant_candidate: score=75.8, reliability=reliable
+2026-10-10 21:01:47,519 - INFO - HR interview score: 64.9/100, band=Below-expectation, turns=3
+2026-10-10 21:01:47,519 - INFO - Interview length reliability: low_reliability (3 turns)
+2026-10-10 21:01:47,519 - INFO - Built HR interview summary for inexperienced_candidate
+2026-10-10 21:01:47,519 - INFO - inexperienced_candidate: score=64.9, reliability=low_reliability
+2026-10-10 21:01:47,519 - INFO - HR interview score: 86.6/100, band=Strong, turns=5
+2026-10-10 21:01:47,519 - INFO - Interview length reliability: reliable (5 turns)
+2026-10-10 21:01:47,519 - INFO - Built HR interview summary for overqualified_candidate
+2026-10-10 21:01:47,519 - INFO - overqualified_candidate: score=86.6, reliability=reliable

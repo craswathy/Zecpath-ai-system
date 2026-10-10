@@ -92,12 +92,23 @@ def identify_risk_flags(hr_score_result, confidence_stress_data, contradiction_c
     return risks if risks else ["No significant risk flags identified"]
 
 
+BAND_MESSAGES = {
+    "Strong": "Strong overall HR interview performance.",
+    "Adequate": "Adequate HR interview performance with some areas for improvement.",
+    "Below-expectation": "Below-expectation HR interview performance -- recommend detailed manual review.",
+}
+
+
 def summarize_overall_hr_performance(hr_score_result):
-    """One-line overall performance summary based on the final HR score."""
-    score = hr_score_result.get("hr_interview_score", 0)
-    if score >= 75:
-        return "Strong overall HR interview performance."
-    elif score >= 50:
-        return "Adequate HR interview performance with some areas for improvement."
-    else:
-        return "Below-expectation HR interview performance -- recommend detailed manual review."
+    """Overall verdict, using the floor-adjusted band when available."""
+    band = hr_score_result.get("performance_band")
+    if band not in BAND_MESSAGES:
+        score = hr_score_result.get("hr_interview_score", 0)
+        band = "Strong" if score >= 75 else ("Adequate" if score >= 50 else "Below-expectation")
+
+    message = BAND_MESSAGES[band]
+    adjusted_from = hr_score_result.get("band_adjusted_from")
+    weak = hr_score_result.get("weak_components", [])
+    if adjusted_from and weak:
+        message += f" Adjusted down from {adjusted_from} because of weak {', '.join(weak)}."
+    return message
