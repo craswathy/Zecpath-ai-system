@@ -3448,3 +3448,126 @@
 2026-10-10 21:01:47,519 - INFO - Interview length reliability: reliable (5 turns)
 2026-10-10 21:01:47,519 - INFO - Built HR interview summary for overqualified_candidate
 2026-10-10 21:01:47,519 - INFO - overqualified_candidate: score=86.6, reliability=reliable
+2026-10-16 22:26:27,700 - INFO - Normalized transcript text
+2026-10-16 22:26:27,700 - INFO - Follow-up classification: scenario_based
+2026-10-16 22:26:27,700 - INFO - Follow-up decision for demo_q1: ask_follow_up (scenario_based)
+2026-10-16 22:26:27,700 - INFO - Normalized transcript text
+2026-10-16 22:26:27,700 - INFO - Follow-up classification: None
+2026-10-16 22:26:27,700 - INFO - Follow-up decision for demo_q2: move_to_next (no follow-up need detected)
+2026-10-16 22:26:27,700 - INFO - Normalized transcript text
+2026-10-16 22:26:27,700 - INFO - Follow-up classification: None
+2026-10-16 22:26:27,700 - INFO - Follow-up decision for demo_q3: move_to_next (no follow-up need detected)
+2026-10-16 22:26:27,700 - INFO - Normalized transcript text
+2026-10-16 22:26:27,700 - INFO - Follow-up classification: None
+2026-10-16 22:26:27,700 - INFO - Follow-up decision for demo_q4: move_to_next (no follow-up need detected)
+2026-10-16 22:26:27,700 - INFO - Normalized transcript text
+2026-10-16 22:26:27,700 - INFO - Follow-up classification: None
+2026-10-16 22:26:27,700 - INFO - Follow-up decision for demo_q5: move_to_next (no follow-up need detected)
+2026-10-16 22:26:27,700 - INFO - HR interview score: 94.5/100, band=Strong, turns=5
+2026-10-16 22:26:27,700 - INFO - Unified hiring-fit score: 85.4% (3 rounds)
+2026-10-16 22:26:27,700 - INFO - Hiring fit category: Strong Fit
+2026-10-16 22:26:27,700 - INFO - Final demo for demo_confident: Strong Fit
+2026-10-16 22:26:27,731 - INFO - Normalized transcript text
+2026-10-16 22:26:27,731 - INFO - Follow-up classification: None
+2026-10-16 22:26:27,731 - INFO - Follow-up decision for demo_q1: move_to_next (no follow-up need detected)
+2026-10-16 22:26:27,731 - INFO - Normalized transcript text
+2026-10-16 22:26:27,731 - INFO - Follow-up classification: None
+2026-10-16 22:26:27,731 - INFO - Follow-up decision for demo_q2: move_to_next (no follow-up need detected)
+2026-10-16 22:26:27,731 - INFO - Normalized transcript text
+2026-10-16 22:26:27,731 - INFO - Follow-up classification: clarification
+2026-10-16 22:26:27,731 - INFO - Follow-up decision for demo_q3: ask_follow_up (clarification)
+2026-10-16 22:26:27,731 - INFO - Normalized transcript text
+2026-10-16 22:26:27,731 - INFO - Follow-up classification: None
+2026-10-16 22:26:27,731 - INFO - Follow-up decision for demo_q4: move_to_next (no follow-up need detected)
+2026-10-16 22:26:27,731 - INFO - Normalized transcript text
+2026-10-16 22:26:27,731 - INFO - Follow-up classification: None
+2026-10-16 22:26:27,731 - INFO - Follow-up decision for demo_q5: move_to_next (no follow-up need detected)
+2026-10-16 22:26:27,731 - INFO - HR interview score: 78.0/100, band=Adequate, turns=5
+2026-10-16 22:26:27,731 - INFO - Unified hiring-fit score: 71.8% (3 rounds)
+2026-10-16 22:26:27,731 - INFO - Hiring fit category: Moderate Fit
+2026-10-16 22:26:27,731 - INFO - Final demo for demo_hesitant: Moderate Fit
+2026-10-16 22:26:27,747 - INFO - Normalized transcript text
+2026-10-16 22:26:27,747 - INFO - Follow-up classification: None
+2026-10-16 22:26:27,747 - INFO - Follow-up decision for demo_q1: move_to_next (no follow-up need detected)
+2026-10-16 22:26:27,747 - INFO - Normalized transcript text
+2026-10-16 22:26:27,747 - INFO - Follow-up classification: None
+2026-10-16 22:26:27,747 - INFO - Follow-up decision for demo_q2: move_to_next (no follow-up need detected)
+2026-10-16 22:26:27,747 - INFO - Normalized transcript text
+2026-10-16 22:26:27,747 - INFO - Follow-up classification: clarification
+2026-10-16 22:26:27,747 - INFO - Follow-up decision for demo_q3: ask_follow_up (clarification)
+2026-10-16 22:26:27,747 - INFO - Normalized transcript text
+2026-10-16 22:26:27,747 - INFO - Follow-up classification: None
+2026-10-16 22:26:27,747 - INFO - Follow-up decision for demo_q4: move_to_next (no follow-up need detected)
+2026-10-16 22:26:27,747 - INFO - Normalized transcript text
+2026-10-16 22:26:27,747 - INFO - Follow-up classification: clarification
+2026-10-16 22:26:27,747 - INFO - Follow-up decision for demo_q5: ask_follow_up (clarification)
+2026-10-16 22:26:27,747 - INFO - HR interview score: 45.9/100, band=Below-expectation, turns=5
+2026-10-16 22:26:27,747 - INFO - Unified hiring-fit score: 45.3% (3 rounds)
+2026-10-16 22:26:27,747 - INFO - Hiring fit category: Weak Fit
+2026-10-16 22:26:27,755 - INFO - Final demo for demo_inexperienced: Weak Fit
+2026-10-16 23:25:53,208 - INFO - Started HR interview hrint_0001 for cand_00123
+2026-10-16 23:26:14,716 - INFO - Started HR interview hrint_0002 for cand_00123
+2026-10-16 23:37:02,631 - INFO - Normalized transcript text
+2026-10-16 23:37:02,631 - INFO - [hrint_0002] Captured response for hr_intro_01
+2026-10-16 23:37:02,631 - INFO - Follow-up classification: None
+2026-10-16 23:37:02,631 - INFO - Follow-up decision for hr_intro_01: move_to_next (no follow-up need detected)
+2026-10-16 23:37:02,631 - INFO - [hrint_0002] Advanced to phase: core_hr_questions
+2026-10-16 23:39:00,775 - INFO - HR interview score: 85.5/100, band=Strong, turns=5
+2026-10-16 23:39:00,776 - INFO - Interview length reliability: reliable (5 turns)
+2026-10-16 23:59:29,721 - INFO - Normalized transcript text
+2026-10-16 23:59:29,721 - INFO - Follow-up classification: scenario_based
+2026-10-16 23:59:29,721 - INFO - Follow-up decision for demo_q1: ask_follow_up (scenario_based)
+2026-10-16 23:59:29,721 - INFO - Normalized transcript text
+2026-10-16 23:59:29,721 - INFO - Follow-up classification: None
+2026-10-16 23:59:29,721 - INFO - Follow-up decision for demo_q2: move_to_next (no follow-up need detected)
+2026-10-16 23:59:29,721 - INFO - Normalized transcript text
+2026-10-16 23:59:29,721 - INFO - Follow-up classification: None
+2026-10-16 23:59:29,721 - INFO - Follow-up decision for demo_q3: move_to_next (no follow-up need detected)
+2026-10-16 23:59:29,721 - INFO - Normalized transcript text
+2026-10-16 23:59:29,721 - INFO - Follow-up classification: None
+2026-10-16 23:59:29,721 - INFO - Follow-up decision for demo_q4: move_to_next (no follow-up need detected)
+2026-10-16 23:59:29,721 - INFO - Normalized transcript text
+2026-10-16 23:59:29,721 - INFO - Follow-up classification: None
+2026-10-16 23:59:29,721 - INFO - Follow-up decision for demo_q5: move_to_next (no follow-up need detected)
+2026-10-16 23:59:29,721 - INFO - HR interview score: 94.5/100, band=Strong, turns=5
+2026-10-16 23:59:29,721 - INFO - Unified hiring-fit score: 85.4% (3 rounds)
+2026-10-16 23:59:29,721 - INFO - Hiring fit category: Strong Fit
+2026-10-16 23:59:29,721 - INFO - Final demo for demo_confident: Strong Fit
+2026-10-16 23:59:29,737 - INFO - Normalized transcript text
+2026-10-16 23:59:29,738 - INFO - Follow-up classification: None
+2026-10-16 23:59:29,738 - INFO - Follow-up decision for demo_q1: move_to_next (no follow-up need detected)
+2026-10-16 23:59:29,738 - INFO - Normalized transcript text
+2026-10-16 23:59:29,738 - INFO - Follow-up classification: None
+2026-10-16 23:59:29,738 - INFO - Follow-up decision for demo_q2: move_to_next (no follow-up need detected)
+2026-10-16 23:59:29,738 - INFO - Normalized transcript text
+2026-10-16 23:59:29,738 - INFO - Follow-up classification: clarification
+2026-10-16 23:59:29,738 - INFO - Follow-up decision for demo_q3: ask_follow_up (clarification)
+2026-10-16 23:59:29,738 - INFO - Normalized transcript text
+2026-10-16 23:59:29,738 - INFO - Follow-up classification: None
+2026-10-16 23:59:29,738 - INFO - Follow-up decision for demo_q4: move_to_next (no follow-up need detected)
+2026-10-16 23:59:29,738 - INFO - Normalized transcript text
+2026-10-16 23:59:29,738 - INFO - Follow-up classification: None
+2026-10-16 23:59:29,738 - INFO - Follow-up decision for demo_q5: move_to_next (no follow-up need detected)
+2026-10-16 23:59:29,738 - INFO - HR interview score: 78.0/100, band=Adequate, turns=5
+2026-10-16 23:59:29,738 - INFO - Unified hiring-fit score: 71.8% (3 rounds)
+2026-10-16 23:59:29,738 - INFO - Hiring fit category: Moderate Fit
+2026-10-16 23:59:29,738 - INFO - Final demo for demo_hesitant: Moderate Fit
+2026-10-16 23:59:29,738 - INFO - Normalized transcript text
+2026-10-16 23:59:29,738 - INFO - Follow-up classification: None
+2026-10-16 23:59:29,738 - INFO - Follow-up decision for demo_q1: move_to_next (no follow-up need detected)
+2026-10-16 23:59:29,738 - INFO - Normalized transcript text
+2026-10-16 23:59:29,738 - INFO - Follow-up classification: None
+2026-10-16 23:59:29,738 - INFO - Follow-up decision for demo_q2: move_to_next (no follow-up need detected)
+2026-10-16 23:59:29,738 - INFO - Normalized transcript text
+2026-10-16 23:59:29,738 - INFO - Follow-up classification: clarification
+2026-10-16 23:59:29,738 - INFO - Follow-up decision for demo_q3: ask_follow_up (clarification)
+2026-10-16 23:59:29,738 - INFO - Normalized transcript text
+2026-10-16 23:59:29,738 - INFO - Follow-up classification: None
+2026-10-16 23:59:29,738 - INFO - Follow-up decision for demo_q4: move_to_next (no follow-up need detected)
+2026-10-16 23:59:29,738 - INFO - Normalized transcript text
+2026-10-16 23:59:29,738 - INFO - Follow-up classification: clarification
+2026-10-16 23:59:29,738 - INFO - Follow-up decision for demo_q5: ask_follow_up (clarification)
+2026-10-16 23:59:29,738 - INFO - HR interview score: 45.9/100, band=Below-expectation, turns=5
+2026-10-16 23:59:29,738 - INFO - Unified hiring-fit score: 45.3% (3 rounds)
+2026-10-16 23:59:29,738 - INFO - Hiring fit category: Weak Fit
+2026-10-16 23:59:29,738 - INFO - Final demo for demo_inexperienced: Weak Fit

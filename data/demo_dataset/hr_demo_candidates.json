@@ -1,0 +1,86 @@
+{
+  "dataset_note": "Simulated demo data. No real candidates. Per-answer communication and confidence scores are preset to stand in for the Day 35 and Day 36 analysers.",
+  "candidates": [
+    {
+      "candidate_id": "demo_confident",
+      "job_id": "jd_data_analyst",
+      "seniority": "fresher",
+      "role_type": "technical",
+      "role_category": "technical",
+      "ats_score": 82.0,
+      "screening_score": 78.0,
+      "contradiction_count": 0,
+      "turns": [
+        {"question_id": "demo_q1", "question_text": "Walk me through your background and what led you to apply for this role.",
+         "answer": "uh I am a statistics graduate and I built a candidate ranking project in python and sql, so this data analyst role is a natural next step for me",
+         "is_off_topic": false, "communication_score": 88, "behavioral_confidence_score": 84, "follow_up_eligible": true},
+        {"question_id": "demo_q2", "question_text": "What projects or coursework during your studies best prepared you for this role?",
+         "answer": "My regression and sampling coursework, and a dashboard project where I cleaned 5 datasets and presented the findings to my faculty",
+         "is_off_topic": false, "communication_score": 85, "behavioral_confidence_score": 80, "follow_up_eligible": true},
+        {"question_id": "demo_q3", "question_text": "What are your main strengths, and one area you are improving?",
+         "answer": "I am strong at structuring messy data, and I am improving my public speaking by presenting my project work in small sessions.",
+         "is_off_topic": false, "communication_score": 90, "behavioral_confidence_score": 86, "follow_up_eligible": true},
+        {"question_id": "demo_q4", "question_text": "Tell me about a time you worked in a team to solve a problem.",
+         "answer": "In our final year project we split the work, and I handled the data cleaning while two teammates built the model. We reviewed each other's code every week.",
+         "is_off_topic": false, "communication_score": 82, "behavioral_confidence_score": 78, "follow_up_eligible": true},
+        {"question_id": "demo_q5", "question_text": "Where do you see yourself in the next three years?",
+         "answer": "I want to grow into a data scientist role, first mastering analytics work in production and then moving to modelling.",
+         "is_off_topic": false, "communication_score": 86, "behavioral_confidence_score": 82, "follow_up_eligible": true}
+      ]
+    },
+    {
+      "candidate_id": "demo_hesitant",
+      "job_id": "jd_data_analyst",
+      "seniority": "fresher",
+      "role_type": "technical",
+      "role_category": "technical",
+      "ats_score": 70.0,
+      "screening_score": 66.0,
+      "contradiction_count": 0,
+      "turns": [
+        {"question_id": "demo_q1", "question_text": "Walk me through your background and what led you to apply for this role.",
+         "answer": "um I I am a graduate and uh I have done some data work, you know, a few projects",
+         "is_off_topic": false, "communication_score": 65, "behavioral_confidence_score": 48, "follow_up_eligible": true},
+        {"question_id": "demo_q2", "question_text": "What projects or coursework during your studies best prepared you for this role?",
+         "answer": "I did a sales analysis project during my course, but it was mostly um a small one",
+         "is_off_topic": false, "communication_score": 58, "behavioral_confidence_score": 42, "follow_up_eligible": true},
+        {"question_id": "demo_q3", "question_text": "What are your main strengths, and one area you are improving?",
+         "answer": "Yes sure.",
+         "is_off_topic": false, "communication_score": 40, "behavioral_confidence_score": 40, "follow_up_eligible": true},
+        {"question_id": "demo_q4", "question_text": "Tell me about a time you worked in a team to solve a problem.",
+         "answer": "We worked together in a group and I think I contributed to the analysis part of it",
+         "is_off_topic": false, "communication_score": 70, "behavioral_confidence_score": 50, "follow_up_eligible": true},
+        {"question_id": "demo_q5", "question_text": "Where do you see yourself in the next three years?",
+         "answer": "Maybe a data analyst role for now, and I will see how it goes after that, I am not very sure",
+         "is_off_topic": false, "communication_score": 62, "behavioral_confidence_score": 45, "follow_up_eligible": true}
+      ]
+    },
+    {
+      "candidate_id": "demo_inexperienced",
+      "job_id": "jd_data_analyst",
+      "seniority": "fresher",
+      "role_type": "technical",
+      "role_category": "technical",
+      "ats_score": 48.0,
+      "screening_score": 40.0,
+      "contradiction_count": 1,
+      "turns": [
+        {"question_id": "demo_q1", "question_text": "Walk me through your background and what led you to apply for this role.",
+         "answer": "I applied because my friend told me about it and the salary looks good",
+         "is_off_topic": false, "communication_score": 45, "behavioral_confidence_score": 58, "follow_up_eligible": true},
+        {"question_id": "demo_q2", "question_text": "What projects or coursework during your studies best prepared you for this role?",
+         "answer": "I like watching cricket matches on the weekend and travelling with my family",
+         "is_off_topic": true, "communication_score": 40, "behavioral_confidence_score": 55, "follow_up_eligible": true},
+        {"question_id": "demo_q3", "question_text": "What are your main strengths, and one area you are improving?",
+         "answer": "Maybe.",
+         "is_off_topic": false, "communication_score": 30, "behavioral_confidence_score": 50, "follow_up_eligible": true},
+        {"question_id": "demo_q4", "question_text": "Tell me about a time you worked in a team to solve a problem.",
+         "answer": "My last company had a good canteen and a nice parking area",
+         "is_off_topic": true, "communication_score": 50, "behavioral_confidence_score": 60, "follow_up_eligible": true},
+        {"question_id": "demo_q5", "question_text": "Where do you see yourself in the next three years?",
+         "answer": "Not sure.",
+         "is_off_topic": false, "communication_score": 42, "behavioral_confidence_score": 52, "follow_up_eligible": true}
+      ]
+    }
+  ]
+}

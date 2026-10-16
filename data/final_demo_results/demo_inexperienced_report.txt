@@ -1,0 +1,48 @@
+==================================================================
+CANDIDATE: demo_inexperienced | job: jd_data_analyst | fresher technical
+==================================================================
+1. INTERVIEW SIMULATION
+  Q: Walk me through your background and what led you to apply for this role.
+  A (raw):   I applied because my friend told me about it and the salary looks good
+  A (clean): I applied because my friend told me about it and the salary looks good
+  Follow-up decision: move_to_next (no follow-up need detected)
+
+  Q: What projects or coursework during your studies best prepared you for this role?
+  A (raw):   I like watching cricket matches on the weekend and travelling with my family
+  A (clean): I like watching cricket matches on the weekend and travelling with my family
+  Follow-up decision: move_to_next (no follow-up need detected)
+
+  Q: What are your main strengths, and one area you are improving?
+  A (raw):   Maybe.
+  A (clean): Maybe.
+  Follow-up decision: ask_follow_up (clarification)
+  Follow-up asked: Could you clarify what you mean by that?
+
+  Q: Tell me about a time you worked in a team to solve a problem.
+  A (raw):   My last company had a good canteen and a nice parking area
+  A (clean): My last company had a good canteen and a nice parking area
+  Follow-up decision: move_to_next (no follow-up need detected)
+
+  Q: Where do you see yourself in the next three years?
+  A (raw):   Not sure.
+  A (clean): Not sure.
+  Follow-up decision: ask_follow_up (clarification)
+  Follow-up asked: Could you clarify what you mean by that?
+
+2. SCORING BREAKDOWN
+  relevance      0.36   x weight 0.4
+  communication  0.41   x weight 0.2
+  confidence     0.55   x weight 0.15
+  consistency    0.6    x weight 0.25
+  HR interview score: 45.9/100 | band: Below-expectation
+  Reliability: reliable (5 answers scored)
+  Summary: Below-expectation HR interview performance -- recommend detailed manual review.
+
+3. CROSS-ROUND SCORE
+  ATS 48.0 | Screening 40.0 | HR 45.9
+  Weights used: {'ats': 0.4, 'screening': 0.25, 'hr_interview': 0.35}
+  Hiring fit: 45.3% -> Weak Fit
+
+4. FINAL HIRING RECOMMENDATION
+  NOT RECOMMENDED on current evidence. A recruiter should confirm before closing.
+  (Decision support only. The final decision belongs to a human recruiter.)

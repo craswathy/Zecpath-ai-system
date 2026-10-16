@@ -1,0 +1,54 @@
+{
+  "candidate_id": "demo_confident",
+  "job_id": "jd_data_analyst",
+  "metadata": {
+    "model_version": "hr_final_demo_v1.0",
+    "timestamp": "2026-10-16T23:59:29.721079",
+    "stage": "final_demo",
+    "status": "complete"
+  },
+  "hr_result": {
+    "hr_interview_score": 94.5,
+    "component_scores": {
+      "relevance": 1.0,
+      "communication": 0.86,
+      "confidence": 0.82,
+      "consistency": 1.0
+    },
+    "weights_used": {
+      "relevance": 0.4,
+      "communication": 0.2,
+      "confidence": 0.15,
+      "consistency": 0.25
+    },
+    "turns_scored": 5,
+    "missing_components": [],
+    "weak_components": [],
+    "performance_band": "Strong",
+    "band_adjusted_from": null,
+    "explanation": "Relevance: 1.0 (weight 0.4) | Communication: 0.86 (weight 0.2) | Confidence: 0.82 (weight 0.15) | Consistency: 1.0 (weight 0.25)"
+  },
+  "reliability": "reliable",
+  "unified": {
+    "hiring_fit_percentage": 85.4,
+    "round_scores_used": {
+      "ats": 82.0,
+      "screening": 78.0,
+      "hr_interview": 94.5
+    },
+    "weights_used": {
+      "ats": 0.4,
+      "screening": 0.25,
+      "hr_interview": 0.35
+    },
+    "missing_rounds": [],
+    "rounds_completed": 3,
+    "explanation": "Ats: 82.0 (weight 0.4) | Screening: 78.0 (weight 0.25) | Hr Interview: 94.5 (weight 0.35)"
+  },
+  "hiring_fit": {
+    "hiring_fit_percentage": 85.4,
+    "fit_category": "Strong Fit",
+    "flags": []
+  },
+  "recommendation": "RECOMMEND: move forward to the final manager interview."
+}

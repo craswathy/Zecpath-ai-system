@@ -1,0 +1,56 @@
+{
+  "candidate_id": "demo_hesitant",
+  "job_id": "jd_data_analyst",
+  "metadata": {
+    "model_version": "hr_final_demo_v1.0",
+    "timestamp": "2026-10-16T23:59:29.738560",
+    "stage": "final_demo",
+    "status": "complete"
+  },
+  "hr_result": {
+    "hr_interview_score": 78.0,
+    "component_scores": {
+      "relevance": 0.86,
+      "communication": 0.59,
+      "confidence": 0.45,
+      "consistency": 1.0
+    },
+    "weights_used": {
+      "relevance": 0.4,
+      "communication": 0.2,
+      "confidence": 0.15,
+      "consistency": 0.25
+    },
+    "turns_scored": 5,
+    "missing_components": [],
+    "weak_components": [
+      "confidence"
+    ],
+    "performance_band": "Adequate",
+    "band_adjusted_from": "Strong",
+    "explanation": "Relevance: 0.86 (weight 0.4) | Communication: 0.59 (weight 0.2) | Confidence: 0.45 (weight 0.15) | Consistency: 1.0 (weight 0.25) | Band adjusted down from Strong due to weak: confidence"
+  },
+  "reliability": "reliable",
+  "unified": {
+    "hiring_fit_percentage": 71.8,
+    "round_scores_used": {
+      "ats": 70.0,
+      "screening": 66.0,
+      "hr_interview": 78.0
+    },
+    "weights_used": {
+      "ats": 0.4,
+      "screening": 0.25,
+      "hr_interview": 0.35
+    },
+    "missing_rounds": [],
+    "rounds_completed": 3,
+    "explanation": "Ats: 70.0 (weight 0.4) | Screening: 66.0 (weight 0.25) | Hr Interview: 78.0 (weight 0.35)"
+  },
+  "hiring_fit": {
+    "hiring_fit_percentage": 71.8,
+    "fit_category": "Moderate Fit",
+    "flags": []
+  },
+  "recommendation": "REVIEW: recruiter should check the weak areas before deciding."
+}

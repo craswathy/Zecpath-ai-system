@@ -1,0 +1,48 @@
+==================================================================
+CANDIDATE: demo_hesitant | job: jd_data_analyst | fresher technical
+==================================================================
+1. INTERVIEW SIMULATION
+  Q: Walk me through your background and what led you to apply for this role.
+  A (raw):   um I I am a graduate and uh I have done some data work, you know, a few projects
+  A (clean): I am a graduate and I have done some data work, a few projects
+  Follow-up decision: move_to_next (no follow-up need detected)
+
+  Q: What projects or coursework during your studies best prepared you for this role?
+  A (raw):   I did a sales analysis project during my course, but it was mostly um a small one
+  A (clean): I did a sales analysis project during my course, but it was mostly a small one
+  Follow-up decision: move_to_next (no follow-up need detected)
+
+  Q: What are your main strengths, and one area you are improving?
+  A (raw):   Yes sure.
+  A (clean): Yes sure.
+  Follow-up decision: ask_follow_up (clarification)
+  Follow-up asked: Could you clarify what you mean by that?
+
+  Q: Tell me about a time you worked in a team to solve a problem.
+  A (raw):   We worked together in a group and I think I contributed to the analysis part of it
+  A (clean): We worked together in a group and I think I contributed to the analysis part of it
+  Follow-up decision: move_to_next (no follow-up need detected)
+
+  Q: Where do you see yourself in the next three years?
+  A (raw):   Maybe a data analyst role for now, and I will see how it goes after that, I am not very sure
+  A (clean): Maybe a data analyst role for now, and I will see how it goes after that, I am not very sure
+  Follow-up decision: move_to_next (no follow-up need detected)
+
+2. SCORING BREAKDOWN
+  relevance      0.86   x weight 0.4
+  communication  0.59   x weight 0.2
+  confidence     0.45   x weight 0.15
+  consistency    1.0    x weight 0.25
+  HR interview score: 78.0/100 | band: Adequate
+  Band adjusted down from Strong (weak: confidence)
+  Reliability: reliable (5 answers scored)
+  Summary: Adequate HR interview performance with some areas for improvement. Adjusted down from Strong because of weak confidence.
+
+3. CROSS-ROUND SCORE
+  ATS 70.0 | Screening 66.0 | HR 78.0
+  Weights used: {'ats': 0.4, 'screening': 0.25, 'hr_interview': 0.35}
+  Hiring fit: 71.8% -> Moderate Fit
+
+4. FINAL HIRING RECOMMENDATION
+  REVIEW: recruiter should check the weak areas before deciding.
+  (Decision support only. The final decision belongs to a human recruiter.)

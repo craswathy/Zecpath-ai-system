@@ -1,0 +1,47 @@
+==================================================================
+CANDIDATE: demo_confident | job: jd_data_analyst | fresher technical
+==================================================================
+1. INTERVIEW SIMULATION
+  Q: Walk me through your background and what led you to apply for this role.
+  A (raw):   uh I am a statistics graduate and I built a candidate ranking project in python and sql, so this data analyst role is a natural next step for me
+  A (clean): I am a statistics graduate and I built a candidate ranking project in python and sql, so this data analyst role is a natural next step for me
+  Follow-up decision: ask_follow_up (scenario_based)
+  Follow-up asked: Given that experience, how would you handle a situation where a teammate strongly disagreed with your approach?
+
+  Q: What projects or coursework during your studies best prepared you for this role?
+  A (raw):   My regression and sampling coursework, and a dashboard project where I cleaned 5 datasets and presented the findings to my faculty
+  A (clean): My regression and sampling coursework, and a dashboard project where I cleaned 5 datasets and presented the findings to my faculty
+  Follow-up decision: move_to_next (no follow-up need detected)
+
+  Q: What are your main strengths, and one area you are improving?
+  A (raw):   I am strong at structuring messy data, and I am improving my public speaking by presenting my project work in small sessions.
+  A (clean): I am strong at structuring messy data, and I am improving my public speaking by presenting my project work in small sessions.
+  Follow-up decision: move_to_next (no follow-up need detected)
+
+  Q: Tell me about a time you worked in a team to solve a problem.
+  A (raw):   In our final year project we split the work, and I handled the data cleaning while two teammates built the model. We reviewed each other's code every week.
+  A (clean): In our final year project we split the work, and I handled the data cleaning while two teammates built the model. We reviewed each other's code every week.
+  Follow-up decision: move_to_next (no follow-up need detected)
+
+  Q: Where do you see yourself in the next three years?
+  A (raw):   I want to grow into a data scientist role, first mastering analytics work in production and then moving to modelling.
+  A (clean): I want to grow into a data scientist role, first mastering analytics work in production and then moving to modelling.
+  Follow-up decision: move_to_next (no follow-up need detected)
+
+2. SCORING BREAKDOWN
+  relevance      1.0    x weight 0.4
+  communication  0.86   x weight 0.2
+  confidence     0.82   x weight 0.15
+  consistency    1.0    x weight 0.25
+  HR interview score: 94.5/100 | band: Strong
+  Reliability: reliable (5 answers scored)
+  Summary: Strong overall HR interview performance.
+
+3. CROSS-ROUND SCORE
+  ATS 82.0 | Screening 78.0 | HR 94.5
+  Weights used: {'ats': 0.4, 'screening': 0.25, 'hr_interview': 0.35}
+  Hiring fit: 85.4% -> Strong Fit
+
+4. FINAL HIRING RECOMMENDATION
+  RECOMMEND: move forward to the final manager interview.
+  (Decision support only. The final decision belongs to a human recruiter.)
