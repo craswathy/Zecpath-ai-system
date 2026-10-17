@@ -1,0 +1,40 @@
+{
+  "model_version": "tech_hierarchy_v0.1",
+  "note": "Small sample for design review.",
+  "domains": [
+    {
+      "domain_id": "mern",
+      "topics": [
+        {
+          "topic_id": "react",
+          "questions": [
+            {"id": "mern_react_exp_l1_01", "type": "experience", "level": "L1",
+             "text": "Tell me about a React component you built.",
+             "key_points": ["names a real component", "explains its purpose", "mentions a difficulty"],
+             "follow_up": "What would you change if you built it again?"},
+            {"id": "mern_react_con_l1_01", "type": "conceptual", "level": "L1",
+             "text": "What is the difference between props and state?",
+             "key_points": ["props come from parent", "state is owned by component", "state change re-renders"],
+             "follow_up": "Give a small example of each."},
+            {"id": "mern_react_con_l2_01", "type": "conceptual", "level": "L2",
+             "text": "How does useEffect work?",
+             "key_points": ["runs side effects after render", "dependency array controls re-run", "cleanup function"],
+             "follow_up": "What happens if a dependency is missing?"},
+            {"id": "mern_react_scn_l2_01", "type": "scenario", "level": "L2",
+             "text": "A form submits twice when users click fast. How do you fix it?",
+             "key_points": ["disable button while submitting", "track loading state", "make server safe to repeat"],
+             "follow_up": "What if the user refreshes mid-request?"},
+            {"id": "mern_react_scn_l3_01", "type": "scenario", "level": "L3",
+             "text": "A React page re-renders too often and is slow. How do you find and fix it?",
+             "key_points": ["use Profiler to find the cause", "memoize where it helps", "keep state local", "virtualize long lists"],
+             "follow_up": "When is memoization not worth it?"},
+            {"id": "mern_node_scn_l3_01", "type": "scenario", "level": "L3",
+             "text": "Design a REST API that handles 10,000 requests per minute.",
+             "key_points": ["stateless services", "caching", "database indexes", "rate limiting"],
+             "follow_up": "Where is the first bottleneck?"}
+          ]
+        }
+      ]
+    }
+  ]
+}
