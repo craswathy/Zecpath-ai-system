@@ -1,0 +1,31 @@
+================================================================
+TECHNICAL EVALUATION REPORT
+================================================================
+Candidate: tech_deep | Domain: mern
+
+1. SUMMARY
+  Technical score: 81.7/100 | Band: Strong
+  Reliability: reliable (6 answers scored)
+  Why: Level-weighted average of 6 answers = 81.7
+
+2. SKILL-WISE BREAKDOWN
+  node           0.75  Strong    highest level passed: L3 | answers: 1 | shallow: 0
+  react          0.84  Strong    highest level passed: L3 | answers: 5 | shallow: 0
+
+3. PARAMETER AVERAGES
+  accuracy       0.96
+  depth          0.88
+  reasoning      1.0
+  applicability  0.33
+
+4. ANSWER DETAIL
+  mern_react_exp_l1_01 (experience, L1): score 0.92 | deep
+  mern_react_con_l1_01 (conceptual, L1): score 0.84 | deep
+  mern_react_con_l2_01 (conceptual, L2): score 0.95 | deep
+  mern_react_scn_l2_01 (scenario, L2): score 0.7 | deep
+  mern_react_scn_l3_01 (scenario, L3): score 0.81 | deep
+    Missed: memoize where it helps
+  mern_node_scn_l3_01 (scenario, L3): score 0.75 | deep
+
+5. NOTE
+  Rule-based decision support. A human recruiter makes the final decision.

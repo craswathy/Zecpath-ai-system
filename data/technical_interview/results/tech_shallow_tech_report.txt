@@ -1,0 +1,33 @@
+================================================================
+TECHNICAL EVALUATION REPORT
+================================================================
+Candidate: tech_shallow | Domain: mern
+
+1. SUMMARY
+  Technical score: 27.4/100 | Band: Below-expectation
+  Reliability: reliable (6 answers scored)
+  Why: Level-weighted average of 6 answers = 27.4 | 6 shallow answer(s) | 4 answer(s) list keywords without explaining
+
+2. SKILL-WISE BREAKDOWN
+  node           0.26  Weak      highest level passed: none | answers: 1 | shallow: 1
+  react          0.28  Weak      highest level passed: none | answers: 5 | shallow: 5
+
+3. PARAMETER AVERAGES
+  accuracy       0.71
+  depth          0.12
+  reasoning      0.0
+  applicability  0.08
+
+4. ANSWER DETAIL
+  mern_react_exp_l1_01 (experience, L1): score 0.29 | shallow
+    Missed: explains what it did; mentions a difficulty or result
+  mern_react_con_l1_01 (conceptual, L1): score 0.51 | shallow
+  mern_react_con_l2_01 (conceptual, L2): score 0.49 | shallow
+  mern_react_scn_l2_01 (scenario, L2): score 0.18 | shallow
+    Missed: make server safe to repeat
+  mern_react_scn_l3_01 (scenario, L3): score 0.07 | shallow
+    Missed: use Profiler to find the cause; memoize where it helps; virtualize long lists
+  mern_node_scn_l3_01 (scenario, L3): score 0.26 | shallow
+
+5. NOTE
+  Rule-based decision support. A human recruiter makes the final decision.

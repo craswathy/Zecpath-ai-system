@@ -1,0 +1,39 @@
+{
+  "note": "Simulated candidates. Not real people.",
+  "domain": "mern",
+  "candidates": [
+    {
+      "candidate_id": "tech_deep",
+      "answers": {
+        "mern_react_exp_l1_01": "I built a job search filter component in my final year project. It let users narrow results by skill and location. The hardest part was keeping filters in sync with the URL, so I stored the filter state in one place and then read it from the query string.",
+        "mern_react_con_l1_01": "Props are passed down from the parent and are read-only, whereas state is owned by the component and can change. When state changes, React re-renders the component, which is why a counter updates on screen.",
+        "mern_react_con_l2_01": "useEffect runs side effects after the component renders. The dependency array controls when it runs again: an empty array runs it once, and if a value in the array changes it runs again. A cleanup function runs before the next run, so for example a timer or subscription does not leak.",
+        "mern_react_scn_l2_01": "First I would disable the submit button while the request is in flight and track a loading state, because that stops the second click. However the user could still refresh, so I would also make the server endpoint safe to repeat with an idempotency key.",
+        "mern_react_scn_l3_01": "I would open the React Profiler first to find which component renders most, because guessing wastes time. Then I would memoize the expensive ones with React.memo or useMemo, keep state local so a change does not re-render the whole page, and virtualize long lists. In my project this cut a 400 item list render from about 1 second to 200 ms.",
+        "mern_node_scn_l3_01": "At 10,000 requests per minute I would keep the services stateless behind a load balancer so I can add instances. Caching handles read-heavy endpoints, database indexes keep queries fast, and rate limiting protects the API. The first bottleneck is usually the database, so I would watch query times and add read replicas if needed."
+      }
+    },
+    {
+      "candidate_id": "tech_shallow",
+      "answers": {
+        "mern_react_exp_l1_01": "I made a component in React.",
+        "mern_react_con_l1_01": "Props from parent, state in component, state change re-renders.",
+        "mern_react_con_l2_01": "It runs side effects, has a dependency array and cleanup function.",
+        "mern_react_scn_l2_01": "Disable button and loading state.",
+        "mern_react_scn_l3_01": "Use memoize, Profiler, keep state local.",
+        "mern_node_scn_l3_01": "Caching, indexes, rate limiting, stateless."
+      }
+    },
+    {
+      "candidate_id": "tech_mixed",
+      "answers": {
+        "mern_react_exp_l1_01": "I built a login form component in my college project. The hard part was showing errors, so I kept an error state and displayed it under each field.",
+        "mern_react_con_l1_01": "Props come from the parent and cannot be changed, whereas state belongs to the component. When state changes the component re-renders, which is why a counter updates on screen.",
+        "mern_react_con_l2_01": "useEffect runs after render. The dependency array decides when it runs again, so an empty array runs it once. The cleanup function runs when the component is removed, for example to stop a timer.",
+        "mern_react_scn_l2_01": "I would disable the button while submitting and keep a loading state, because then the second click does nothing. I have not handled the server side of it.",
+        "mern_react_scn_l3_01": "I would use the Profiler to find the slow component, then keep state local so fewer components re-render. I have not tried memoizing or virtualizing lists.",
+        "mern_node_scn_l3_01": "I would add caching for reads and rate limiting, but I am not sure about the rest."
+      }
+    }
+  ]
+}

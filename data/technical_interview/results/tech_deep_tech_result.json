@@ -1,0 +1,179 @@
+{
+  "candidate_id": "tech_deep",
+  "metadata": {
+    "model_version": "tech_scoring_v1.0",
+    "timestamp": "2026-10-19T23:41:08.560905",
+    "stage": "technical_scored",
+    "status": "complete"
+  },
+  "result": {
+    "technical_score": 81.7,
+    "band": "Strong",
+    "band_adjusted_from": null,
+    "skills": {
+      "node": {
+        "score": 0.75,
+        "answers": 1,
+        "highest_level_passed": "L3",
+        "shallow_answers": 0,
+        "label": "Strong"
+      },
+      "react": {
+        "score": 0.84,
+        "answers": 5,
+        "highest_level_passed": "L3",
+        "shallow_answers": 0,
+        "label": "Strong"
+      }
+    },
+    "weak_skills": [],
+    "parameter_averages": {
+      "accuracy": 0.96,
+      "depth": 0.88,
+      "reasoning": 1.0,
+      "applicability": 0.33
+    },
+    "answers_scored": 6,
+    "reliability": "reliable",
+    "shallow_answers": 0,
+    "keyword_listing_answers": 0,
+    "explanation": "Level-weighted average of 6 answers = 81.7"
+  },
+  "answers": [
+    {
+      "question_id": "mern_react_exp_l1_01",
+      "topic": "react",
+      "type": "experience",
+      "level": "L1",
+      "parameters": {
+        "accuracy": 1.0,
+        "depth": 0.75,
+        "reasoning": 1.0,
+        "applicability": 1.0
+      },
+      "score": 0.92,
+      "depth_label": "deep",
+      "keyword_listing": false,
+      "matched_points": [
+        "names own work",
+        "explains what it did",
+        "mentions a difficulty or result"
+      ],
+      "missed_points": [],
+      "explanation": "experience L1: covered 3 of 3 evidence checks | accuracy 1.0 (weight 0.2) | depth 0.75 (weight 0.3) | reasoning 1.0 (weight 0.15) | applicability 1.0 (weight 0.35) | answer is deep"
+    },
+    {
+      "question_id": "mern_react_con_l1_01",
+      "topic": "react",
+      "type": "conceptual",
+      "level": "L1",
+      "parameters": {
+        "accuracy": 1.0,
+        "depth": 0.75,
+        "reasoning": 1.0,
+        "applicability": 0.0
+      },
+      "score": 0.84,
+      "depth_label": "deep",
+      "keyword_listing": false,
+      "matched_points": [
+        "props come from parent",
+        "state is owned by component",
+        "state change re-renders"
+      ],
+      "missed_points": [],
+      "explanation": "conceptual L1: covered 3 of 3 key points | accuracy 1.0 (weight 0.45) | depth 0.75 (weight 0.25) | reasoning 1.0 (weight 0.2) | applicability 0.0 (weight 0.1) | answer is deep"
+    },
+    {
+      "question_id": "mern_react_con_l2_01",
+      "topic": "react",
+      "type": "conceptual",
+      "level": "L2",
+      "parameters": {
+        "accuracy": 1.0,
+        "depth": 1.0,
+        "reasoning": 1.0,
+        "applicability": 0.5
+      },
+      "score": 0.95,
+      "depth_label": "deep",
+      "keyword_listing": false,
+      "matched_points": [
+        "runs side effects after render",
+        "dependency array controls re-run",
+        "cleanup function"
+      ],
+      "missed_points": [],
+      "explanation": "conceptual L2: covered 3 of 3 key points | accuracy 1.0 (weight 0.45) | depth 1.0 (weight 0.25) | reasoning 1.0 (weight 0.2) | applicability 0.5 (weight 0.1) | answer is deep"
+    },
+    {
+      "question_id": "mern_react_scn_l2_01",
+      "topic": "react",
+      "type": "scenario",
+      "level": "L2",
+      "parameters": {
+        "accuracy": 1.0,
+        "depth": 0.75,
+        "reasoning": 1.0,
+        "applicability": 0.0
+      },
+      "score": 0.7,
+      "depth_label": "deep",
+      "keyword_listing": false,
+      "matched_points": [
+        "disable button while submitting",
+        "track loading state",
+        "make server safe to repeat"
+      ],
+      "missed_points": [],
+      "explanation": "scenario L2: covered 3 of 3 key points | accuracy 1.0 (weight 0.25) | depth 0.75 (weight 0.2) | reasoning 1.0 (weight 0.3) | applicability 0.0 (weight 0.25) | answer is deep"
+    },
+    {
+      "question_id": "mern_react_scn_l3_01",
+      "topic": "react",
+      "type": "scenario",
+      "level": "L3",
+      "parameters": {
+        "accuracy": 0.75,
+        "depth": 1.0,
+        "reasoning": 1.0,
+        "applicability": 0.5
+      },
+      "score": 0.81,
+      "depth_label": "deep",
+      "keyword_listing": false,
+      "matched_points": [
+        "use Profiler to find the cause",
+        "keep state local",
+        "virtualize long lists"
+      ],
+      "missed_points": [
+        "memoize where it helps"
+      ],
+      "explanation": "scenario L3: covered 3 of 4 key points | accuracy 0.75 (weight 0.25) | depth 1.0 (weight 0.2) | reasoning 1.0 (weight 0.3) | applicability 0.5 (weight 0.25) | answer is deep"
+    },
+    {
+      "question_id": "mern_node_scn_l3_01",
+      "topic": "node",
+      "type": "scenario",
+      "level": "L3",
+      "parameters": {
+        "accuracy": 1.0,
+        "depth": 1.0,
+        "reasoning": 1.0,
+        "applicability": 0.0
+      },
+      "score": 0.75,
+      "depth_label": "deep",
+      "keyword_listing": false,
+      "matched_points": [
+        "stateless services",
+        "caching",
+        "database indexes",
+        "rate limiting"
+      ],
+      "missed_points": [],
+      "explanation": "scenario L3: covered 4 of 4 key points | accuracy 1.0 (weight 0.25) | depth 1.0 (weight 0.2) | reasoning 1.0 (weight 0.3) | applicability 0.0 (weight 0.25) | answer is deep"
+    }
+  ]
+}
