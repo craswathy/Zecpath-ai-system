@@ -1,0 +1,19 @@
+{
+  "note": "Simulated candidates. HR and technical scores carry over from the Day 45 and Day 47 demos. ATS, screening and machine test scores are invented for this demo.",
+  "job_id": "jd_data_analyst",
+  "role_category": "technical",
+  "candidates": [
+    {"candidate_id": "demo_confident",
+     "scores": {"ats": 82.0, "screening": 78.0, "hr_interview": 94.5, "technical_interview": 81.7, "machine_test": 85.0}},
+    {"candidate_id": "demo_hesitant",
+     "scores": {"ats": 70.0, "screening": 66.0, "hr_interview": 78.0, "technical_interview": 61.2, "machine_test": 58.0},
+     "low_reliability_rounds": ["machine_test"],
+     "context": {"integrity_review_priority": "Low", "behavioral_label": "Moderate observed engagement"}},
+    {"candidate_id": "demo_inexperienced",
+     "scores": {"ats": 48.0, "screening": 40.0, "hr_interview": 45.9, "technical_interview": 27.4, "machine_test": null}},
+    {"candidate_id": "demo_weak_ats",
+     "scores": {"ats": 38.0, "screening": 90.0, "hr_interview": 90.0, "technical_interview": 90.0, "machine_test": 90.0}},
+    {"candidate_id": "demo_partial",
+     "scores": {"ats": 85.0, "screening": 80.0, "hr_interview": null, "technical_interview": null, "machine_test": null}}
+  ]
+}

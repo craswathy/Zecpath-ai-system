@@ -1,0 +1,65 @@
+{
+  "candidate_id": "demo_partial",
+  "job_id": "jd_data_analyst",
+  "role_category": "technical",
+  "metadata": {
+    "model_version": "unified_v2.0",
+    "timestamp": "2026-10-24T14:28:39.920953",
+    "stage": "unified_scored",
+    "status": "partial"
+  },
+  "rounds": {
+    "ats": {
+      "score": 85.0,
+      "weight_used": 0.4,
+      "points_contributed": 34.0,
+      "low_reliability": false
+    },
+    "screening": {
+      "score": 80.0,
+      "weight_used": 0.6,
+      "points_contributed": 48.0,
+      "low_reliability": false
+    },
+    "hr_interview": {
+      "score": null,
+      "weight_used": null,
+      "points_contributed": null,
+      "low_reliability": false
+    },
+    "technical_interview": {
+      "score": null,
+      "weight_used": null,
+      "points_contributed": null,
+      "low_reliability": false
+    },
+    "machine_test": {
+      "score": null,
+      "weight_used": null,
+      "points_contributed": null,
+      "low_reliability": false
+    }
+  },
+  "hiring_fit": {
+    "percentage": 82.0,
+    "category": "Moderate Fit",
+    "result_status": "preliminary",
+    "flags": [
+      "Preliminary: only 2 round(s) scored, fewer than 3",
+      "Category capped at Moderate Fit because the result is preliminary"
+    ]
+  },
+  "missing_rounds": [
+    "hr_interview",
+    "technical_interview",
+    "machine_test"
+  ],
+  "rank_in_pool": null,
+  "context_not_scored": {},
+  "weights_used": {
+    "ats": 0.4,
+    "screening": 0.6
+  },
+  "explanation": "ATS 85.0 x 0.4 | Screening 80.0 x 0.6 | Not scored: HR interview, Technical interview, Machine test (weight shared)",
+  "note": "Decision support only. A human recruiter makes the final decision."
+}

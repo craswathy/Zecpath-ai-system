@@ -1,0 +1,67 @@
+{
+  "candidate_id": "demo_inexperienced",
+  "job_id": "jd_data_analyst",
+  "role_category": "technical",
+  "metadata": {
+    "model_version": "unified_v2.0",
+    "timestamp": "2026-10-24T14:28:39.920953",
+    "stage": "unified_scored",
+    "status": "partial"
+  },
+  "rounds": {
+    "ats": {
+      "score": 48.0,
+      "weight_used": 0.143,
+      "points_contributed": 6.86,
+      "low_reliability": false
+    },
+    "screening": {
+      "score": 40.0,
+      "weight_used": 0.214,
+      "points_contributed": 8.57,
+      "low_reliability": false
+    },
+    "hr_interview": {
+      "score": 45.9,
+      "weight_used": 0.214,
+      "points_contributed": 9.84,
+      "low_reliability": false
+    },
+    "technical_interview": {
+      "score": 27.4,
+      "weight_used": 0.429,
+      "points_contributed": 11.74,
+      "low_reliability": false
+    },
+    "machine_test": {
+      "score": null,
+      "weight_used": null,
+      "points_contributed": null,
+      "low_reliability": false
+    }
+  },
+  "hiring_fit": {
+    "percentage": 37.0,
+    "category": "Weak Fit",
+    "result_status": "final",
+    "flags": [
+      "Weak round below 40: Technical interview"
+    ]
+  },
+  "missing_rounds": [
+    "machine_test"
+  ],
+  "rank_in_pool": {
+    "rank": 4,
+    "pool_size": 4
+  },
+  "context_not_scored": {},
+  "weights_used": {
+    "ats": 0.143,
+    "screening": 0.214,
+    "hr_interview": 0.214,
+    "technical_interview": 0.429
+  },
+  "explanation": "ATS 48.0 x 0.143 | Screening 40.0 x 0.214 | HR interview 45.9 x 0.214 | Technical interview 27.4 x 0.429 | Not scored: Machine test (weight shared)",
+  "note": "Decision support only. A human recruiter makes the final decision."
+}

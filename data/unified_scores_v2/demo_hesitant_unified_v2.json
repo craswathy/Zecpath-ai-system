@@ -1,0 +1,69 @@
+{
+  "candidate_id": "demo_hesitant",
+  "job_id": "jd_data_analyst",
+  "role_category": "technical",
+  "metadata": {
+    "model_version": "unified_v2.0",
+    "timestamp": "2026-10-24T14:28:39.920953",
+    "stage": "unified_scored",
+    "status": "complete"
+  },
+  "rounds": {
+    "ats": {
+      "score": 70.0,
+      "weight_used": 0.118,
+      "points_contributed": 8.24,
+      "low_reliability": false
+    },
+    "screening": {
+      "score": 66.0,
+      "weight_used": 0.176,
+      "points_contributed": 11.65,
+      "low_reliability": false
+    },
+    "hr_interview": {
+      "score": 78.0,
+      "weight_used": 0.176,
+      "points_contributed": 13.76,
+      "low_reliability": false
+    },
+    "technical_interview": {
+      "score": 61.2,
+      "weight_used": 0.353,
+      "points_contributed": 21.6,
+      "low_reliability": false
+    },
+    "machine_test": {
+      "score": 58.0,
+      "weight_used": 0.176,
+      "points_contributed": 10.24,
+      "low_reliability": true
+    }
+  },
+  "hiring_fit": {
+    "percentage": 65.5,
+    "category": "Moderate Fit",
+    "result_status": "final",
+    "flags": [
+      "Low-reliability round(s) counted at half weight: Machine test"
+    ]
+  },
+  "missing_rounds": [],
+  "rank_in_pool": {
+    "rank": 3,
+    "pool_size": 4
+  },
+  "context_not_scored": {
+    "integrity_review_priority": "Low",
+    "behavioral_label": "Moderate observed engagement"
+  },
+  "weights_used": {
+    "ats": 0.118,
+    "screening": 0.176,
+    "hr_interview": 0.176,
+    "technical_interview": 0.353,
+    "machine_test": 0.176
+  },
+  "explanation": "ATS 70.0 x 0.118 | Screening 66.0 x 0.176 | HR interview 78.0 x 0.176 | Technical interview 61.2 x 0.353 | Machine test 58.0 x 0.176 | Half weight (low reliability): Machine test",
+  "note": "Decision support only. A human recruiter makes the final decision."
+}

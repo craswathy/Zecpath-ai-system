@@ -3592,3 +3592,29 @@
 2026-10-19 23:41:08,565 - INFO - Technical answer mern_react_scn_l3_01: 0.59 (deep)
 2026-10-19 23:41:08,565 - INFO - Technical answer mern_node_scn_l3_01: 0.31 (moderate)
 2026-10-19 23:41:08,565 - INFO - Technical scoring done for tech_mixed
+2026-10-24 14:28:39,920 - INFO - Aggregated 5 rounds for role technical: 84.1
+2026-10-24 14:28:39,920 - INFO - Hiring fit: 84.1% -> Strong Fit (final)
+2026-10-24 14:28:39,920 - INFO - Aggregated 5 rounds for role technical: 65.5
+2026-10-24 14:28:39,920 - INFO - Hiring fit: 65.5% -> Moderate Fit (final)
+2026-10-24 14:28:39,920 - INFO - Aggregated 4 rounds for role technical: 37.0
+2026-10-24 14:28:39,920 - INFO - Hiring fit: 37.0% -> Weak Fit (final)
+2026-10-24 14:28:39,920 - INFO - Aggregated 5 rounds for role technical: 84.8
+2026-10-24 14:28:39,920 - INFO - Hiring fit: 84.8% -> Moderate Fit (final)
+2026-10-24 14:28:39,920 - INFO - Aggregated 2 rounds for role technical: 82.0
+2026-10-24 14:28:39,920 - INFO - Hiring fit: 82.0% -> Moderate Fit (preliminary)
+2026-10-24 14:28:39,920 - INFO - Aggregated 5 rounds for role technical: 84.1
+2026-10-24 14:28:39,920 - INFO - Hiring fit: 84.1% -> Strong Fit (final)
+2026-10-24 14:28:39,920 - INFO - Built unified v2 object for demo_confident: Strong Fit
+2026-10-24 14:28:39,920 - INFO - Aggregated 5 rounds for role technical: 65.5
+2026-10-24 14:28:39,920 - INFO - Hiring fit: 65.5% -> Moderate Fit (final)
+2026-10-24 14:28:39,920 - INFO - Built unified v2 object for demo_hesitant: Moderate Fit
+2026-10-24 14:28:39,920 - INFO - Aggregated 4 rounds for role technical: 37.0
+2026-10-24 14:28:39,920 - INFO - Hiring fit: 37.0% -> Weak Fit (final)
+2026-10-24 14:28:39,920 - INFO - Built unified v2 object for demo_inexperienced: Weak Fit
+2026-10-24 14:28:39,920 - INFO - Aggregated 5 rounds for role technical: 84.8
+2026-10-24 14:28:39,920 - INFO - Hiring fit: 84.8% -> Moderate Fit (final)
+2026-10-24 14:28:39,920 - INFO - Built unified v2 object for demo_weak_ats: Moderate Fit
+2026-10-24 14:28:39,920 - INFO - Aggregated 2 rounds for role technical: 82.0
+2026-10-24 14:28:39,920 - INFO - Hiring fit: 82.0% -> Moderate Fit (preliminary)
+2026-10-24 14:28:39,920 - INFO - Built unified v2 object for demo_partial: Moderate Fit
+2026-10-24 14:28:39,936 - INFO - Cross-round demo finished
