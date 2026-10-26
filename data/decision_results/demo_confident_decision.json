@@ -1,0 +1,50 @@
+{
+  "candidate_id": "demo_confident",
+  "job_id": "jd_data_analyst",
+  "role_category": "technical",
+  "metadata": {
+    "model_version": "decision_v1.0",
+    "timestamp": "2026-10-26T22:51:59.362630",
+    "stage": "decision",
+    "status": "recommended"
+  },
+  "decision": "Selected",
+  "recommendation": "Recommend moving this candidate to the next stage.",
+  "score_based_decision": "Selected",
+  "hiring_fit": {
+    "percentage": 84.1,
+    "category": "Strong Fit",
+    "result_status": "final"
+  },
+  "rules_triggered": [],
+  "confidence": {
+    "score": 0.85,
+    "band": "high",
+    "components": {
+      "completeness": 1.0,
+      "reliability": 1.0,
+      "agreement": 0.72,
+      "margin": 0.61
+    }
+  },
+  "risk_factors": {
+    "integrity": {
+      "review_priority": "No concern",
+      "effect": "none"
+    },
+    "behavioral": {
+      "label": "High observed engagement",
+      "effect": "none (context only, never changes a decision)"
+    }
+  },
+  "next_steps": [
+    "A recruiter confirms the decision before any offer or message to the candidate."
+  ],
+  "human_review": {
+    "required": true,
+    "final_decision": null,
+    "reviewed_by": null
+  },
+  "explanation": "Hiring fit 84.1% (Strong Fit, final) suggests Selected. Confidence 0.85 (high). Final recommendation: Selected.",
+  "note": "Recommendation only. A human recruiter makes the final decision."
+}

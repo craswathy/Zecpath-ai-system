@@ -1,0 +1,50 @@
+{
+  "candidate_id": "demo_hesitant",
+  "job_id": "jd_data_analyst",
+  "role_category": "technical",
+  "metadata": {
+    "model_version": "decision_v1.0",
+    "timestamp": "2026-10-26T22:51:59.362630",
+    "stage": "decision",
+    "status": "recommended"
+  },
+  "decision": "Hold / Review",
+  "recommendation": "A recruiter should review this candidate before any decision.",
+  "score_based_decision": "Hold / Review",
+  "hiring_fit": {
+    "percentage": 65.5,
+    "category": "Moderate Fit",
+    "result_status": "final"
+  },
+  "rules_triggered": [],
+  "confidence": {
+    "score": 0.8,
+    "band": "high",
+    "components": {
+      "completeness": 1.0,
+      "reliability": 0.8,
+      "agreement": 0.67,
+      "margin": 0.63
+    }
+  },
+  "risk_factors": {
+    "integrity": {
+      "review_priority": "Low",
+      "effect": "none"
+    },
+    "behavioral": {
+      "label": "Moderate observed engagement",
+      "effect": "none (context only, never changes a decision)"
+    }
+  },
+  "next_steps": [
+    "Score is in the review range. Recruiter reviews the round details and decides."
+  ],
+  "human_review": {
+    "required": true,
+    "final_decision": null,
+    "reviewed_by": null
+  },
+  "explanation": "Hiring fit 65.5% (Moderate Fit, final) suggests Hold / Review. Confidence 0.8 (high). Final recommendation: Hold / Review.",
+  "note": "Recommendation only. A human recruiter makes the final decision."
+}

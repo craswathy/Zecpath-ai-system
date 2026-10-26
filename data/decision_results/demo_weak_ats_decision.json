@@ -1,0 +1,56 @@
+{
+  "candidate_id": "demo_weak_ats",
+  "job_id": "jd_data_analyst",
+  "role_category": "technical",
+  "metadata": {
+    "model_version": "decision_v1.0",
+    "timestamp": "2026-10-26T22:51:59.378483",
+    "stage": "decision",
+    "status": "recommended"
+  },
+  "decision": "Hold / Review",
+  "recommendation": "A recruiter should review this candidate before any decision.",
+  "score_based_decision": "Hold / Review",
+  "hiring_fit": {
+    "percentage": 84.8,
+    "category": "Moderate Fit",
+    "result_status": "final"
+  },
+  "rules_triggered": [
+    {
+      "id": "WEAK_ROUND",
+      "reason": "Round below 40: ATS",
+      "moves_to_hold": false
+    }
+  ],
+  "confidence": {
+    "score": 0.71,
+    "band": "medium",
+    "components": {
+      "completeness": 1.0,
+      "reliability": 1.0,
+      "agreement": 0.13,
+      "margin": 0.65
+    }
+  },
+  "risk_factors": {
+    "integrity": {
+      "review_priority": "not available",
+      "effect": "none"
+    },
+    "behavioral": {
+      "label": "not available",
+      "effect": "none (context only, never changes a decision)"
+    }
+  },
+  "next_steps": [
+    "Review the weak round (ATS) before deciding."
+  ],
+  "human_review": {
+    "required": true,
+    "final_decision": null,
+    "reviewed_by": null
+  },
+  "explanation": "Hiring fit 84.8% (Moderate Fit, final) suggests Hold / Review. WEAK_ROUND: Round below 40: ATS. Confidence 0.71 (medium). Final recommendation: Hold / Review.",
+  "note": "Recommendation only. A human recruiter makes the final decision."
+}
