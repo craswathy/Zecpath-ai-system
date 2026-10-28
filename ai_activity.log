@@ -3651,3 +3651,28 @@
 2026-10-26 22:51:59,394 - INFO - Built unified v2 object for demo_no_tech_round: Strong Fit
 2026-10-26 22:51:59,394 - INFO - Decision for demo_no_tech_round: Hold / Review (confidence 0.93)
 2026-10-26 22:51:59,394 - INFO - Decision demo finished
+2026-10-28 19:01:04,279 - INFO - Aggregated 5 rounds for role technical: 84.1
+2026-10-28 19:01:04,279 - INFO - Hiring fit: 84.1% -> Strong Fit (final)
+2026-10-28 19:01:04,279 - INFO - Built unified v2 object for demo_confident: Strong Fit
+2026-10-28 19:01:04,279 - INFO - Decision for demo_confident: Selected (confidence 0.85)
+2026-10-28 19:01:04,279 - INFO - Built hiring report for demo_confident: Selected
+2026-10-28 19:01:04,295 - INFO - Exported report for demo_confident
+2026-10-28 19:01:04,295 - INFO - Aggregated 5 rounds for role technical: 65.5
+2026-10-28 19:01:04,295 - INFO - Hiring fit: 65.5% -> Moderate Fit (final)
+2026-10-28 19:01:04,295 - INFO - Built unified v2 object for demo_hesitant: Moderate Fit
+2026-10-28 19:01:04,295 - INFO - Decision for demo_hesitant: Hold / Review (confidence 0.8)
+2026-10-28 19:01:04,295 - INFO - Built hiring report for demo_hesitant: Hold / Review
+2026-10-28 19:01:04,311 - INFO - Exported report for demo_hesitant
+2026-10-28 19:01:04,311 - INFO - Aggregated 4 rounds for role technical: 37.0
+2026-10-28 19:01:04,311 - INFO - Hiring fit: 37.0% -> Weak Fit (final)
+2026-10-28 19:01:04,311 - INFO - Built unified v2 object for demo_inexperienced: Weak Fit
+2026-10-28 19:01:04,311 - INFO - Decision for demo_inexperienced: Rejected (confidence 0.84)
+2026-10-28 19:01:04,311 - INFO - Built hiring report for demo_inexperienced: Rejected
+2026-10-28 19:01:04,327 - INFO - Exported report for demo_inexperienced
+2026-10-28 19:01:04,327 - INFO - Aggregated 5 rounds for role technical: 88.6
+2026-10-28 19:01:04,327 - INFO - Hiring fit: 88.6% -> Strong Fit (final)
+2026-10-28 19:01:04,327 - INFO - Built unified v2 object for demo_integrity_flag: Strong Fit
+2026-10-28 19:01:04,327 - INFO - Decision for demo_integrity_flag: Hold / Review (confidence 0.76)
+2026-10-28 19:01:04,327 - INFO - Built hiring report for demo_integrity_flag: Hold / Review
+2026-10-28 19:01:04,342 - INFO - Exported report for demo_integrity_flag
+2026-10-28 19:01:04,374 - INFO - Report demo finished

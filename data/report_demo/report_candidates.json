@@ -1,0 +1,71 @@
+{
+  "note": "Simulated candidates. Scores carry over from the Day 51 and Day 52 demos. Per-stage details are illustrative.",
+  "job_id": "jd_data_analyst",
+  "role_category": "technical",
+  "candidates": [
+    {
+      "candidate_id": "demo_confident",
+      "scores": {"ats": 82.0, "screening": 78.0, "hr_interview": 94.5, "technical_interview": 81.7, "machine_test": 85.0},
+      "context": {"integrity_review_priority": "No concern", "behavioral_label": "High observed engagement"},
+      "details": {
+        "ats": {"summary": "Resume matches the job description well.", "matched_skills": ["Python", "SQL", "Statistics", "Data visualisation"], "missing_skills": []},
+        "screening": {"summary": "Clear, relevant answers on background and role fit."},
+        "hr_interview": {"band": "Strong", "reliability": "reliable",
+          "component_scores": {"relevance": 1.0, "communication": 0.86, "confidence": 0.82, "consistency": 1.0},
+          "weak_components": [], "summary": "Detailed answers with concrete examples."},
+        "technical_interview": {"band": "Strong", "shallow_answers": 0,
+          "skills": {"react": {"score": 0.85, "label": "Strong", "highest_level_passed": "L3"},
+                     "node": {"score": 0.78, "label": "Strong", "highest_level_passed": "L3"}}},
+        "machine_test": {"summary": "All three tasks completed. Hidden tests mostly passed."}
+      }
+    },
+    {
+      "candidate_id": "demo_hesitant",
+      "scores": {"ats": 70.0, "screening": 66.0, "hr_interview": 78.0, "technical_interview": 61.2, "machine_test": 58.0},
+      "low_reliability_rounds": ["machine_test"],
+      "context": {"integrity_review_priority": "Low", "behavioral_label": "Moderate observed engagement"},
+      "details": {
+        "ats": {"summary": "Partial match to the job description.", "matched_skills": ["Python", "Excel"], "missing_skills": ["SQL", "Power BI"]},
+        "screening": {"summary": "Answers were relevant but short."},
+        "hr_interview": {"band": "Adequate", "reliability": "reliable",
+          "component_scores": {"relevance": 0.86, "communication": 0.59, "confidence": 0.45, "consistency": 1.0},
+          "weak_components": ["confidence"], "summary": "Band lowered from Strong because of weak confidence signals."},
+        "technical_interview": {"band": "Adequate", "shallow_answers": 1,
+          "skills": {"react": {"score": 0.69, "label": "Adequate", "highest_level_passed": "L2"},
+                     "node": {"score": 0.31, "label": "Weak", "highest_level_passed": null}}},
+        "machine_test": {"summary": "Only two tasks attempted, so this round counts at half weight."}
+      }
+    },
+    {
+      "candidate_id": "demo_inexperienced",
+      "scores": {"ats": 48.0, "screening": 40.0, "hr_interview": 45.9, "technical_interview": 27.4, "machine_test": null},
+      "context": {"integrity_review_priority": "No concern", "behavioral_label": "Low observed engagement"},
+      "details": {
+        "ats": {"summary": "Weak match to the job description.", "matched_skills": ["Excel"], "missing_skills": ["Python", "SQL", "Statistics"]},
+        "screening": {"summary": "Several answers were off topic or very short."},
+        "hr_interview": {"band": "Below-expectation", "reliability": "reliable",
+          "component_scores": {"relevance": 0.36, "communication": 0.41, "confidence": 0.55, "consistency": 0.6},
+          "weak_components": ["relevance", "communication"], "summary": "Two answers were off topic."},
+        "technical_interview": {"band": "Below-expectation", "shallow_answers": 6,
+          "skills": {"react": {"score": 0.3, "label": "Weak", "highest_level_passed": null},
+                     "node": {"score": 0.2, "label": "Weak", "highest_level_passed": null}}}
+      }
+    },
+    {
+      "candidate_id": "demo_integrity_flag",
+      "scores": {"ats": 88.0, "screening": 86.0, "hr_interview": 90.0, "technical_interview": 90.0, "machine_test": 88.0},
+      "context": {"integrity_review_priority": "High", "behavioral_label": "Moderate observed engagement"},
+      "details": {
+        "ats": {"summary": "Strong match to the job description.", "matched_skills": ["Python", "SQL", "Statistics"], "missing_skills": []},
+        "screening": {"summary": "Clear and well-structured answers."},
+        "hr_interview": {"band": "Strong", "reliability": "reliable",
+          "component_scores": {"relevance": 1.0, "communication": 0.88, "confidence": 0.85, "consistency": 1.0},
+          "weak_components": [], "summary": "Consistent answers."},
+        "technical_interview": {"band": "Strong", "shallow_answers": 0,
+          "skills": {"react": {"score": 0.9, "label": "Strong", "highest_level_passed": "L3"},
+                     "node": {"score": 0.88, "label": "Strong", "highest_level_passed": "L3"}}},
+        "machine_test": {"summary": "All tasks completed within time."}
+      }
+    }
+  ]
+}

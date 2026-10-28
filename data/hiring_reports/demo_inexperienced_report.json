@@ -1,0 +1,173 @@
+{
+  "report_id": "report_demo_inexperienced",
+  "metadata": {
+    "model_version": "report_v1.0",
+    "timestamp": "2026-10-28T19:01:04.311344",
+    "stage": "report",
+    "status": "generated"
+  },
+  "candidate": {
+    "candidate_id": "demo_inexperienced",
+    "job_id": "jd_data_analyst",
+    "role_category": "technical"
+  },
+  "headline": {
+    "decision": "Rejected",
+    "recommendation": "Recommend not moving this candidate forward on current evidence.",
+    "hiring_fit_percentage": 37.0,
+    "fit_category": "Weak Fit",
+    "result_status": "final",
+    "confidence_score": 0.84,
+    "confidence_band": "high"
+  },
+  "round_scores": [
+    {
+      "round": "ats",
+      "label": "ATS",
+      "score": 48.0,
+      "weight": 0.143,
+      "points": 6.86,
+      "low_reliability": false
+    },
+    {
+      "round": "screening",
+      "label": "Screening",
+      "score": 40.0,
+      "weight": 0.214,
+      "points": 8.57,
+      "low_reliability": false
+    },
+    {
+      "round": "hr_interview",
+      "label": "HR interview",
+      "score": 45.9,
+      "weight": 0.214,
+      "points": 9.84,
+      "low_reliability": false
+    },
+    {
+      "round": "technical_interview",
+      "label": "Technical interview",
+      "score": 27.4,
+      "weight": 0.429,
+      "points": 11.74,
+      "low_reliability": false
+    },
+    {
+      "round": "machine_test",
+      "label": "Machine test",
+      "score": null,
+      "weight": null,
+      "points": null,
+      "low_reliability": false
+    }
+  ],
+  "strengths": [
+    "No standout strengths found in the available data."
+  ],
+  "weaknesses": [
+    "Rounds scored below 55: ATS 48.0, Screening 40.0, HR interview 45.9, Technical interview 27.4",
+    "HR interview components below 0.5: relevance 0.36, communication 0.41",
+    "Technical skills below 0.5: react 0.3, node 0.2",
+    "6 technical answers named terms without explaining them",
+    "Skills not found in the resume: Python, SQL, Statistics"
+  ],
+  "risk_indicators": [
+    {
+      "level": "medium",
+      "text": "A round scored below 40: Technical interview."
+    },
+    {
+      "level": "info",
+      "text": "Not scored: Machine test. The weight of a missing round is shared among the other rounds."
+    }
+  ],
+  "sections": {
+    "ats": {
+      "title": "ATS summary",
+      "score": 48.0,
+      "available": true,
+      "lines": [
+        "Weak match to the job description.",
+        "Matched skills: Excel",
+        "Skills not found: Python, SQL, Statistics"
+      ]
+    },
+    "screening": {
+      "title": "Screening results",
+      "score": 40.0,
+      "available": true,
+      "lines": [
+        "Several answers were off topic or very short."
+      ]
+    },
+    "hr_interview": {
+      "title": "HR interview insights",
+      "score": 45.9,
+      "available": true,
+      "lines": [
+        "Performance band: Below-expectation (reliability: reliable)",
+        "Components (0 to 1): relevance 0.36, communication 0.41, confidence 0.55, consistency 0.6",
+        "Weak components: relevance, communication",
+        "Two answers were off topic."
+      ]
+    },
+    "technical_interview": {
+      "title": "Technical performance",
+      "score": 27.4,
+      "available": true,
+      "lines": [
+        "Performance band: Below-expectation",
+        "Skill react: 0.3 (Weak), highest level passed: none",
+        "Skill node: 0.2 (Weak), highest level passed: none",
+        "Shallow answers: 6"
+      ]
+    },
+    "machine_test": {
+      "title": "Machine test",
+      "score": null,
+      "available": false,
+      "lines": [
+        "Not scored yet."
+      ]
+    },
+    "behavioral_flags": {
+      "title": "Behavioral and integrity flags",
+      "score": null,
+      "available": true,
+      "lines": [
+        "Behavioral label: Low observed engagement (context only. It does not change the score or the recommendation.)",
+        "Integrity review priority: No concern (a reason to look, not proof of misconduct)"
+      ]
+    }
+  },
+  "final_recommendation": {
+    "decision": "Rejected",
+    "recommendation": "Recommend not moving this candidate forward on current evidence.",
+    "score_based_decision": "Rejected",
+    "rules_triggered": [
+      {
+        "id": "WEAK_ROUND",
+        "reason": "Round below 40: Technical interview",
+        "moved_to_hold": false
+      }
+    ],
+    "next_steps": [
+      "A recruiter confirms before the candidate is told. Offer a feedback and review route."
+    ],
+    "explanation": "Hiring fit 37.0% (Weak Fit, final) suggests Rejected. WEAK_ROUND: Round below 40: Technical interview. Confidence 0.84 (high). Final recommendation: Rejected."
+  },
+  "human_review": {
+    "required": true,
+    "final_decision": null,
+    "reviewed_by": null,
+    "date": null,
+    "comment": null
+  },
+  "limitations": [
+    "This report is decision support. A human recruiter makes the final decision.",
+    "Scores come from rule-based scoring with starting thresholds that are not tuned on real hiring outcomes.",
+    "Behavioral and integrity information is context only. Integrity tags are reasons to look, not proof of misconduct.",
+    "Confidence shows how far to trust the evidence. It is not the chance that the candidate is a good hire."
+  ]
+}

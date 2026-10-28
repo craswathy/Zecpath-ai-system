@@ -1,0 +1,162 @@
+{
+  "report_id": "report_demo_hesitant",
+  "metadata": {
+    "model_version": "report_v1.0",
+    "timestamp": "2026-10-28T19:01:04.295518",
+    "stage": "report",
+    "status": "generated"
+  },
+  "candidate": {
+    "candidate_id": "demo_hesitant",
+    "job_id": "jd_data_analyst",
+    "role_category": "technical"
+  },
+  "headline": {
+    "decision": "Hold / Review",
+    "recommendation": "A recruiter should review this candidate before any decision.",
+    "hiring_fit_percentage": 65.5,
+    "fit_category": "Moderate Fit",
+    "result_status": "final",
+    "confidence_score": 0.8,
+    "confidence_band": "high"
+  },
+  "round_scores": [
+    {
+      "round": "ats",
+      "label": "ATS",
+      "score": 70.0,
+      "weight": 0.118,
+      "points": 8.24,
+      "low_reliability": false
+    },
+    {
+      "round": "screening",
+      "label": "Screening",
+      "score": 66.0,
+      "weight": 0.176,
+      "points": 11.65,
+      "low_reliability": false
+    },
+    {
+      "round": "hr_interview",
+      "label": "HR interview",
+      "score": 78.0,
+      "weight": 0.176,
+      "points": 13.76,
+      "low_reliability": false
+    },
+    {
+      "round": "technical_interview",
+      "label": "Technical interview",
+      "score": 61.2,
+      "weight": 0.353,
+      "points": 21.6,
+      "low_reliability": false
+    },
+    {
+      "round": "machine_test",
+      "label": "Machine test",
+      "score": 58.0,
+      "weight": 0.176,
+      "points": 10.24,
+      "low_reliability": true
+    }
+  ],
+  "strengths": [
+    "Rounds scored 75 or above: HR interview 78.0",
+    "HR interview components at 0.8 or above: relevance 0.86, consistency 1.0"
+  ],
+  "weaknesses": [
+    "HR interview components below 0.5: confidence 0.45",
+    "Technical skills below 0.5: node 0.31",
+    "Skills not found in the resume: SQL, Power BI"
+  ],
+  "risk_indicators": [
+    {
+      "level": "info",
+      "text": "Low-reliability round counted at half weight: Machine test."
+    }
+  ],
+  "sections": {
+    "ats": {
+      "title": "ATS summary",
+      "score": 70.0,
+      "available": true,
+      "lines": [
+        "Partial match to the job description.",
+        "Matched skills: Python, Excel",
+        "Skills not found: SQL, Power BI"
+      ]
+    },
+    "screening": {
+      "title": "Screening results",
+      "score": 66.0,
+      "available": true,
+      "lines": [
+        "Answers were relevant but short."
+      ]
+    },
+    "hr_interview": {
+      "title": "HR interview insights",
+      "score": 78.0,
+      "available": true,
+      "lines": [
+        "Performance band: Adequate (reliability: reliable)",
+        "Components (0 to 1): relevance 0.86, communication 0.59, confidence 0.45, consistency 1.0",
+        "Weak components: confidence",
+        "Band lowered from Strong because of weak confidence signals."
+      ]
+    },
+    "technical_interview": {
+      "title": "Technical performance",
+      "score": 61.2,
+      "available": true,
+      "lines": [
+        "Performance band: Adequate",
+        "Skill react: 0.69 (Adequate), highest level passed: L2",
+        "Skill node: 0.31 (Weak), highest level passed: none",
+        "Shallow answers: 1"
+      ]
+    },
+    "machine_test": {
+      "title": "Machine test",
+      "score": 58.0,
+      "available": true,
+      "lines": [
+        "Only two tasks attempted, so this round counts at half weight."
+      ]
+    },
+    "behavioral_flags": {
+      "title": "Behavioral and integrity flags",
+      "score": null,
+      "available": true,
+      "lines": [
+        "Behavioral label: Moderate observed engagement (context only. It does not change the score or the recommendation.)",
+        "Integrity review priority: Low (a reason to look, not proof of misconduct)"
+      ]
+    }
+  },
+  "final_recommendation": {
+    "decision": "Hold / Review",
+    "recommendation": "A recruiter should review this candidate before any decision.",
+    "score_based_decision": "Hold / Review",
+    "rules_triggered": [],
+    "next_steps": [
+      "Score is in the review range. Recruiter reviews the round details and decides."
+    ],
+    "explanation": "Hiring fit 65.5% (Moderate Fit, final) suggests Hold / Review. Confidence 0.8 (high). Final recommendation: Hold / Review."
+  },
+  "human_review": {
+    "required": true,
+    "final_decision": null,
+    "reviewed_by": null,
+    "date": null,
+    "comment": null
+  },
+  "limitations": [
+    "This report is decision support. A human recruiter makes the final decision.",
+    "Scores come from rule-based scoring with starting thresholds that are not tuned on real hiring outcomes.",
+    "Behavioral and integrity information is context only. Integrity tags are reasons to look, not proof of misconduct.",
+    "Confidence shows how far to trust the evidence. It is not the chance that the candidate is a good hire."
+  ]
+}

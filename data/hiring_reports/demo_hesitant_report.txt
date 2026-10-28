@@ -1,0 +1,69 @@
+======================================================================
+HIRING INTELLIGENCE REPORT
+======================================================================
+Candidate: demo_hesitant | Job: jd_data_analyst | Role profile: technical
+Generated: 2026-10-28T19:01:04 | Model: report_v1.0
+
+AT A GLANCE
+  Recommendation: HOLD / REVIEW
+  A recruiter should review this candidate before any decision.
+  Hiring fit: 65.5% (Moderate Fit, final)
+  Confidence: 0.8 (high)
+
+ROUND SCORES
+  Round                   Score  Weight  Points
+  ATS                      70.0   0.118    8.24
+  Screening                66.0   0.176   11.65
+  HR interview             78.0   0.176   13.76
+  Technical interview      61.2   0.353    21.6
+  Machine test             58.0   0.176   10.24  (half weight, low reliability)
+
+STRENGTHS
+  + Rounds scored 75 or above: HR interview 78.0
+  + HR interview components at 0.8 or above: relevance 0.86, consistency 1.0
+
+WEAKNESSES
+  - HR interview components below 0.5: confidence 0.45
+  - Technical skills below 0.5: node 0.31
+  - Skills not found in the resume: SQL, Power BI
+
+RISK INDICATORS
+  [INFO] Low-reliability round counted at half weight: Machine test.
+
+DETAILS BY STAGE
+  ATS summary (score 70.0)
+    Partial match to the job description.
+    Matched skills: Python, Excel
+    Skills not found: SQL, Power BI
+  Screening results (score 66.0)
+    Answers were relevant but short.
+  HR interview insights (score 78.0)
+    Performance band: Adequate (reliability: reliable)
+    Components (0 to 1): relevance 0.86, communication 0.59, confidence 0.45, consistency 1.0
+    Weak components: confidence
+    Band lowered from Strong because of weak confidence signals.
+  Technical performance (score 61.2)
+    Performance band: Adequate
+    Skill react: 0.69 (Adequate), highest level passed: L2
+    Skill node: 0.31 (Weak), highest level passed: none
+    Shallow answers: 1
+  Machine test (score 58.0)
+    Only two tasks attempted, so this round counts at half weight.
+  Behavioral and integrity flags
+    Behavioral label: Moderate observed engagement (context only. It does not change the score or the recommendation.)
+    Integrity review priority: Low (a reason to look, not proof of misconduct)
+
+FINAL RECOMMENDATION
+  HOLD / REVIEW: A recruiter should review this candidate before any decision.
+  Score alone suggests: Hold / Review
+  Next: Score is in the review range. Recruiter reviews the round details and decides.
+
+HUMAN REVIEW (required)
+  Final decision: ____________________  Reviewer: ____________________  Date: __________
+  Comment: ________________________________________________________________
+
+LIMITS
+  - This report is decision support. A human recruiter makes the final decision.
+  - Scores come from rule-based scoring with starting thresholds that are not tuned on real hiring outcomes.
+  - Behavioral and integrity information is context only. Integrity tags are reasons to look, not proof of misconduct.
+  - Confidence shows how far to trust the evidence. It is not the chance that the candidate is a good hire.

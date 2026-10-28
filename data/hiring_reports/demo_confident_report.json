@@ -1,0 +1,160 @@
+{
+  "report_id": "report_demo_confident",
+  "metadata": {
+    "model_version": "report_v1.0",
+    "timestamp": "2026-10-28T19:01:04.279619",
+    "stage": "report",
+    "status": "generated"
+  },
+  "candidate": {
+    "candidate_id": "demo_confident",
+    "job_id": "jd_data_analyst",
+    "role_category": "technical"
+  },
+  "headline": {
+    "decision": "Selected",
+    "recommendation": "Recommend moving this candidate to the next stage.",
+    "hiring_fit_percentage": 84.1,
+    "fit_category": "Strong Fit",
+    "result_status": "final",
+    "confidence_score": 0.85,
+    "confidence_band": "high"
+  },
+  "round_scores": [
+    {
+      "round": "ats",
+      "label": "ATS",
+      "score": 82.0,
+      "weight": 0.1,
+      "points": 8.2,
+      "low_reliability": false
+    },
+    {
+      "round": "screening",
+      "label": "Screening",
+      "score": 78.0,
+      "weight": 0.15,
+      "points": 11.7,
+      "low_reliability": false
+    },
+    {
+      "round": "hr_interview",
+      "label": "HR interview",
+      "score": 94.5,
+      "weight": 0.15,
+      "points": 14.17,
+      "low_reliability": false
+    },
+    {
+      "round": "technical_interview",
+      "label": "Technical interview",
+      "score": 81.7,
+      "weight": 0.3,
+      "points": 24.51,
+      "low_reliability": false
+    },
+    {
+      "round": "machine_test",
+      "label": "Machine test",
+      "score": 85.0,
+      "weight": 0.3,
+      "points": 25.5,
+      "low_reliability": false
+    }
+  ],
+  "strengths": [
+    "Rounds scored 75 or above: ATS 82.0, Screening 78.0, HR interview 94.5, Technical interview 81.7, Machine test 85.0",
+    "HR interview components at 0.8 or above: relevance 1.0, communication 0.86, confidence 0.82, consistency 1.0",
+    "Technical skills at 0.75 or above: react 0.85 (highest level passed: L3), node 0.78 (highest level passed: L3)",
+    "Resume matches 4 required skills"
+  ],
+  "weaknesses": [
+    "No clear weaknesses found in the available data."
+  ],
+  "risk_indicators": [
+    {
+      "level": "info",
+      "text": "No risk indicators found."
+    }
+  ],
+  "sections": {
+    "ats": {
+      "title": "ATS summary",
+      "score": 82.0,
+      "available": true,
+      "lines": [
+        "Resume matches the job description well.",
+        "Matched skills: Python, SQL, Statistics, Data visualisation"
+      ]
+    },
+    "screening": {
+      "title": "Screening results",
+      "score": 78.0,
+      "available": true,
+      "lines": [
+        "Clear, relevant answers on background and role fit."
+      ]
+    },
+    "hr_interview": {
+      "title": "HR interview insights",
+      "score": 94.5,
+      "available": true,
+      "lines": [
+        "Performance band: Strong (reliability: reliable)",
+        "Components (0 to 1): relevance 1.0, communication 0.86, confidence 0.82, consistency 1.0",
+        "Detailed answers with concrete examples."
+      ]
+    },
+    "technical_interview": {
+      "title": "Technical performance",
+      "score": 81.7,
+      "available": true,
+      "lines": [
+        "Performance band: Strong",
+        "Skill react: 0.85 (Strong), highest level passed: L3",
+        "Skill node: 0.78 (Strong), highest level passed: L3",
+        "Shallow answers: 0"
+      ]
+    },
+    "machine_test": {
+      "title": "Machine test",
+      "score": 85.0,
+      "available": true,
+      "lines": [
+        "All three tasks completed. Hidden tests mostly passed."
+      ]
+    },
+    "behavioral_flags": {
+      "title": "Behavioral and integrity flags",
+      "score": null,
+      "available": true,
+      "lines": [
+        "Behavioral label: High observed engagement (context only. It does not change the score or the recommendation.)",
+        "Integrity review priority: No concern (a reason to look, not proof of misconduct)"
+      ]
+    }
+  },
+  "final_recommendation": {
+    "decision": "Selected",
+    "recommendation": "Recommend moving this candidate to the next stage.",
+    "score_based_decision": "Selected",
+    "rules_triggered": [],
+    "next_steps": [
+      "A recruiter confirms the decision before any offer or message to the candidate."
+    ],
+    "explanation": "Hiring fit 84.1% (Strong Fit, final) suggests Selected. Confidence 0.85 (high). Final recommendation: Selected."
+  },
+  "human_review": {
+    "required": true,
+    "final_decision": null,
+    "reviewed_by": null,
+    "date": null,
+    "comment": null
+  },
+  "limitations": [
+    "This report is decision support. A human recruiter makes the final decision.",
+    "Scores come from rule-based scoring with starting thresholds that are not tuned on real hiring outcomes.",
+    "Behavioral and integrity information is context only. Integrity tags are reasons to look, not proof of misconduct.",
+    "Confidence shows how far to trust the evidence. It is not the chance that the candidate is a good hire."
+  ]
+}

@@ -1,0 +1,67 @@
+======================================================================
+HIRING INTELLIGENCE REPORT
+======================================================================
+Candidate: demo_confident | Job: jd_data_analyst | Role profile: technical
+Generated: 2026-10-28T19:01:04 | Model: report_v1.0
+
+AT A GLANCE
+  Recommendation: SELECTED
+  Recommend moving this candidate to the next stage.
+  Hiring fit: 84.1% (Strong Fit, final)
+  Confidence: 0.85 (high)
+
+ROUND SCORES
+  Round                   Score  Weight  Points
+  ATS                      82.0     0.1     8.2
+  Screening                78.0    0.15    11.7
+  HR interview             94.5    0.15   14.17
+  Technical interview      81.7     0.3   24.51
+  Machine test             85.0     0.3    25.5
+
+STRENGTHS
+  + Rounds scored 75 or above: ATS 82.0, Screening 78.0, HR interview 94.5, Technical interview 81.7, Machine test 85.0
+  + HR interview components at 0.8 or above: relevance 1.0, communication 0.86, confidence 0.82, consistency 1.0
+  + Technical skills at 0.75 or above: react 0.85 (highest level passed: L3), node 0.78 (highest level passed: L3)
+  + Resume matches 4 required skills
+
+WEAKNESSES
+  - No clear weaknesses found in the available data.
+
+RISK INDICATORS
+  [INFO] No risk indicators found.
+
+DETAILS BY STAGE
+  ATS summary (score 82.0)
+    Resume matches the job description well.
+    Matched skills: Python, SQL, Statistics, Data visualisation
+  Screening results (score 78.0)
+    Clear, relevant answers on background and role fit.
+  HR interview insights (score 94.5)
+    Performance band: Strong (reliability: reliable)
+    Components (0 to 1): relevance 1.0, communication 0.86, confidence 0.82, consistency 1.0
+    Detailed answers with concrete examples.
+  Technical performance (score 81.7)
+    Performance band: Strong
+    Skill react: 0.85 (Strong), highest level passed: L3
+    Skill node: 0.78 (Strong), highest level passed: L3
+    Shallow answers: 0
+  Machine test (score 85.0)
+    All three tasks completed. Hidden tests mostly passed.
+  Behavioral and integrity flags
+    Behavioral label: High observed engagement (context only. It does not change the score or the recommendation.)
+    Integrity review priority: No concern (a reason to look, not proof of misconduct)
+
+FINAL RECOMMENDATION
+  SELECTED: Recommend moving this candidate to the next stage.
+  Score alone suggests: Selected
+  Next: A recruiter confirms the decision before any offer or message to the candidate.
+
+HUMAN REVIEW (required)
+  Final decision: ____________________  Reviewer: ____________________  Date: __________
+  Comment: ________________________________________________________________
+
+LIMITS
+  - This report is decision support. A human recruiter makes the final decision.
+  - Scores come from rule-based scoring with starting thresholds that are not tuned on real hiring outcomes.
+  - Behavioral and integrity information is context only. Integrity tags are reasons to look, not proof of misconduct.
+  - Confidence shows how far to trust the evidence. It is not the chance that the candidate is a good hire.

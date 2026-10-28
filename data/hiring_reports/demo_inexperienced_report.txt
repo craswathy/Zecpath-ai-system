@@ -1,0 +1,72 @@
+======================================================================
+HIRING INTELLIGENCE REPORT
+======================================================================
+Candidate: demo_inexperienced | Job: jd_data_analyst | Role profile: technical
+Generated: 2026-10-28T19:01:04 | Model: report_v1.0
+
+AT A GLANCE
+  Recommendation: REJECTED
+  Recommend not moving this candidate forward on current evidence.
+  Hiring fit: 37.0% (Weak Fit, final)
+  Confidence: 0.84 (high)
+
+ROUND SCORES
+  Round                   Score  Weight  Points
+  ATS                      48.0   0.143    6.86
+  Screening                40.0   0.214    8.57
+  HR interview             45.9   0.214    9.84
+  Technical interview      27.4   0.429   11.74
+  Machine test                -       -       -
+
+STRENGTHS
+  + No standout strengths found in the available data.
+
+WEAKNESSES
+  - Rounds scored below 55: ATS 48.0, Screening 40.0, HR interview 45.9, Technical interview 27.4
+  - HR interview components below 0.5: relevance 0.36, communication 0.41
+  - Technical skills below 0.5: react 0.3, node 0.2
+  - 6 technical answers named terms without explaining them
+  - Skills not found in the resume: Python, SQL, Statistics
+
+RISK INDICATORS
+  [MEDIUM] A round scored below 40: Technical interview.
+  [INFO] Not scored: Machine test. The weight of a missing round is shared among the other rounds.
+
+DETAILS BY STAGE
+  ATS summary (score 48.0)
+    Weak match to the job description.
+    Matched skills: Excel
+    Skills not found: Python, SQL, Statistics
+  Screening results (score 40.0)
+    Several answers were off topic or very short.
+  HR interview insights (score 45.9)
+    Performance band: Below-expectation (reliability: reliable)
+    Components (0 to 1): relevance 0.36, communication 0.41, confidence 0.55, consistency 0.6
+    Weak components: relevance, communication
+    Two answers were off topic.
+  Technical performance (score 27.4)
+    Performance band: Below-expectation
+    Skill react: 0.3 (Weak), highest level passed: none
+    Skill node: 0.2 (Weak), highest level passed: none
+    Shallow answers: 6
+  Machine test
+    Not scored yet.
+  Behavioral and integrity flags
+    Behavioral label: Low observed engagement (context only. It does not change the score or the recommendation.)
+    Integrity review priority: No concern (a reason to look, not proof of misconduct)
+
+FINAL RECOMMENDATION
+  REJECTED: Recommend not moving this candidate forward on current evidence.
+  Score alone suggests: Rejected
+  Rule WEAK_ROUND: Round below 40: Technical interview
+  Next: A recruiter confirms before the candidate is told. Offer a feedback and review route.
+
+HUMAN REVIEW (required)
+  Final decision: ____________________  Reviewer: ____________________  Date: __________
+  Comment: ________________________________________________________________
+
+LIMITS
+  - This report is decision support. A human recruiter makes the final decision.
+  - Scores come from rule-based scoring with starting thresholds that are not tuned on real hiring outcomes.
+  - Behavioral and integrity information is context only. Integrity tags are reasons to look, not proof of misconduct.
+  - Confidence shows how far to trust the evidence. It is not the chance that the candidate is a good hire.
