@@ -1,0 +1,7 @@
+{
+  "label": "day54",
+  "iterations": 500,
+  "normal_logging_us": 142.6,
+  "batch_mode_us": 29.2,
+  "percent_faster": 79.5
+}
