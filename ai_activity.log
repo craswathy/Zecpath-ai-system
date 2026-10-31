@@ -5676,3 +5676,7 @@
 2026-10-29 23:30:52,164 - INFO - Hiring fit: 84.1% -> Strong Fit (final)
 2026-10-29 23:30:52,164 - INFO - Built unified v2 object for bench: Strong Fit
 2026-10-29 23:30:52,164 - INFO - Decision for bench: Selected (confidence 0.85)
+2026-10-31 22:53:36,494 - INFO - Aggregated 5 rounds for role technical: 84.1
+2026-10-31 22:53:36,494 - INFO - Hiring fit: 84.1% -> Strong Fit (final)
+2026-10-31 22:53:36,494 - INFO - Built unified v2 object for demo_confident: Strong Fit
+2026-10-31 22:53:36,494 - INFO - Decision for demo_confident: Selected (confidence 0.85)
