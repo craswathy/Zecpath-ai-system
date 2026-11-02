@@ -5680,3 +5680,6 @@
 2026-10-31 22:53:36,494 - INFO - Hiring fit: 84.1% -> Strong Fit (final)
 2026-10-31 22:53:36,494 - INFO - Built unified v2 object for demo_confident: Strong Fit
 2026-10-31 22:53:36,494 - INFO - Decision for demo_confident: Selected (confidence 0.85)
+2026-11-02 22:01:57,481 - INFO - End-to-end simulation finished
+2026-11-02 22:33:09,502 - INFO - End-to-end simulation finished
+2026-11-02 22:55:07,535 - INFO - End-to-end simulation finished

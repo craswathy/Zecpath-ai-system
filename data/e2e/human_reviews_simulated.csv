@@ -1,0 +1,13 @@
+candidate_id,reviewer,decision,reason
+e2e_01,sim_reviewer,Selected,Strong and consistent in every stage
+e2e_02,sim_reviewer,Hold / Review,Technical answers mixed and Node weak
+e2e_03,sim_reviewer,Hold / Review,Hesitant but some potential
+e2e_04,sim_reviewer,Rejected,Weak in every stage
+e2e_05,sim_reviewer,Rejected,Resume lists skills that interviews do not support
+e2e_06,sim_reviewer,Selected,Skills clearly shown in interviews and test despite a thin resume
+e2e_07,sim_reviewer,Hold / Review,Integrity flag needs a look first
+e2e_08,sim_reviewer,Hold / Review,Resume did not upload so ask for it again
+e2e_09,sim_reviewer,Hold / Review,Interview stages not done yet
+e2e_10,sim_reviewer,Hold / Review,Resume strong but technical answers shallow
+e2e_11,sim_reviewer,Rejected,Talks well but technical depth is missing for this role
+e2e_12,sim_reviewer,Hold / Review,Average with no clear strength

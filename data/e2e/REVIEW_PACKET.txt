@@ -1,0 +1,267 @@
+REVIEW PACKET (simulated candidates)
+
+For each candidate write one decision: Selected, Hold / Review or Rejected, and a short reason.
+Use the file data/e2e/human_reviews.csv with the columns candidate_id,reviewer,decision,reason
+
+============================================================
+CANDIDATE e2e_01  (job: jd_data_analyst)
+Resume: Final year MSc Statistics student. Built a retail sales dashboard using Python, SQL and Power BI during a 3 month internship. Completed projects in regression analysis and hypothesis testing using statistics and Excel. Two projects on customer segmentation with machine learning.
+Screening answers:
+  1. I am a statistics graduate and I built a sales dashboard in Python and SQL during an internship, so a data analyst role fits my skills.
+  2. I want to turn data into decisions, and in my last project I cut a weekly report from 6 hours to 2.
+  3. For example, I cleaned 5 datasets, tested the results with regression and presented the findings to a team of 4.
+HR interview answers:
+  1. I recently completed my MSc in Statistics, and specifically I built an end-to-end retail recommendation model, which is what drew me to this role.
+  2. My final project taught me the most, for example I cleaned half a million transaction records and built a model that reached 99 percent accuracy.
+  3. My biggest strength is structured problem solving, in my experience I break a messy dataset into small testable steps before modelling anything.
+  4. I prefer to agree the plan early, then share progress in short updates so that nobody is surprised near the deadline.
+  5. In two to three years I want to be a data scientist who owns models from idea to deployment.
+Technical interview answers:
+  mern_react_exp_l1_01: I built a job search filter component in my final year project. It let users narrow results by skill and location. The hardest part was keeping filters in sync with the URL, so I stored the filter state in one place and then read it from the query string.
+  mern_react_con_l1_01: Props are passed down from the parent and are read-only, whereas state is owned by the component and can change. When state changes, React re-renders the component, which is why a counter updates on screen.
+  mern_react_con_l2_01: useEffect runs side effects after the component renders. The dependency array controls when it runs again: an empty array runs it once, and if a value in the array changes it runs again. A cleanup function runs before the next run, so for example a timer or subscription does not leak.
+  mern_react_scn_l2_01: First I would disable the submit button while the request is in flight and track a loading state, because that stops the second click. However the user could still refresh, so I would also make the server endpoint safe to repeat with an idempotency key.
+  mern_react_scn_l3_01: I would open the React Profiler first to find which component renders most, because guessing wastes time. Then I would memoize the expensive ones with React.memo or useMemo, keep state local so a change does not re-render the whole page, and virtualize long lists. In my project this cut a 400 item list render from about 1 second to 200 ms.
+  mern_node_scn_l3_01: At 10,000 requests per minute I would keep the services stateless behind a load balancer so I can add instances. Caching handles read-heavy endpoints, database indexes keep queries fast, and rate limiting protects the API. The first bottleneck is usually the database, so I would watch query times and add read replicas if needed.
+Machine test score (0 to 100): 85
+Integrity review priority: No concern
+
+============================================================
+CANDIDATE e2e_02  (job: jd_data_analyst)
+Resume: Final year MSc Statistics student. Built a retail sales dashboard using Python, SQL and Power BI during a 3 month internship. Completed projects in regression analysis and hypothesis testing using statistics and Excel. Two projects on customer segmentation with machine learning.
+Screening answers:
+  1. I am a statistics graduate and I built a sales dashboard in Python and SQL during an internship, so a data analyst role fits my skills.
+  2. I want to turn data into decisions, and in my last project I cut a weekly report from 6 hours to 2.
+  3. For example, I cleaned 5 datasets, tested the results with regression and presented the findings to a team of 4.
+HR interview answers:
+  1. I recently completed my MSc in Statistics, and specifically I built an end-to-end retail recommendation model, which is what drew me to this role.
+  2. My final project taught me the most, for example I cleaned half a million transaction records and built a model that reached 99 percent accuracy.
+  3. My biggest strength is structured problem solving, in my experience I break a messy dataset into small testable steps before modelling anything.
+  4. I prefer to agree the plan early, then share progress in short updates so that nobody is surprised near the deadline.
+  5. In two to three years I want to be a data scientist who owns models from idea to deployment.
+Technical interview answers:
+  mern_react_exp_l1_01: I built a login form component in my college project. The hard part was showing errors, so I kept an error state and displayed it under each field.
+  mern_react_con_l1_01: Props come from the parent and cannot be changed, whereas state belongs to the component. When state changes the component re-renders, which is why a counter updates on screen.
+  mern_react_con_l2_01: useEffect runs after render. The dependency array decides when it runs again, so an empty array runs it once. The cleanup function runs when the component is removed, for example to stop a timer.
+  mern_react_scn_l2_01: I would disable the button while submitting and keep a loading state, because then the second click does nothing. I have not handled the server side of it.
+  mern_react_scn_l3_01: I would use the Profiler to find the slow component, then keep state local so fewer components re-render. I have not tried memoizing or virtualizing lists.
+  mern_node_scn_l3_01: I would add caching for reads and rate limiting, but I am not sure about the rest.
+Machine test score (0 to 100): 70
+Integrity review priority: No concern
+
+============================================================
+CANDIDATE e2e_03  (job: jd_data_analyst)
+Resume: BSc Mathematics graduate. Used Excel and Python for coursework projects on data cleaning. Familiar with statistics basics. One mini project analysing survey data for a class assignment.
+Screening answers:
+  1. I have a degree in mathematics and I did some data work in college projects.
+  2. I like working with numbers and I think the role is a good next step for me.
+  3. I did a survey analysis project using Excel and a little Python for charts.
+HR interview answers:
+  1. um I think I am a fresher and, uh, I like data
+  2. um my final year project, uh, I think it was about sales
+  3. I am kind of good at, um, Excel I guess
+  4. I just do my part and, uh, share when asked
+  5. um I am not sure yet
+Technical interview answers:
+  mern_react_exp_l1_01: I built a login form component in my college project. The hard part was showing errors, so I kept an error state and displayed it under each field.
+  mern_react_con_l1_01: Props come from the parent and cannot be changed, whereas state belongs to the component. When state changes the component re-renders, which is why a counter updates on screen.
+  mern_react_con_l2_01: useEffect runs after render. The dependency array decides when it runs again, so an empty array runs it once. The cleanup function runs when the component is removed, for example to stop a timer.
+  mern_react_scn_l2_01: I would disable the button while submitting and keep a loading state, because then the second click does nothing. I have not handled the server side of it.
+  mern_react_scn_l3_01: I would use the Profiler to find the slow component, then keep state local so fewer components re-render. I have not tried memoizing or virtualizing lists.
+  mern_node_scn_l3_01: I would add caching for reads and rate limiting, but I am not sure about the rest.
+Machine test score (0 to 100): 58
+Integrity review priority: Low
+
+============================================================
+CANDIDATE e2e_04  (job: jd_data_analyst)
+Resume: Fresher seeking a job. Good communication skills and a quick learner. Basic computer knowledge. Interested in working with data and learning new things every day.
+Screening answers:
+  1. I applied because my friend told me about it.
+  2. I am not sure, maybe it is a good job and the salary looks good.
+  3. I do not know, I have not done any real project yet.
+HR interview answers:
+  1. I applied because the salary looks good and my friend works here
+  2. I like watching cricket matches on the weekend and travelling with my family
+  3. Maybe.
+  4. My last company had a good canteen and a nice parking area
+  5. Not sure.
+Technical interview answers:
+  mern_react_exp_l1_01: I made a component in React.
+  mern_react_con_l1_01: Props from parent, state in component, state change re-renders.
+  mern_react_con_l2_01: It runs side effects, has a dependency array and cleanup function.
+  mern_react_scn_l2_01: Disable button and loading state.
+  mern_react_scn_l3_01: Use memoize, Profiler, keep state local.
+  mern_node_scn_l3_01: Caching, indexes, rate limiting, stateless.
+Machine test score (0 to 100): 30
+Integrity review priority: No concern
+
+============================================================
+CANDIDATE e2e_05  (job: jd_data_analyst)
+Resume: Skills: Python, SQL, Statistics, Excel, Power BI, Tableau, Machine Learning, Python, SQL, Excel, Statistics, Tableau, Power BI, Machine Learning. Keywords: data analyst, data science, analytics, python sql excel statistics tableau.
+Screening answers:
+  1. I have a degree in mathematics and I did some data work in college projects.
+  2. I like working with numbers and I think the role is a good next step for me.
+  3. I did a survey analysis project using Excel and a little Python for charts.
+HR interview answers:
+  1. um I think I am a fresher and, uh, I like data
+  2. um my final year project, uh, I think it was about sales
+  3. I am kind of good at, um, Excel I guess
+  4. I just do my part and, uh, share when asked
+  5. um I am not sure yet
+Technical interview answers:
+  mern_react_exp_l1_01: I made a component in React.
+  mern_react_con_l1_01: Props from parent, state in component, state change re-renders.
+  mern_react_con_l2_01: It runs side effects, has a dependency array and cleanup function.
+  mern_react_scn_l2_01: Disable button and loading state.
+  mern_react_scn_l3_01: Use memoize, Profiler, keep state local.
+  mern_node_scn_l3_01: Caching, indexes, rate limiting, stateless.
+Machine test score (0 to 100): 45
+Integrity review priority: No concern
+
+============================================================
+CANDIDATE e2e_06  (job: jd_data_analyst)
+Resume: Fresher seeking a job. Good communication skills and a quick learner. Basic computer knowledge. Interested in working with data and learning new things every day.
+Screening answers:
+  1. I am a statistics graduate and I built a sales dashboard in Python and SQL during an internship, so a data analyst role fits my skills.
+  2. I want to turn data into decisions, and in my last project I cut a weekly report from 6 hours to 2.
+  3. For example, I cleaned 5 datasets, tested the results with regression and presented the findings to a team of 4.
+HR interview answers:
+  1. I recently completed my MSc in Statistics, and specifically I built an end-to-end retail recommendation model, which is what drew me to this role.
+  2. My final project taught me the most, for example I cleaned half a million transaction records and built a model that reached 99 percent accuracy.
+  3. My biggest strength is structured problem solving, in my experience I break a messy dataset into small testable steps before modelling anything.
+  4. I prefer to agree the plan early, then share progress in short updates so that nobody is surprised near the deadline.
+  5. In two to three years I want to be a data scientist who owns models from idea to deployment.
+Technical interview answers:
+  mern_react_exp_l1_01: I built a job search filter component in my final year project. It let users narrow results by skill and location. The hardest part was keeping filters in sync with the URL, so I stored the filter state in one place and then read it from the query string.
+  mern_react_con_l1_01: Props are passed down from the parent and are read-only, whereas state is owned by the component and can change. When state changes, React re-renders the component, which is why a counter updates on screen.
+  mern_react_con_l2_01: useEffect runs side effects after the component renders. The dependency array controls when it runs again: an empty array runs it once, and if a value in the array changes it runs again. A cleanup function runs before the next run, so for example a timer or subscription does not leak.
+  mern_react_scn_l2_01: First I would disable the submit button while the request is in flight and track a loading state, because that stops the second click. However the user could still refresh, so I would also make the server endpoint safe to repeat with an idempotency key.
+  mern_react_scn_l3_01: I would open the React Profiler first to find which component renders most, because guessing wastes time. Then I would memoize the expensive ones with React.memo or useMemo, keep state local so a change does not re-render the whole page, and virtualize long lists. In my project this cut a 400 item list render from about 1 second to 200 ms.
+  mern_node_scn_l3_01: At 10,000 requests per minute I would keep the services stateless behind a load balancer so I can add instances. Caching handles read-heavy endpoints, database indexes keep queries fast, and rate limiting protects the API. The first bottleneck is usually the database, so I would watch query times and add read replicas if needed.
+Machine test score (0 to 100): 88
+Integrity review priority: No concern
+
+============================================================
+CANDIDATE e2e_07  (job: jd_data_analyst)
+Resume: Final year MSc Statistics student. Built a retail sales dashboard using Python, SQL and Power BI during a 3 month internship. Completed projects in regression analysis and hypothesis testing using statistics and Excel. Two projects on customer segmentation with machine learning.
+Screening answers:
+  1. I am a statistics graduate and I built a sales dashboard in Python and SQL during an internship, so a data analyst role fits my skills.
+  2. I want to turn data into decisions, and in my last project I cut a weekly report from 6 hours to 2.
+  3. For example, I cleaned 5 datasets, tested the results with regression and presented the findings to a team of 4.
+HR interview answers:
+  1. I recently completed my MSc in Statistics, and specifically I built an end-to-end retail recommendation model, which is what drew me to this role.
+  2. My final project taught me the most, for example I cleaned half a million transaction records and built a model that reached 99 percent accuracy.
+  3. My biggest strength is structured problem solving, in my experience I break a messy dataset into small testable steps before modelling anything.
+  4. I prefer to agree the plan early, then share progress in short updates so that nobody is surprised near the deadline.
+  5. In two to three years I want to be a data scientist who owns models from idea to deployment.
+Technical interview answers:
+  mern_react_exp_l1_01: I built a job search filter component in my final year project. It let users narrow results by skill and location. The hardest part was keeping filters in sync with the URL, so I stored the filter state in one place and then read it from the query string.
+  mern_react_con_l1_01: Props are passed down from the parent and are read-only, whereas state is owned by the component and can change. When state changes, React re-renders the component, which is why a counter updates on screen.
+  mern_react_con_l2_01: useEffect runs side effects after the component renders. The dependency array controls when it runs again: an empty array runs it once, and if a value in the array changes it runs again. A cleanup function runs before the next run, so for example a timer or subscription does not leak.
+  mern_react_scn_l2_01: First I would disable the submit button while the request is in flight and track a loading state, because that stops the second click. However the user could still refresh, so I would also make the server endpoint safe to repeat with an idempotency key.
+  mern_react_scn_l3_01: I would open the React Profiler first to find which component renders most, because guessing wastes time. Then I would memoize the expensive ones with React.memo or useMemo, keep state local so a change does not re-render the whole page, and virtualize long lists. In my project this cut a 400 item list render from about 1 second to 200 ms.
+  mern_node_scn_l3_01: At 10,000 requests per minute I would keep the services stateless behind a load balancer so I can add instances. Caching handles read-heavy endpoints, database indexes keep queries fast, and rate limiting protects the API. The first bottleneck is usually the database, so I would watch query times and add read replicas if needed.
+Machine test score (0 to 100): 85
+Integrity review priority: High
+
+============================================================
+CANDIDATE e2e_08  (job: jd_data_analyst)
+Resume: (upload failed: no readable text)
+Screening answers:
+  1. I am a statistics graduate and I built a sales dashboard in Python and SQL during an internship, so a data analyst role fits my skills.
+  2. I want to turn data into decisions, and in my last project I cut a weekly report from 6 hours to 2.
+  3. For example, I cleaned 5 datasets, tested the results with regression and presented the findings to a team of 4.
+HR interview answers:
+  1. I recently completed my MSc in Statistics, and specifically I built an end-to-end retail recommendation model, which is what drew me to this role.
+  2. My final project taught me the most, for example I cleaned half a million transaction records and built a model that reached 99 percent accuracy.
+  3. My biggest strength is structured problem solving, in my experience I break a messy dataset into small testable steps before modelling anything.
+  4. I prefer to agree the plan early, then share progress in short updates so that nobody is surprised near the deadline.
+  5. In two to three years I want to be a data scientist who owns models from idea to deployment.
+Technical interview answers:
+  mern_react_exp_l1_01: I built a job search filter component in my final year project. It let users narrow results by skill and location. The hardest part was keeping filters in sync with the URL, so I stored the filter state in one place and then read it from the query string.
+  mern_react_con_l1_01: Props are passed down from the parent and are read-only, whereas state is owned by the component and can change. When state changes, React re-renders the component, which is why a counter updates on screen.
+  mern_react_con_l2_01: useEffect runs side effects after the component renders. The dependency array controls when it runs again: an empty array runs it once, and if a value in the array changes it runs again. A cleanup function runs before the next run, so for example a timer or subscription does not leak.
+  mern_react_scn_l2_01: First I would disable the submit button while the request is in flight and track a loading state, because that stops the second click. However the user could still refresh, so I would also make the server endpoint safe to repeat with an idempotency key.
+  mern_react_scn_l3_01: I would open the React Profiler first to find which component renders most, because guessing wastes time. Then I would memoize the expensive ones with React.memo or useMemo, keep state local so a change does not re-render the whole page, and virtualize long lists. In my project this cut a 400 item list render from about 1 second to 200 ms.
+  mern_node_scn_l3_01: At 10,000 requests per minute I would keep the services stateless behind a load balancer so I can add instances. Caching handles read-heavy endpoints, database indexes keep queries fast, and rate limiting protects the API. The first bottleneck is usually the database, so I would watch query times and add read replicas if needed.
+Machine test score (0 to 100): 85
+Integrity review priority: No concern
+
+============================================================
+CANDIDATE e2e_09  (job: jd_data_analyst)
+Resume: Final year MSc Statistics student. Built a retail sales dashboard using Python, SQL and Power BI during a 3 month internship. Completed projects in regression analysis and hypothesis testing using statistics and Excel. Two projects on customer segmentation with machine learning.
+Screening answers:
+  1. I am a statistics graduate and I built a sales dashboard in Python and SQL during an internship, so a data analyst role fits my skills.
+  2. I want to turn data into decisions, and in my last project I cut a weekly report from 6 hours to 2.
+  3. For example, I cleaned 5 datasets, tested the results with regression and presented the findings to a team of 4.
+Machine test score (0 to 100): not taken
+Integrity review priority: No concern
+
+============================================================
+CANDIDATE e2e_10  (job: jd_data_analyst)
+Resume: Final year MSc Statistics student. Built a retail sales dashboard using Python, SQL and Power BI during a 3 month internship. Completed projects in regression analysis and hypothesis testing using statistics and Excel. Two projects on customer segmentation with machine learning.
+Screening answers:
+  1. I have a degree in mathematics and I did some data work in college projects.
+  2. I like working with numbers and I think the role is a good next step for me.
+  3. I did a survey analysis project using Excel and a little Python for charts.
+HR interview answers:
+  1. I recently completed my MSc in Statistics, and specifically I built an end-to-end retail recommendation model, which is what drew me to this role.
+  2. My final project taught me the most, for example I cleaned half a million transaction records and built a model that reached 99 percent accuracy.
+  3. My biggest strength is structured problem solving, in my experience I break a messy dataset into small testable steps before modelling anything.
+  4. I prefer to agree the plan early, then share progress in short updates so that nobody is surprised near the deadline.
+  5. In two to three years I want to be a data scientist who owns models from idea to deployment.
+Technical interview answers:
+  mern_react_exp_l1_01: I made a component in React.
+  mern_react_con_l1_01: Props from parent, state in component, state change re-renders.
+  mern_react_con_l2_01: It runs side effects, has a dependency array and cleanup function.
+  mern_react_scn_l2_01: Disable button and loading state.
+  mern_react_scn_l3_01: Use memoize, Profiler, keep state local.
+  mern_node_scn_l3_01: Caching, indexes, rate limiting, stateless.
+Machine test score (0 to 100): 40
+Integrity review priority: No concern
+
+============================================================
+CANDIDATE e2e_11  (job: jd_data_analyst)
+Resume: BSc Mathematics graduate. Used Excel and Python for coursework projects on data cleaning. Familiar with statistics basics. One mini project analysing survey data for a class assignment.
+Screening answers:
+  1. I am a statistics graduate and I built a sales dashboard in Python and SQL during an internship, so a data analyst role fits my skills.
+  2. I want to turn data into decisions, and in my last project I cut a weekly report from 6 hours to 2.
+  3. For example, I cleaned 5 datasets, tested the results with regression and presented the findings to a team of 4.
+HR interview answers:
+  1. I recently completed my MSc in Statistics, and specifically I built an end-to-end retail recommendation model, which is what drew me to this role.
+  2. My final project taught me the most, for example I cleaned half a million transaction records and built a model that reached 99 percent accuracy.
+  3. My biggest strength is structured problem solving, in my experience I break a messy dataset into small testable steps before modelling anything.
+  4. I prefer to agree the plan early, then share progress in short updates so that nobody is surprised near the deadline.
+  5. In two to three years I want to be a data scientist who owns models from idea to deployment.
+Technical interview answers:
+  mern_react_exp_l1_01: I made a component in React.
+  mern_react_con_l1_01: Props from parent, state in component, state change re-renders.
+  mern_react_con_l2_01: It runs side effects, has a dependency array and cleanup function.
+  mern_react_scn_l2_01: Disable button and loading state.
+  mern_react_scn_l3_01: Use memoize, Profiler, keep state local.
+  mern_node_scn_l3_01: Caching, indexes, rate limiting, stateless.
+Machine test score (0 to 100): 50
+Integrity review priority: No concern
+
+============================================================
+CANDIDATE e2e_12  (job: jd_data_analyst)
+Resume: BSc Mathematics graduate. Used Excel and Python for coursework projects on data cleaning. Familiar with statistics basics. One mini project analysing survey data for a class assignment.
+Screening answers:
+  1. I have a degree in mathematics and I did some data work in college projects.
+  2. I like working with numbers and I think the role is a good next step for me.
+  3. I did a survey analysis project using Excel and a little Python for charts.
+HR interview answers:
+  1. I recently completed my MSc in Statistics, and specifically I built an end-to-end retail recommendation model, which is what drew me to this role.
+  2. My final project taught me the most, for example I cleaned half a million transaction records and built a model that reached 99 percent accuracy.
+  3. My biggest strength is structured problem solving, in my experience I break a messy dataset into small testable steps before modelling anything.
+  4. I prefer to agree the plan early, then share progress in short updates so that nobody is surprised near the deadline.
+  5. In two to three years I want to be a data scientist who owns models from idea to deployment.
+Technical interview answers:
+  mern_react_exp_l1_01: I built a login form component in my college project. The hard part was showing errors, so I kept an error state and displayed it under each field.
+  mern_react_con_l1_01: Props come from the parent and cannot be changed, whereas state belongs to the component. When state changes the component re-renders, which is why a counter updates on screen.
+  mern_react_con_l2_01: useEffect runs after render. The dependency array decides when it runs again, so an empty array runs it once. The cleanup function runs when the component is removed, for example to stop a timer.
+  mern_react_scn_l2_01: I would disable the button while submitting and keep a loading state, because then the second click does nothing. I have not handled the server side of it.
+  mern_react_scn_l3_01: I would use the Profiler to find the slow component, then keep state local so fewer components re-render. I have not tried memoizing or virtualizing lists.
+  mern_node_scn_l3_01: I would add caching for reads and rate limiting, but I am not sure about the rest.
+Machine test score (0 to 100): 75
+Integrity review priority: No concern

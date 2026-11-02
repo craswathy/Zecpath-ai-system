@@ -1,0 +1,25 @@
+candidate_id,reviewer,decision,reason
+e2e_01,Mentor_Anil,Selected,Strong skill set and clear technical answers
+e2e_01,Peer_Priya,Selected,Solid overall profile and high test score
+e2e_02,Mentor_Anil,Hold / Review,Good HR round but mixed technical depth
+e2e_02,Peer_Priya,Selected,Good overall performance across rounds
+e2e_03,Mentor_Anil,Hold / Review,Hesitant communication but decent test
+e2e_03,Peer_Priya,Hold / Review,Needs secondary technical evaluation
+e2e_04,Mentor_Anil,Rejected,Weak responses in all interview stages
+e2e_04,Peer_Priya,Rejected,Low machine test score and vague answers
+e2e_05,Mentor_Anil,Rejected,Keyword stuffing on resume not supported by interview
+e2e_05,Peer_Priya,Rejected,Shallow technical interview answers
+e2e_06,Mentor_Anil,Selected,Exceptional interview performance despite weak resume
+e2e_06,Peer_Priya,Selected,Proved practical competence in machine test
+e2e_07,Mentor_Anil,Hold / Review,Needs integrity flag verification before hire
+e2e_07,Peer_Priya,Hold / Review,High integrity review priority flag
+e2e_08,Mentor_Anil,Hold / Review,Unreadable resume upload needs re-submission
+e2e_08,Peer_Priya,Hold / Review,Missing resume document
+e2e_09,Mentor_Anil,Hold / Review,Incomplete pipeline evaluation
+e2e_09,Peer_Priya,Hold / Review,Did not complete technical rounds
+e2e_10,Mentor_Anil,Hold / Review,Resume strong but technical answers lack depth
+e2e_10,Peer_Priya,Rejected,Failed to answer technical scenario questions
+e2e_11,Mentor_Anil,Rejected,Strong soft skills but lacks technical capability
+e2e_11,Peer_Priya,Rejected,Technical answer scores are below baseline
+e2e_12,Mentor_Anil,Hold / Review,Average scores without notable standout skills
+e2e_12,Peer_Priya,Hold / Review,Borderline candidate across all criteria
