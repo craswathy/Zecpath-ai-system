@@ -28,6 +28,7 @@ def aggregate_rounds(round_scores, role_category=None, low_reliability_rounds=No
     - Low-reliability rounds count for half of their weight.
     - Every contribution is returned, so the result can be checked by hand.
     """
+    round_scores = round_scores if isinstance(round_scores, dict) else {}
     base_weights, role_used = get_role_weights(role_category)
     low_reliability = [r for r in (low_reliability_rounds or []) if r in ROUND_NAMES]
 

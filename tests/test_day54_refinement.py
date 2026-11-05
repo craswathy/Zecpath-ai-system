@@ -63,7 +63,7 @@ def test_refined_output_keeps_human_review_and_version():
     u = _unified({"ats": 95, "screening": 95, "hr_interview": 95, "technical_interview": 45, "machine_test": 95})
     d = decide_refined(u)
     assert d["human_review"]["required"] is True
-    assert d["metadata"]["model_version"] == "decision_v1.1"
+    assert d["metadata"]["model_version"] == "decision_v1.2"
     assert "confirms" not in " ".join(d["next_steps"])
 
 

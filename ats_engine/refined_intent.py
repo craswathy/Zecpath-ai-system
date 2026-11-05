@@ -3,7 +3,7 @@ from ats_engine.follow_up_trigger_detector import classify_follow_up_need, CONFI
 
 STRONG_HEDGE = re.compile(
     r"\bnot (?:very |really |too )?(?:sure|certain)\b|\bi guess\b|\bmaybe\b|\bperhaps\b|\bno idea\b"
-    r"|\bi (?:do not|don'?t) know\b|\bkind of\b|\bsort of\b",
+    r"|\bi (?:do not|don'?t) know\b|(?<!what )(?<!this )(?<!that )(?<!any )(?<!every )(?<!some )(?<!each )(?<!same )(?<!which )(?<!a )(?<!the )\b(?:kind|sort) of\b",
     re.IGNORECASE,
 )
 WEAK_HEDGE = re.compile(r"\bi think\b|\bprobably\b", re.IGNORECASE)

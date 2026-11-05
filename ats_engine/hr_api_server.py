@@ -22,27 +22,27 @@ SESSIONS = {}
 
 
 class StartInterviewRequest(BaseModel):
-    candidate_id: str
-    job_id: str
+    candidate_id: str = Field(min_length=1, max_length=100)
+    job_id: str = Field(min_length=1, max_length=100)
     seniority: Literal["fresher", "experienced"]
     role_type: Literal["technical", "non_technical", "all"] = "all"
 
 
 class AnswerRequest(BaseModel):
-    question_id: str
-    answer_text: str
+    question_id: str = Field(min_length=1, max_length=100)
+    answer_text: str = Field(max_length=5000)
     is_follow_up: bool = False
 
 
 class TurnData(BaseModel):
     is_off_topic: bool
     is_vague_or_missing: bool
-    communication_score: Optional[float] = None
-    behavioral_confidence_score: Optional[float] = None
+    communication_score: Optional[float] = Field(default=None, ge=0, le=100)
+    behavioral_confidence_score: Optional[float] = Field(default=None, ge=0, le=100)
 
 
 class ScoreRequest(BaseModel):
-    per_turn_data: List[TurnData]
+    per_turn_data: List[TurnData] = Field(max_length=200)
     contradiction_count: int = Field(default=0, ge=0)
     role_category: Optional[Literal["technical", "client_facing", "senior"]] = None
 
@@ -72,6 +72,15 @@ async def validation_error_handler(request, exc):
     return JSONResponse(
         status_code=422,
         content={"error": {"code": "INVALID_REQUEST", "message": "Request failed validation.", "fields": fields}},
+    )
+
+
+@app.exception_handler(Exception)
+async def unexpected_error_handler(request, exc):
+    logger.error(f"Unexpected error on {request.url.path}: {type(exc).__name__}")
+    return JSONResponse(
+        status_code=500,
+        content={"error": {"code": "INTERNAL_ERROR", "message": "Something went wrong. The error was logged."}},
     )
 
 

@@ -50,7 +50,7 @@ class AuditLog:
     @staticmethod
     def _hash(entry):
         body = {k: v for k, v in entry.items() if k != "hash"}
-        return hashlib.sha256(json.dumps(body, sort_keys=True).encode("utf-8")).hexdigest()
+        return hashlib.sha256(json.dumps(body, sort_keys=True, default=str).encode("utf-8")).hexdigest()
 
     def log(self, event, actor, candidate_id=None, detail=None, now=None):
         prev = self.entries[-1]["hash"] if self.entries else "0" * 64
@@ -65,7 +65,7 @@ class AuditLog:
         if self.path:
             os.makedirs(os.path.dirname(self.path) or ".", exist_ok=True)
             with open(self.path, "a", encoding="utf-8") as f:
-                f.write(json.dumps(entry) + "\n")
+                f.write(json.dumps(entry, default=str) + "\n")
         return entry
 
     def verify(self):
@@ -126,12 +126,18 @@ def has_consent(consent, purpose):
     """True when the purpose was granted and not withdrawn. No purpose needed means no check."""
     if purpose is None:
         return True
-    entry = (consent or {}).get("purposes", {}).get(purpose)
+    purposes = consent.get("purposes") if isinstance(consent, dict) else None
+    entry = purposes.get(purpose) if isinstance(purposes, dict) else None
+    if not isinstance(entry, dict):
+        return False
     return bool(entry and entry.get("granted_at") and not entry.get("withdrawn_at"))
 
 
 def check_access(user, action, candidate, consent, audit):
     """Role, scope and consent checks. Every attempt, allowed or denied, goes to the audit log."""
+    if not isinstance(user, dict) or not user.get("user_id"):
+        audit.log("access", "unknown", None, {"action": action, "allowed": False, "reason": "no verified user"})
+        return False, "no verified user"
     allowed, reason = is_allowed(user, action, candidate)
     if allowed and not has_consent(consent, ACTION_PURPOSE.get(action)):
         allowed, reason = False, f"no valid consent for {ACTION_PURPOSE.get(action)}"
@@ -145,10 +151,14 @@ def find_expired(records, now=None):
     now = now or datetime.now(timezone.utc)
     expired = []
     for r in records:
-        days = RETENTION_DAYS.get(r["type"])
+        days = RETENTION_DAYS.get(r.get("type"))
         if r.get("legal_hold") or days is None:
             continue
-        created = datetime.fromisoformat(r["created_at"])
+        try:
+            created = datetime.fromisoformat(r["created_at"])
+        except (KeyError, TypeError, ValueError):
+            logger.warning(f"Skipped record with unreadable created_at: {r.get('id')}")
+            continue
         if created.tzinfo is None:
             created = created.replace(tzinfo=timezone.utc)
         if now - created > timedelta(days=days):
@@ -160,9 +170,9 @@ def find_withdrawal_deletions(records, candidate_id, consent):
     """Records of this candidate whose consent purpose was withdrawn. The audit log is never listed."""
     out = []
     for r in records:
-        if r["candidate_id"] != candidate_id or r.get("legal_hold") or r["type"] == "audit_log":
+        if r.get("candidate_id") != candidate_id or r.get("legal_hold") or r.get("type") == "audit_log":
             continue
-        purpose = DATA_PURPOSE.get(r["type"])
+        purpose = DATA_PURPOSE.get(r.get("type"))
         if purpose and not has_consent(consent, purpose):
             out.append(r)
     return out

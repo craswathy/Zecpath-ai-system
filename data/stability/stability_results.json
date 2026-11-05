@@ -1,0 +1,194 @@
+{
+  "data_issues": [],
+  "edge_cases": [
+    {
+      "area": "Conversation",
+      "case": "cleanup of None text gives empty text",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "area": "Conversation",
+      "case": "cleanup of a number does not crash",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "area": "Conversation",
+      "case": "cleanup of emoji and Malayalam text does not crash",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "area": "Conversation",
+      "case": "cleanup of a 30,000 word text is fast",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "area": "Conversation",
+      "case": "None answer gets a clarification",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "area": "Conversation",
+      "case": "'this kind of work' is not a hedge",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "area": "Conversation",
+      "case": "'I am kind of good at Excel' is a hedge",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "area": "Scoring",
+      "case": "no round scores (None) gives no data, not a crash",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "area": "Scoring",
+      "case": "NaN, infinity, negative, over 100, text and True are all ignored",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "area": "Scoring",
+      "case": "unknown role uses default weights",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "area": "Scoring",
+      "case": "empty HR interview gives no score, not 0",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "area": "Scoring",
+      "case": "empty screening gives no score, not a crash",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "area": "Scoring",
+      "case": "empty technical interview gives no score",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "area": "Scoring",
+      "case": "only unknown technical questions gives no score",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "area": "Scoring",
+      "case": "unknown question type is a clear ValueError",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "area": "Scoring",
+      "case": "non-text technical answer does not crash",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "area": "Scoring",
+      "case": "empty technical answer scores 0 as 'no answer'",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "area": "Decision",
+      "case": "all rounds missing gives Hold / Review with zero confidence",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "area": "Decision",
+      "case": "failed resume with strong scores gives Hold / Review",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "area": "Decision",
+      "case": "failed resume and already Hold still records the rule and the re-upload step",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "area": "Decision",
+      "case": "a failed pipeline stage gives Hold / Review",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "area": "Decision",
+      "case": "readable resume is not affected",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "area": "Governance",
+      "case": "malformed consent is treated as no consent",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "area": "Governance",
+      "case": "missing user is denied and logged",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "area": "Governance",
+      "case": "audit log accepts a date value and stays verifiable",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "area": "Governance",
+      "case": "unreadable record date is skipped, others are still checked",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "area": "Governance",
+      "case": "record with missing fields does not crash the withdrawal list",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "area": "Pipeline",
+      "case": "a wrong data key is recorded as an error and the journey still completes",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "area": "Pipeline",
+      "case": "failed resume upload ends as Hold / Review",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "area": "Pipeline",
+      "case": "candidate with every stage empty is pending",
+      "passed": true,
+      "detail": ""
+    }
+  ],
+  "fuzz": {
+    "checked": 300,
+    "failures": 0,
+    "decisions": {
+      "Selected": 1,
+      "Hold / Review": 290,
+      "Rejected": 9
+    }
+  }
+}

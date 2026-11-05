@@ -39,7 +39,7 @@ def normalize_transcript_text(raw_text):
     if not raw_text:
         return ""
 
-    text = raw_text.strip()
+    text = str(raw_text).strip()
     text = FILLER_PATTERN.sub("", text)
     text = re.sub(r"\s+([,.!?;:])", r"\1", text)          # "word ," -> "word,"
     text = re.sub(r"([,;:])(?:\s*[,;:])+", r"\1", text)   # ",," -> ","

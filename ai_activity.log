@@ -5683,3 +5683,68 @@
 2026-11-02 22:01:57,481 - INFO - End-to-end simulation finished
 2026-11-02 22:33:09,502 - INFO - End-to-end simulation finished
 2026-11-02 22:55:07,535 - INFO - End-to-end simulation finished
+2026-11-05 22:20:22,418 - INFO - Normalized transcript text
+2026-11-05 22:20:22,418 - INFO - Follow-up classification: scenario_based
+2026-11-05 22:20:22,418 - INFO - Confidence indicator: 1.0 (hesitations=0, uncertain=False)
+2026-11-05 22:20:22,418 - INFO - Normalized transcript text
+2026-11-05 22:20:22,418 - INFO - Follow-up classification: scenario_based
+2026-11-05 22:20:22,418 - INFO - Confidence indicator: 1.0 (hesitations=0, uncertain=False)
+2026-11-05 22:20:22,418 - INFO - Normalized transcript text
+2026-11-05 22:20:22,418 - INFO - Follow-up classification: scenario_based
+2026-11-05 22:20:22,418 - INFO - Confidence indicator: 1.0 (hesitations=0, uncertain=False)
+2026-11-05 22:20:22,418 - INFO - Normalized transcript text
+2026-11-05 22:20:22,418 - INFO - Follow-up classification: None
+2026-11-05 22:20:22,426 - INFO - Confidence indicator: 1.0 (hesitations=0, uncertain=False)
+2026-11-05 22:20:22,426 - INFO - Normalized transcript text
+2026-11-05 22:20:22,426 - INFO - Follow-up classification: None
+2026-11-05 22:20:22,426 - INFO - Confidence indicator: 1.0 (hesitations=0, uncertain=False)
+2026-11-05 22:20:22,426 - INFO - HR interview score: 99.8/100, band=Strong, turns=5
+2026-11-05 22:20:22,426 - INFO - Technical answer mern_react_exp_l1_01: 0.92 (deep)
+2026-11-05 22:20:22,426 - INFO - Technical answer mern_react_con_l1_01: 0.84 (deep)
+2026-11-05 22:20:22,426 - INFO - Technical answer mern_react_con_l2_01: 0.95 (deep)
+2026-11-05 22:20:22,426 - INFO - Technical answer mern_react_scn_l2_01: 0.7 (deep)
+2026-11-05 22:20:22,426 - INFO - Technical answer mern_react_scn_l3_01: 0.81 (deep)
+2026-11-05 22:20:22,426 - INFO - Technical answer mern_node_scn_l3_01: 0.75 (deep)
+2026-11-05 22:20:22,426 - INFO - Aggregated 4 rounds for role technical: 88.9
+2026-11-05 22:20:22,426 - INFO - Hiring fit: 88.9% -> Strong Fit (final)
+2026-11-05 22:20:22,426 - INFO - Built unified v2 object for e2e_08: Strong Fit
+2026-11-05 22:20:22,426 - INFO - Decision for e2e_08: Selected (confidence 0.84)
+2026-11-05 22:20:22,426 - INFO - Follow-up classification: None
+2026-11-05 22:25:52,351 - INFO - Normalized transcript text
+2026-11-05 22:25:52,351 - WARNING - Skipped record with unreadable created_at: a
+2026-11-05 22:25:52,351 - INFO - Technical answer mern_react_exp_l1_01: 0.92 (deep)
+2026-11-05 22:25:52,351 - INFO - Technical answer mern_react_con_l1_01: 0.84 (deep)
+2026-11-05 22:25:52,351 - INFO - Technical answer mern_react_con_l2_01: 0.95 (deep)
+2026-11-05 22:25:52,351 - INFO - Technical answer mern_react_scn_l2_01: 0.7 (deep)
+2026-11-05 22:25:52,351 - INFO - Technical answer mern_react_scn_l3_01: 0.81 (deep)
+2026-11-05 22:25:52,351 - INFO - Technical answer mern_node_scn_l3_01: 0.75 (deep)
+2026-11-05 22:25:52,351 - INFO - Aggregated 4 rounds for role technical: 87.1
+2026-11-05 22:25:52,351 - INFO - Hiring fit: 87.1% -> Strong Fit (final)
+2026-11-05 22:25:52,351 - INFO - Built unified v2 object for e2e_01: Strong Fit
+2026-11-05 22:25:52,351 - INFO - Decision for e2e_01: Selected (confidence 0.82)
+2026-11-05 22:25:52,351 - INFO - Refined decision for e2e_01: Hold / Review (STAGE_ERROR)
+2026-11-05 22:25:52,351 - INFO - Normalized transcript text
+2026-11-05 22:25:52,351 - INFO - Follow-up classification: scenario_based
+2026-11-05 22:25:52,351 - INFO - Normalized transcript text
+2026-11-05 22:25:52,351 - INFO - Follow-up classification: scenario_based
+2026-11-05 22:25:52,351 - INFO - Normalized transcript text
+2026-11-05 22:25:52,351 - INFO - Follow-up classification: scenario_based
+2026-11-05 22:25:52,351 - INFO - Normalized transcript text
+2026-11-05 22:25:52,351 - INFO - Follow-up classification: None
+2026-11-05 22:25:52,351 - INFO - Normalized transcript text
+2026-11-05 22:25:52,351 - INFO - Follow-up classification: None
+2026-11-05 22:25:52,366 - INFO - HR interview score: 99.8/100, band=Strong, turns=5
+2026-11-05 22:25:52,366 - INFO - Technical answer mern_react_exp_l1_01: 0.92 (deep)
+2026-11-05 22:25:52,366 - INFO - Technical answer mern_react_con_l1_01: 0.84 (deep)
+2026-11-05 22:25:52,366 - INFO - Technical answer mern_react_con_l2_01: 0.95 (deep)
+2026-11-05 22:25:52,366 - INFO - Technical answer mern_react_scn_l2_01: 0.7 (deep)
+2026-11-05 22:25:52,366 - INFO - Technical answer mern_react_scn_l3_01: 0.81 (deep)
+2026-11-05 22:25:52,366 - INFO - Technical answer mern_node_scn_l3_01: 0.75 (deep)
+2026-11-05 22:25:52,366 - INFO - Aggregated 4 rounds for role technical: 88.9
+2026-11-05 22:25:52,366 - INFO - Hiring fit: 88.9% -> Strong Fit (final)
+2026-11-05 22:25:52,366 - INFO - Built unified v2 object for e2e_08: Strong Fit
+2026-11-05 22:25:52,366 - INFO - Decision for e2e_08: Selected (confidence 0.84)
+2026-11-05 22:25:52,366 - INFO - Refined decision for e2e_08: Hold / Review (RESUME_FAILED)
+2026-11-05 22:25:52,366 - INFO - Follow-up classification: None
+2026-11-05 22:27:06,457 - WARNING - Skipped record with unreadable created_at: a
+2026-11-05 22:30:09,589 - INFO - End-to-end simulation finished

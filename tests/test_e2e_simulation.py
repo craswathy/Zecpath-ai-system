@@ -94,7 +94,7 @@ def test_human_comparison_labels_each_kind_of_disagreement():
     kinds = {c["candidate_id"]: c["kind"] for c in compare_with_humans(journeys, rows)}
     assert kinds["e2e_01"] == "match"
     assert kinds["e2e_06"] == "AI deferred to a person"
-    assert kinds["e2e_08"] == "AI firmer than the human"
+    assert kinds["e2e_08"] == "match"          # Day 57: a failed resume upload now goes to Hold / Review
 
 
 def test_review_file_loads_and_covers_every_candidate():

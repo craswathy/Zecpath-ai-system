@@ -117,8 +117,10 @@ def classify_depth(accuracy, depth, reasoning):
 
 def score_answer(question, answer_text, topic):
     """Score one answer. question needs: id, type, level, key_points."""
-    answer_text = (answer_text or "").strip()
+    answer_text = str(answer_text or "").strip()
     q_type, level = question["type"], question["level"]
+    if q_type not in PARAMETER_WEIGHTS or level not in LEVEL_WEIGHTS:
+        raise ValueError(f"Unknown question type or level for {question.get('id')}: {q_type}, {level}")
 
     if not answer_text:
         return {
@@ -181,7 +183,9 @@ def score_technical_interview(scored_answers):
     Harder levels count more (LEVEL_WEIGHTS), so scores are comparable across levels.
     """
     if not scored_answers:
-        return {"technical_score": 0.0, "band": "No data", "skills": {}, "explanation": "No answers to score."}
+        return {"technical_score": None, "band": "No data", "band_adjusted_from": None, "skills": {},
+                "weak_skills": [], "parameter_averages": {}, "answers_scored": 0, "reliability": "low_reliability",
+                "shallow_answers": 0, "keyword_listing_answers": 0, "explanation": "No answers to score."}
 
     skills = {}
     for topic in sorted({a["topic"] for a in scored_answers}):

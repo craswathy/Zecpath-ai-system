@@ -31,6 +31,10 @@ def run_pipeline(cand, data, questions, audit=None, behavior=None):
     job, banks = data["job"], data["banks"]
     role = job["role_category"]
     timings, errors, stages = {}, [], {}
+    for field in ("resume", "screening", "hr", "tech"):
+        key = cand.get(field)
+        if key is not None and key not in banks.get(field, {}):
+            errors.append(f"{field}: unknown data key '{key}'")
 
     def timed(name, fn, *args):
         start = time.perf_counter()
@@ -42,17 +46,18 @@ def run_pipeline(cand, data, questions, audit=None, behavior=None):
         timings[name] = (time.perf_counter() - start) * 1000
         return out
 
-    parsed = timed("resume_upload", parse_resume, banks["resume"][cand["resume"]] if cand.get("resume") else "")
+    parsed = timed("resume_upload", parse_resume, banks["resume"].get(cand["resume"], "") if cand.get("resume") else "")
     stages["resume_upload"] = {"score": None, "status": parsed.get("status", "error")}
     stages["ats"] = timed("ats", run_ats, parsed, job) if "skills" in parsed else {"score": None}
-    stages["screening"] = timed("screening", run_screening, banks["screening"][cand["screening"]]) if cand.get("screening") else {"score": None}
-    stages["hr_interview"] = timed("hr_interview", run_hr, banks["hr"][cand["hr"]], role) if cand.get("hr") else {"score": None}
-    stages["technical_interview"] = (timed("technical_interview", run_technical, banks["tech"][cand["tech"]], questions)
+    stages["screening"] = timed("screening", run_screening, banks["screening"].get(cand["screening"])) if cand.get("screening") else {"score": None}
+    stages["hr_interview"] = timed("hr_interview", run_hr, banks["hr"].get(cand["hr"]), role) if cand.get("hr") else {"score": None}
+    stages["technical_interview"] = (timed("technical_interview", run_technical, banks["tech"].get(cand["tech"]), questions)
                                      if cand.get("tech") else {"score": None})
     stages["machine_test"] = {"score": cand.get("machine")}
 
     scores = {r: stages[r]["score"] for r in ROUNDS}
-    context = {"integrity_review_priority": cand.get("integrity", "No concern"),
+    context = {"resume_status": stages["resume_upload"]["status"], "pipeline_errors": len(errors),
+               "integrity_review_priority": cand.get("integrity", "No concern"),
                "behavioral_label": behavior or cand.get("behavior", "not available")}
     start = time.perf_counter()
     unified = build_unified_score_object(cand["id"], job["job_id"], scores, role, cand.get("low_reliability"), context)
@@ -98,6 +103,8 @@ def check_invariants(journeys, data, questions, audit):
     other = [run_pipeline(cands[j["candidate_id"]], data, questions, behavior="Low observed engagement") for j in journeys]
     check("Behavioral label never changes a decision", all(a["decision"]["decision"] == b["decision"]["decision"] for a, b in zip(journeys, other)))
 
+    check("Failed resume upload never gives Selected or Rejected",
+          all(j["decision"]["decision"] == "Hold / Review" for j in journeys if j["stages"]["resume_upload"]["status"] != "ok"))
     ok, bad_seq = audit.verify()
     check("Audit log chain is intact", ok, "" if ok else f"broken at entry {bad_seq}")
     return results
