@@ -5748,3 +5748,4 @@
 2026-11-05 22:25:52,366 - INFO - Follow-up classification: None
 2026-11-05 22:27:06,457 - WARNING - Skipped record with unreadable created_at: a
 2026-11-05 22:30:09,589 - INFO - End-to-end simulation finished
+2026-11-05 22:47:12,897 - INFO - End-to-end simulation finished

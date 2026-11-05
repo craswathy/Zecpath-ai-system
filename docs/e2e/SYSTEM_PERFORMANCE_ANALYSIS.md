@@ -8,10 +8,10 @@ Runs timed: 240 (all candidates, repeated, with logging in batch mode)
 |---|---|
 | resume_upload | 0.024 |
 | ats | 0.003 |
-| screening | 0.091 |
-| hr_interview | 0.436 |
-| technical_interview | 0.413 |
-| final_decision | 0.054 |
+| screening | 0.088 |
+| hr_interview | 0.44 |
+| technical_interview | 0.392 |
+| final_decision | 0.053 |
 
-Whole journey per candidate: 0.961 ms
-Throughput: about 1040.8 candidates per second on this machine
+Whole journey per candidate: 0.944 ms
+Throughput: about 1059.5 candidates per second on this machine
