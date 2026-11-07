@@ -1,0 +1,34 @@
+ZECPATH API MAPPING (Backend -> AI -> Database)
+
+ [Recruiter Dashboard / Candidate Portal]
+                  |
+                  v  HTTPS + JWT
+ +-------------------------------------+
+ |  BACKEND / API GATEWAY              |
+ |  auth, rate limit, idempotency key  |
+ +-------------------------------------+
+   |        |          |          |          |
+   | REST   | REST     | Queue    | REST     | REST
+   | async  | sync     | async    | sync     | sync
+   v        v          v          v          v
+ +-------+ +-------+ +----------+ +--------+ +----------+
+ |Resume | | ATS   | |Screening | |Interview| |Decision  |
+ |Parsing| |Scoring| |AI API    | |AI API   | |AI API    |
+ |API    | |API    | |/screening| |/interviews |/decisions|
+ |/resumes |/scores| |/calls    | |         | |          |
+ +-------+ +-------+ +----------+ +--------+ +----------+
+   |   ^      |          |   ^        |           |
+   |   |      |          |   |        |           |
+   |   +------+----------+---+--------+-----------+
+   |    signed webhooks (job done, call done) back to Backend
+   v          v          v          v           v
+ +-------------------------------------------------+
+ |  STORAGE LAYER                                  |
+ |  Object storage : resumes, audio, video         |
+ |  Document DB    : parsed profiles, transcripts  |
+ |  Relational DB  : scores, decisions, audit log  |
+ +-------------------------------------------------+
+
+ Sync  = caller waits for the answer (scoring, decision)
+ Async = 202 + job_id, queue, webhook or polling (resume, call)
+ Errors: retry 429/5xx with backoff, no retry on 4xx

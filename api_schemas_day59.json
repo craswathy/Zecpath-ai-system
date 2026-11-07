@@ -1,0 +1,158 @@
+{
+  "title": "Zecpath AI API Schemas (Day 59)",
+  "definitions": {
+    "ResumeParseRequest": {
+      "type": "object",
+      "required": ["candidate_id", "file_url"],
+      "properties": {
+        "candidate_id": {"type": "string"},
+        "file_url": {"type": "string"},
+        "webhook_url": {"type": "string"}
+      }
+    },
+    "AsyncJobResponse": {
+      "type": "object",
+      "required": ["job_id", "status", "stage"],
+      "properties": {
+        "job_id": {"type": "string"},
+        "status": {"type": "string", "enum": ["pending", "processing", "complete", "failed"]},
+        "stage": {"type": "string"},
+        "model_version": {"type": "string"}
+      }
+    },
+    "ATSScoreRequest": {
+      "type": "object",
+      "required": ["candidate_id", "job_id"],
+      "properties": {
+        "candidate_id": {"type": "string"},
+        "job_id": {"type": "string"},
+        "role_category": {"type": "string", "enum": ["technical", "business", "entry_level"]}
+      }
+    },
+    "ATSScoreResponse": {
+      "type": "object",
+      "required": ["candidate_id", "job_id", "final_score", "component_scores", "model_version"],
+      "properties": {
+        "candidate_id": {"type": "string"},
+        "job_id": {"type": "string"},
+        "final_score": {"type": "number", "minimum": 0, "maximum": 100},
+        "component_scores": {"type": "object"},
+        "decision_zone": {"type": "string", "enum": ["Shortlisted", "Needs Review", "Auto-Rejected"]},
+        "explanation": {"type": "string"},
+        "model_version": {"type": "string"}
+      }
+    },
+    "ScreeningCallRequest": {
+      "type": "object",
+      "required": ["candidate_id", "job_id", "language", "consent_id"],
+      "properties": {
+        "candidate_id": {"type": "string"},
+        "job_id": {"type": "string"},
+        "language": {"type": "string"},
+        "voice_profile": {"type": "string"},
+        "consent_id": {"type": "string"},
+        "webhook_url": {"type": "string"}
+      }
+    },
+    "ScreeningReportResponse": {
+      "type": "object",
+      "required": ["call_id", "candidate_id", "final_screening_score", "call_status"],
+      "properties": {
+        "call_id": {"type": "string"},
+        "candidate_id": {"type": "string"},
+        "call_status": {"type": "string", "enum": ["completed", "dropped", "no_answer", "retried"]},
+        "final_screening_score": {"type": "number", "minimum": 0, "maximum": 100},
+        "strengths": {"type": "array", "items": {"type": "string"}},
+        "risks": {"type": "array", "items": {"type": "string"}},
+        "missing_data": {"type": "array", "items": {"type": "string"}},
+        "model_version": {"type": "string"}
+      }
+    },
+    "InterviewTurnScoreRequest": {
+      "type": "object",
+      "required": ["interview_id", "turn_id", "question_id", "answer_text"],
+      "properties": {
+        "interview_id": {"type": "string"},
+        "turn_id": {"type": "string"},
+        "question_id": {"type": "string"},
+        "answer_text": {"type": "string"},
+        "stt_confidence": {"type": "number", "minimum": 0, "maximum": 1},
+        "response_duration_seconds": {"type": "number"}
+      }
+    },
+    "InterviewTurnScoreResponse": {
+      "type": "object",
+      "required": ["turn_id", "communication_score", "confidence_score", "relevance_score"],
+      "properties": {
+        "turn_id": {"type": "string"},
+        "communication_score": {"type": "number", "minimum": 0, "maximum": 100},
+        "confidence_score": {"type": "number", "minimum": 0, "maximum": 100},
+        "relevance_score": {"type": "number", "minimum": 0, "maximum": 1},
+        "follow_up": {"type": "object"},
+        "flags": {"type": "array", "items": {"type": "string"}},
+        "model_version": {"type": "string"}
+      }
+    },
+    "DecisionRequest": {
+      "type": "object",
+      "required": ["candidate_id", "job_id", "round_scores"],
+      "properties": {
+        "candidate_id": {"type": "string"},
+        "job_id": {"type": "string"},
+        "role_category": {"type": "string"},
+        "round_scores": {
+          "type": "object",
+          "properties": {
+            "ats": {"type": ["number", "null"]},
+            "screening": {"type": ["number", "null"]},
+            "hr_interview": {"type": ["number", "null"]},
+            "technical": {"type": ["number", "null"]},
+            "machine_test": {"type": ["number", "null"]}
+          }
+        }
+      }
+    },
+    "DecisionResponse": {
+      "type": "object",
+      "required": ["candidate_id", "job_id", "hiring_fit_percentage", "decision", "model_version"],
+      "properties": {
+        "candidate_id": {"type": "string"},
+        "job_id": {"type": "string"},
+        "hiring_fit_percentage": {"type": "number", "minimum": 0, "maximum": 100},
+        "decision": {"type": "string", "enum": ["Selected", "Hold", "Rejected"]},
+        "confidence": {"type": "number", "minimum": 0, "maximum": 1},
+        "flags": {"type": "array", "items": {"type": "string"}},
+        "missing_rounds": {"type": "array", "items": {"type": "string"}},
+        "explanation": {"type": "string"},
+        "model_version": {"type": "string"}
+      }
+    },
+    "WebhookEvent": {
+      "type": "object",
+      "required": ["event", "job_id", "status", "timestamp"],
+      "properties": {
+        "event": {"type": "string", "enum": ["resume.parsed", "screening.completed", "interview.completed"]},
+        "job_id": {"type": "string"},
+        "status": {"type": "string"},
+        "timestamp": {"type": "string"},
+        "result_url": {"type": "string"}
+      }
+    },
+    "ErrorResponse": {
+      "type": "object",
+      "required": ["error"],
+      "properties": {
+        "error": {
+          "type": "object",
+          "required": ["code", "message", "retryable"],
+          "properties": {
+            "code": {"type": "string"},
+            "message": {"type": "string"},
+            "request_id": {"type": "string"},
+            "retryable": {"type": "boolean"}
+          }
+        }
+      }
+    }
+  }
+}
