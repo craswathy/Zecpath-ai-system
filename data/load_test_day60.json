@@ -1,0 +1,44 @@
+{
+  "total_requests_per_level": 200,
+  "note": "Function-level simulation inside one process, not real HTTP traffic.",
+  "cpu_bound_scoring": [
+    {
+      "concurrency": 1,
+      "requests_per_second": 35811.5,
+      "p50_ms": 0.01,
+      "p95_ms": 0.02
+    },
+    {
+      "concurrency": 10,
+      "requests_per_second": 22882.0,
+      "p50_ms": 0.02,
+      "p95_ms": 0.03
+    },
+    {
+      "concurrency": 50,
+      "requests_per_second": 21378.7,
+      "p50_ms": 0.01,
+      "p95_ms": 0.03
+    }
+  ],
+  "io_bound_simulated_50ms_wait": [
+    {
+      "concurrency": 1,
+      "requests_per_second": 19.7,
+      "p50_ms": 50.73,
+      "p95_ms": 51.33
+    },
+    {
+      "concurrency": 10,
+      "requests_per_second": 195.7,
+      "p50_ms": 50.73,
+      "p95_ms": 51.58
+    },
+    {
+      "concurrency": 50,
+      "requests_per_second": 853.8,
+      "p50_ms": 50.67,
+      "p95_ms": 51.15
+    }
+  ]
+}

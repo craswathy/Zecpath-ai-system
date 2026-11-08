@@ -1,0 +1,13 @@
+{
+  "resumes": 10,
+  "jds": 6,
+  "model_load_seconds": 5.961,
+  "matching_pairwise_seconds": 4.345,
+  "matching_batched_seconds": 0.519,
+  "matching_max_score_difference": 0.0005,
+  "embed_cold_seconds": 0.306,
+  "embed_cached_seconds": 0.0,
+  "pdf_count": 10,
+  "extract_sequential_seconds": 2.104,
+  "extract_parallel_seconds": 9.756
+}
