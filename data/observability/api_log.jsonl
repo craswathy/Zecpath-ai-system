@@ -1,0 +1,6 @@
+{"timestamp": "2026-11-09T14:15:44.801700", "request_id": "req_5702f45ae8", "endpoint": "POST /api/v1/scores", "status_code": 200, "duration_ms": 0.79, "candidate_id": "demo_cand_1", "job_id": "jd_data_analyst"}
+{"timestamp": "2026-11-09T14:15:44.808925", "request_id": "req_45a972dfc3", "endpoint": "POST /api/v1/scores", "status_code": 200, "duration_ms": 0.26, "candidate_id": "demo_cand_2", "job_id": "jd_data_analyst"}
+{"timestamp": "2026-11-09T14:15:44.813570", "request_id": "req_277c0e8d9e", "endpoint": "POST /api/v1/scores", "status_code": 200, "duration_ms": 0.17, "candidate_id": "demo_cand_3", "job_id": "jd_data_analyst"}
+{"timestamp": "2026-11-09T14:15:44.820169", "request_id": "req_b99c1719a1", "endpoint": "POST /api/v1/scores", "status_code": 200, "duration_ms": 0.2, "candidate_id": "demo_cand_4", "job_id": "jd_data_analyst"}
+{"timestamp": "2026-11-09T14:15:44.823474", "request_id": "req_9f7905c1a5", "endpoint": "POST /api/v1/scores", "status_code": 200, "duration_ms": 0.17, "candidate_id": "demo_cand_5", "job_id": "jd_data_analyst"}
+{"timestamp": "2026-11-09T14:15:44.825311", "request_id": "req_1e9643e43e", "endpoint": "POST /api/v1/resumes", "status_code": 422, "duration_ms": 12.0, "candidate_id": "demo_cand_9", "job_id": null}

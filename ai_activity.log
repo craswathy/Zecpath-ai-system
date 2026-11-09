@@ -5794,3 +5794,18 @@
 2026-11-08 10:35:25,217 - INFO - Successfully extracted PDF: data\java_resume_1.pdf
 2026-11-08 10:35:25,281 - INFO - Successfully extracted PDF: data\da_resume_3.pdf
 2026-11-08 10:35:25,425 - INFO - Successfully extracted PDF: data\soft_resume_1.pdf
+2026-11-09 14:15:44,801 - INFO - ATS score computed: 87.5/100
+2026-11-09 14:15:44,808 - INFO - Unified hiring-fit score: 68.2% (3 rounds)
+2026-11-09 14:15:44,808 - INFO - Hiring fit category: Moderate Fit
+2026-11-09 14:15:44,808 - INFO - ATS score computed: 87.5/100
+2026-11-09 14:15:44,813 - INFO - Unified hiring-fit score: 71.8% (3 rounds)
+2026-11-09 14:15:44,813 - INFO - Hiring fit category: Moderate Fit
+2026-11-09 14:15:44,813 - INFO - ATS score computed: 87.5/100
+2026-11-09 14:15:44,818 - INFO - Unified hiring-fit score: 75.2% (3 rounds)
+2026-11-09 14:15:44,818 - INFO - Hiring fit category: Strong Fit
+2026-11-09 14:15:44,820 - INFO - ATS score computed: 87.5/100
+2026-11-09 14:15:44,821 - INFO - Unified hiring-fit score: 78.8% (3 rounds)
+2026-11-09 14:15:44,822 - INFO - Hiring fit category: Strong Fit
+2026-11-09 14:15:44,823 - INFO - ATS score computed: 87.5/100
+2026-11-09 14:15:44,825 - INFO - Unified hiring-fit score: 82.2% (3 rounds)
+2026-11-09 14:15:44,825 - INFO - Hiring fit category: Strong Fit

@@ -1,0 +1,50 @@
+ZECPATH MONITORING DASHBOARD (design)
+
+PAGE 1: SYSTEM HEALTH
++------------------+------------------+------------------+
+| Requests / hour  | Failure rate %   | p95 latency (ms) |
+|   (big number)   |   (big number)   |   (big number)   |
++------------------+------------------+------------------+
+| Latency by endpoint (line chart, last 24 h)             |
+| Failures by error_code (bar chart)                      |
+| Queue depth and dead-letter count (line chart)          |
++---------------------------------------------------------+
+
+PAGE 2: CANDIDATE PROCESSING STATS
++------------------+------------------+------------------+
+| Candidates today | Avg processing   | Needs manual     |
+|                  | time per stage   | review count     |
++------------------+------------------+------------------+
+| Hiring funnel: Uploaded > Parsed > ATS shortlisted >    |
+|   Screened > HR interviewed > Final (funnel chart)      |
+| ATS zone split: Shortlisted / Review / Rejected (pie)   |
++---------------------------------------------------------+
+
+PAGE 3: INTERVIEW SUCCESS RATES
++------------------+------------------+------------------+
+| Call answer rate | Interview        | Dropped / failed |
+|                  | completion rate  | call rate        |
++------------------+------------------+------------------+
+| Completion rate by round (bar chart)                    |
+| Average speech-to-text confidence (line chart)          |
+| Retry counts per call (histogram)                       |
++---------------------------------------------------------+
+
+PAGE 4: MODEL QUALITY AND FAIRNESS
++---------------------------------------------------------+
+| Mean score vs baseline (line chart, drift alert line)   |
+| Decision mix over time: Strong / Moderate / Weak fit    |
+| Accuracy vs recruiter decisions (needs labelled data)   |
+| Score gap across non-scoring groups (bias check, Day 15)|
++---------------------------------------------------------+
+
+PAGE 5: AUDIT EXPLORER (restricted to admin role)
++---------------------------------------------------------+
+| Search by candidate_id or request_id                    |
+| Result: timeline of every API call, model output and    |
+|   decision with model_version and flags                 |
++---------------------------------------------------------+
+
+FILTERS ON EVERY PAGE: date range, job, role category, model_version
+ALERT BANNER AT TOP: shows active alerts from the alert rules
+ACCESS: recruiters see their own company only; admins see all
