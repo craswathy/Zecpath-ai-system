@@ -1,0 +1,9 @@
+SKILLS
+Python, SQL, Excel, Statistics
+EXPERIENCE
+Alpha Insights 01/2017 - 12/2018 // Data Analyst
+- Produced weekly KPI reports.
+Beta Analytics 06/2023 - 05/2024 // Data Analyst
+- Built SQL reports and Excel models.
+EDUCATION
+Master of Science in Statistics, 2016

@@ -1,0 +1,12 @@
+SUMMARY
+Data analyst with two years of experience building dashboards and statistical reports.
+SKILLS
+Python, SQL, Excel, Power BI, Statistics
+EXPERIENCE
+BrightMart Retail 06/2022 - 05/2024 // Data Analyst
+- Built Power BI dashboards tracking weekly sales across 40 stores.
+- Wrote SQL queries to clean and join transaction data.
+DataWorks 06/2024 - present // Senior Data Analyst
+- Applied hypothesis testing to measure campaign impact.
+EDUCATION
+Master of Science in Statistics, Christ College, 2022

@@ -1,0 +1,8 @@
+SUMMARY
+Recent graduate looking for a first role in analytics.
+SKILLS
+Python, Excel, Statistics
+PROJECTS
+Retail sales analysis using Excel and Python for a college project.
+EDUCATION
+Master of Science in Statistics, 2026

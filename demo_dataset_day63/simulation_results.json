@@ -1,0 +1,278 @@
+[
+  {
+    "candidate_id": "cand_priya",
+    "job_id": "jd_data_analyst",
+    "quality": "strong, well structured",
+    "ats": {
+      "ats_score": 90.8,
+      "missing": [],
+      "sections_found": [
+        "EDUCATION",
+        "EXPERIENCE",
+        "SKILLS",
+        "SUMMARY"
+      ],
+      "years": 4.36,
+      "skills_found": [
+        "python",
+        "sql",
+        "excel",
+        "power bi",
+        "statistics"
+      ]
+    },
+    "screening_score_simulated": 82.0,
+    "hr": {
+      "hr_score": 99.1,
+      "band": "Strong",
+      "weak_components": []
+    },
+    "hiring_fit_percentage": 91.5,
+    "category": "Strong Fit",
+    "flags": [],
+    "expected": "Strong Fit",
+    "matches_expected": true
+  },
+  {
+    "candidate_id": "cand_arun",
+    "job_id": "jd_business_analyst",
+    "quality": "average, thin detail",
+    "ats": {
+      "ats_score": 75.8,
+      "missing": [],
+      "sections_found": [
+        "EDUCATION",
+        "EXPERIENCE",
+        "SKILLS"
+      ],
+      "years": 2.91,
+      "skills_found": [
+        "sql",
+        "excel",
+        "communication",
+        "business analysis"
+      ]
+    },
+    "screening_score_simulated": 68.0,
+    "hr": {
+      "hr_score": 97.2,
+      "band": "Strong",
+      "weak_components": []
+    },
+    "hiring_fit_percentage": 81.3,
+    "category": "Strong Fit",
+    "flags": [],
+    "expected": "Moderate Fit",
+    "matches_expected": false
+  },
+  {
+    "candidate_id": "cand_meera",
+    "job_id": "jd_data_analyst",
+    "quality": "fresher, no experience section",
+    "ats": {
+      "ats_score": 62.3,
+      "missing": [
+        "experience_relevance"
+      ],
+      "sections_found": [
+        "EDUCATION",
+        "PROJECTS",
+        "SKILLS",
+        "SUMMARY"
+      ],
+      "years": null,
+      "skills_found": [
+        "python",
+        "excel",
+        "statistics"
+      ]
+    },
+    "screening_score_simulated": 60.0,
+    "hr": {
+      "hr_score": 97.3,
+      "band": "Strong",
+      "weak_components": []
+    },
+    "hiring_fit_percentage": 74.0,
+    "category": "Moderate Fit",
+    "flags": [],
+    "expected": "Moderate Fit",
+    "matches_expected": true
+  },
+  {
+    "candidate_id": "cand_ravi",
+    "job_id": "jd_data_analyst",
+    "quality": "keyword stuffed, little substance",
+    "ats": {
+      "ats_score": 64.3,
+      "missing": [],
+      "sections_found": [
+        "EDUCATION",
+        "EXPERIENCE",
+        "SKILLS"
+      ],
+      "years": 0.25,
+      "skills_found": [
+        "python",
+        "sql",
+        "excel",
+        "power bi",
+        "machine learning",
+        "java",
+        "spring boot",
+        "aws",
+        "statistics",
+        "communication",
+        "leadership",
+        "crm",
+        "business analysis"
+      ]
+    },
+    "screening_score_simulated": 40.0,
+    "hr": {
+      "hr_score": 72.7,
+      "band": "Adequate",
+      "weak_components": []
+    },
+    "hiring_fit_percentage": 61.2,
+    "category": "Moderate Fit",
+    "flags": [],
+    "expected": "Weak Fit",
+    "matches_expected": false
+  },
+  {
+    "candidate_id": "cand_sana",
+    "job_id": "jd_data_analyst",
+    "quality": "good skills, long career gap",
+    "ats": {
+      "ats_score": 80.7,
+      "missing": [],
+      "sections_found": [
+        "EDUCATION",
+        "EXPERIENCE",
+        "SKILLS"
+      ],
+      "years": 2.83,
+      "skills_found": [
+        "python",
+        "sql",
+        "excel",
+        "statistics"
+      ]
+    },
+    "screening_score_simulated": 72.0,
+    "hr": {
+      "hr_score": 97.5,
+      "band": "Strong",
+      "weak_components": []
+    },
+    "hiring_fit_percentage": 84.4,
+    "category": "Strong Fit",
+    "flags": [],
+    "expected": "Moderate Fit",
+    "matches_expected": false
+  },
+  {
+    "candidate_id": "cand_john",
+    "job_id": "jd_data_analyst",
+    "quality": "overqualified senior profile",
+    "ats": {
+      "ats_score": 66.6,
+      "missing": [],
+      "sections_found": [
+        "EDUCATION",
+        "EXPERIENCE",
+        "SKILLS",
+        "SUMMARY"
+      ],
+      "years": 12.77,
+      "skills_found": [
+        "python",
+        "sql",
+        "power bi",
+        "machine learning",
+        "statistics",
+        "leadership",
+        "business analysis"
+      ]
+    },
+    "screening_score_simulated": 78.0,
+    "hr": {
+      "hr_score": 97.9,
+      "band": "Strong",
+      "weak_components": []
+    },
+    "hiring_fit_percentage": 80.4,
+    "category": "Strong Fit",
+    "flags": [],
+    "expected": "Moderate Fit",
+    "matches_expected": false
+  },
+  {
+    "candidate_id": "cand_divya",
+    "job_id": "jd_data_analyst",
+    "quality": "unstructured resume, no headings",
+    "ats": {
+      "ats_score": 57.5,
+      "missing": [
+        "experience_relevance"
+      ],
+      "sections_found": [
+        "EDUCATION",
+        "HEADER"
+      ],
+      "years": null,
+      "skills_found": [
+        "sql",
+        "excel",
+        "power bi",
+        "statistics",
+        "reporting"
+      ]
+    },
+    "screening_score_simulated": 70.0,
+    "hr": {
+      "hr_score": 96.1,
+      "band": "Strong",
+      "weak_components": []
+    },
+    "hiring_fit_percentage": 74.1,
+    "category": "Moderate Fit",
+    "flags": [],
+    "expected": "Moderate Fit",
+    "matches_expected": true
+  },
+  {
+    "candidate_id": "cand_kiran",
+    "job_id": "jd_data_analyst",
+    "quality": "wrong domain",
+    "ats": {
+      "ats_score": 8.2,
+      "missing": [],
+      "sections_found": [
+        "EDUCATION",
+        "EXPERIENCE",
+        "SKILLS"
+      ],
+      "years": 5.25,
+      "skills_found": [
+        "autocad",
+        "communication",
+        "business analysis"
+      ]
+    },
+    "screening_score_simulated": 45.0,
+    "hr": {
+      "hr_score": 78.1,
+      "band": "Strong",
+      "weak_components": []
+    },
+    "hiring_fit_percentage": 41.9,
+    "category": "Weak Fit",
+    "flags": [
+      "Weak round(s): ats scored below 40 -- review before deciding"
+    ],
+    "expected": "Weak Fit",
+    "matches_expected": true
+  }
+]

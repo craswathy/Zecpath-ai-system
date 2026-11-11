@@ -1,0 +1,11 @@
+SUMMARY
+Principal data scientist with ten years of experience leading machine learning teams.
+SKILLS
+Python, SQL, Machine Learning, Statistics, Power BI, Leadership
+EXPERIENCE
+GlobalTech 01/2014 - 12/2019 // Lead Data Scientist
+- Led a team of eight on forecasting models.
+InnoSoft 01/2020 - present // Principal Data Scientist
+- Owns the machine learning platform strategy.
+EDUCATION
+PhD in Statistics, 2013
