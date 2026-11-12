@@ -1,0 +1,97 @@
+{
+  "total_seconds": 0.3,
+  "candidates": [
+    {
+      "candidate_id": "cand_priya",
+      "quality": "strong, well structured",
+      "category": "Strong Fit",
+      "expected": "Strong Fit",
+      "observations": [
+        "Screening: score is simulated, not from a real call",
+        "Technical: not part of this simulation"
+      ]
+    },
+    {
+      "candidate_id": "cand_arun",
+      "quality": "average, thin detail",
+      "category": "Strong Fit",
+      "expected": "Moderate Fit",
+      "observations": [
+        "Screening: score is simulated, not from a real call",
+        "Technical: not part of this simulation",
+        "Decision: got Strong Fit, intended Moderate Fit -> investigate"
+      ]
+    },
+    {
+      "candidate_id": "cand_meera",
+      "quality": "fresher, no experience section",
+      "category": "Moderate Fit",
+      "expected": "Moderate Fit",
+      "observations": [
+        "ATS: no EXPERIENCE section detected",
+        "ATS: components missing -> experience_relevance",
+        "ATS: total experience could not be computed",
+        "Screening: score is simulated, not from a real call",
+        "Technical: not part of this simulation"
+      ]
+    },
+    {
+      "candidate_id": "cand_ravi",
+      "quality": "keyword stuffed, little substance",
+      "category": "Moderate Fit",
+      "expected": "Weak Fit",
+      "observations": [
+        "Screening: score is simulated, not from a real call",
+        "Technical: not part of this simulation",
+        "Decision: got Moderate Fit, intended Weak Fit -> investigate"
+      ]
+    },
+    {
+      "candidate_id": "cand_sana",
+      "quality": "good skills, long career gap",
+      "category": "Strong Fit",
+      "expected": "Moderate Fit",
+      "observations": [
+        "Screening: score is simulated, not from a real call",
+        "Technical: not part of this simulation",
+        "Decision: got Strong Fit, intended Moderate Fit -> investigate"
+      ]
+    },
+    {
+      "candidate_id": "cand_john",
+      "quality": "overqualified senior profile",
+      "category": "Strong Fit",
+      "expected": "Moderate Fit",
+      "observations": [
+        "Screening: score is simulated, not from a real call",
+        "Technical: not part of this simulation",
+        "Decision: got Strong Fit, intended Moderate Fit -> investigate"
+      ]
+    },
+    {
+      "candidate_id": "cand_divya",
+      "quality": "unstructured resume, no headings",
+      "category": "Moderate Fit",
+      "expected": "Moderate Fit",
+      "observations": [
+        "ATS: no EXPERIENCE section detected",
+        "ATS: no SKILLS section detected",
+        "ATS: components missing -> experience_relevance",
+        "ATS: total experience could not be computed",
+        "Screening: score is simulated, not from a real call",
+        "Technical: not part of this simulation"
+      ]
+    },
+    {
+      "candidate_id": "cand_kiran",
+      "quality": "wrong domain",
+      "category": "Weak Fit",
+      "expected": "Weak Fit",
+      "observations": [
+        "Screening: score is simulated, not from a real call",
+        "Technical: not part of this simulation",
+        "Decision flags: Weak round(s): ats scored below 40 -- review before deciding"
+      ]
+    }
+  ]
+}
