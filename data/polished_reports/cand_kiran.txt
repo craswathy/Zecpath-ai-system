@@ -1,0 +1,16 @@
+==========================================================
+CANDIDATE: cand_kiran   JOB: jd_data_analyst
+==========================================================
+Hiring fit: 41.9%  ->  Weak Fit
+
+Why:
+  - Resume match score is 8.2 out of 100.
+  - Calculated experience: 5.2 years.
+  - Screening score is 45.0 out of 100.
+  - Interview score is 78.1 out of 100 (Strong).
+  - Note: Weak round(s): ats scored below 40 -- review before deciding.
+
+Suggested next step:
+  Review the reasons before rejecting. The AI result is a recommendation only.
+
+This is an AI recommendation. A person makes the final decision.

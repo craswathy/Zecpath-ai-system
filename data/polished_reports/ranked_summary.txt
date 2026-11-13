@@ -1,0 +1,10 @@
+RANKED CANDIDATES
+----------------------------------------------------------
+1. cand_priya    91.5%  Strong Fit
+2. cand_sana     84.4%  Strong Fit
+3. cand_arun     81.3%  Strong Fit
+4. cand_john     80.4%  Strong Fit
+5. cand_divya    74.1%  Moderate Fit
+6. cand_meera    74.0%  Moderate Fit
+7. cand_ravi     61.2%  Moderate Fit
+8. cand_kiran    41.9%  Weak Fit

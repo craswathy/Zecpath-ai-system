@@ -1,0 +1,15 @@
+==========================================================
+CANDIDATE: cand_ravi   JOB: jd_data_analyst
+==========================================================
+Hiring fit: 61.2%  ->  Moderate Fit
+
+Why:
+  - Resume match score is 64.3 out of 100.
+  - Calculated experience: 0.2 years.
+  - Screening score is 40.0 out of 100.
+  - Interview score is 72.7 out of 100 (Adequate).
+
+Suggested next step:
+  Recruiter review recommended before deciding.
+
+This is an AI recommendation. A person makes the final decision.

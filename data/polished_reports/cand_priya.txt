@@ -1,0 +1,15 @@
+==========================================================
+CANDIDATE: cand_priya   JOB: jd_data_analyst
+==========================================================
+Hiring fit: 91.5%  ->  Strong Fit
+
+Why:
+  - Resume match score is 90.8 out of 100.
+  - Calculated experience: 4.4 years.
+  - Screening score is 82.0 out of 100.
+  - Interview score is 99.1 out of 100 (Strong).
+
+Suggested next step:
+  Move to the next round. A recruiter confirms the decision.
+
+This is an AI recommendation. A person makes the final decision.

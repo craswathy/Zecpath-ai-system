@@ -1,0 +1,15 @@
+==========================================================
+CANDIDATE: cand_sana   JOB: jd_data_analyst
+==========================================================
+Hiring fit: 84.4%  ->  Strong Fit
+
+Why:
+  - Resume match score is 80.7 out of 100.
+  - Calculated experience: 2.8 years.
+  - Screening score is 72.0 out of 100.
+  - Interview score is 97.5 out of 100 (Strong).
+
+Suggested next step:
+  Move to the next round. A recruiter confirms the decision.
+
+This is an AI recommendation. A person makes the final decision.

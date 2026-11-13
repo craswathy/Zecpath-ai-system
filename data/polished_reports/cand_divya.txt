@@ -1,0 +1,17 @@
+==========================================================
+CANDIDATE: cand_divya   JOB: jd_data_analyst
+==========================================================
+Hiring fit: 74.1%  ->  Moderate Fit
+
+Why:
+  - Resume match score is 57.5 out of 100.
+  - No clear Skills section was found, so the skill score may be understated.
+  - No Experience section was found, so experience could not be fully assessed.
+  - Some resume details were missing: experience_relevance. Their weight was shared across the other parts.
+  - Screening score is 70.0 out of 100.
+  - Interview score is 96.1 out of 100 (Strong).
+
+Suggested next step:
+  Recruiter review recommended before deciding.
+
+This is an AI recommendation. A person makes the final decision.
