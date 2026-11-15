@@ -47,9 +47,11 @@ Re-run it after adding modules.
 | communication_score_normalizer.py | - | normalize_communication_scores, apply_grammar_leniency_flag |
 | communication_scorer.py | - | score_clarity, score_communication |
 | confidence_analyzer.py | - | count_hesitation_markers, measure_response_pace, detect_uncertainty, compute_confidence_indicator |
+| consistency_checks.py | - | decide, check_deterministic, check_monotonic, check_range, check_boundaries, run |
 | contradiction_detector.py | - | detect_numeric_contradiction, detect_categorical_contradiction, scan_for_contradictions |
 | conversation_question_builder.py | - | build_conversation_questions, validate_mandatory_coverage |
 | conversation_state_machine.py | CallState, ConversationStateMachine | - |
+| create_demo_dataset.py | - | run |
 | cross_round_aggregation_engine.py | - | get_role_weights, aggregate_rounds, rank_in_pool |
 | cross_round_config.py | - | - |
 | decision_config.py | - | - |
@@ -88,6 +90,9 @@ Re-run it after adding modules.
 | perf_optimizations.py | - | clear_cache, cache_size, embed_texts_cached, similarity_matrix, extract_many |
 | performance_benchmark.py | - | time_it, benchmark_extraction, benchmark_semantic_model, run |
 | performance_day60.py | - | timed, load_texts, run |
+| polished_api.py | - | decisions |
+| polished_decision_service.py | - | validate, safe_decide |
+| polished_reports.py | - | reasons_for, render, run |
 | recruiter_report.py | - | format_candidate_row, generate_recruiter_report |
 | refined_decision_logic.py | - | decide_refined, batch_mode |
 | refined_intent.py | - | count_hedges, is_concrete, classify_follow_up_refined |
@@ -104,6 +109,7 @@ Re-run it after adding modules.
 | run_conversation_simulation.py | - | run |
 | run_cross_round_demo.py | - | run |
 | run_decision_demo.py | - | run |
+| run_demo_simulation.py | - | read, required_degree, ats_stage, hr_stage, run |
 | run_e2e_simulation.py | - | load_questions, run_pipeline, check_invariants, find_inconsistencies, load_reviews, compare_with_humans, measure_performance, write_review_packet, write_reports, run |
 | run_edge_case_test.py | - | run |
 | run_eligibility.py | - | load_json, run |
@@ -127,6 +133,7 @@ Re-run it after adding modules.
 | run_speed_benchmark.py | - | score_one, microseconds_per_candidate, run |
 | run_stability_check.py | - | preflight, validate_e2e_data, edge_cases, fuzz, run |
 | run_stt_pipeline.py | - | run |
+| run_system_walkthrough.py | - | observe, run |
 | run_technical_scoring.py | - | load_json, build_question_index, run |
 | run_transcript_demo.py | - | build_demo_transcript, run |
 | run_unified_candidate_object.py | - | load_json, run |
@@ -157,4 +164,4 @@ Re-run it after adding modules.
 |---|---|---|
 | logger.py | - | - |
 
-Total modules indexed: 139
+Total modules indexed: 146
