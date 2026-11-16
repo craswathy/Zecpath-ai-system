@@ -1,0 +1,35 @@
+{
+  "total_seconds": 56.1,
+  "steps": [
+    {
+      "step": "1 Create dataset",
+      "seconds": 0.1,
+      "ok": true,
+      "last_line": "Created 8 resumes, 2 job descriptions, 8 profiles in demo_dataset_day6"
+    },
+    {
+      "step": "2 Run simulation",
+      "seconds": 55.9,
+      "ok": true,
+      "last_line": "4/8 matched the intended outcome. Full detail: demo_dataset_day63\\simu"
+    },
+    {
+      "step": "3 Polished reports",
+      "seconds": 0.1,
+      "ok": true,
+      "last_line": "Reports saved in data/polished_reports/"
+    },
+    {
+      "step": "4 API valid + invalid",
+      "seconds": 0.0,
+      "ok": true,
+      "last_line": "valid -> Moderate Fit, invalid -> SCORE_OUT_OF_RANGE"
+    },
+    {
+      "step": "5 Monitoring metrics",
+      "seconds": 0.0,
+      "ok": true,
+      "last_line": "]"
+    }
+  ]
+}

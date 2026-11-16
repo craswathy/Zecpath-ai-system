@@ -8448,3 +8448,210 @@
 2026-11-13 23:51:13,706 - INFO - Hiring fit category: Moderate Fit
 2026-11-13 23:51:13,706 - INFO - Unified hiring-fit score: 54.0% (3 rounds)
 2026-11-13 23:51:13,706 - INFO - Hiring fit category: Weak Fit
+2026-11-16 15:23:00,356 - INFO - Text cleaning complete
+2026-11-16 15:23:00,356 - INFO - Parsed JD 'jd_data_analyst': 5 skills found, title='Data Analyst'
+2026-11-16 15:23:00,356 - INFO - Classified into sections: ['SUMMARY', 'SKILLS', 'EXPERIENCE', 'EDUCATION']
+2026-11-16 15:23:00,356 - INFO - Extracted 5 unique skills
+2026-11-16 15:23:00,356 - INFO - Extracted 2 experience entries
+2026-11-16 15:23:00,356 - INFO - Scored 2 experience entries against job title 'Data Analyst'
+2026-11-16 15:23:00,356 - INFO - Extracted 1 education entries
+2026-11-16 15:23:00,359 - INFO - Best education match scored 1.0
+2026-11-16 15:23:00,359 - INFO - Loading sentence-transformers model (first call only)...
+2026-11-16 15:23:00,359 - INFO - No device provided, using cpu
+2026-11-16 15:23:00,659 - INFO - HTTP Request: GET https://huggingface.co/api/agent-harnesses "HTTP/1.1 200 OK"
+2026-11-16 15:23:00,919 - INFO - HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/modules.json "HTTP/1.1 307 Temporary Redirect"
+2026-11-16 15:23:00,921 - WARNING - Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+2026-11-16 15:23:00,946 - INFO - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/modules.json "HTTP/1.1 200 OK"
+2026-11-16 15:23:01,204 - INFO - HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/config_sentence_transformers.json "HTTP/1.1 307 Temporary Redirect"
+2026-11-16 15:23:01,217 - INFO - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/config_sentence_transformers.json "HTTP/1.1 200 OK"
+2026-11-16 15:23:01,233 - INFO - Loading SentenceTransformer model from sentence-transformers/all-MiniLM-L6-v2.
+2026-11-16 15:23:01,472 - INFO - HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/config_sentence_transformers.json "HTTP/1.1 307 Temporary Redirect"
+2026-11-16 15:23:01,505 - INFO - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/config_sentence_transformers.json "HTTP/1.1 200 OK"
+2026-11-16 15:23:01,749 - INFO - HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/README.md "HTTP/1.1 307 Temporary Redirect"
+2026-11-16 15:23:01,767 - INFO - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/README.md "HTTP/1.1 200 OK"
+2026-11-16 15:23:02,021 - INFO - HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/modules.json "HTTP/1.1 307 Temporary Redirect"
+2026-11-16 15:23:02,041 - INFO - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/modules.json "HTTP/1.1 200 OK"
+2026-11-16 15:23:02,301 - INFO - HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/sentence_bert_config.json "HTTP/1.1 307 Temporary Redirect"
+2026-11-16 15:23:02,311 - INFO - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/sentence_bert_config.json "HTTP/1.1 200 OK"
+2026-11-16 15:23:02,596 - INFO - HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/adapter_config.json "HTTP/1.1 404 Not Found"
+2026-11-16 15:23:02,842 - INFO - HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-11-16 15:23:02,858 - INFO - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/config.json "HTTP/1.1 200 OK"
+2026-11-16 15:23:03,257 - INFO - HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/processor_config.json "HTTP/1.1 404 Not Found"
+2026-11-16 15:23:03,517 - INFO - HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/preprocessor_config.json "HTTP/1.1 404 Not Found"
+2026-11-16 15:23:03,757 - INFO - HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/video_preprocessor_config.json "HTTP/1.1 404 Not Found"
+2026-11-16 15:23:04,015 - INFO - HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/preprocessor_config.json "HTTP/1.1 404 Not Found"
+2026-11-16 15:23:04,267 - INFO - HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/tokenizer_config.json "HTTP/1.1 307 Temporary Redirect"
+2026-11-16 15:23:04,293 - INFO - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/tokenizer_config.json "HTTP/1.1 200 OK"
+2026-11-16 15:23:04,530 - INFO - HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-11-16 15:23:04,562 - INFO - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/config.json "HTTP/1.1 200 OK"
+2026-11-16 15:23:04,803 - INFO - HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-11-16 15:23:04,835 - INFO - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/config.json "HTTP/1.1 200 OK"
+2026-11-16 15:23:05,082 - INFO - HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/tokenizer_config.json "HTTP/1.1 307 Temporary Redirect"
+2026-11-16 15:23:05,093 - INFO - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/tokenizer_config.json "HTTP/1.1 200 OK"
+2026-11-16 15:23:05,370 - INFO - HTTP Request: GET https://huggingface.co/api/models/sentence-transformers/all-MiniLM-L6-v2/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 404 Not Found"
+2026-11-16 15:23:05,617 - INFO - HTTP Request: GET https://huggingface.co/api/models/sentence-transformers/all-MiniLM-L6-v2/tree/main?recursive=true&expand=false "HTTP/1.1 200 OK"
+2026-11-16 15:23:05,915 - INFO - HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/1_Pooling/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-11-16 15:23:05,945 - INFO - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/1_Pooling%2Fconfig.json "HTTP/1.1 200 OK"
+2026-11-16 15:23:06,202 - INFO - HTTP Request: GET https://huggingface.co/api/models/sentence-transformers/all-MiniLM-L6-v2 "HTTP/1.1 200 OK"
+2026-11-16 15:23:06,475 - INFO - Semantic match vs 'Data Analyst': overall=0.634
+2026-11-16 15:23:06,475 - INFO - ATS score computed: 90.8/100
+2026-11-16 15:23:06,475 - INFO - Normalized transcript text
+2026-11-16 15:23:06,477 - INFO - Grammar check: 0 issues in 24 words, score=1.0
+2026-11-16 15:23:06,477 - INFO - Communication score: 100.0/100
+2026-11-16 15:23:06,477 - INFO - Confidence indicator: 0.93 (hesitations=0, uncertain=False)
+2026-11-16 15:23:06,477 - INFO - Normalized transcript text
+2026-11-16 15:23:06,479 - INFO - Grammar check: 0 issues in 20 words, score=1.0
+2026-11-16 15:23:06,479 - INFO - Communication score: 100.0/100
+2026-11-16 15:23:06,479 - INFO - Confidence indicator: 0.95 (hesitations=0, uncertain=False)
+2026-11-16 15:23:06,479 - INFO - HR interview score: 99.1/100, band=Strong, turns=2
+2026-11-16 15:23:06,479 - INFO - Unified hiring-fit score: 91.5% (3 rounds)
+2026-11-16 15:23:06,479 - INFO - Hiring fit category: Strong Fit
+2026-11-16 15:23:06,479 - INFO - Text cleaning complete
+2026-11-16 15:23:06,481 - INFO - Parsed JD 'jd_business_analyst': 4 skills found, title='Business Analyst'
+2026-11-16 15:23:06,481 - INFO - Classified into sections: ['SKILLS', 'EXPERIENCE', 'EDUCATION']
+2026-11-16 15:23:06,481 - INFO - Extracted 4 unique skills
+2026-11-16 15:23:06,481 - INFO - Extracted 1 experience entries
+2026-11-16 15:23:06,481 - INFO - Scored 1 experience entries against job title 'Business Analyst'
+2026-11-16 15:23:06,481 - INFO - Extracted 1 education entries
+2026-11-16 15:23:06,481 - INFO - Best education match scored 0.72
+2026-11-16 15:23:06,523 - INFO - Semantic match vs 'Business Analyst': overall=0.592
+2026-11-16 15:23:06,523 - INFO - ATS score computed: 75.8/100
+2026-11-16 15:23:06,523 - INFO - Normalized transcript text
+2026-11-16 15:23:06,523 - INFO - Grammar check: 0 issues in 19 words, score=1.0
+2026-11-16 15:23:06,523 - INFO - Communication score: 87.5/100
+2026-11-16 15:23:06,523 - INFO - Confidence indicator: 0.88 (hesitations=0, uncertain=False)
+2026-11-16 15:23:06,523 - INFO - Normalized transcript text
+2026-11-16 15:23:06,523 - INFO - Grammar check: 0 issues in 10 words, score=1.0
+2026-11-16 15:23:06,523 - INFO - Communication score: 100.0/100
+2026-11-16 15:23:06,523 - INFO - Confidence indicator: 0.9 (hesitations=0, uncertain=False)
+2026-11-16 15:23:06,523 - INFO - HR interview score: 97.2/100, band=Strong, turns=2
+2026-11-16 15:23:06,523 - INFO - Unified hiring-fit score: 81.3% (3 rounds)
+2026-11-16 15:23:06,523 - INFO - Hiring fit category: Strong Fit
+2026-11-16 15:23:06,523 - INFO - Text cleaning complete
+2026-11-16 15:23:06,526 - INFO - Parsed JD 'jd_data_analyst': 5 skills found, title='Data Analyst'
+2026-11-16 15:23:06,526 - INFO - Classified into sections: ['SUMMARY', 'SKILLS', 'PROJECTS', 'EDUCATION']
+2026-11-16 15:23:06,526 - INFO - Extracted 3 unique skills
+2026-11-16 15:23:06,526 - INFO - Extracted 0 experience entries
+2026-11-16 15:23:06,526 - INFO - Extracted 1 education entries
+2026-11-16 15:23:06,526 - INFO - Best education match scored 1.0
+2026-11-16 15:23:06,564 - INFO - Semantic match vs 'Data Analyst': overall=0.514
+2026-11-16 15:23:06,564 - INFO - ATS score computed: 62.3/100
+2026-11-16 15:23:06,564 - INFO - Normalized transcript text
+2026-11-16 15:23:06,564 - INFO - Grammar check: 0 issues in 19 words, score=1.0
+2026-11-16 15:23:06,564 - INFO - Communication score: 100.0/100
+2026-11-16 15:23:06,564 - INFO - Confidence indicator: 0.9 (hesitations=0, uncertain=False)
+2026-11-16 15:23:06,564 - INFO - Normalized transcript text
+2026-11-16 15:23:06,564 - INFO - Grammar check: 0 issues in 8 words, score=1.0
+2026-11-16 15:23:06,564 - INFO - Communication score: 87.5/100
+2026-11-16 15:23:06,564 - INFO - Confidence indicator: 0.9 (hesitations=0, uncertain=False)
+2026-11-16 15:23:06,564 - INFO - HR interview score: 97.3/100, band=Strong, turns=2
+2026-11-16 15:23:06,564 - INFO - Unified hiring-fit score: 74.0% (3 rounds)
+2026-11-16 15:23:06,564 - INFO - Hiring fit category: Moderate Fit
+2026-11-16 15:23:06,566 - INFO - Text cleaning complete
+2026-11-16 15:23:06,566 - INFO - Parsed JD 'jd_data_analyst': 5 skills found, title='Data Analyst'
+2026-11-16 15:23:06,566 - INFO - Classified into sections: ['SKILLS', 'EXPERIENCE', 'EDUCATION']
+2026-11-16 15:23:06,566 - INFO - Extracted 13 unique skills
+2026-11-16 15:23:06,566 - INFO - Extracted 1 experience entries
+2026-11-16 15:23:06,566 - INFO - Scored 1 experience entries against job title 'Data Analyst'
+2026-11-16 15:23:06,566 - INFO - Extracted 1 education entries
+2026-11-16 15:23:06,566 - INFO - Best education match scored 0.42
+2026-11-16 15:23:06,608 - INFO - Semantic match vs 'Data Analyst': overall=0.428
+2026-11-16 15:23:06,608 - INFO - ATS score computed: 64.3/100
+2026-11-16 15:23:06,608 - INFO - Normalized transcript text
+2026-11-16 15:23:06,608 - INFO - Grammar check: 0 issues in 6 words, score=1.0
+2026-11-16 15:23:06,608 - INFO - Communication score: 75.7/100
+2026-11-16 15:23:06,608 - INFO - Confidence indicator: 0.35 (hesitations=4, uncertain=False)
+2026-11-16 15:23:06,610 - INFO - Normalized transcript text
+2026-11-16 15:23:06,610 - INFO - Grammar check: 0 issues in 7 words, score=1.0
+2026-11-16 15:23:06,610 - INFO - Communication score: 87.5/100
+2026-11-16 15:23:06,610 - INFO - Confidence indicator: 0.9 (hesitations=0, uncertain=False)
+2026-11-16 15:23:06,610 - INFO - Off-topic answer detected for category 'Skills': ['unclassified']
+2026-11-16 15:23:06,610 - INFO - HR interview score: 72.7/100, band=Adequate, turns=2
+2026-11-16 15:23:06,610 - INFO - Unified hiring-fit score: 61.2% (3 rounds)
+2026-11-16 15:23:06,610 - INFO - Hiring fit category: Moderate Fit
+2026-11-16 15:23:06,610 - INFO - Text cleaning complete
+2026-11-16 15:23:06,610 - INFO - Parsed JD 'jd_data_analyst': 5 skills found, title='Data Analyst'
+2026-11-16 15:23:06,610 - INFO - Classified into sections: ['SKILLS', 'EXPERIENCE', 'EDUCATION']
+2026-11-16 15:23:06,612 - INFO - Extracted 4 unique skills
+2026-11-16 15:23:06,612 - INFO - Extracted 2 experience entries
+2026-11-16 15:23:06,612 - INFO - Scored 2 experience entries against job title 'Data Analyst'
+2026-11-16 15:23:06,612 - INFO - Extracted 1 education entries
+2026-11-16 15:23:06,612 - INFO - Best education match scored 1.0
+2026-11-16 15:23:06,653 - INFO - Semantic match vs 'Data Analyst': overall=0.586
+2026-11-16 15:23:06,653 - INFO - ATS score computed: 80.7/100
+2026-11-16 15:23:06,653 - INFO - Normalized transcript text
+2026-11-16 15:23:06,653 - INFO - Grammar check: 0 issues in 23 words, score=1.0
+2026-11-16 15:23:06,655 - INFO - Communication score: 100.0/100
+2026-11-16 15:23:06,655 - INFO - Confidence indicator: 0.9 (hesitations=0, uncertain=False)
+2026-11-16 15:23:06,655 - INFO - Normalized transcript text
+2026-11-16 15:23:06,655 - INFO - Grammar check: 0 issues in 14 words, score=1.0
+2026-11-16 15:23:06,655 - INFO - Communication score: 87.5/100
+2026-11-16 15:23:06,655 - INFO - Confidence indicator: 0.92 (hesitations=0, uncertain=False)
+2026-11-16 15:23:06,655 - INFO - HR interview score: 97.5/100, band=Strong, turns=2
+2026-11-16 15:23:06,655 - INFO - Unified hiring-fit score: 84.4% (3 rounds)
+2026-11-16 15:23:06,655 - INFO - Hiring fit category: Strong Fit
+2026-11-16 15:23:06,655 - INFO - Text cleaning complete
+2026-11-16 15:23:06,655 - INFO - Parsed JD 'jd_data_analyst': 5 skills found, title='Data Analyst'
+2026-11-16 15:23:06,655 - INFO - Classified into sections: ['SUMMARY', 'SKILLS', 'EXPERIENCE', 'EDUCATION']
+2026-11-16 15:23:06,657 - INFO - Extracted 7 unique skills
+2026-11-16 15:23:06,657 - INFO - Extracted 2 experience entries
+2026-11-16 15:23:06,657 - INFO - Scored 2 experience entries against job title 'Data Analyst'
+2026-11-16 15:23:06,657 - INFO - Extracted 1 education entries
+2026-11-16 15:23:06,657 - INFO - Best education match scored 1.0
+2026-11-16 15:23:06,698 - INFO - Semantic match vs 'Data Analyst': overall=0.512
+2026-11-16 15:23:06,700 - INFO - ATS score computed: 66.6/100
+2026-11-16 15:23:06,700 - INFO - Normalized transcript text
+2026-11-16 15:23:06,700 - INFO - Grammar check: 0 issues in 23 words, score=1.0
+2026-11-16 15:23:06,700 - INFO - Communication score: 100.0/100
+2026-11-16 15:23:06,700 - INFO - Confidence indicator: 0.94 (hesitations=0, uncertain=False)
+2026-11-16 15:23:06,700 - INFO - Normalized transcript text
+2026-11-16 15:23:06,700 - INFO - Grammar check: 0 issues in 10 words, score=1.0
+2026-11-16 15:23:06,700 - INFO - Communication score: 87.5/100
+2026-11-16 15:23:06,700 - INFO - Confidence indicator: 0.95 (hesitations=0, uncertain=False)
+2026-11-16 15:23:06,700 - INFO - HR interview score: 97.9/100, band=Strong, turns=2
+2026-11-16 15:23:06,700 - INFO - Unified hiring-fit score: 80.4% (3 rounds)
+2026-11-16 15:23:06,700 - INFO - Hiring fit category: Strong Fit
+2026-11-16 15:23:06,700 - INFO - Text cleaning complete
+2026-11-16 15:23:06,700 - INFO - Parsed JD 'jd_data_analyst': 5 skills found, title='Data Analyst'
+2026-11-16 15:23:06,700 - INFO - Classified into sections: ['HEADER', 'EDUCATION']
+2026-11-16 15:23:06,702 - INFO - Extracted 5 unique skills
+2026-11-16 15:23:06,702 - INFO - Extracted 0 experience entries
+2026-11-16 15:23:06,702 - INFO - Extracted 2 education entries
+2026-11-16 15:23:06,702 - INFO - Best education match scored 1.0
+2026-11-16 15:23:06,722 - INFO - Semantic match vs 'Data Analyst': overall=0.0
+2026-11-16 15:23:06,722 - INFO - ATS score computed: 57.5/100
+2026-11-16 15:23:06,722 - INFO - Normalized transcript text
+2026-11-16 15:23:06,722 - INFO - Grammar check: 0 issues in 14 words, score=1.0
+2026-11-16 15:23:06,722 - INFO - Communication score: 87.5/100
+2026-11-16 15:23:06,722 - INFO - Confidence indicator: 0.9 (hesitations=0, uncertain=False)
+2026-11-16 15:23:06,722 - INFO - Normalized transcript text
+2026-11-16 15:23:06,722 - INFO - Grammar check: 0 issues in 7 words, score=1.0
+2026-11-16 15:23:06,722 - INFO - Communication score: 87.5/100
+2026-11-16 15:23:06,722 - INFO - Confidence indicator: 0.9 (hesitations=0, uncertain=False)
+2026-11-16 15:23:06,722 - INFO - HR interview score: 96.1/100, band=Strong, turns=2
+2026-11-16 15:23:06,722 - INFO - Unified hiring-fit score: 74.1% (3 rounds)
+2026-11-16 15:23:06,722 - INFO - Hiring fit category: Moderate Fit
+2026-11-16 15:23:06,722 - INFO - Text cleaning complete
+2026-11-16 15:23:06,725 - INFO - Parsed JD 'jd_data_analyst': 5 skills found, title='Data Analyst'
+2026-11-16 15:23:06,725 - INFO - Classified into sections: ['SKILLS', 'EXPERIENCE', 'EDUCATION']
+2026-11-16 15:23:06,725 - INFO - Extracted 3 unique skills
+2026-11-16 15:23:06,725 - INFO - Extracted 1 experience entries
+2026-11-16 15:23:06,725 - INFO - Scored 1 experience entries against job title 'Data Analyst'
+2026-11-16 15:23:06,725 - INFO - Extracted 1 education entries
+2026-11-16 15:23:06,725 - INFO - Best education match scored 0.36
+2026-11-16 15:23:06,765 - INFO - Semantic match vs 'Data Analyst': overall=0.064
+2026-11-16 15:23:06,765 - INFO - ATS score computed: 8.2/100
+2026-11-16 15:23:06,765 - INFO - Normalized transcript text
+2026-11-16 15:23:06,767 - INFO - Grammar check: 0 issues in 13 words, score=1.0
+2026-11-16 15:23:06,767 - INFO - Communication score: 87.5/100
+2026-11-16 15:23:06,767 - INFO - Confidence indicator: 0.92 (hesitations=0, uncertain=False)
+2026-11-16 15:23:06,767 - INFO - Normalized transcript text
+2026-11-16 15:23:06,767 - INFO - Grammar check: 0 issues in 4 words, score=1.0
+2026-11-16 15:23:06,767 - INFO - Communication score: 87.5/100
+2026-11-16 15:23:06,767 - INFO - Confidence indicator: 0.87 (hesitations=0, uncertain=False)
+2026-11-16 15:23:06,767 - INFO - Off-topic answer detected for category 'Skills': ['unclassified']
+2026-11-16 15:23:06,767 - INFO - HR interview score: 78.1/100, band=Strong, turns=2
+2026-11-16 15:23:06,767 - INFO - Unified hiring-fit score: 41.9% (3 rounds)
+2026-11-16 15:23:06,767 - INFO - Hiring fit category: Weak Fit
+2026-11-16 15:23:07,547 - INFO - Unified hiring-fit score: 72.2% (3 rounds)
+2026-11-16 15:23:07,547 - INFO - Hiring fit category: Moderate Fit
