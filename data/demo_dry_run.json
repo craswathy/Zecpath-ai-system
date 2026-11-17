@@ -1,5 +1,5 @@
 {
-  "total_seconds": 56.1,
+  "total_seconds": 15.9,
   "steps": [
     {
       "step": "1 Create dataset",
@@ -9,7 +9,7 @@
     },
     {
       "step": "2 Run simulation",
-      "seconds": 55.9,
+      "seconds": 15.6,
       "ok": true,
       "last_line": "4/8 matched the intended outcome. Full detail: demo_dataset_day63\\simu"
     },
@@ -27,7 +27,7 @@
     },
     {
       "step": "5 Monitoring metrics",
-      "seconds": 0.0,
+      "seconds": 0.1,
       "ok": true,
       "last_line": "]"
     }
