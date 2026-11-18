@@ -12,7 +12,7 @@
   {
     "check": "All automated tests pass",
     "passed": true,
-    "detail": "331 passed in 16.31s"
+    "detail": "331 passed in 19.31s"
   },
   {
     "check": "Release validator reports no problems",
@@ -27,6 +27,6 @@
   {
     "check": "Everything is committed",
     "passed": false,
-    "detail": "13 uncommitted change(s)"
+    "detail": "1 uncommitted change(s)"
   }
 ]
