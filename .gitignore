@@ -2,3 +2,6 @@
 __pycache__/
 .pytest_cache/
 submission_package/
+ai_activity.log
+data/final_handover_check.json
+demo_dataset_day63/simulation_results.json
