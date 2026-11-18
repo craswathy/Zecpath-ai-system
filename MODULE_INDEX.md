@@ -42,6 +42,7 @@ Re-run it after adding modules.
 | audio_edge_cases.py | - | detect_poor_audio_quality, detect_language_mixing, handle_missing_answer |
 | behavioral_indicators.py | - | build_communication_strength_indicator, build_call_level_report |
 | bias_checker.py | - | check_keyword_overdependence, check_score_distribution_bias |
+| build_submission_package.py | - | collect, hygiene_report, run |
 | call_error_handler.py | - | classify_answer_event, should_end_call |
 | candidate_ranker.py | - | classify_candidate, rank_candidates, get_shortlist, get_review_zone, get_auto_rejected |
 | communication_score_normalizer.py | - | normalize_communication_scores, apply_grammar_leniency_flag |
@@ -56,11 +57,14 @@ Re-run it after adding modules.
 | cross_round_config.py | - | - |
 | decision_config.py | - | - |
 | decision_engine.py | - | compute_confidence, decide, format_decision_summary |
+| demo_dry_run.py | - | run_step, api_step, run |
 | e2e_stages.py | - | parse_resume, run_ats, run_screening, estimate_communication, estimate_confidence, run_hr, run_technical |
+| edge_case_probe.py | - | find_crashes, run |
 | eligibility_config.py | - | get_rules |
 | eligibility_engine.py | - | check_mandatory_skills, check_experience_range, check_location, evaluate_eligibility |
 | fairness_normalizer.py | - | mask_personal_attributes, normalize_resume_text, normalize_score_distribution |
 | fallback_questions.py | - | get_fallback_question, get_polite_closing_message |
+| final_handover_check.py | - | run, module_count, main |
 | fluency_analyzer.py | - | count_filler_words, measure_sentence_continuity, measure_answer_structure |
 | follow_up_state_tracker.py | FollowUpStateTracker | - |
 | follow_up_trigger_detector.py | - | needs_clarification, needs_deepening, is_confident_response, classify_follow_up_need |
@@ -96,10 +100,11 @@ Re-run it after adding modules.
 | recruiter_report.py | - | format_candidate_row, generate_recruiter_report |
 | refined_decision_logic.py | - | decide_refined, batch_mode |
 | refined_intent.py | - | count_hedges, is_concrete, classify_follow_up_refined |
+| release_validator.py | - | module_files, check_empty_and_syntax, check_imports, check_run_functions, check_json_outputs, duplicate_candidates, run |
 | report_config.py | - | - |
 | report_exporter.py | - | render_text, render_html, export_report |
 | report_formatter.py | - | format_report_as_text, export_report |
-| run_answer_understanding.py | - | build_hr_interview_summary, generate_natural_language_narrative, format_hr_summary_as_text |
+| run_answer_understanding.py | - | run |
 | run_aptitude_evaluation.py | - | run |
 | run_ats_scoring.py | - | load_json, run |
 | run_behavioral_analysis.py | - | run |
@@ -164,4 +169,4 @@ Re-run it after adding modules.
 |---|---|---|
 | logger.py | - | - |
 
-Total modules indexed: 146
+Total modules indexed: 151

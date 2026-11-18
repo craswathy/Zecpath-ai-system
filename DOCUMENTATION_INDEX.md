@@ -61,4 +61,3 @@ Every file below is in this repository. A test checks that each listed file exis
 | Document | Purpose |
 |---|---|
 | `demo_dataset_day63/README.md` | Fictional demo dataset |
-| `day66_presentation/DEMO_SCRIPT_DAY66.md` | Demo script |

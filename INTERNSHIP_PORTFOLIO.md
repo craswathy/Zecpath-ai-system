@@ -7,11 +7,7 @@
 **Background:** M.Sc. Statistics, Christ College (Autonomous), 2026
 
 ## 1. Summary
-I built the AI engine for a hiring platform in Python. It parses resumes and job
-descriptions, scores and ranks candidates with an explainable method, scores
-AI screening and interview answers, and combines all rounds into one
-recommendation that a human reviews. I tested it, documented it and prepared a
-demonstration.
+I built the AI engine for a hiring platform in Python. It parses resumes and job descriptions, scores and ranks candidates with an explainable method, scores AI screening and interview answers, and combines all rounds into one recommendation that a human reviews. I tested it, documented it and prepared a demonstration.
 
 ## 2. What I built, by phase
 | Days | Phase | Outcome |
@@ -26,11 +22,11 @@ demonstration.
 ## 3. Evidence
 | Measure | Result | Where to verify |
 |---|---|---|
-| Automated tests | [ ] passing of [ ] | `pytest tests/` |
-| Modules | [ ] | `MODULE_INDEX.md` |
-| Matching speed-up from caching and batching | [ ]x on 10 resumes by 6 jobs | `data/performance_day60.json` |
-| Edge cases handled | [ ] of [ ] | `python -m ats_engine.run_stability_check` |
-| Release validator problems | [ ] | `python -m ats_engine.release_validator` |
+| Automated tests | 331 passing of 331 | `pytest tests/` |
+| Modules | 151 | `MODULE_INDEX.md` |
+| Matching speed-up from caching and batching | 9.3x on 10 resumes by 6 jobs | `data/performance_day60.json` |
+| Edge cases handled | 30 of 30 | `python -m ats_engine.run_stability_check` |
+| Release validator problems | 0 | `python -m ats_engine.release_validator` |
 | Demo candidates | 8 fictional | `demo_dataset_day63/` |
 
 ## 4. Skills used
@@ -46,13 +42,10 @@ demonstration.
 - **Small data.** I learned to report limits plainly, because results on a few cases show behaviour, not accuracy.
 
 ## 6. Honest limits
-Tested on small simulated data, with no real calls, database or deployment, and
-accuracy on real hiring data is unmeasured. See `AI_ROADMAP.md`.
+Tested on small simulated data, with no real calls, database or deployment, and accuracy on real hiring data is unmeasured. See `AI_ROADMAP.md`.
 
 ## 7. Key documents
-`README.md`, `ZECPATH_AI_TECHNICAL_HANDBOOK.md`, `DOCUMENTATION_INDEX.md`,
-`AI_ROADMAP.md`, `BUG_FIX_REPORT_DAY68.md`, `FINAL_SYSTEM_VALIDATION_DAY68.md`.
+`README.md`, `ZECPATH_AI_TECHNICAL_HANDBOOK.md`, `DOCUMENTATION_INDEX.md`, `AI_ROADMAP.md`, `BUG_FIX_REPORT_DAY68.md`, `FINAL_SYSTEM_VALIDATION_DAY68.md`.
 
 ## 8. Reflection
-[Two or three sentences in your own words: what you learned about building
-AI systems, what you would do differently, and where you want to grow.]
+Building the Zecpath AI engine taught me how to structure a multi-stage machine learning and NLP pipeline in Python with clear validation, automated testing, and explicit human-in-the-loop safeguards. If I started again, I would collect recruiter-labelled sample data earlier to calibrate thresholds empirically alongside rule-based logic. Going forward, I want to deepen my skills in statistical model evaluation, production data engineering, and deploying scalable ML services.

@@ -1,0 +1,32 @@
+[
+  {
+    "check": "All final and handover documents exist",
+    "passed": true,
+    "detail": "ok"
+  },
+  {
+    "check": "No unfilled [ ] in final documents",
+    "passed": true,
+    "detail": "ok"
+  },
+  {
+    "check": "All automated tests pass",
+    "passed": true,
+    "detail": "331 passed in 16.31s"
+  },
+  {
+    "check": "Release validator reports no problems",
+    "passed": true,
+    "detail": "problems: 0"
+  },
+  {
+    "check": "Edge-case probe reports no failures",
+    "passed": true,
+    "detail": "failures: 0"
+  },
+  {
+    "check": "Everything is committed",
+    "passed": false,
+    "detail": "13 uncommitted change(s)"
+  }
+]
