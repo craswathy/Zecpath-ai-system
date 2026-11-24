@@ -12,12 +12,12 @@
 | API | Separate stubs | One decision endpoint with proper status codes (400, 422, 500) | polished_api.py |
 
 ## Consistency results
-Deterministic: [ ]   Monotonic violations: [ ]   Out of range: [ ]
-Boundary mismatches: [ ]
+Deterministic: True   Monotonic violations: 0   Out of range: 0
+Boundary mismatches: {}
 (Checked on a grid of 125 score combinations.)
 
 ## Tests
-Total passing: [ ] of [ ]. New tests this day: 9.
+Total passing: 314 of 314. New tests this day: 9.
 
 ## What this does not make production-ready
 - No real database, queue, authentication or deployment.
